@@ -329,9 +329,66 @@
   /* —— Cards & drawer —— */
   let DATA = null;
   let INDEX = null;
+  let HISTORY = { snapshots: [] };
   let PHOTOS = {};
   let CREDITS = [];
   let charts = [];
+  let drawerChart = null;
+
+  function norm(s) {
+    return String(s || "")
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[\s.\-_/]/g, "");
+  }
+  function sourceHTML(src) {
+    if (!src || !src.label) return "";
+    const label = escapeHtml(src.label);
+    if (src.url) {
+      return `<a class="src" href="${src.url}" target="_blank" rel="noopener noreferrer" data-stop="1">${label}</a>`;
+    }
+    return `<span class="src">${label}</span>`;
+  }
+  function seriesFor(ref) {
+    return (HISTORY.snapshots || [])
+      .filter((p) => p.ref === ref && p.market_eur != null)
+      .slice()
+      .sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
+  }
+  function sparkline(ref) {
+    const pts = seriesFor(ref);
+    if (pts.length < 3) return "";
+    const vals = pts.map((p) => p.market_eur);
+    const t0 = Date.parse(pts[0].date);
+    const t1 = Date.parse(pts[pts.length - 1].date);
+    const min = Math.min.apply(null, vals);
+    const max = Math.max.apply(null, vals);
+    const w = 88, h = 28, pad = 2;
+    function x(p) {
+      const r = t1 === t0 ? 0 : (Date.parse(p.date) - t0) / (t1 - t0);
+      return pad + r * (w - 2 * pad);
+    }
+    function y(v) {
+      const r = max === min ? 0.5 : (v - min) / (max - min);
+      return h - pad - r * (h - 2 * pad);
+    }
+    const d = pts
+      .map((p, i) => (i ? "L" : "M") + x(p).toFixed(1) + "," + y(p.market_eur).toFixed(1))
+      .join(" ");
+    return `<svg class="spark" viewBox="0 0 ${w} ${h}" aria-hidden="true"><path d="${d}" fill="none" stroke="${INK}" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/></svg>`;
+  }
+  function offerSource(o) {
+    if (!o.seen) return "";
+    return `<span class="osrc">${escapeHtml(formatSeenShort(o.seen))}</span>`;
+  }
+  function formatSeenShort(iso) {
+    const [y, m, day] = String(iso).split("-").map(Number);
+    const months = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+    if (!y || !m) return iso;
+    const d = String(day) + " " + months[m - 1];
+    return y === 2026 ? d : d + " " + y;
+  }
 
   function photoPath(ref) {
     return "img/" + encodeURIComponent(ref) + ".webp";
@@ -339,7 +396,7 @@
 
   function portrait(w) {
     if (PHOTOS[w.ref]) {
-      return `<img src="${photoPath(w.ref)}" alt="${escapeHtml(w.brand + " " + w.model)}" width="800" height="800" loading="eager" decoding="async">`;
+      return `<img src="${photoPath(w.ref)}" alt="${escapeHtml(w.brand + " " + w.model)}" width="800" height="800" loading="lazy" decoding="async">`;
     }
     return illustrate(w);
   }
@@ -354,9 +411,10 @@
       const search = isSearch(o) || /chrono24/i.test(o.seller);
       const label = shortSeller(o.seller);
       const price = o.price_eur != null ? money(o.price_eur) : (search ? "pesquisa" : "");
+      const src = o.price_eur != null && o.seen ? `<span class="osrc">${escapeHtml(formatSeenShort(o.seen))}</span>` : "";
       return `<a class="${search ? "search" : ""}" href="${o.url}" target="_blank" rel="noopener noreferrer" data-stop="1">
         <span class="seller">${escapeHtml(label)}</span>
-        <span class="oprice">${price}</span>
+        <span class="oprice">${price}${src}</span>
       </a>`;
     }).join("");
     const more = rest > 0
@@ -380,8 +438,9 @@
       <p class="brand">${escapeHtml(w.brand)}</p>
       <h3 class="model">${escapeHtml(w.model)}</h3>
       <p class="ref">${escapeHtml(w.ref)}</p>
-      <p class="price"><span class="price-label">Mercado</span>${money(w.market_eur)}</p>
-      <p class="retail">Retalho PT <strong>${money(w.retail_pt_eur)}</strong></p>
+      <p class="price"><span class="price-label">Mercado</span>${money(w.market_eur)}${sourceHTML(w.market_source)}</p>
+      <p class="retail">Retalho PT <strong>${money(w.retail_pt_eur)}</strong>${sourceHTML(w.retail_source)}</p>
+      ${sparkline(w.ref)}
       ${pill}
       <p class="onde-label">Onde comprar</p>
       <div class="offers">${offerButtons(w, 3)}</div>
@@ -393,10 +452,18 @@
     const gender = document.getElementById("f-gender").value;
     const signal = document.getElementById("f-signal").value;
     const sort = document.getElementById("f-sort").value;
+    const qEl = document.getElementById("f-search");
+    const q = qEl ? norm(qEl.value) : "";
     let list = DATA.watches.slice();
     if (brand) list = list.filter((w) => w.brand === brand);
     if (gender) list = list.filter((w) => w.gender === gender);
     if (signal) list = list.filter((w) => w.signal === signal);
+    if (q) {
+      list = list.filter((w) => {
+        const hay = norm([w.brand, w.model, w.ref].join(" "));
+        return hay.indexOf(q) !== -1;
+      });
+    }
     const key = sort === "price" ? "market_eur" : sort === "premium" ? "premium_pct" : null;
     const brandOrder = { Rolex: 0, Omega: 1, Cartier: 2, Panerai: 3 };
     const idx = Object.fromEntries(DATA.watches.map((w, i) => [w.ref, i]));
@@ -423,7 +490,7 @@
       list.length === total ? `${total} referências` : `${list.length} de ${total}`;
     grid.innerHTML = list.length
       ? list.map(cardHTML).join("")
-      : `<p class="empty-grid">Nenhum modelo com este filtro.</p>`;
+      : `<p class="empty-grid">Nenhum modelo corresponde à procura.</p>`;
   }
 
   function typeLabel(t) {
@@ -461,26 +528,72 @@
       <h2 class="model" id="drawer-title">${escapeHtml(w.model)}</h2>
       <div class="illu">${portrait(w)}</div>
       <p class="ref">${escapeHtml(w.ref)}</p>
-      <p class="price"><span class="price-label">Mercado</span>${money(w.market_eur)}</p>
-      <p class="retail">Retalho PT <strong>${money(w.retail_pt_eur)}</strong></p>
+      <p class="price"><span class="price-label">Mercado</span>${money(w.market_eur)}${sourceHTML(w.market_source)}</p>
+      <p class="retail">Retalho PT <strong>${money(w.retail_pt_eur)}</strong>${sourceHTML(w.retail_source)}</p>
       <span class="pill ${signalClass(w.signal)}">${escapeHtml(w.signal)}${w.premium_pct != null ? " · " + pct(w.premium_pct) : ""}</span>
       ${w.blurb ? `<p class="blurb">${escapeHtml(w.blurb)}</p>` : ""}
+      ${w.market_note ? `<p class="market-note">${escapeHtml(w.market_note)}</p>` : ""}
       <dl class="stats">
         <div class="stat"><dt>Vendas a 1 ano</dt><dd>${sales}</dd></div>
         <div class="stat"><dt>Dias no mercado</dt><dd>${days}</dd></div>
       </dl>
+      ${w.demand_source ? `<p class="market-note">${sourceHTML(w.demand_source)}</p>` : ""}
       <p class="landed">Importação estimada <strong>${money(w.landed_import_eur)}</strong>
-        <span> vs </span> dealer UE <strong>${money(w.dealer_eur)}</strong></p>
+        <span> vs </span> dealer UE <strong>${money(w.dealer_eur)}</strong>
+        <span class="src">fórmula no rodapé</span></p>
+      ${seriesFor(w.ref).length >= 2 ? `<figure class="drawer-trend"><h3 class="onde-label">Histórico de mercado</h3><div class="chart-wrap" style="height:160px"><canvas id="drawer-trend"></canvas></div></figure>` : ""}
       <p class="onde-label">Onde comprar</p>
       <ul class="offer-list">${offers}</ul>
     `;
     d.hidden = false;
     s.hidden = false;
     document.body.style.overflow = "hidden";
+    renderDrawerTrend(w.ref);
     document.getElementById("drawer-close").focus();
   }
 
+  function renderDrawerTrend(ref) {
+    if (drawerChart) {
+      drawerChart.destroy();
+      drawerChart = null;
+    }
+    const canvas = document.getElementById("drawer-trend");
+    const pts = seriesFor(ref);
+    if (!canvas || !window.Chart || pts.length < 2) return;
+    drawerChart = new Chart(canvas, {
+      type: "line",
+      data: {
+        labels: pts.map((p) => formatSeenShort(p.as_of || p.date)),
+        datasets: [{
+          data: pts.map((p) => p.market_eur),
+          borderColor: INK,
+          backgroundColor: "transparent",
+          borderWidth: 1.4,
+          pointRadius: 3,
+          pointBackgroundColor: INK,
+          tension: 0,
+          spanGaps: false,
+        }],
+      },
+      options: {
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { grid: { display: false }, ticks: { color: MUTED, maxRotation: 0 } },
+          y: {
+            grid: { color: "rgba(27,24,20,.08)", drawBorder: false },
+            ticks: { color: MUTED, callback: (v) => NUM.format(v) },
+          },
+        },
+      },
+    });
+  }
+
   function closeDrawer() {
+    if (drawerChart) {
+      drawerChart.destroy();
+      drawerChart = null;
+    }
     document.getElementById("drawer").hidden = true;
     document.getElementById("scrim").hidden = true;
     document.body.style.overflow = "";
@@ -598,7 +711,11 @@
     const labels = rank.map((r) => r.ref);
     document.getElementById("cap-rank").textContent =
       "Prémio de mercado (WatchCharts) face ao retalho PT. Referências sem PVP PT omitidas.";
+    const rankWrap = document.querySelector("#chart-rank") && document.querySelector("#chart-rank").closest(".chart-wrap");
+    if (rankWrap) rankWrap.style.height = Math.max(480, rank.length * 22) + "px";
     makeBar("chart-rank", labels, rank.map((r) => r.premium_pct), { horizontal: true, signed: true, pct: true });
+
+    renderBrandTrend();
 
     const snaps = document.getElementById("snapshots");
     const wc = (INDEX.charts || []).find((c) => c.id === "wc-index-snapshot");
@@ -625,6 +742,62 @@
     snaps.innerHTML = html;
   }
 
+  function renderBrandTrend() {
+    const canvas = document.getElementById("chart-trend");
+    const cap = document.getElementById("cap-trend");
+    if (!canvas || !window.Chart) return;
+    const byRef = {};
+    (HISTORY.snapshots || []).forEach((p) => {
+      if (p.market_eur == null || !p.ref) return;
+      (byRef[p.ref] = byRef[p.ref] || []).push(p);
+    });
+    Object.keys(byRef).forEach((r) => {
+      byRef[r].sort((a, b) => (a.date < b.date ? -1 : 1));
+    });
+    const refs = Object.keys(byRef).filter((r) => byRef[r].length >= 3);
+    if (!refs.length) {
+      if (cap) cap.textContent = "Ainda não há três pontos históricos públicos na mesma referência.";
+      return;
+    }
+    const dates = Array.from(new Set(refs.flatMap((r) => byRef[r].map((p) => p.date)))).sort();
+    const palette = [INK, GOLD, NAVY, UP, DOWN, MUTED];
+    const datasets = refs.map((r, i) => {
+      const map = Object.fromEntries(byRef[r].map((p) => [p.date, p.market_eur]));
+      return {
+        label: r,
+        data: dates.map((d) => (map[d] != null ? map[d] : null)),
+        borderColor: palette[i % palette.length],
+        backgroundColor: "transparent",
+        borderWidth: 1.4,
+        pointRadius: 3,
+        pointBackgroundColor: palette[i % palette.length],
+        tension: 0,
+        spanGaps: false,
+      };
+    });
+    const ch = new Chart(canvas, {
+      type: "line",
+      data: { labels: dates.map((d) => formatSeenShort(d)), datasets },
+      options: {
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: true, position: "bottom", labels: { boxWidth: 10, color: MUTED, font: { size: 10 } } },
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { color: MUTED, maxRotation: 0 } },
+          y: {
+            grid: { color: "rgba(27,24,20,.08)", drawBorder: false },
+            ticks: { color: MUTED, callback: (v) => NUM.format(v) },
+          },
+        },
+      },
+    });
+    charts.push(ch);
+    if (cap) {
+      cap.innerHTML = "Pontos reais de páginas WatchCharts e instantâneos da Wayback Machine, convertidos com a taxa BCE do dia. As linhas ligam apenas datas medidas; não interpolámos valores intermédios.";
+    }
+  }
+
   function renderFooter() {
     const src = DATA.sources || {};
     const updated = formatSeen(DATA.updated);
@@ -643,7 +816,7 @@
     document.getElementById("foot").innerHTML = `
       <div>
         <p><strong>Dados ${updated}</strong>, Europe/Lisbon. Não é aconselhamento financeiro.</p>
-        <p>Mercado e procura: WatchCharts, 17 nov. 2026. Retalho: AD em Portugal. Ofertas: Watchfinder, Montredo, AD. Ligações Chrono24 são pesquisas, não anúncios.</p>
+        <p>Cada preço no ecrã tem a respectiva fonte. Mercado e procura: WatchCharts (data ao lado do valor). Retalho e ofertas: AD em Portugal, 18 nov. 2026. Histórico: Wayback Machine + WatchCharts. Ligações Chrono24 são pesquisas, não anúncios. Importação estimada: 1,23 × (mercado + 150,80 €).</p>
       </div>
       <div>
         <p>Edição 01 · G Watch Radar</p>
@@ -685,22 +858,29 @@
   }
 
   async function init() {
-    const [wRes, iRes, cRes] = await Promise.all([
+    const [wRes, iRes, cRes, hRes] = await Promise.all([
       fetch("data/watches.json"),
       fetch("data/indices.json"),
       fetch("img/credits.json"),
+      fetch("data/history.json"),
     ]);
     if (!wRes.ok || !iRes.ok) throw new Error("Falha a ler os dados.");
     DATA = await wRes.json();
     INDEX = await iRes.json();
+    if (hRes.ok) HISTORY = await hRes.json();
     if (cRes.ok) {
       const cred = await cRes.json();
       CREDITS = cred.images || [];
       CREDITS.forEach((c) => { if (c.ref) PHOTOS[c.ref] = true; });
     }
     fillBrandFilter();
+    const params = new URLSearchParams(location.search);
+    const q0 = params.get("q");
+    if (q0 && document.getElementById("f-search")) document.getElementById("f-search").value = q0;
     renderGrid();
     document.getElementById("filters").addEventListener("change", renderGrid);
+    const search = document.getElementById("f-search");
+    if (search) search.addEventListener("input", renderGrid);
     document.getElementById("grid").addEventListener("click", onGridClick);
     document.getElementById("grid").addEventListener("keydown", onGridKey);
     document.getElementById("drawer-close").addEventListener("click", closeDrawer);
@@ -708,19 +888,21 @@
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape") closeDrawer();
     });
-    const params = new URLSearchParams(location.search);
-    const q = params.get("open");
-    if (q) openDrawer(q);
+    const openRef = params.get("open");
+    if (openRef) openDrawer(openRef);
     if (params.get("shot") === "mercado") {
       const modelos = document.getElementById("modelos");
       if (modelos) modelos.hidden = true;
     }
-    await Promise.all(Array.from(document.querySelectorAll(".illu img")).map(function (img) {
-      return img.decode ? img.decode().catch(function () {}) : Promise.resolve();
-    }));
     chartDefaults();
     renderCharts();
     renderFooter();
+    const imgs = params.get("shot") === "mercado"
+      ? []
+      : Array.from(document.querySelectorAll(".illu img"));
+    await Promise.all(imgs.map(function (img) {
+      return img.decode ? img.decode().catch(function () {}) : Promise.resolve();
+    }));
   }
 
   init().catch((err) => {

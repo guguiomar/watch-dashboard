@@ -4,27 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>G Watch Radar — Edição 01</title>
-  <meta name="description" content="Preços, sinais e onde comprar vinte referências de relógios.">
+  <meta name="description" content="Preços de mercado com fonte, onde comprar e tendência histórica de relógios.">
   <link rel="stylesheet" href="css/radar.css">
-  <link rel="preload" as="image" href="img/126610LN.webp" type="image/webp">
-  <link rel="preload" as="image" href="img/126710BLRO.webp" type="image/webp">
-  <link rel="preload" as="image" href="img/126500LN-0001.webp" type="image/webp">
-  <link rel="preload" as="image" href="img/126334.webp" type="image/webp">
-  <link rel="preload" as="image" href="img/310.30.42.50.01.001.webp" type="image/webp">
-  <link rel="preload" as="image" href="img/210.30.42.20.01.001.webp" type="image/webp">
-  <link rel="preload" as="image" href="img/220.10.41.21.01.001.webp" type="image/webp">
-  <link rel="preload" as="image" href="img/WSSA0029.webp" type="image/webp">
-  <link rel="preload" as="image" href="img/WSSA0018.webp" type="image/webp">
-  <link rel="preload" as="image" href="img/WSBB0062.webp" type="image/webp">
-  <link rel="preload" as="image" href="img/PAM01314.webp" type="image/webp">
-  <link rel="preload" as="image" href="img/279174.webp" type="image/webp">
-  <link rel="preload" as="image" href="img/278274.webp" type="image/webp">
-  <link rel="preload" as="image" href="img/131.10.29.20.55.001.webp" type="image/webp">
-  <link rel="preload" as="image" href="img/220.10.34.20.01.001.webp" type="image/webp">
-  <link rel="preload" as="image" href="img/WSPN0013.webp" type="image/webp">
-  <link rel="preload" as="image" href="img/WSSA0082.webp" type="image/webp">
-  <link rel="preload" as="image" href="img/WSTA0129.webp" type="image/webp">
-  <link rel="preload" as="image" href="img/PAM01123.webp" type="image/webp">
 </head>
 <body>
   <div class="spine" aria-hidden="true"></div>
@@ -77,6 +58,9 @@
             <option value="premium">Prémio</option>
           </select>
         </label>
+        <label class="search-field">Procurar
+          <input type="search" name="q" id="f-search" placeholder="Marca, modelo, referência" autocomplete="off" spellcheck="false">
+        </label>
       </form>
       <div class="grid" id="grid"></div>
     </section>
@@ -86,6 +70,11 @@
         <p class="kicker">Mercado</p>
       </div>
       <div class="snapshots" id="snapshots"></div>
+      <figure class="chart-fig chart-wide">
+        <h2 class="chart-title">Tendência de preços (pontos reais)</h2>
+        <div class="chart-wrap chart-wrap-trend"><canvas id="chart-trend"></canvas></div>
+        <p class="chart-source" id="cap-trend"></p>
+      </figure>
       <div class="chart-grid">
         <figure class="chart-fig">
           <h2 class="chart-title">Prémio médio vs retalho PT</h2>

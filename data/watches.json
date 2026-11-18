@@ -1,5 +1,5 @@
 {
-  "title": "G Watch Radar — dados v1",
+  "title": "G Watch Radar — dados v2",
   "updated": "2026-11-18",
   "timezone": "Europe/Lisbon",
   "disclaimer": "Dados públicos, recolhidos manualmente; não é aconselhamento financeiro.",
@@ -13,6 +13,381 @@
   "landed_formula": "1,23 × (mercado WC em EUR + 150 € portes estimados + 0,80 € de direito)",
   "demand_proxy": "Vendas a 1 ano e dias medianos no mercado, WatchCharts, 17 nov. 2026.",
   "watches": [
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 36 prateado",
+      "ref": "126000-0001",
+      "gender": "homem",
+      "retail_pt_eur": 6700,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0001/",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 7338,
+      "market_usd": 8064,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21826-rolex-oyster-perpetual-36-126000/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da variação, publicado na página da família 126000 na WatchCharts, 17 nov. 2026. Volume e dias são da família.",
+      "premium_pct": 9.5,
+      "dealer_eur": null,
+      "landed_import_eur": 9211,
+      "demand": {
+        "sales_1y": 3596,
+        "days_on_market": 35.1
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21826-rolex-oyster-perpetual-36-126000/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "perto",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 6700,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0001/",
+          "seen": "2026-11-18",
+          "price_text": "6.700 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126000-0001",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 36 azul-turquesa",
+      "ref": "126000-0006",
+      "gender": "homem",
+      "retail_pt_eur": 6700,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0006/",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 12837,
+      "market_usd": 14107,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21826-rolex-oyster-perpetual-36-126000/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da variação, publicado na página da família 126000 na WatchCharts, 17 nov. 2026. Volume e dias são da família.",
+      "premium_pct": 91.6,
+      "dealer_eur": null,
+      "landed_import_eur": 15975,
+      "demand": {
+        "sales_1y": 3596,
+        "days_on_market": 35.1
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21826-rolex-oyster-perpetual-36-126000/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "prémio",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 6700,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0006/",
+          "seen": "2026-11-18",
+          "price_text": "6.700 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126000-0006",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 36 rosa candy",
+      "ref": "126000-0008",
+      "gender": "homem",
+      "retail_pt_eur": 6700,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0008/",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 8869,
+      "market_usd": 9746,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21826-rolex-oyster-perpetual-36-126000/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da variação, publicado na página da família 126000 na WatchCharts, 17 nov. 2026. Volume e dias são da família.",
+      "premium_pct": 32.4,
+      "dealer_eur": null,
+      "landed_import_eur": 11094,
+      "demand": {
+        "sales_1y": 3596,
+        "days_on_market": 35.1
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21826-rolex-oyster-perpetual-36-126000/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "prémio",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 6700,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0008/",
+          "seen": "2026-11-18",
+          "price_text": "6.700 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126000-0008",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 36 verde pistachio",
+      "ref": "126000-0011",
+      "gender": "homem",
+      "retail_pt_eur": 6700,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0011/",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 8707,
+      "market_usd": 9568,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21826-rolex-oyster-perpetual-36-126000/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da variação, publicado na página da família 126000 na WatchCharts, 17 nov. 2026. Volume e dias são da família.",
+      "premium_pct": 30.0,
+      "dealer_eur": null,
+      "landed_import_eur": 10895,
+      "demand": {
+        "sales_1y": 3596,
+        "days_on_market": 35.1
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21826-rolex-oyster-perpetual-36-126000/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "prémio",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 6700,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0011/",
+          "seen": "2026-11-18",
+          "price_text": "6.700 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126000-0011",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 41",
+      "ref": "124300",
+      "gender": "homem",
+      "retail_pt_eur": null,
+      "retail_source": null,
+      "market_eur": 8026,
+      "market_usd": 8820,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21827-rolex-oyster-perpetual-41-124300/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Família 124300 (descontinuada). Os mostradores variam bastante no secundário (WatchCharts, 17 nov. 2026).",
+      "premium_pct": null,
+      "dealer_eur": 8772,
+      "landed_import_eur": 10057,
+      "demand": {
+        "sales_1y": 2595,
+        "days_on_market": null
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21827-rolex-oyster-perpetual-41-124300/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "—",
+      "discontinued": true,
+      "offers": [
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=124300",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 31 verde",
+      "ref": "277200-0006",
+      "gender": "mulher",
+      "retail_pt_eur": 6250,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0006/",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 7425,
+      "market_usd": 8159,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21823-rolex-oyster-perpetual-31-277200/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da variação 0006, publicado na página da família 277200. Volume e dias são da família.",
+      "premium_pct": 18.8,
+      "dealer_eur": null,
+      "landed_import_eur": 9318,
+      "demand": {
+        "sales_1y": 1502,
+        "days_on_market": 42.2
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21823-rolex-oyster-perpetual-31-277200/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "prémio",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 6250,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0006/",
+          "seen": "2026-11-18",
+          "price_text": "6.250 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=277200-0006",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
     {
       "brand": "Rolex",
       "model": "Submariner Date",
@@ -83,7 +458,155 @@
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
         }
-      ]
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21817-rolex-submariner-date-126610/overview",
+        "as_of": "2026-11-17"
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21817-rolex-submariner-date-126610/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "A página WatchCharts é da família 126610, não só da variante LN.",
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/submariner/m126610ln-0001/",
+        "as_of": "2026-11-18"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "Submariner sem data",
+      "ref": "124060",
+      "gender": "homem",
+      "retail_pt_eur": 10050,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/submariner/m124060-0001/",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 11167,
+      "market_usd": 12271,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21813-rolex-submariner-124060/overview",
+        "as_of": "2026-11-17"
+      },
+      "premium_pct": 11.1,
+      "dealer_eur": 12310,
+      "landed_import_eur": 13921,
+      "demand": {
+        "sales_1y": 3360,
+        "days_on_market": 16.2
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21813-rolex-submariner-124060/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "perto",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 10050,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/submariner/m124060-0001/",
+          "seen": "2026-11-18",
+          "price_text": "10.050 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=124060",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "Sea-Dweller",
+      "ref": "126600",
+      "gender": "homem",
+      "retail_pt_eur": 14450,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/sea-dweller/m126600-0002/",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 10640,
+      "market_usd": 11692,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/1300-rolex-sea-dweller-126600/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da família 126600; retalho e fotografia da configuração 0002.",
+      "premium_pct": -26.4,
+      "dealer_eur": 11837,
+      "landed_import_eur": 13273,
+      "demand": {
+        "sales_1y": 2422,
+        "days_on_market": 23.1
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/1300-rolex-sea-dweller-126600/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "abaixo do retalho",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 14450,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/sea-dweller/m126600-0002/",
+          "seen": "2026-11-18",
+          "price_text": "14.450 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126600",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
     },
     {
       "brand": "Rolex",
@@ -144,7 +667,766 @@
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
         }
-      ]
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/733-rolex-gmt-master-ii-pepsi-126710blro/overview",
+        "as_of": "2026-11-17"
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/733-rolex-gmt-master-ii-pepsi-126710blro/overview",
+        "as_of": "2026-11-17"
+      },
+      "retail_source": null
+    },
+    {
+      "brand": "Rolex",
+      "model": "GMT-Master II Batman",
+      "ref": "126710BLNR",
+      "gender": "homem",
+      "retail_pt_eur": 11950,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126710blnr-0002/",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 15672,
+      "market_usd": 17222,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/1525-rolex-gmt-master-ii-batgirl-126710blnr/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da família 126710BLNR; retalho e fotografia da configuração 0002 (bracelete Jubilee).",
+      "premium_pct": 31.1,
+      "dealer_eur": 17201,
+      "landed_import_eur": 19462,
+      "demand": {
+        "sales_1y": 5617,
+        "days_on_market": 20.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/1525-rolex-gmt-master-ii-batgirl-126710blnr/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "prémio",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 11950,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126710blnr-0002/",
+          "seen": "2026-11-18",
+          "price_text": "11.950 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126710BLNR",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "GMT-Master II Bruce Wayne",
+      "ref": "126710GRNR",
+      "gender": "homem",
+      "retail_pt_eur": 11950,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126710grnr-0003/",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 18485,
+      "market_usd": 20313,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/49351-rolex-gmt-master-ii-bruce-wayne-126710grnr/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da família 126710GRNR; retalho e fotografia da configuração 0003.",
+      "premium_pct": 54.7,
+      "dealer_eur": 20155,
+      "landed_import_eur": 22922,
+      "demand": {
+        "sales_1y": 2989,
+        "days_on_market": 15.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/49351-rolex-gmt-master-ii-bruce-wayne-126710grnr/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "prémio",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 11950,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126710grnr-0003/",
+          "seen": "2026-11-18",
+          "price_text": "11.950 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126710GRNR",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "GMT-Master II Sprite",
+      "ref": "126720VTNR",
+      "gender": "homem",
+      "retail_pt_eur": 12250,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126720vtnr-0001/",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 14636,
+      "market_usd": 16084,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/36317-rolex-gmt-master-ii-sprite-126720/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Página WatchCharts da família 126720; retalho e fotografia da configuração 0001.",
+      "premium_pct": 19.5,
+      "dealer_eur": 16226,
+      "landed_import_eur": 18188,
+      "demand": {
+        "sales_1y": 3055,
+        "days_on_market": 24.1
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/36317-rolex-gmt-master-ii-sprite-126720/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "prémio",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 12250,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126720vtnr-0001/",
+          "seen": "2026-11-18",
+          "price_text": "12.250 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126720VTNR",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "GMT-Master II Root Beer",
+      "ref": "126711CHNR",
+      "gender": "homem",
+      "retail_pt_eur": 20000,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126711chnr-0002/",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 16974,
+      "market_usd": 18653,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/756-rolex-gmt-master-ii-root-beer-126711chnr/overview",
+        "as_of": "2026-11-17"
+      },
+      "premium_pct": -15.1,
+      "dealer_eur": 19020,
+      "landed_import_eur": 21064,
+      "demand": {
+        "sales_1y": 2587,
+        "days_on_market": 20.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/756-rolex-gmt-master-ii-root-beer-126711chnr/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "abaixo do retalho",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 20000,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126711chnr-0002/",
+          "seen": "2026-11-18",
+          "price_text": "20.000 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126711CHNR",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "GMT-Master II Root Beer Everose",
+      "ref": "126715CHNR",
+      "gender": "homem",
+      "retail_pt_eur": 57300,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126715chnr-0002/",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 34842,
+      "market_usd": 38375,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 16 nov",
+        "url": "https://watchcharts.com/watch_model/1555-rolex-gmt-master-ii-126715/overview",
+        "as_of": "2026-11-16"
+      },
+      "market_note": "Preço de mercado da família 126715, 16 nov. 2026; retalho e fotografia da configuração 0002 (mostrador olho de ferro).",
+      "premium_pct": -39.2,
+      "dealer_eur": 39036,
+      "landed_import_eur": 43041,
+      "demand": {
+        "sales_1y": 820,
+        "days_on_market": 29.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 16 nov",
+        "url": "https://watchcharts.com/watch_model/1555-rolex-gmt-master-ii-126715/overview",
+        "as_of": "2026-11-16"
+      },
+      "signal": "abaixo do retalho",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 57300,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126715chnr-0002/",
+          "seen": "2026-11-18",
+          "price_text": "57.300 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126715CHNR",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.1014,
+        "date": "2026-11-16",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "GMT-Master II Rolesor amarelo",
+      "ref": "126713GRNR",
+      "gender": "homem",
+      "retail_pt_eur": 20300,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126713grnr-0001/",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 18724,
+      "market_usd": 20694,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 13 nov",
+        "url": "https://watchcharts.com/watch_model/46435-rolex-gmt-master-ii-126713/overview",
+        "as_of": "2026-11-13"
+      },
+      "market_note": "Página WatchCharts da família 126713, 13 nov. 2026; retalho e fotografia da configuração 0001 (GRNR).",
+      "premium_pct": -7.8,
+      "dealer_eur": 20642,
+      "landed_import_eur": 23216,
+      "demand": {
+        "sales_1y": 1476,
+        "days_on_market": 20.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 13 nov",
+        "url": "https://watchcharts.com/watch_model/46435-rolex-gmt-master-ii-126713/overview",
+        "as_of": "2026-11-13"
+      },
+      "signal": "abaixo do retalho",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 20300,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126713grnr-0001/",
+          "seen": "2026-11-18",
+          "price_text": "20.300 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126713GRNR",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.1052,
+        "date": "2026-11-13",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "GMT-Master II 116710LN",
+      "ref": "116710LN",
+      "gender": "homem",
+      "retail_pt_eur": null,
+      "retail_source": null,
+      "market_eur": 10894,
+      "market_usd": 11971,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/53-rolex-gmt-master-ii-116710/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Página WatchCharts titulada 116710; os anúncios visíveis são da variante LN (luneta preta).",
+      "premium_pct": null,
+      "dealer_eur": 12295,
+      "landed_import_eur": 13585,
+      "demand": {
+        "sales_1y": 2874,
+        "days_on_market": 22.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/53-rolex-gmt-master-ii-116710/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "—",
+      "discontinued": true,
+      "offers": [
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=116710LN",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "GMT-Master II Batman 116710BLNR",
+      "ref": "116710BLNR",
+      "gender": "homem",
+      "retail_pt_eur": null,
+      "retail_source": null,
+      "market_eur": 12864,
+      "market_usd": 14136,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/739-rolex-gmt-master-ii-batman-116710blnr/overview",
+        "as_of": "2026-11-17"
+      },
+      "premium_pct": null,
+      "dealer_eur": 14569,
+      "landed_import_eur": 16008,
+      "demand": {
+        "sales_1y": 1880,
+        "days_on_market": 22.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/739-rolex-gmt-master-ii-batman-116710blnr/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "—",
+      "discontinued": true,
+      "offers": [
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=116710BLNR",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "Explorer 40",
+      "ref": "224270",
+      "gender": "homem",
+      "retail_pt_eur": 8350,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/explorer/m224270-0001/",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 7851,
+      "market_usd": 8628,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/46434-rolex-explorer-224270/overview",
+        "as_of": "2026-11-17"
+      },
+      "premium_pct": -6.0,
+      "dealer_eur": 8902,
+      "landed_import_eur": 9842,
+      "demand": {
+        "sales_1y": 1751,
+        "days_on_market": 15.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/46434-rolex-explorer-224270/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "abaixo do retalho",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 8350,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/explorer/m224270-0001/",
+          "seen": "2026-11-18",
+          "price_text": "8.350 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=224270",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "Explorer II",
+      "ref": "226570",
+      "gender": "homem",
+      "retail_pt_eur": 10600,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/explorer-ii/m226570-0001/",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 9639,
+      "market_usd": 10592,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/33628-rolex-explorer-ii-226570/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da família 226570; o retalho e a fotografia são da configuração 0001 (mostrador branco).",
+      "premium_pct": -9.1,
+      "dealer_eur": 10687,
+      "landed_import_eur": 12041,
+      "demand": {
+        "sales_1y": 2514,
+        "days_on_market": 25.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/33628-rolex-explorer-ii-226570/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "abaixo do retalho",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 10600,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/explorer-ii/m226570-0001/",
+          "seen": "2026-11-18",
+          "price_text": "10.600 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=226570",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "Yacht-Master 40",
+      "ref": "126622",
+      "gender": "homem",
+      "retail_pt_eur": 13150,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/yacht-master/m126622-0001/",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 12622,
+      "market_usd": 13870,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/1156-rolex-yacht-master-126622/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da família 126622; retalho e fotografia da configuração 0001 (mostrador cor de ardósia).",
+      "premium_pct": -4.0,
+      "dealer_eur": 13908,
+      "landed_import_eur": 15711,
+      "demand": {
+        "sales_1y": 2084,
+        "days_on_market": 25.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/1156-rolex-yacht-master-126622/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "abaixo do retalho",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 13150,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/yacht-master/m126622-0001/",
+          "seen": "2026-11-18",
+          "price_text": "13.150 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126622",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "Air-King",
+      "ref": "126900",
+      "gender": "homem",
+      "retail_pt_eur": 8100,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/air-king/m126900-0001/",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 7501,
+      "market_usd": 8243,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/36316-rolex-air-king-126900/overview",
+        "as_of": "2026-11-17"
+      },
+      "premium_pct": -7.4,
+      "dealer_eur": 8331,
+      "landed_import_eur": 9412,
+      "demand": {
+        "sales_1y": 1541,
+        "days_on_market": 20.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/36316-rolex-air-king-126900/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "abaixo do retalho",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 8100,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/air-king/m126900-0001/",
+          "seen": "2026-11-18",
+          "price_text": "8.100 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126900",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
     },
     {
       "brand": "Rolex",
@@ -195,7 +1477,90 @@
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
         }
-      ]
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_variation/1456-rolex-cosmograph-daytona-126500ln-0001/overview",
+        "as_of": "2026-11-17"
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_variation/1456-rolex-cosmograph-daytona-126500ln-0001/overview",
+        "as_of": "2026-11-17"
+      },
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/en/watch/cosmograph-daytona/m126500ln-0001/",
+        "as_of": "2026-11-18"
+      }
+    },
+    {
+      "brand": "Rolex",
+      "model": "Datejust 36",
+      "ref": "126234",
+      "gender": "homem",
+      "retail_pt_eur": 10100,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/datejust/m126234-0015/",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 11396,
+      "market_usd": 12523,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/15369-rolex-datejust-36-126234/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da família 126234 (vários mostradores); retalho e fotografia da configuração 0015 (mostrador preto vivo).",
+      "premium_pct": 12.8,
+      "dealer_eur": 12480,
+      "landed_import_eur": 14203,
+      "demand": {
+        "sales_1y": 4992,
+        "days_on_market": 34.3
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/15369-rolex-datejust-36-126234/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "perto",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 10100,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/datejust/m126234-0015/",
+          "seen": "2026-11-18",
+          "price_text": "10.100 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126234",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
     },
     {
       "brand": "Rolex",
@@ -247,364 +1612,63 @@
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
         }
-      ]
-    },
-    {
-      "brand": "Omega",
-      "model": "Speedmaster Moonwatch Professional",
-      "ref": "310.30.42.50.01.001",
-      "gender": "homem",
-      "retail_pt_eur": 7800,
-      "market_eur": 4991,
-      "premium_pct": -36.0,
-      "dealer_eur": 5557,
-      "landed_import_eur": 6325,
-      "demand": {
-        "sales_1y": 1445,
-        "days_on_market": 20.0
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/727-rolex-datejust-41-126334/overview",
+        "as_of": "2026-11-17"
       },
-      "signal": "abaixo do retalho",
-      "blurb": "Abaixo do retalho PT do Marcolino; segunda mão na UE bate a importação.",
-      "offers": [
-        {
-          "seller": "Marcolino 1926",
-          "type": "AD",
-          "country": "PT",
-          "price_eur": 7800,
-          "condition": "novo, IVA incl., sem stock nesta consulta",
-          "url": "https://www.marcolino.pt/en/watches/omega/moonwatch-professional-co-axial-master-chronometer-chrono-31030425001001-8015",
-          "seen": "2026-11-18",
-          "price_text": "7.800 €",
-          "http": 200
-        },
-        {
-          "seller": "Chrono24",
-          "type": "marketplace",
-          "country": "EU",
-          "price_eur": null,
-          "condition": "pesquisa pública desta referência",
-          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=310.30.42.50.01.001",
-          "seen": "2026-11-18",
-          "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
-        }
-      ]
-    },
-    {
-      "brand": "Omega",
-      "model": "Seamaster Diver 300M",
-      "ref": "210.30.42.20.01.001",
-      "gender": "homem",
-      "retail_pt_eur": 6700,
-      "market_eur": 3955,
-      "premium_pct": -41.0,
-      "dealer_eur": 4598,
-      "landed_import_eur": 5050,
-      "demand": {
-        "sales_1y": 1315,
-        "days_on_market": 18.0
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/727-rolex-datejust-41-126334/overview",
+        "as_of": "2026-11-17"
       },
-      "signal": "abaixo do retalho",
-      "blurb": "Abaixo do retalho PT do Marcolino; confirmar anúncios, vários do Watchfinder já estavam vendidos.",
-      "offers": [
-        {
-          "seller": "Marcolino 1926",
-          "type": "AD",
-          "country": "PT",
-          "price_eur": 6700,
-          "condition": "novo, IVA incl., sem stock nesta consulta",
-          "url": "https://www.marcolino.pt/en/watches/omega/seamaster-diver-300m-co-axial-master-21030422001001-767",
-          "seen": "2026-11-18",
-          "price_text": "6.700 €",
-          "http": 200
-        },
-        {
-          "seller": "Watchfinder",
-          "type": "marketplace",
-          "country": "GB",
-          "price_eur": null,
-          "condition": "pesquisa desta referência; dois anúncios abertos nesta ronda já estavam vendidos, por isso não há preço vivo aqui",
-          "url": "https://www.watchfinder.co.uk/watches/omega/seamaster-diver-300m/210-30-42-20-01-001",
-          "seen": "2026-11-18",
-          "http": 200
-        },
-        {
-          "seller": "Chrono24",
-          "type": "marketplace",
-          "country": "EU",
-          "price_eur": null,
-          "condition": "pesquisa pública desta referência",
-          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=210.30.42.20.01.001",
-          "seen": "2026-11-18",
-          "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
-        }
-      ]
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/datejust/m126334-0033/",
+        "as_of": "2026-11-18"
+      }
     },
     {
-      "brand": "Omega",
-      "model": "Aqua Terra 150M 41 mm",
-      "ref": "220.10.41.21.01.001",
-      "gender": "homem",
-      "retail_pt_eur": 7100,
-      "market_eur": 3605,
-      "premium_pct": -49.2,
-      "dealer_eur": 4403,
-      "landed_import_eur": 4620,
-      "demand": {
-        "sales_1y": 314,
-        "days_on_market": 31.9
-      },
-      "signal": "abaixo do retalho",
-      "blurb": "O maior desconto vs retalho PT deste lote Omega, com liquidez moderada.",
-      "offers": [
-        {
-          "seller": "Marcolino 1926",
-          "type": "AD",
-          "country": "PT",
-          "price_eur": 7100,
-          "condition": "novo, IVA incl., sem stock nesta consulta",
-          "url": "https://www.marcolino.pt/en/watches/omega/seamaster-aqua-terra-150m-co-axial-master-41mm-22010412101001-755",
-          "seen": "2026-11-18",
-          "price_text": "7.100 €",
-          "http": 200
-        },
-        {
-          "seller": "Chrono24",
-          "type": "marketplace",
-          "country": "EU",
-          "price_eur": null,
-          "condition": "pesquisa pública desta referência",
-          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=220.10.41.21.01.001",
-          "seen": "2026-11-18",
-          "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
-        }
-      ]
-    },
-    {
-      "brand": "Cartier",
-      "model": "Santos de Cartier médio",
-      "ref": "WSSA0029",
-      "gender": "homem",
-      "retail_pt_eur": 8500,
-      "market_eur": 6242,
-      "premium_pct": -26.6,
-      "dealer_eur": 7126,
-      "landed_import_eur": 7863,
-      "demand": {
-        "sales_1y": 896,
-        "days_on_market": 15.0
-      },
-      "signal": "abaixo do retalho",
-      "blurb": "Abaixo do retalho PT; um dealer na UE fica à frente da importação.",
-      "offers": [
-        {
-          "seller": "Machado Joalheiro",
-          "type": "AD",
-          "country": "PT",
-          "price_eur": 8500,
-          "condition": "novo",
-          "url": "https://www.machadojoalheiro.com/shop/catalogue/cartier-santos-medio-modelo_4237/?r=105",
-          "seen": "2026-11-18",
-          "price_text": "8.500 €",
-          "http": 200
-        },
-        {
-          "seller": "Montredo",
-          "type": "dealer",
-          "country": "DE",
-          "price_eur": 7900,
-          "condition": "novo e por usar, caixa e papéis, 2026",
-          "url": "https://www.montredo.com/products/cartier-santos-automatic-silver-42mm-49684",
-          "seen": "2026-11-18",
-          "price_text": "7.900 €",
-          "http": 200
-        },
-        {
-          "seller": "Chrono24",
-          "type": "marketplace",
-          "country": "EU",
-          "price_eur": null,
-          "condition": "pesquisa pública desta referência",
-          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSSA0029",
-          "seen": "2026-11-18",
-          "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
-        }
-      ]
-    },
-    {
-      "brand": "Cartier",
-      "model": "Santos de Cartier grande",
-      "ref": "WSSA0018",
-      "gender": "homem",
-      "retail_pt_eur": 9300,
-      "market_eur": 6450,
-      "premium_pct": -30.6,
-      "dealer_eur": 7243,
-      "landed_import_eur": 8119,
-      "demand": {
-        "sales_1y": 1045,
-        "days_on_market": 22.0
-      },
-      "signal": "abaixo do retalho",
-      "blurb": "Abaixo do retalho PT, com boa liquidez.",
-      "offers": [
-        {
-          "seller": "Machado Joalheiro",
-          "type": "AD",
-          "country": "PT",
-          "price_eur": 9300,
-          "condition": "novo",
-          "url": "https://www.machadojoalheiro.com/shop/catalogue/cartier-santos-grande-modelo_4230/",
-          "seen": "2026-11-18",
-          "price_text": "9.300 €",
-          "http": 200
-        },
-        {
-          "seller": "Watchfinder / Kettle Club Watches",
-          "type": "marketplace",
-          "country": "GB",
-          "price_eur": 9597,
-          "condition": "unworn, caixa e papéis, 2026",
-          "url": "https://www.watchfinder.co.uk/watches/cartier/santos-de-cartier/wssa0018/445096",
-          "seen": "2026-11-18",
-          "price_text": "£7,995",
-          "http": 200
-        },
-        {
-          "seller": "Chrono24",
-          "type": "marketplace",
-          "country": "EU",
-          "price_eur": null,
-          "condition": "pesquisa pública desta referência",
-          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSSA0018",
-          "seen": "2026-11-18",
-          "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
-        }
-      ]
-    },
-    {
-      "brand": "Cartier",
-      "model": "Ballon Bleu 33 mm",
-      "ref": "WSBB0062",
+      "brand": "Rolex",
+      "model": "Datejust 31",
+      "ref": "278274",
       "gender": "mulher",
-      "retail_pt_eur": null,
-      "market_eur": 4702,
-      "premium_pct": null,
-      "dealer_eur": 5212,
-      "landed_import_eur": 5969,
+      "retail_pt_eur": 9550,
+      "market_eur": 11460,
+      "premium_pct": 20.0,
+      "dealer_eur": 12358,
+      "landed_import_eur": 14281,
       "demand": {
-        "sales_1y": 73,
-        "days_on_market": 32.0
+        "sales_1y": 1456,
+        "days_on_market": 49.0
       },
-      "signal": "abaixo do retalho",
-      "blurb": "Abaixo do retalho EUA da WatchCharts; liquidez fraca e sem PVP PT.",
+      "signal": "prémio",
+      "blurb": "Prémio visível vs este PVP PT; o número depende do mostrador.",
       "offers": [
         {
-          "seller": "Watchfinder",
-          "type": "CPO",
-          "country": "GB",
-          "price_eur": 5942,
-          "condition": "very good, caixa e papéis, 2022, garantia oficial Cartier Pre-Owned",
-          "url": "https://www.watchfinder.co.uk/watches/cartier/ballon-bleu/wsbb0062/431775",
-          "seen": "2026-11-18",
-          "price_text": "£4,950",
-          "http": 200
-        },
-        {
-          "seller": "Chrono24",
-          "type": "marketplace",
-          "country": "EU",
-          "price_eur": null,
-          "condition": "pesquisa pública desta referência",
-          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSBB0062",
-          "seen": "2026-11-18",
-          "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
-        }
-      ]
-    },
-    {
-      "brand": "Panerai",
-      "model": "Luminor Marina 44 mm",
-      "ref": "PAM01314",
-      "gender": "homem",
-      "retail_pt_eur": 9200,
-      "market_eur": 4713,
-      "premium_pct": -48.8,
-      "dealer_eur": 5415,
-      "landed_import_eur": 5982,
-      "demand": {
-        "sales_1y": 222,
-        "days_on_market": 30.0
-      },
-      "signal": "abaixo do retalho",
-      "blurb": "Bem abaixo do preço da Boutique dos Relógios, se esse PVP estiver actual.",
-      "offers": [
-        {
-          "seller": "Boutique dos Relógios",
+          "seller": "Torres Joalheiros",
           "type": "AD",
           "country": "PT",
-          "price_eur": 9200,
-          "condition": "novo, IVA incl.",
-          "url": "https://boutiquedosrelogios.pt/pt/luminor-marina-44mm-panerai-pam01314",
+          "price_eur": 9550,
+          "condition": "novo, IVA incl., M278274-0018 verde-menta, Jubilee",
+          "url": "https://rolex.torres.pt/relogio/datejust/m278274-0018/",
           "seen": "2026-11-18",
-          "price_text": "9.200 €",
+          "price_text": "9.550 €",
           "http": 200
         },
         {
-          "seller": "Montredo",
-          "type": "dealer",
-          "country": "DE",
-          "price_eur": 7370,
-          "condition": "novo e por usar, caixa e papéis, 2026, pulseira de pele cinzenta",
-          "url": "https://www.montredo.com/products/panerai-luminor-automatic-white-44mm-38344",
-          "seen": "2026-11-18",
-          "price_text": "7.370 €",
-          "http": 200
-        },
-        {
-          "seller": "Chrono24",
-          "type": "marketplace",
-          "country": "EU",
-          "price_eur": null,
-          "condition": "pesquisa pública desta referência",
-          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=PAM01314",
-          "seen": "2026-11-18",
-          "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
-        }
-      ]
-    },
-    {
-      "brand": "Panerai",
-      "model": "Submersible 42 mm",
-      "ref": "PAM00683",
-      "gender": "homem",
-      "retail_pt_eur": null,
-      "market_eur": 5634,
-      "premium_pct": null,
-      "dealer_eur": 6344,
-      "landed_import_eur": 7115,
-      "demand": {
-        "sales_1y": 145,
-        "days_on_market": 28.0
-      },
-      "signal": "abaixo do retalho",
-      "blurb": "Há mercado, mas sem PVP PT actual para medir o desconto.",
-      "offers": [
-        {
-          "seller": "Watchfinder / Mark Worthington Jewellers",
+          "seller": "Watchfinder / Bonds of Brentwood",
           "type": "marketplace",
           "country": "GB",
-          "price_eur": 8037,
-          "condition": "excellent, caixa e papéis, 2019, pulseira de borracha",
-          "url": "https://www.watchfinder.co.uk/watches/panerai/submersible/pam00683/407836",
+          "price_eur": 12784,
+          "condition": "unworn, caixa e papéis, 2026, roman azul, Jubilee",
+          "url": "https://www.watchfinder.co.uk/watches/rolex/datejust-lady-31/278274/448820",
           "seen": "2026-11-18",
-          "price_text": "£6,695",
+          "price_text": "£10,650",
           "http": 200
         },
         {
@@ -613,12 +1677,30 @@
           "country": "EU",
           "price_eur": null,
           "condition": "pesquisa pública desta referência",
-          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=PAM00683",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=278274",
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
         }
-      ]
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21829-rolex-datejust-31-278274/overview",
+        "as_of": "2026-11-17"
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21829-rolex-datejust-31-278274/overview",
+        "as_of": "2026-11-17"
+      },
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/datejust/m278274-0018/",
+        "as_of": "2026-11-18"
+      }
     },
     {
       "brand": "Rolex",
@@ -681,45 +1763,71 @@
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
         }
-      ]
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/15339-rolex-lady-datejust-279174/overview",
+        "as_of": "2026-11-17"
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/15339-rolex-lady-datejust-279174/overview",
+        "as_of": "2026-11-17"
+      },
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/lady-datejust/m279174-0020/",
+        "as_of": "2026-11-18"
+      }
     },
     {
       "brand": "Rolex",
-      "model": "Datejust 31",
-      "ref": "278274",
-      "gender": "mulher",
-      "retail_pt_eur": 9550,
-      "market_eur": 11460,
-      "premium_pct": 20.0,
-      "dealer_eur": 12358,
-      "landed_import_eur": 14281,
-      "demand": {
-        "sales_1y": 1456,
-        "days_on_market": 49.0
+      "model": "Day-Date 40",
+      "ref": "228238",
+      "gender": "homem",
+      "retail_pt_eur": 50200,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 18 nov",
+        "url": "https://rolex.torres.pt/relogio/day-date/m228238-0042/",
+        "as_of": "2026-11-18"
       },
-      "signal": "prémio",
-      "blurb": "Prémio visível vs este PVP PT; o número depende do mostrador.",
+      "market_eur": 46201,
+      "market_usd": 50770,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/659-rolex-day-date-40-228238/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da família 228238; retalho e fotografia da configuração 0042 (mostrador branco, sem diamantes).",
+      "premium_pct": -8.0,
+      "dealer_eur": 50584,
+      "landed_import_eur": 57013,
+      "demand": {
+        "sales_1y": 1301,
+        "days_on_market": 39.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/659-rolex-day-date-40-228238/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "abaixo do retalho",
       "offers": [
         {
           "seller": "Torres Joalheiros",
           "type": "AD",
           "country": "PT",
-          "price_eur": 9550,
-          "condition": "novo, IVA incl., M278274-0018 verde-menta, Jubilee",
-          "url": "https://rolex.torres.pt/relogio/datejust/m278274-0018/",
+          "price_eur": 50200,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/day-date/m228238-0042/",
           "seen": "2026-11-18",
-          "price_text": "9.550 €",
-          "http": 200
-        },
-        {
-          "seller": "Watchfinder / Bonds of Brentwood",
-          "type": "marketplace",
-          "country": "GB",
-          "price_eur": 12784,
-          "condition": "unworn, caixa e papéis, 2026, roman azul, Jubilee",
-          "url": "https://www.watchfinder.co.uk/watches/rolex/datejust-lady-31/278274/448820",
-          "seen": "2026-11-18",
-          "price_text": "£10,650",
+          "price_text": "50.200 €",
           "http": 200
         },
         {
@@ -728,29 +1836,106 @@
           "country": "EU",
           "price_eur": null,
           "condition": "pesquisa pública desta referência",
-          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=278274",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=228238",
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
         }
-      ]
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
     },
     {
       "brand": "Omega",
-      "model": "Constellation 29 mm",
-      "ref": "131.10.29.20.55.001",
-      "gender": "mulher",
-      "retail_pt_eur": null,
-      "market_eur": 3683,
-      "premium_pct": null,
-      "dealer_eur": 4481,
-      "landed_import_eur": 4715,
+      "model": "Speedmaster Moonwatch Professional",
+      "ref": "310.30.42.50.01.001",
+      "gender": "homem",
+      "retail_pt_eur": 7800,
+      "market_eur": 4991,
+      "premium_pct": -36.0,
+      "dealer_eur": 5557,
+      "landed_import_eur": 6325,
       "demand": {
-        "sales_1y": 22,
-        "days_on_market": 123.0
+        "sales_1y": 1445,
+        "days_on_market": 20.0
       },
       "signal": "abaixo do retalho",
-      "blurb": "Desconto fundo vs retalho EUA, mas liquidez muito fraca; sem PVP PT.",
+      "blurb": "Abaixo do retalho PT do Marcolino; segunda mão na UE bate a importação.",
+      "offers": [
+        {
+          "seller": "Marcolino 1926",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 7800,
+          "condition": "novo, IVA incl., sem stock nesta consulta",
+          "url": "https://www.marcolino.pt/en/watches/omega/moonwatch-professional-co-axial-master-chronometer-chrono-31030425001001-8015",
+          "seen": "2026-11-18",
+          "price_text": "7.800 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=310.30.42.50.01.001",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/30920-omega-speedmaster-professional-moonwatch-310-30-42-50-01-001/overview",
+        "as_of": "2026-11-17"
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/30920-omega-speedmaster-professional-moonwatch-310-30-42-50-01-001/overview",
+        "as_of": "2026-11-17"
+      },
+      "retail_source": {
+        "name": "Marcolino 1926",
+        "label": "Marcolino · 18 nov",
+        "url": "https://www.marcolino.pt/en/watches/omega/moonwatch-professional-co-axial-master-chronometer-chrono-31030425001001-8015",
+        "as_of": "2026-11-18"
+      }
+    },
+    {
+      "brand": "Omega",
+      "model": "Speedmaster Moonwatch Professional (safira)",
+      "ref": "310.30.42.50.01.002",
+      "gender": "homem",
+      "retail_pt_eur": null,
+      "retail_source": null,
+      "market_eur": 5966,
+      "market_usd": 6556,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/30921-omega-speedmaster-professional-moonwatch-310-30-42-50-01-002/overview",
+        "as_of": "2026-11-17"
+      },
+      "premium_pct": null,
+      "dealer_eur": 6575,
+      "landed_import_eur": 7524,
+      "demand": {
+        "sales_1y": 1995,
+        "days_on_market": 16.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/30921-omega-speedmaster-professional-moonwatch-310-30-42-50-01-002/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "—",
       "offers": [
         {
           "seller": "Chrono24",
@@ -758,12 +1943,243 @@
           "country": "EU",
           "price_eur": null,
           "condition": "pesquisa pública desta referência",
-          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=131.10.29.20.55.001",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=310.30.42.50.01.002",
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
         }
-      ]
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Omega",
+      "model": "Speedmaster Moonwatch Professional branco",
+      "ref": "310.30.42.50.04.001",
+      "gender": "homem",
+      "retail_pt_eur": null,
+      "retail_source": null,
+      "market_eur": 6836,
+      "market_usd": 7512,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/49294-omega-speedmaster-moonwatch-professional-42-mm-steel-on-steel-310-30-42-50-04-001/overview",
+        "as_of": "2026-11-17"
+      },
+      "premium_pct": null,
+      "dealer_eur": 7356,
+      "landed_import_eur": 8594,
+      "demand": {
+        "sales_1y": 1375,
+        "days_on_market": 16.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/49294-omega-speedmaster-moonwatch-professional-42-mm-steel-on-steel-310-30-42-50-04-001/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "—",
+      "offers": [
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=310.30.42.50.04.001",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Omega",
+      "model": "Seamaster Diver 300M",
+      "ref": "210.30.42.20.01.001",
+      "gender": "homem",
+      "retail_pt_eur": 6700,
+      "market_eur": 3955,
+      "premium_pct": -41.0,
+      "dealer_eur": 4598,
+      "landed_import_eur": 5050,
+      "demand": {
+        "sales_1y": 1315,
+        "days_on_market": 18.0
+      },
+      "signal": "abaixo do retalho",
+      "blurb": "Abaixo do retalho PT do Marcolino; confirmar anúncios, vários do Watchfinder já estavam vendidos.",
+      "offers": [
+        {
+          "seller": "Marcolino 1926",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 6700,
+          "condition": "novo, IVA incl., sem stock nesta consulta",
+          "url": "https://www.marcolino.pt/en/watches/omega/seamaster-diver-300m-co-axial-master-21030422001001-767",
+          "seen": "2026-11-18",
+          "price_text": "6.700 €",
+          "http": 200
+        },
+        {
+          "seller": "Watchfinder",
+          "type": "marketplace",
+          "country": "GB",
+          "price_eur": null,
+          "condition": "pesquisa desta referência; dois anúncios abertos nesta ronda já estavam vendidos, por isso não há preço vivo aqui",
+          "url": "https://www.watchfinder.co.uk/watches/omega/seamaster-diver-300m/210-30-42-20-01-001",
+          "seen": "2026-11-18",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=210.30.42.20.01.001",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/869-omega-seamaster-diver-300m-210-30-42-20-01-001/overview",
+        "as_of": "2026-11-17"
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/869-omega-seamaster-diver-300m-210-30-42-20-01-001/overview",
+        "as_of": "2026-11-17"
+      },
+      "retail_source": {
+        "name": "Marcolino 1926",
+        "label": "Marcolino · 18 nov",
+        "url": "https://www.marcolino.pt/en/watches/omega/seamaster-diver-300m-co-axial-master-21030422001001-767",
+        "as_of": "2026-11-18"
+      }
+    },
+    {
+      "brand": "Omega",
+      "model": "Seamaster Planet Ocean 600M 43,5 mm",
+      "ref": "215.30.44.21.01.001",
+      "gender": "homem",
+      "retail_pt_eur": null,
+      "retail_source": null,
+      "market_eur": 3752,
+      "market_usd": 4123,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/1273-omega-seamaster-planet-ocean-600m-215-30-44-21-01-001/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Modelo descontinuado na WatchCharts (retalho EUA referido a out. 2025).",
+      "premium_pct": null,
+      "dealer_eur": 4335,
+      "landed_import_eur": 4800,
+      "demand": {
+        "sales_1y": 461,
+        "days_on_market": 28.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/1273-omega-seamaster-planet-ocean-600m-215-30-44-21-01-001/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "—",
+      "discontinued": true,
+      "offers": [
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=215.30.44.21.01.001",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Omega",
+      "model": "Aqua Terra 150M 41 mm",
+      "ref": "220.10.41.21.01.001",
+      "gender": "homem",
+      "retail_pt_eur": 7100,
+      "market_eur": 3605,
+      "premium_pct": -49.2,
+      "dealer_eur": 4403,
+      "landed_import_eur": 4620,
+      "demand": {
+        "sales_1y": 314,
+        "days_on_market": 31.9
+      },
+      "signal": "abaixo do retalho",
+      "blurb": "O maior desconto vs retalho PT deste lote Omega, com liquidez moderada.",
+      "offers": [
+        {
+          "seller": "Marcolino 1926",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 7100,
+          "condition": "novo, IVA incl., sem stock nesta consulta",
+          "url": "https://www.marcolino.pt/en/watches/omega/seamaster-aqua-terra-150m-co-axial-master-41mm-22010412101001-755",
+          "seen": "2026-11-18",
+          "price_text": "7.100 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=220.10.41.21.01.001",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/1251-omega-seamaster-aqua-terra-150m-220-10-41-21-01-001/overview",
+        "as_of": "2026-11-17"
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/1251-omega-seamaster-aqua-terra-150m-220-10-41-21-01-001/overview",
+        "as_of": "2026-11-17"
+      },
+      "retail_source": {
+        "name": "Marcolino 1926",
+        "label": "Marcolino · 18 nov",
+        "url": "https://www.marcolino.pt/en/watches/omega/seamaster-aqua-terra-150m-co-axial-master-41mm-22010412101001-755",
+        "as_of": "2026-11-18"
+      }
     },
     {
       "brand": "Omega",
@@ -804,45 +2220,95 @@
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
         }
-      ]
+      ],
+      "market_source": null,
+      "retail_source": {
+        "name": "Marcolino 1926",
+        "label": "Marcolino · 18 nov",
+        "url": "https://www.marcolino.pt/pt/relogios/omega/seamaster-aqua-terra-22010342001001-37369",
+        "as_of": "2026-11-18"
+      }
+    },
+    {
+      "brand": "Omega",
+      "model": "Constellation 29 mm",
+      "ref": "131.10.29.20.55.001",
+      "gender": "mulher",
+      "retail_pt_eur": null,
+      "market_eur": 3683,
+      "premium_pct": null,
+      "dealer_eur": 4481,
+      "landed_import_eur": 4715,
+      "demand": {
+        "sales_1y": 22,
+        "days_on_market": 123.0
+      },
+      "signal": "abaixo do retalho",
+      "blurb": "Desconto fundo vs retalho EUA, mas liquidez muito fraca; sem PVP PT.",
+      "offers": [
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=131.10.29.20.55.001",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/3669-omega-constellation-manhattan-29-co-axial-master-chronometer-131-10-29-20-55-001/overview",
+        "as_of": "2026-11-17"
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/3669-omega-constellation-manhattan-29-co-axial-master-chronometer-131-10-29-20-55-001/overview",
+        "as_of": "2026-11-17"
+      },
+      "retail_source": null
     },
     {
       "brand": "Cartier",
-      "model": "Panthère de Cartier pequeno",
-      "ref": "WSPN0013",
-      "gender": "mulher",
-      "retail_pt_eur": 5400,
-      "market_eur": 4717,
-      "premium_pct": -12.6,
-      "dealer_eur": 4926,
-      "landed_import_eur": 5987,
+      "model": "Santos de Cartier grande",
+      "ref": "WSSA0018",
+      "gender": "homem",
+      "retail_pt_eur": 9300,
+      "market_eur": 6450,
+      "premium_pct": -30.6,
+      "dealer_eur": 7243,
+      "landed_import_eur": 8119,
       "demand": {
-        "sales_1y": 326,
-        "days_on_market": 18.0
+        "sales_1y": 1045,
+        "days_on_market": 22.0
       },
       "signal": "abaixo do retalho",
-      "blurb": "Abaixo do retalho PT, com boa liquidez; importar não compensa.",
+      "blurb": "Abaixo do retalho PT, com boa liquidez.",
       "offers": [
         {
-          "seller": "Boutique dos Relógios",
+          "seller": "Machado Joalheiro",
           "type": "AD",
           "country": "PT",
-          "price_eur": 5400,
-          "condition": "novo, IVA incl.",
-          "url": "https://boutiquedosrelogios.pt/pt/rel-gio-panth-re-de-cartier-cartier-wspn0013",
+          "price_eur": 9300,
+          "condition": "novo",
+          "url": "https://www.machadojoalheiro.com/shop/catalogue/cartier-santos-grande-modelo_4230/",
           "seen": "2026-11-18",
-          "price_text": "5.400 €",
+          "price_text": "9.300 €",
           "http": 200
         },
         {
-          "seller": "Montredo",
-          "type": "dealer",
-          "country": "DE",
-          "price_eur": 4730,
-          "condition": "novo e por usar, caixa e papéis, 2026",
-          "url": "https://www.montredo.com/products/cartier-panth-re-quartz-silver-30mm-59063",
+          "seller": "Watchfinder / Kettle Club Watches",
+          "type": "marketplace",
+          "country": "GB",
+          "price_eur": 9597,
+          "condition": "unworn, caixa e papéis, 2026",
+          "url": "https://www.watchfinder.co.uk/watches/cartier/santos-de-cartier/wssa0018/445096",
           "seen": "2026-11-18",
-          "price_text": "4.730 €",
+          "price_text": "£7,995",
           "http": 200
         },
         {
@@ -851,12 +2317,100 @@
           "country": "EU",
           "price_eur": null,
           "condition": "pesquisa pública desta referência",
-          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSPN0013",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSSA0018",
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
         }
-      ]
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/35441-cartier-santos-large-wssa0018/overview",
+        "as_of": "2026-11-17"
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/35441-cartier-santos-large-wssa0018/overview",
+        "as_of": "2026-11-17"
+      },
+      "retail_source": {
+        "name": "Machado Joalheiro",
+        "label": "Machado · 18 nov",
+        "url": "https://www.machadojoalheiro.com/shop/catalogue/cartier-santos-grande-modelo_4230/",
+        "as_of": "2026-11-18"
+      }
+    },
+    {
+      "brand": "Cartier",
+      "model": "Santos de Cartier médio",
+      "ref": "WSSA0029",
+      "gender": "homem",
+      "retail_pt_eur": 8500,
+      "market_eur": 6242,
+      "premium_pct": -26.6,
+      "dealer_eur": 7126,
+      "landed_import_eur": 7863,
+      "demand": {
+        "sales_1y": 896,
+        "days_on_market": 15.0
+      },
+      "signal": "abaixo do retalho",
+      "blurb": "Abaixo do retalho PT; um dealer na UE fica à frente da importação.",
+      "offers": [
+        {
+          "seller": "Machado Joalheiro",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 8500,
+          "condition": "novo",
+          "url": "https://www.machadojoalheiro.com/shop/catalogue/cartier-santos-medio-modelo_4237/?r=105",
+          "seen": "2026-11-18",
+          "price_text": "8.500 €",
+          "http": 200
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": 7900,
+          "condition": "novo e por usar, caixa e papéis, 2026",
+          "url": "https://www.montredo.com/products/cartier-santos-automatic-silver-42mm-49684",
+          "seen": "2026-11-18",
+          "price_text": "7.900 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSSA0029",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/35440-cartier-santos-medium-wssa0029/overview",
+        "as_of": "2026-11-17"
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/35440-cartier-santos-medium-wssa0029/overview",
+        "as_of": "2026-11-17"
+      },
+      "retail_source": {
+        "name": "Machado Joalheiro",
+        "label": "Machado · 18 nov",
+        "url": "https://www.machadojoalheiro.com/shop/catalogue/cartier-santos-medio-modelo_4237/?r=105",
+        "as_of": "2026-11-18"
+      }
     },
     {
       "brand": "Cartier",
@@ -908,7 +2462,266 @@
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
         }
-      ]
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/54521-cartier-santos-wssa0082/overview",
+        "as_of": "2026-11-17"
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/54521-cartier-santos-wssa0082/overview",
+        "as_of": "2026-11-17"
+      },
+      "retail_source": {
+        "name": "Machado Joalheiro",
+        "label": "Machado · 18 nov",
+        "url": "https://www.machadojoalheiro.com/shop/catalogue/cartier-santos-pequeno-modelo_8443/",
+        "as_of": "2026-11-18"
+      }
+    },
+    {
+      "brand": "Cartier",
+      "model": "Santos-Dumont extra-grande",
+      "ref": "WSSA0032",
+      "gender": "homem",
+      "retail_pt_eur": 7900,
+      "retail_source": {
+        "name": "Boutique dos Relógios",
+        "label": "BdR · 18 nov",
+        "url": "https://boutiquedosrelogios.pt/pt/santos-dumont-cartier-wssa0032",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 5238,
+      "market_usd": 5756,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/43697-cartier-santos-dumont-extra-large-wssa0032/overview",
+        "as_of": "2026-11-17"
+      },
+      "premium_pct": -33.7,
+      "dealer_eur": 5971,
+      "landed_import_eur": 6628,
+      "demand": {
+        "sales_1y": 258,
+        "days_on_market": 35.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/43697-cartier-santos-dumont-extra-large-wssa0032/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "abaixo do retalho",
+      "offers": [
+        {
+          "seller": "Boutique dos Relógios",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 7900,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://boutiquedosrelogios.pt/pt/santos-dumont-cartier-wssa0032",
+          "seen": "2026-11-18",
+          "price_text": "7.900 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSSA0032",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Cartier",
+      "model": "Tank Must grande",
+      "ref": "WSTA0108",
+      "gender": "homem",
+      "retail_pt_eur": null,
+      "retail_source": null,
+      "market_eur": 3312,
+      "market_usd": 3640,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/54227-cartier-tank-must-wsta0108/overview",
+        "as_of": "2026-11-17"
+      },
+      "premium_pct": null,
+      "dealer_eur": 3662,
+      "landed_import_eur": 4259,
+      "demand": {
+        "sales_1y": 42,
+        "days_on_market": 38.5
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/54227-cartier-tank-must-wsta0108/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "—",
+      "offers": [
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSTA0108",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Cartier",
+      "model": "Tank Must pequeno",
+      "ref": "WSTA0042",
+      "gender": "mulher",
+      "retail_pt_eur": 3800,
+      "retail_source": {
+        "name": "Boutique dos Relógios",
+        "label": "BdR · 18 nov",
+        "url": "https://boutiquedosrelogios.pt/pt/tank-must-cartier-wsta0042",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 2624,
+      "market_usd": 2884,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/33567-cartier-tank-must-small-wsta0042/overview",
+        "as_of": "2026-11-17"
+      },
+      "premium_pct": -30.9,
+      "dealer_eur": null,
+      "landed_import_eur": 3413,
+      "demand": {
+        "sales_1y": null,
+        "days_on_market": null
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/33567-cartier-tank-must-small-wsta0042/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "abaixo do retalho",
+      "discontinued": true,
+      "offers": [
+        {
+          "seller": "Boutique dos Relógios",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 3800,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://boutiquedosrelogios.pt/pt/tank-must-cartier-wsta0042",
+          "seen": "2026-11-18",
+          "price_text": "3.800 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSTA0042",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
+    },
+    {
+      "brand": "Cartier",
+      "model": "Tank Louis Cartier pequeno",
+      "ref": "WGTA0342",
+      "gender": "mulher",
+      "retail_pt_eur": 12500,
+      "retail_source": {
+        "name": "Boutique dos Relógios",
+        "label": "BdR · 18 nov",
+        "url": "https://boutiquedosrelogios.pt/pt/tank-cartier-wgta0342",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": 7666,
+      "market_usd": 8626,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 out",
+        "url": "https://watchcharts.com/watch_model/52200-cartier-tank-louis-cartier-wgta0342/overview",
+        "as_of": "2026-10-17"
+      },
+      "premium_pct": -38.7,
+      "dealer_eur": null,
+      "landed_import_eur": 9615,
+      "demand": {
+        "sales_1y": null,
+        "days_on_market": null
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 out",
+        "url": "https://watchcharts.com/watch_model/52200-cartier-tank-louis-cartier-wgta0342/overview",
+        "as_of": "2026-10-17"
+      },
+      "signal": "abaixo do retalho",
+      "offers": [
+        {
+          "seller": "Boutique dos Relógios",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 12500,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://boutiquedosrelogios.pt/pt/tank-cartier-wgta0342",
+          "seen": "2026-11-18",
+          "price_text": "12.500 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WGTA0342",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.1253,
+        "date": "2026-10-16",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      }
     },
     {
       "brand": "Cartier",
@@ -960,7 +2773,273 @@
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
         }
-      ]
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/52225-cartier-tank-francaise-wsta0129/overview",
+        "as_of": "2026-11-17"
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/52225-cartier-tank-francaise-wsta0129/overview",
+        "as_of": "2026-11-17"
+      },
+      "retail_source": {
+        "name": "Boutique dos Relógios",
+        "label": "BdR · 18 nov",
+        "url": "https://boutiquedosrelogios.pt/pt/rel-gio-tank-fran-aise-cartier-wsta0129",
+        "as_of": "2026-11-18"
+      }
+    },
+    {
+      "brand": "Cartier",
+      "model": "Ballon Bleu 33 mm",
+      "ref": "WSBB0062",
+      "gender": "mulher",
+      "retail_pt_eur": null,
+      "market_eur": 4702,
+      "premium_pct": null,
+      "dealer_eur": 5212,
+      "landed_import_eur": 5969,
+      "demand": {
+        "sales_1y": 73,
+        "days_on_market": 32.0
+      },
+      "signal": "abaixo do retalho",
+      "blurb": "Abaixo do retalho EUA da WatchCharts; liquidez fraca e sem PVP PT.",
+      "offers": [
+        {
+          "seller": "Watchfinder",
+          "type": "CPO",
+          "country": "GB",
+          "price_eur": 5942,
+          "condition": "very good, caixa e papéis, 2022, garantia oficial Cartier Pre-Owned",
+          "url": "https://www.watchfinder.co.uk/watches/cartier/ballon-bleu/wsbb0062/431775",
+          "seen": "2026-11-18",
+          "price_text": "£4,950",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSBB0062",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/43726-cartier-ballon-bleu-wsbb0062/overview",
+        "as_of": "2026-11-17"
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/43726-cartier-ballon-bleu-wsbb0062/overview",
+        "as_of": "2026-11-17"
+      },
+      "retail_source": null
+    },
+    {
+      "brand": "Cartier",
+      "model": "Panthère de Cartier pequeno",
+      "ref": "WSPN0013",
+      "gender": "mulher",
+      "retail_pt_eur": 5400,
+      "market_eur": 4717,
+      "premium_pct": -12.6,
+      "dealer_eur": 4926,
+      "landed_import_eur": 5987,
+      "demand": {
+        "sales_1y": 326,
+        "days_on_market": 18.0
+      },
+      "signal": "abaixo do retalho",
+      "blurb": "Abaixo do retalho PT, com boa liquidez; importar não compensa.",
+      "offers": [
+        {
+          "seller": "Boutique dos Relógios",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 5400,
+          "condition": "novo, IVA incl.",
+          "url": "https://boutiquedosrelogios.pt/pt/rel-gio-panth-re-de-cartier-cartier-wspn0013",
+          "seen": "2026-11-18",
+          "price_text": "5.400 €",
+          "http": 200
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": 4730,
+          "condition": "novo e por usar, caixa e papéis, 2026",
+          "url": "https://www.montredo.com/products/cartier-panth-re-quartz-silver-30mm-59063",
+          "seen": "2026-11-18",
+          "price_text": "4.730 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSPN0013",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/49273-cartier-panthere-wspn0013/overview",
+        "as_of": "2026-11-17"
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/49273-cartier-panthere-wspn0013/overview",
+        "as_of": "2026-11-17"
+      },
+      "retail_source": {
+        "name": "Boutique dos Relógios",
+        "label": "BdR · 18 nov",
+        "url": "https://boutiquedosrelogios.pt/pt/rel-gio-panth-re-de-cartier-cartier-wspn0013",
+        "as_of": "2026-11-18"
+      }
+    },
+    {
+      "brand": "Panerai",
+      "model": "Luminor Marina 44 mm",
+      "ref": "PAM01314",
+      "gender": "homem",
+      "retail_pt_eur": 9200,
+      "market_eur": 4713,
+      "premium_pct": -48.8,
+      "dealer_eur": 5415,
+      "landed_import_eur": 5982,
+      "demand": {
+        "sales_1y": 222,
+        "days_on_market": 30.0
+      },
+      "signal": "abaixo do retalho",
+      "blurb": "Bem abaixo do preço da Boutique dos Relógios, se esse PVP estiver actual.",
+      "offers": [
+        {
+          "seller": "Boutique dos Relógios",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 9200,
+          "condition": "novo, IVA incl.",
+          "url": "https://boutiquedosrelogios.pt/pt/luminor-marina-44mm-panerai-pam01314",
+          "seen": "2026-11-18",
+          "price_text": "9.200 €",
+          "http": 200
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": 7370,
+          "condition": "novo e por usar, caixa e papéis, 2026, pulseira de pele cinzenta",
+          "url": "https://www.montredo.com/products/panerai-luminor-automatic-white-44mm-38344",
+          "seen": "2026-11-18",
+          "price_text": "7.370 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=PAM01314",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/30905-panerai-luminor-marina-pam01314/overview",
+        "as_of": "2026-11-17"
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/30905-panerai-luminor-marina-pam01314/overview",
+        "as_of": "2026-11-17"
+      },
+      "retail_source": {
+        "name": "Boutique dos Relógios",
+        "label": "BdR · 18 nov",
+        "url": "https://boutiquedosrelogios.pt/pt/luminor-marina-44mm-panerai-pam01314",
+        "as_of": "2026-11-18"
+      }
+    },
+    {
+      "brand": "Panerai",
+      "model": "Submersible 42 mm",
+      "ref": "PAM00683",
+      "gender": "homem",
+      "retail_pt_eur": null,
+      "market_eur": 5634,
+      "premium_pct": null,
+      "dealer_eur": 6344,
+      "landed_import_eur": 7115,
+      "demand": {
+        "sales_1y": 145,
+        "days_on_market": 28.0
+      },
+      "signal": "abaixo do retalho",
+      "blurb": "Há mercado, mas sem PVP PT actual para medir o desconto.",
+      "offers": [
+        {
+          "seller": "Watchfinder / Mark Worthington Jewellers",
+          "type": "marketplace",
+          "country": "GB",
+          "price_eur": 8037,
+          "condition": "excellent, caixa e papéis, 2019, pulseira de borracha",
+          "url": "https://www.watchfinder.co.uk/watches/panerai/submersible/pam00683/407836",
+          "seen": "2026-11-18",
+          "price_text": "£6,695",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=PAM00683",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/1836-panerai-luminor-submersible-pam683/overview",
+        "as_of": "2026-11-17"
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/1836-panerai-luminor-submersible-pam683/overview",
+        "as_of": "2026-11-17"
+      },
+      "retail_source": null
     },
     {
       "brand": "Panerai",
@@ -1012,6 +3091,72 @@
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
         }
+      ],
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/35072-panerai-luminor-due-38-automatic-stainless-steel-pam01123/overview",
+        "as_of": "2026-11-17"
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/35072-panerai-luminor-due-38-automatic-stainless-steel-pam01123/overview",
+        "as_of": "2026-11-17"
+      },
+      "retail_source": {
+        "name": "Boutique dos Relógios",
+        "label": "BdR · 18 nov",
+        "url": "https://boutiquedosrelogios.pt/pt/luminor-due-38mm-panerai",
+        "as_of": "2026-11-18"
+      }
+    },
+    {
+      "brand": "Panerai",
+      "model": "Radiomir Logo 45 mm",
+      "ref": "PAM00753",
+      "gender": "homem",
+      "retail_pt_eur": 5000,
+      "retail_source": {
+        "name": "Boutique dos Relógios",
+        "label": "BdR · 18 nov",
+        "url": "https://boutiquedosrelogios.pt/pt/radiomir-panerai-pam00753",
+        "as_of": "2026-11-18"
+      },
+      "market_eur": null,
+      "market_source": null,
+      "premium_pct": null,
+      "dealer_eur": null,
+      "landed_import_eur": null,
+      "demand": {
+        "sales_1y": null,
+        "days_on_market": null
+      },
+      "signal": "—",
+      "blurb": "Preço de mercado público não encontrado nesta ronda; mantém-se em —.",
+      "offers": [
+        {
+          "seller": "Boutique dos Relógios",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 5000,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://boutiquedosrelogios.pt/pt/radiomir-panerai-pam00753",
+          "seen": "2026-11-18",
+          "price_text": "5.000 €",
+          "http": 200
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=PAM00753",
+          "seen": "2026-11-18",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+        }
       ]
     }
   ],
@@ -1019,31 +3164,31 @@
     "by_brand": [
       {
         "brand": "Rolex",
-        "n_models": 6,
-        "n_with_premium": 5,
-        "avg_premium_pct": 26.8,
-        "median_market_eur": 12590,
-        "total_sales_1y": 23890
+        "n_models": 28,
+        "n_with_premium": 24,
+        "avg_premium_pct": 13.4,
+        "median_market_eur": 11854,
+        "total_sales_1y": 83634
       },
       {
         "brand": "Omega",
-        "n_models": 5,
+        "n_models": 8,
         "n_with_premium": 3,
         "avg_premium_pct": -42.1,
-        "median_market_eur": 3819,
-        "total_sales_1y": 3096
+        "median_market_eur": 3955,
+        "total_sales_1y": 6927
       },
       {
         "brand": "Cartier",
-        "n_models": 6,
-        "n_with_premium": 5,
-        "avg_premium_pct": -23.7,
-        "median_market_eur": 5050,
-        "total_sales_1y": 2570
+        "n_models": 10,
+        "n_with_premium": 8,
+        "avg_premium_pct": -27.7,
+        "median_market_eur": 4978,
+        "total_sales_1y": 2870
       },
       {
         "brand": "Panerai",
-        "n_models": 3,
+        "n_models": 4,
         "n_with_premium": 2,
         "avg_premium_pct": -43.9,
         "median_market_eur": 4756,
@@ -1052,12 +3197,52 @@
     ],
     "ranking_premium": [
       {
+        "ref": "126000-0006",
+        "brand": "Rolex",
+        "model": "Oyster Perpetual 36 azul-turquesa",
+        "premium_pct": 91.6,
+        "market_eur": 12837,
+        "sales_1y": 3596
+      },
+      {
         "ref": "126500LN-0001",
         "brand": "Rolex",
         "model": "Cosmograph Daytona (branco)",
         "premium_pct": 90.1,
         "market_eur": 31843,
         "sales_1y": 1960
+      },
+      {
+        "ref": "126710GRNR",
+        "brand": "Rolex",
+        "model": "GMT-Master II Bruce Wayne",
+        "premium_pct": 54.7,
+        "market_eur": 18485,
+        "sales_1y": 2989
+      },
+      {
+        "ref": "126000-0008",
+        "brand": "Rolex",
+        "model": "Oyster Perpetual 36 rosa candy",
+        "premium_pct": 32.4,
+        "market_eur": 8869,
+        "sales_1y": 3596
+      },
+      {
+        "ref": "126710BLNR",
+        "brand": "Rolex",
+        "model": "GMT-Master II Batman",
+        "premium_pct": 31.1,
+        "market_eur": 15672,
+        "sales_1y": 5617
+      },
+      {
+        "ref": "126000-0011",
+        "brand": "Rolex",
+        "model": "Oyster Perpetual 36 verde pistachio",
+        "premium_pct": 30.0,
+        "market_eur": 8707,
+        "sales_1y": 3596
       },
       {
         "ref": "278274",
@@ -1068,12 +3253,52 @@
         "sales_1y": 1456
       },
       {
+        "ref": "126720VTNR",
+        "brand": "Rolex",
+        "model": "GMT-Master II Sprite",
+        "premium_pct": 19.5,
+        "market_eur": 14636,
+        "sales_1y": 3055
+      },
+      {
+        "ref": "277200-0006",
+        "brand": "Rolex",
+        "model": "Oyster Perpetual 31 verde",
+        "premium_pct": 18.8,
+        "market_eur": 7425,
+        "sales_1y": 1502
+      },
+      {
+        "ref": "126234",
+        "brand": "Rolex",
+        "model": "Datejust 36",
+        "premium_pct": 12.8,
+        "market_eur": 11396,
+        "sales_1y": 4992
+      },
+      {
+        "ref": "124060",
+        "brand": "Rolex",
+        "model": "Submariner sem data",
+        "premium_pct": 11.1,
+        "market_eur": 11167,
+        "sales_1y": 3360
+      },
+      {
         "ref": "126334",
         "brand": "Rolex",
         "model": "Datejust 41",
         "premium_pct": 11.0,
         "market_eur": 12932,
         "sales_1y": 10722
+      },
+      {
+        "ref": "126000-0001",
+        "brand": "Rolex",
+        "model": "Oyster Perpetual 36 prateado",
+        "premium_pct": 9.5,
+        "market_eur": 7338,
+        "sales_1y": 3596
       },
       {
         "ref": "126610LN",
@@ -1092,6 +3317,54 @@
         "sales_1y": 754
       },
       {
+        "ref": "126622",
+        "brand": "Rolex",
+        "model": "Yacht-Master 40",
+        "premium_pct": -4.0,
+        "market_eur": 12622,
+        "sales_1y": 2084
+      },
+      {
+        "ref": "224270",
+        "brand": "Rolex",
+        "model": "Explorer 40",
+        "premium_pct": -6.0,
+        "market_eur": 7851,
+        "sales_1y": 1751
+      },
+      {
+        "ref": "126900",
+        "brand": "Rolex",
+        "model": "Air-King",
+        "premium_pct": -7.4,
+        "market_eur": 7501,
+        "sales_1y": 1541
+      },
+      {
+        "ref": "126713GRNR",
+        "brand": "Rolex",
+        "model": "GMT-Master II Rolesor amarelo",
+        "premium_pct": -7.8,
+        "market_eur": 18724,
+        "sales_1y": 1476
+      },
+      {
+        "ref": "228238",
+        "brand": "Rolex",
+        "model": "Day-Date 40",
+        "premium_pct": -8.0,
+        "market_eur": 46201,
+        "sales_1y": 1301
+      },
+      {
+        "ref": "226570",
+        "brand": "Rolex",
+        "model": "Explorer II",
+        "premium_pct": -9.1,
+        "market_eur": 9639,
+        "sales_1y": 2514
+      },
+      {
         "ref": "WSPN0013",
         "brand": "Cartier",
         "model": "Panthère de Cartier pequeno",
@@ -1100,12 +3373,28 @@
         "sales_1y": 326
       },
       {
+        "ref": "126711CHNR",
+        "brand": "Rolex",
+        "model": "GMT-Master II Root Beer",
+        "premium_pct": -15.1,
+        "market_eur": 16974,
+        "sales_1y": 2587
+      },
+      {
         "ref": "WSSA0082",
         "brand": "Cartier",
         "model": "Santos de Cartier pequeno",
         "premium_pct": -22.0,
         "market_eur": 5384,
         "sales_1y": 170
+      },
+      {
+        "ref": "126600",
+        "brand": "Rolex",
+        "model": "Sea-Dweller",
+        "premium_pct": -26.4,
+        "market_eur": 10640,
+        "sales_1y": 2422
       },
       {
         "ref": "WSSA0029",
@@ -1132,6 +3421,22 @@
         "sales_1y": 1045
       },
       {
+        "ref": "WSTA0042",
+        "brand": "Cartier",
+        "model": "Tank Must pequeno",
+        "premium_pct": -30.9,
+        "market_eur": 2624,
+        "sales_1y": null
+      },
+      {
+        "ref": "WSSA0032",
+        "brand": "Cartier",
+        "model": "Santos-Dumont extra-grande",
+        "premium_pct": -33.7,
+        "market_eur": 5238,
+        "sales_1y": 258
+      },
+      {
         "ref": "310.30.42.50.01.001",
         "brand": "Omega",
         "model": "Speedmaster Moonwatch Professional",
@@ -1140,12 +3445,28 @@
         "sales_1y": 1445
       },
       {
+        "ref": "WGTA0342",
+        "brand": "Cartier",
+        "model": "Tank Louis Cartier pequeno",
+        "premium_pct": -38.7,
+        "market_eur": 7666,
+        "sales_1y": null
+      },
+      {
         "ref": "PAM01123",
         "brand": "Panerai",
         "model": "Luminor Due 38 mm",
         "premium_pct": -39.0,
         "market_eur": 4756,
         "sales_1y": 52
+      },
+      {
+        "ref": "126715CHNR",
+        "brand": "Rolex",
+        "model": "GMT-Master II Root Beer Everose",
+        "premium_pct": -39.2,
+        "market_eur": 34842,
+        "sales_1y": 820
       },
       {
         "ref": "210.30.42.20.01.001",
@@ -1170,539 +3491,14 @@
         "premium_pct": -49.2,
         "market_eur": 3605,
         "sales_1y": 314
-      },
-      {
-        "ref": "126710BLRO",
-        "brand": "Rolex",
-        "model": "GMT-Master II Pepsi",
-        "premium_pct": null,
-        "market_eur": 20143,
-        "sales_1y": 3920
-      },
-      {
-        "ref": "WSBB0062",
-        "brand": "Cartier",
-        "model": "Ballon Bleu 33 mm",
-        "premium_pct": null,
-        "market_eur": 4702,
-        "sales_1y": 73
-      },
-      {
-        "ref": "PAM00683",
-        "brand": "Panerai",
-        "model": "Submersible 42 mm",
-        "premium_pct": null,
-        "market_eur": 5634,
-        "sales_1y": 145
-      },
-      {
-        "ref": "131.10.29.20.55.001",
-        "brand": "Omega",
-        "model": "Constellation 29 mm",
-        "premium_pct": null,
-        "market_eur": 3683,
-        "sales_1y": 22
-      },
-      {
-        "ref": "220.10.34.20.01.001",
-        "brand": "Omega",
-        "model": "Aqua Terra 150M 34 mm",
-        "premium_pct": null,
-        "market_eur": null,
-        "sales_1y": null
-      }
-    ],
-    "ranking_discount": [
-      {
-        "ref": "220.10.41.21.01.001",
-        "brand": "Omega",
-        "model": "Aqua Terra 150M 41 mm",
-        "premium_pct": -49.2,
-        "market_eur": 3605,
-        "sales_1y": 314
-      },
-      {
-        "ref": "PAM01314",
-        "brand": "Panerai",
-        "model": "Luminor Marina 44 mm",
-        "premium_pct": -48.8,
-        "market_eur": 4713,
-        "sales_1y": 222
-      },
-      {
-        "ref": "210.30.42.20.01.001",
-        "brand": "Omega",
-        "model": "Seamaster Diver 300M",
-        "premium_pct": -41.0,
-        "market_eur": 3955,
-        "sales_1y": 1315
-      },
-      {
-        "ref": "PAM01123",
-        "brand": "Panerai",
-        "model": "Luminor Due 38 mm",
-        "premium_pct": -39.0,
-        "market_eur": 4756,
-        "sales_1y": 52
-      },
-      {
-        "ref": "310.30.42.50.01.001",
-        "brand": "Omega",
-        "model": "Speedmaster Moonwatch Professional",
-        "premium_pct": -36.0,
-        "market_eur": 4991,
-        "sales_1y": 1445
-      },
-      {
-        "ref": "WSSA0018",
-        "brand": "Cartier",
-        "model": "Santos de Cartier grande",
-        "premium_pct": -30.6,
-        "market_eur": 6450,
-        "sales_1y": 1045
-      },
-      {
-        "ref": "WSTA0129",
-        "brand": "Cartier",
-        "model": "Tank Française pequeno",
-        "premium_pct": -26.7,
-        "market_eur": 3298,
-        "sales_1y": 60
-      },
-      {
-        "ref": "WSSA0029",
-        "brand": "Cartier",
-        "model": "Santos de Cartier médio",
-        "premium_pct": -26.6,
-        "market_eur": 6242,
-        "sales_1y": 896
-      },
-      {
-        "ref": "WSSA0082",
-        "brand": "Cartier",
-        "model": "Santos de Cartier pequeno",
-        "premium_pct": -22.0,
-        "market_eur": 5384,
-        "sales_1y": 170
-      },
-      {
-        "ref": "WSPN0013",
-        "brand": "Cartier",
-        "model": "Panthère de Cartier pequeno",
-        "premium_pct": -12.6,
-        "market_eur": 4717,
-        "sales_1y": 326
-      },
-      {
-        "ref": "279174",
-        "brand": "Rolex",
-        "model": "Lady-Datejust 28",
-        "premium_pct": 4.5,
-        "market_eur": 9512,
-        "sales_1y": 754
-      },
-      {
-        "ref": "126610LN",
-        "brand": "Rolex",
-        "model": "Submariner Date",
-        "premium_pct": 8.4,
-        "market_eur": 12247,
-        "sales_1y": 5078
-      },
-      {
-        "ref": "126334",
-        "brand": "Rolex",
-        "model": "Datejust 41",
-        "premium_pct": 11.0,
-        "market_eur": 12932,
-        "sales_1y": 10722
-      },
-      {
-        "ref": "278274",
-        "brand": "Rolex",
-        "model": "Datejust 31",
-        "premium_pct": 20.0,
-        "market_eur": 11460,
-        "sales_1y": 1456
-      },
-      {
-        "ref": "126500LN-0001",
-        "brand": "Rolex",
-        "model": "Cosmograph Daytona (branco)",
-        "premium_pct": 90.1,
-        "market_eur": 31843,
-        "sales_1y": 1960
-      },
-      {
-        "ref": "126710BLRO",
-        "brand": "Rolex",
-        "model": "GMT-Master II Pepsi",
-        "premium_pct": null,
-        "market_eur": 20143,
-        "sales_1y": 3920
-      },
-      {
-        "ref": "WSBB0062",
-        "brand": "Cartier",
-        "model": "Ballon Bleu 33 mm",
-        "premium_pct": null,
-        "market_eur": 4702,
-        "sales_1y": 73
-      },
-      {
-        "ref": "PAM00683",
-        "brand": "Panerai",
-        "model": "Submersible 42 mm",
-        "premium_pct": null,
-        "market_eur": 5634,
-        "sales_1y": 145
-      },
-      {
-        "ref": "131.10.29.20.55.001",
-        "brand": "Omega",
-        "model": "Constellation 29 mm",
-        "premium_pct": null,
-        "market_eur": 3683,
-        "sales_1y": 22
-      },
-      {
-        "ref": "220.10.34.20.01.001",
-        "brand": "Omega",
-        "model": "Aqua Terra 150M 34 mm",
-        "premium_pct": null,
-        "market_eur": null,
-        "sales_1y": null
-      }
-    ],
-    "ranking_demand": [
-      {
-        "ref": "126334",
-        "brand": "Rolex",
-        "model": "Datejust 41",
-        "premium_pct": 11.0,
-        "market_eur": 12932,
-        "sales_1y": 10722
-      },
-      {
-        "ref": "126610LN",
-        "brand": "Rolex",
-        "model": "Submariner Date",
-        "premium_pct": 8.4,
-        "market_eur": 12247,
-        "sales_1y": 5078
-      },
-      {
-        "ref": "126710BLRO",
-        "brand": "Rolex",
-        "model": "GMT-Master II Pepsi",
-        "premium_pct": null,
-        "market_eur": 20143,
-        "sales_1y": 3920
-      },
-      {
-        "ref": "126500LN-0001",
-        "brand": "Rolex",
-        "model": "Cosmograph Daytona (branco)",
-        "premium_pct": 90.1,
-        "market_eur": 31843,
-        "sales_1y": 1960
-      },
-      {
-        "ref": "278274",
-        "brand": "Rolex",
-        "model": "Datejust 31",
-        "premium_pct": 20.0,
-        "market_eur": 11460,
-        "sales_1y": 1456
-      },
-      {
-        "ref": "310.30.42.50.01.001",
-        "brand": "Omega",
-        "model": "Speedmaster Moonwatch Professional",
-        "premium_pct": -36.0,
-        "market_eur": 4991,
-        "sales_1y": 1445
-      },
-      {
-        "ref": "210.30.42.20.01.001",
-        "brand": "Omega",
-        "model": "Seamaster Diver 300M",
-        "premium_pct": -41.0,
-        "market_eur": 3955,
-        "sales_1y": 1315
-      },
-      {
-        "ref": "WSSA0018",
-        "brand": "Cartier",
-        "model": "Santos de Cartier grande",
-        "premium_pct": -30.6,
-        "market_eur": 6450,
-        "sales_1y": 1045
-      },
-      {
-        "ref": "WSSA0029",
-        "brand": "Cartier",
-        "model": "Santos de Cartier médio",
-        "premium_pct": -26.6,
-        "market_eur": 6242,
-        "sales_1y": 896
-      },
-      {
-        "ref": "279174",
-        "brand": "Rolex",
-        "model": "Lady-Datejust 28",
-        "premium_pct": 4.5,
-        "market_eur": 9512,
-        "sales_1y": 754
-      },
-      {
-        "ref": "WSPN0013",
-        "brand": "Cartier",
-        "model": "Panthère de Cartier pequeno",
-        "premium_pct": -12.6,
-        "market_eur": 4717,
-        "sales_1y": 326
-      },
-      {
-        "ref": "220.10.41.21.01.001",
-        "brand": "Omega",
-        "model": "Aqua Terra 150M 41 mm",
-        "premium_pct": -49.2,
-        "market_eur": 3605,
-        "sales_1y": 314
-      },
-      {
-        "ref": "PAM01314",
-        "brand": "Panerai",
-        "model": "Luminor Marina 44 mm",
-        "premium_pct": -48.8,
-        "market_eur": 4713,
-        "sales_1y": 222
-      },
-      {
-        "ref": "WSSA0082",
-        "brand": "Cartier",
-        "model": "Santos de Cartier pequeno",
-        "premium_pct": -22.0,
-        "market_eur": 5384,
-        "sales_1y": 170
-      },
-      {
-        "ref": "PAM00683",
-        "brand": "Panerai",
-        "model": "Submersible 42 mm",
-        "premium_pct": null,
-        "market_eur": 5634,
-        "sales_1y": 145
-      },
-      {
-        "ref": "WSBB0062",
-        "brand": "Cartier",
-        "model": "Ballon Bleu 33 mm",
-        "premium_pct": null,
-        "market_eur": 4702,
-        "sales_1y": 73
-      },
-      {
-        "ref": "WSTA0129",
-        "brand": "Cartier",
-        "model": "Tank Française pequeno",
-        "premium_pct": -26.7,
-        "market_eur": 3298,
-        "sales_1y": 60
-      },
-      {
-        "ref": "PAM01123",
-        "brand": "Panerai",
-        "model": "Luminor Due 38 mm",
-        "premium_pct": -39.0,
-        "market_eur": 4756,
-        "sales_1y": 52
-      },
-      {
-        "ref": "131.10.29.20.55.001",
-        "brand": "Omega",
-        "model": "Constellation 29 mm",
-        "premium_pct": null,
-        "market_eur": 3683,
-        "sales_1y": 22
-      },
-      {
-        "ref": "220.10.34.20.01.001",
-        "brand": "Omega",
-        "model": "Aqua Terra 150M 34 mm",
-        "premium_pct": null,
-        "market_eur": null,
-        "sales_1y": null
-      }
-    ],
-    "ranking_market": [
-      {
-        "ref": "WSTA0129",
-        "brand": "Cartier",
-        "model": "Tank Française pequeno",
-        "premium_pct": -26.7,
-        "market_eur": 3298,
-        "sales_1y": 60
-      },
-      {
-        "ref": "220.10.41.21.01.001",
-        "brand": "Omega",
-        "model": "Aqua Terra 150M 41 mm",
-        "premium_pct": -49.2,
-        "market_eur": 3605,
-        "sales_1y": 314
-      },
-      {
-        "ref": "131.10.29.20.55.001",
-        "brand": "Omega",
-        "model": "Constellation 29 mm",
-        "premium_pct": null,
-        "market_eur": 3683,
-        "sales_1y": 22
-      },
-      {
-        "ref": "210.30.42.20.01.001",
-        "brand": "Omega",
-        "model": "Seamaster Diver 300M",
-        "premium_pct": -41.0,
-        "market_eur": 3955,
-        "sales_1y": 1315
-      },
-      {
-        "ref": "WSBB0062",
-        "brand": "Cartier",
-        "model": "Ballon Bleu 33 mm",
-        "premium_pct": null,
-        "market_eur": 4702,
-        "sales_1y": 73
-      },
-      {
-        "ref": "PAM01314",
-        "brand": "Panerai",
-        "model": "Luminor Marina 44 mm",
-        "premium_pct": -48.8,
-        "market_eur": 4713,
-        "sales_1y": 222
-      },
-      {
-        "ref": "WSPN0013",
-        "brand": "Cartier",
-        "model": "Panthère de Cartier pequeno",
-        "premium_pct": -12.6,
-        "market_eur": 4717,
-        "sales_1y": 326
-      },
-      {
-        "ref": "PAM01123",
-        "brand": "Panerai",
-        "model": "Luminor Due 38 mm",
-        "premium_pct": -39.0,
-        "market_eur": 4756,
-        "sales_1y": 52
-      },
-      {
-        "ref": "310.30.42.50.01.001",
-        "brand": "Omega",
-        "model": "Speedmaster Moonwatch Professional",
-        "premium_pct": -36.0,
-        "market_eur": 4991,
-        "sales_1y": 1445
-      },
-      {
-        "ref": "WSSA0082",
-        "brand": "Cartier",
-        "model": "Santos de Cartier pequeno",
-        "premium_pct": -22.0,
-        "market_eur": 5384,
-        "sales_1y": 170
-      },
-      {
-        "ref": "PAM00683",
-        "brand": "Panerai",
-        "model": "Submersible 42 mm",
-        "premium_pct": null,
-        "market_eur": 5634,
-        "sales_1y": 145
-      },
-      {
-        "ref": "WSSA0029",
-        "brand": "Cartier",
-        "model": "Santos de Cartier médio",
-        "premium_pct": -26.6,
-        "market_eur": 6242,
-        "sales_1y": 896
-      },
-      {
-        "ref": "WSSA0018",
-        "brand": "Cartier",
-        "model": "Santos de Cartier grande",
-        "premium_pct": -30.6,
-        "market_eur": 6450,
-        "sales_1y": 1045
-      },
-      {
-        "ref": "279174",
-        "brand": "Rolex",
-        "model": "Lady-Datejust 28",
-        "premium_pct": 4.5,
-        "market_eur": 9512,
-        "sales_1y": 754
-      },
-      {
-        "ref": "278274",
-        "brand": "Rolex",
-        "model": "Datejust 31",
-        "premium_pct": 20.0,
-        "market_eur": 11460,
-        "sales_1y": 1456
-      },
-      {
-        "ref": "126610LN",
-        "brand": "Rolex",
-        "model": "Submariner Date",
-        "premium_pct": 8.4,
-        "market_eur": 12247,
-        "sales_1y": 5078
-      },
-      {
-        "ref": "126334",
-        "brand": "Rolex",
-        "model": "Datejust 41",
-        "premium_pct": 11.0,
-        "market_eur": 12932,
-        "sales_1y": 10722
-      },
-      {
-        "ref": "126710BLRO",
-        "brand": "Rolex",
-        "model": "GMT-Master II Pepsi",
-        "premium_pct": null,
-        "market_eur": 20143,
-        "sales_1y": 3920
-      },
-      {
-        "ref": "126500LN-0001",
-        "brand": "Rolex",
-        "model": "Cosmograph Daytona (branco)",
-        "premium_pct": 90.1,
-        "market_eur": 31843,
-        "sales_1y": 1960
-      },
-      {
-        "ref": "220.10.34.20.01.001",
-        "brand": "Omega",
-        "model": "Aqua Terra 150M 34 mm",
-        "premium_pct": null,
-        "market_eur": null,
-        "sales_1y": null
       }
     ]
   },
   "http_notes": "URLs verificados com curl -L em 18 nov. 2026 (Europe/Lisbon). Chrono24 devolve 403 a pedidos automatizados; as ligações de pesquisa mantêm-se para uso num browser. Páginas oficiais Rolex, Cartier, Omega e WatchCharts também costumam bloquear curl (403 ou timeout); não foram tratadas como mortas e não entram nas ofertas quando não há um 200.",
   "sources": {
-    "market": "WatchCharts páginas públicas, 17 nov. 2026; EUR = USD / 1,0989 (BCE, 17 nov. 2026).",
+    "market": "WatchCharts páginas públicas, 13–17 nov. 2026 (a data exacta está em cada referência). EUR = USD / taxa BCE do dia do preço (ou último dia útil anterior).",
     "retail_pt": "Páginas de AD portugueses (Torres, Machado, Boutique dos Relógios, Marcolino), 18 nov. 2026.",
-    "offers": "Watchfinder, Montredo, AD PT; visto 18 nov. 2026, Europe/Lisbon. Sem scraping em massa da Chrono24."
+    "offers": "AD PT e ligações de pesquisa Chrono24; visto 18 nov. 2026, Europe/Lisbon. Sem scraping em massa da Chrono24.",
+    "history": "Pontos históricos: instantâneos da Wayback Machine de páginas WatchCharts, com a data «as of» publicada em cada página. Sem interpolação."
   }
 }
