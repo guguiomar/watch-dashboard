@@ -1,0 +1,58 @@
+{
+  "updated": "2026-11-18",
+  "charts": [
+    {
+      "id": "wc-yearly",
+      "type": "bar",
+      "title": "Variação anual do índice WatchCharts Overall Market",
+      "unit": "%",
+      "note": "Variações anuais publicadas, não uma série contínua de níveis. Não interpolámos meses intermédios.",
+      "source": "Relatório Morgan Stanley / WatchCharts, via Hodinkee e Watch Insider, 21 jan. 2026",
+      "source_url": "https://www.hodinkee.com/articles/used-watch-prices-post-broad-gains-for-first-time-in-years-as-secondary-market-strengthens-morgan-st",
+      "as_of": "2026-01-21",
+      "labels": [
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "values": [
+        -10.7,
+        -6.1,
+        4.9
+      ]
+    },
+    {
+      "id": "wc-index-snapshot",
+      "type": "snapshot",
+      "title": "WatchCharts Overall Market Index (nível actual)",
+      "note": "Um único nível público, com variações publicadas a 1 mês, 1 ano e 5 anos. Sem histórico mensal público suficiente para um gráfico de linha.",
+      "source": "watchcharts.com/watches/price_index",
+      "source_url": "https://watchcharts.com/watches/price_index",
+      "as_of": "2026-11-13",
+      "value": 38815,
+      "unit": "USD",
+      "changes": {
+        "1m": -0.3,
+        "1y": 7.4,
+        "5y": -9.2
+      },
+      "method": "300 relógios das 10 maiores marcas, ponderados por valor transaccionado, rebalanceado a 1 jan."
+    },
+    {
+      "id": "chronopulse",
+      "type": "snapshot",
+      "title": "ChronoPulse (índice da Chrono24)",
+      "note": "Nível de fecho e variações publicadas no comunicado. Não construímos uma linha a partir destes três números.",
+      "source": "Comunicado Chrono24, 20 out. 2026",
+      "source_url": "https://about.chrono24.com/en/press/two-of-watchmaking-s-holy-trinity-brands-now-lead-the-chronopulse-index-as-vacheron-constantin-and-patek-philippe-set-the-pace-in-q3",
+      "as_of": "2026-09-30",
+      "value": 1471,
+      "unit": "pontos",
+      "changes": {
+        "q3_2026": 0.7,
+        "12m": 7.5
+      },
+      "method": "13 marcas, mais de 140 referências, transacções reais da Chrono24, em EUR."
+    }
+  ]
+}

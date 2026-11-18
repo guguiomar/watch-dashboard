@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Relógios · custo desembarcado na UE</title>
+  <meta name="description" content="Ferramenta pessoal para um comprador em Portugal: retalho, mercado, procura e custo de importar relógios de Rolex, Omega, Cartier e Panerai. Não é aconselhamento financeiro.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap header-inner">
+      <a class="brand-mark" href="#topo">Relógios <span>desembarcados</span></a>
+      <nav>
+        <a href="#graficos">Gráficos</a>
+        <a href="#modelos">Modelos</a>
+        <a href="#metodo">Método</a>
+        <a href="#fontes">Fontes</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="topo">
+    <section class="hero wrap">
+      <p class="kicker">Ferramenta pessoal · Portugal · v1</p>
+      <h1>O que custa mesmo trazer um relógio para Portugal.</h1>
+      <p class="lede">
+        <span id="count-total">—</span> referências de Rolex, Omega, Cartier e Panerai — de homem e de mulher —
+        com o retalho em Portugal, o mercado secundário da WatchCharts, um sinal de procura
+        e um exemplo de custo desembarcado de fora da UE. Recolha manual de páginas públicas.
+        Não é aconselhamento financeiro, nem um produto comercial.
+      </p>
+      <div class="meta-row">
+        <span class="pill">Actualizado a <strong id="updated">—</strong> (Europe/Lisbon)</span>
+        <span class="pill">Câmbio BCE: 1 EUR = 1,0989 USD, 17 nov. 2026</span>
+        <span class="pill">IVA 23% · direito com tecto de 0,80 €</span>
+      </div>
+    </section>
+
+    <section class="wrap" id="metodo-curto">
+      <div class="panel">
+        <h2>Como ler o custo desembarcado</h2>
+        <p>O direito aduaneiro da UE sobre relógios de pulso de aço é 4,5%, mas com um tecto de 0,80 € por peça. Quase todo o custo de importar é o IVA de 23%. Por isso, um «negócio» fora da UE pode perder para um dealer de segunda mão na União.</p>
+        <dl class="formula">
+          <div>
+            <dt>Fórmula</dt>
+            <dd>Desembarcado = 1,23 × (mercado WatchCharts em EUR + 150 € de portes, estimativa + 0,80 € de direito)</dd>
+          </div>
+          <div>
+            <dt>Dealer na UE</dt>
+            <dd>O preço pedido a um particular já inclui, em regra, o IVA ou o regime da margem (Decreto-Lei n.º 199/96). A coluna «dealer» é o modelo global da WatchCharts, não um dealer europeu concreto.</dd>
+          </div>
+          <div>
+            <dt>Prémio vs retalho PT</dt>
+            <dd>Mercado privado da WatchCharts convertido pelo BCE, frente ao PVP oficial ou de retalhista em Portugal (já com IVA). Não é a «value retention» da WatchCharts, que usa o retalho dos EUA.</dd>
+          </div>
+          <div>
+            <dt>Procura e tendência</dt>
+            <dd>A procura é o volume de vendas a 1 ano e os dias medianos no mercado, na página pública da WatchCharts. A variação a 1 ano do preço está atrás do paywall e aparece como —.</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <div class="wrap filters" aria-label="Filtros">
+      <div class="seg" data-filter="brand">
+        <button type="button" data-value="all" aria-pressed="true">Todas</button>
+        <button type="button" data-value="Rolex" aria-pressed="false">Rolex</button>
+        <button type="button" data-value="Omega" aria-pressed="false">Omega</button>
+        <button type="button" data-value="Cartier" aria-pressed="false">Cartier</button>
+        <button type="button" data-value="Panerai" aria-pressed="false">Panerai</button>
+      </div>
+      <div class="seg" data-filter="gender">
+        <button type="button" data-value="all" aria-pressed="true">Homem e mulher</button>
+        <button type="button" data-value="homem" aria-pressed="false">Homem</button>
+        <button type="button" data-value="mulher" aria-pressed="false">Mulher</button>
+      </div>
+      <div class="seg" data-filter="sort">
+        <button type="button" data-value="premium" aria-pressed="true">Maior prémio PT</button>
+        <button type="button" data-value="discount" aria-pressed="false">Maior desconto PT</button>
+        <button type="button" data-value="market" aria-pressed="false">Preço de mercado</button>
+        <button type="button" data-value="demand" aria-pressed="false">Procura</button>
+      </div>
+    </div>
+
+    <section class="charts wrap" id="graficos">
+      <h2>Gráficos</h2>
+      <p class="section-intro">Só entram números publicados ou calculados a partir deles com a fórmula acima. Não há séries sintéticas, nem históricos de preço por referência: essa curva está atrás do paywall da WatchCharts. Os gráficos de modelos acompanham os filtros.</p>
+
+      <div class="panel chart-card">
+        <h3>Prémio ou desconto face ao retalho PT</h3>
+        <p class="source">Mercado WatchCharts (17 nov. 2026) ÷ retalho PT verificado − 1. Referências sem PVP português ficam de fora. Portes não entram neste gráfico.</p>
+        <p id="chart-premium-empty" class="empty" hidden>Não há modelos com PVP PT neste filtro.</p>
+        <div class="chart-wrap tall"><canvas id="chart-premium"></canvas></div>
+      </div>
+
+      <div class="panel chart-card">
+        <h3>Retalho PT, mercado, dealer e custo desembarcado</h3>
+        <p class="source">Mercado e dealer: WatchCharts, 17 nov. 2026, em USD, convertidos pelo BCE (1 EUR = 1,0989 USD, 17 nov. 2026). Desembarcado: 1,23 × (mercado EUR + 150 € + 0,80 €). O retalho PT falta em algumas referências e aparece vazio.</p>
+        <p id="chart-cost-empty" class="empty" hidden>Não há modelos com preço de mercado neste filtro.</p>
+        <div class="chart-wrap tall"><canvas id="chart-cost"></canvas></div>
+      </div>
+
+      <div class="chart-grid two">
+        <div class="panel chart-card">
+          <h3>Procura: vendas a 1 ano</h3>
+          <p class="source">Proxy público da WatchCharts, 17 nov. 2026. Não é o número de anúncios da Chrono24.</p>
+          <p id="chart-demand-empty" class="empty" hidden>Não há dados de procura neste filtro.</p>
+          <div class="chart-wrap tall"><canvas id="chart-volume"></canvas></div>
+        </div>
+        <div class="panel chart-card">
+          <h3>Dias medianos no mercado</h3>
+          <p class="source">O mesmo proxy, mesma data. Menos dias costumam indicar uma peça mais líquida.</p>
+          <div class="chart-wrap tall"><canvas id="chart-days"></canvas></div>
+        </div>
+      </div>
+
+      <div class="panel chart-card">
+        <h3>Mercado em geral: variação anual do índice WatchCharts</h3>
+        <p class="source" id="chart-yearly-source"></p>
+        <div class="chart-wrap mid"><canvas id="chart-yearly"></canvas></div>
+      </div>
+
+      <div class="snapshots" id="snapshots"></div>
+    </section>
+
+    <section class="wrap" id="modelos">
+      <h2>Os modelos</h2>
+      <p class="section-intro">Cada cartão usa uma ilustração tipográfica, não uma fotografia da marca. A leitura é de dados para um comprador em Portugal, não uma recomendação de investimento. «Comprar / esperar / evitar» refere-se a este recorte de preços.</p>
+      <div class="cards" id="cards"></div>
+    </section>
+
+    <section class="wrap" id="metodo">
+      <div class="panel">
+        <h2>Método, lacunas e como actualizar</h2>
+        <p>Os preços de segunda mão vêm de páginas públicas da WatchCharts, lidas à mão. Não houve recolha automatizada da Chrono24 (os termos da plataforma proíbem-na). Os 150 € de portes são uma estimativa, não uma cotação. O dealer da WatchCharts é um modelo global. A consulta TARIC não foi feita no sítio da Comissão; o tecto de 0,80 € vem de extractos do tarifário comum. A disponibilidade no AD Rolex não foi medida: o PVP oficial só vale se houver peça.</p>
+        <p>Falta a tendência a 1 ano (paywall). Falta o PVP oficial PT da Omega nas referências de homem, do GMT Pepsi, do Ballon Bleu, do Submersible e da Constellation 29. O Aqua Terra 34 mm 220.10.34.20.01.001 tem PVP PT, mas não encontrámos a página WatchCharts dessa referência exacta. O 9.200 € do PAM01314 e o 7.800 € do PAM01123 são de um retalhista PT, não confirmados no site da marca.</p>
+        <p>Para actualizar: uma vez por mês, rever os preços oficiais ou de retalhista, as páginas WatchCharts das referências e a taxa do BCE do dia, e recalcular mercado, prémio e desembarcado no ficheiro <code>data/watches.json</code>. Não é preciso scraping.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="fontes">
+    <div class="wrap">
+      <h2>Fontes</h2>
+      <ul>
+        <li>WatchCharts, páginas de referência, 17 nov. 2026 — e o <a href="https://watchcharts.com/watches/price_index">Overall Market Index</a>, actualizado a 13 nov. 2026.</li>
+        <li>Variações anuais do índice 2023–2025: Morgan Stanley / WatchCharts, via <a href="https://www.hodinkee.com/articles/used-watch-prices-post-broad-gains-for-first-time-in-years-as-secondary-market-strengthens-morgan-st">Hodinkee</a>, 21 jan. 2026.</li>
+        <li>ChronoPulse: <a href="https://about.chrono24.com/en/press/two-of-watchmaking-s-holy-trinity-brands-now-lead-the-chronopulse-index-as-vacheron-constantin-and-patek-philippe-set-the-pace-in-q3">comunicado Chrono24</a>, 20 out. 2026 (nível de fecho de set. 2026).</li>
+        <li>Câmbio: <a href="https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml">BCE, taxa de referência</a>, 17 nov. 2026.</li>
+        <li>IVA: Autoridade Tributária, <a href="https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/SFP-Taxas-2026.pdf">Taxas aplicáveis 2026</a>.</li>
+        <li>Direitos: extracto TARIC da posição 9102 (tecto de 0,80 €). Regime da margem: Decreto-Lei n.º 199/96.</li>
+        <li>Retalho PT: Torres Joalheiros, Machado Joalheiro, Boutique dos Relógios, Marcolino 1926, e fichas oficiais ligadas em cada cartão. Consulta de 18 nov. 2026.</li>
+      </ul>
+      <p class="disclaimer">Dados públicos, recolhidos manualmente; não é aconselhamento financeiro. Última actualização: 18 nov. 2026, Europe/Lisbon.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
