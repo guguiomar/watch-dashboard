@@ -66,6 +66,116 @@
     const who = shortSeller(o.seller) + (o.seen ? " · " + formatSeenShort(o.seen) : "");
     return `<p class="price best"><span class="price-label">Melhor oferta</span><a class="best-link" href="${o.url}" target="_blank" rel="noopener noreferrer" data-stop="1">${money(o.price_eur)}</a>${sourceHTML({ label: who, url: o.url })}</p>`;
   }
+
+  function familyName(model) {
+    const m = (model || "").toLowerCase();
+    const keys = [
+      "submariner", "daytona", "cosmograph", "explorer", "yacht-master", "yacht master",
+      "air-king", "air king", "milgauss", "datejust", "day-date", "oyster perpetual",
+      "speedmaster", "dark side of the moon", "santos", "tank", "ballon bleu",
+      "luminor", "gmt-master"
+    ];
+    return keys.filter((k) => m.indexOf(k) !== -1);
+  }
+  function xQueries() {
+    return (SOCIAL && SOCIAL.x && SOCIAL.x.queries) || [];
+  }
+  function buzzFor(w) {
+    const out = { magazine_30d: 0, magazine_90d: 0, headlines: [], x_7d: null, x_query: null, x_note: null, family: false };
+    const mb = ((TRENDS && TRENDS.model_buzz) || []).find((m) => m.ref === w.ref);
+    if (mb) {
+      out.magazine_30d = mb.magazine_30d || 0;
+      out.magazine_90d = mb.magazine_90d || 0;
+      out.headlines = mb.headlines || [];
+    }
+    const fams = familyName(w.model);
+    let best = null;
+    xQueries().forEach((q) => {
+      if (q.noisy || q.use_for_model === false) return;
+      const refs = q.map_refs || [];
+      const families = (q.map_families || []).map((f) => f.toLowerCase());
+      let hit = refs.indexOf(w.ref) !== -1;
+      let family = false;
+      if (!hit && families.length && fams.length) {
+        hit = families.some((f) => fams.some((fm) => fm === f || fm.indexOf(f) !== -1 || f.indexOf(fm) !== -1));
+        family = hit;
+      }
+      if (!hit || q.total == null) return;
+      if (!best || (family === best.family && q.total > best.total) || (best.family && !family)) {
+        best = { total: q.total, query: q.query, note: q.note || null, family: family };
+      }
+    });
+    if (best) {
+      out.x_7d = best.total;
+      out.x_query = best.query;
+      out.x_note = best.note;
+      out.family = best.family;
+    }
+    return out;
+  }
+  function priceMoveFor(ref) {
+    return (TRENDS && TRENDS.price_move && TRENDS.price_move[ref]) || null;
+  }
+  function dealsFor(ref) {
+    return ((DEALS && DEALS.deals) || []).filter((d) => d.ref === ref);
+  }
+  function comboFlag(w) {
+    const buzz = buzzFor(w);
+    const mv = priceMoveFor(w.ref);
+    const hasBuzz = (buzz.magazine_30d || 0) > 0 || (buzz.x_7d != null && !buzz.family && buzz.x_7d > 0);
+    // family-level X alone is not enough for a card flag (too broad)
+    const priceUp = mv && mv.direction === "up";
+    const priceDown = mv && mv.direction === "down";
+    if (hasBuzz && priceUp) return { kind: "up-up", label: "buzz ↑ e preço ↑" };
+    if (hasBuzz && priceDown) return { kind: "up-down", label: "buzz ↑ e preço ↓" };
+    return null;
+  }
+  function cardFlagsHTML(w) {
+    const bits = [];
+    const deals = dealsFor(w.ref);
+    if (deals.length) bits.push(`<span class="chip deal">Oportunidade</span>`);
+    const buzz = buzzFor(w);
+    if (buzz.magazine_30d) {
+      bits.push(`<span class="chip buzz">Revistas ${buzz.magazine_30d} · 30d*</span>`);
+    }
+    if (buzz.x_7d != null && !buzz.family) {
+      bits.push(`<span class="chip buzz">X ${NUM.format(buzz.x_7d)} · 7d</span>`);
+    }
+    const combo = comboFlag(w);
+    if (combo) bits.push(`<span class="chip combo">${escapeHtml(combo.label)}</span>`);
+    if (!bits.length) return "";
+    return `<div class="chip-row">${bits.join("")}</div>`;
+  }
+  function drawerBuzzHTML(w) {
+    const buzz = buzzFor(w);
+    const mv = priceMoveFor(w.ref);
+    const deals = dealsFor(w.ref);
+    const parts = [];
+    if (deals.length) {
+      parts.push(deals.map((d) => {
+        const gap = d.gap_vs_market_pct != null ? pct(d.gap_vs_market_pct) + " vs mercado" : "";
+        const why = d.reason === "retail_allocated" ? "perto do PVP PT num modelo a prémio" : "abaixo da estimativa WatchCharts";
+        const srcM = d.market_source ? sourceHTML(d.market_source) : "";
+        return `<p class="market-note"><span class="chip deal">Oportunidade</span> ${money(d.compare_eur)} (${escapeHtml(d.seller)}, ${escapeHtml(d.seen || "")}) · ${escapeHtml(gap)} · ${escapeHtml(why)}. ${escapeHtml(d.caveat)} ${srcM}</p>`;
+      }).join(""));
+    }
+    if (buzz.magazine_30d || buzz.x_7d != null) {
+      const bits = [];
+      if (buzz.magazine_30d) bits.push(`${buzz.magazine_30d} menção(ões) em revistas na janela do feed (30d*)`);
+      if (buzz.x_7d != null) bits.push(`${NUM.format(buzz.x_7d)} posts X em 7 dias${buzz.family ? " (consulta de família)" : ""}`);
+      const heads = (buzz.headlines || []).map((h) =>
+        `<a href="${h.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(h.title)}</a> <span class="src">${escapeHtml(h.source)}${h.date ? " · " + formatSeenShort(h.date) : ""}</span>`
+      ).join("<br>");
+      parts.push(`<p class="market-note"><span class="chip buzz">Buzz</span> ${escapeHtml(bits.join(" · "))}. ${heads}</p>`);
+    }
+    const combo = comboFlag(w);
+    if (combo && mv) {
+      const src = mv.source_last ? `<a class="src" href="${mv.source_last}" target="_blank" rel="noopener noreferrer">histórico</a>` : "";
+      parts.push(`<p class="market-note"><span class="chip combo">${escapeHtml(combo.label)}</span> Mercado ${money(mv.from_eur)} (${formatSeenShort(mv.from_date)}) → ${money(mv.to_eur)} (${formatSeenShort(mv.to_date)}, ${pct(mv.change_pct)}) ${src}. Buzz só com fontes acima.</p>`);
+    }
+    return parts.join("");
+  }
+
   function rankedOffers(offers) {
     const copy = (offers || []).slice();
     copy.sort((a, b) => {
@@ -349,12 +459,16 @@
 
   /* —— Cards & drawer —— */
   let DATA = null;
+  let TRENDS = null;
+  let SOCIAL = null;
+  let DEALS = null;
   let INDEX = null;
   let HISTORY = { snapshots: [] };
   let PHOTOS = {};
   let CREDITS = [];
   let charts = [];
   let drawerChart = null;
+  let trendScatter = null;
 
   function norm(s) {
     return String(s || "")
@@ -465,6 +579,7 @@
       ${bestOfferHTML(w)}
       ${sparkline(w.ref)}
       ${pill}
+      ${cardFlagsHTML(w)}
       <p class="onde-label">Onde comprar</p>
       <div class="offers">${offerButtons(w, 3)}</div>
     </article>`;
@@ -629,6 +744,7 @@
       <p class="retail">Retalho PT <strong>${money(w.retail_pt_eur)}</strong>${sourceHTML(w.retail_source)}</p>
       ${bestOfferHTML(w)}
       <span class="pill ${signalClass(w.signal)}">${escapeHtml(w.signal)}${w.premium_pct != null ? " · " + pct(w.premium_pct) : ""}</span>
+      ${drawerBuzzHTML(w)}
       ${w.blurb ? `<p class="blurb">${escapeHtml(w.blurb)}</p>` : ""}
       ${w.market_note ? `<p class="market-note">${escapeHtml(w.market_note)}</p>` : ""}
       <dl class="stats">
@@ -896,6 +1012,322 @@
     }
   }
 
+
+  function renderDeals() {
+    const root = document.getElementById("deals");
+    if (!root) return;
+    const deals = (DEALS && DEALS.deals) || [];
+    const ev = (DEALS && DEALS.evaluated_count) || 0;
+    const th = (DEALS && DEALS.thresholds) || {};
+    const lim = th.market_discount_pct != null ? th.market_discount_pct : 5;
+    if (!deals.length) {
+      const almost = ((DEALS && DEALS.evaluated) || [])
+        .filter((e) => e.gap_vs_market_pct != null)
+        .sort((a, b) => a.gap_vs_market_pct - b.gap_vs_market_pct)
+        .slice(0, 3);
+      const byRef = {};
+      (DATA.watches || []).forEach((w) => { byRef[w.ref] = w; });
+      const rows = almost.map((e) => {
+        const w = byRef[e.ref] || { ref: e.ref, brand: e.brand, model: e.model };
+        const thumb = PHOTOS[w.ref]
+          ? `<img src="${photoPath(w.ref)}" alt="" width="80" height="80">`
+          : "";
+        const gapCls = e.gap_vs_market_pct < 0 ? "down" : "up";
+        return `<li>
+          <a href="${e.url}" target="_blank" rel="noopener noreferrer">
+            <span class="quase-thumb">${thumb}</span>
+            <span class="quase-body">
+              <span class="quase-name">${escapeHtml((e.brand || "") + " " + (e.model || e.ref))}</span>
+              <span class="quase-meta">${escapeHtml(e.seller || "")}${e.seen ? " · " + formatSeenShort(e.seen) : ""} · ${money(e.listing_eur)}</span>
+            </span>
+            <span class="quase-gap ${gapCls}">${pct(e.gap_vs_market_pct)}</span>
+          </a>
+        </li>`;
+      }).join("");
+      root.innerHTML = `<div class="deal-empty">
+        <p>Nenhuma oportunidade neste corte — limiar de ${lim} % abaixo do mercado WatchCharts, ${NUM.format(ev)} anúncios avaliados.</p>
+        ${almost.length ? `<p class="quase-kicker">Quase <span>não são oportunidades</span></p>
+        <ul class="quase-list">${rows}</ul>` : ""}
+      </div>`;
+      return;
+    }
+    const byRef = {};
+    (DATA.watches || []).forEach((w) => { byRef[w.ref] = w; });
+    root.innerHTML = `<div class="deals-grid">${deals.map((d) => {
+      const w = byRef[d.ref] || { ref: d.ref, brand: d.brand, model: d.model };
+      const gap = d.gap_vs_market_pct != null ? pct(d.gap_vs_market_pct) : "—";
+      const msrc = d.market_source ? sourceHTML(d.market_source) : "";
+      const who = escapeHtml(d.seller || "") + (d.seen ? " · " + formatSeenShort(d.seen) : "");
+      return `<a class="deal-card" href="${d.url}" target="_blank" rel="noopener noreferrer">
+        <div class="illu">${portrait(w)}</div>
+        <p class="brand">${escapeHtml(d.brand || "")}</p>
+        <h3 class="model">${escapeHtml(d.model || d.ref)}</h3>
+        <p class="ref">${escapeHtml(d.ref)}</p>
+        <p class="price"><span class="price-label">Anúncio</span>${money(d.listing_eur)}<span class="src">${who}</span></p>
+        <p class="gap">${escapeHtml(gap)}</p>
+        <p class="deal-meta">vs mercado ${money(d.market_eur)} ${msrc}. ${escapeHtml(d.caveat || "")}${d.import_flag ? " Preço landed para PT (importação)." : ""}</p>
+      </a>`;
+    }).join("")}</div>`;
+  }
+
+  const BUZZ_BARS = [
+    { id: "speedmaster", label: "Omega Speedmaster", thumb: "310.30.42.50.01.001", outlier: true },
+    { id: "datejust", label: "Rolex Datejust", thumb: "126334" },
+    { id: "daytona", label: "Rolex Daytona", thumb: "126500LN-0001" },
+    { id: "daydate", label: "Rolex Day-Date", thumb: "228238" },
+    { id: "submariner", label: "Rolex Submariner", thumb: "126610LN" },
+    { id: "santos", label: "Cartier Santos", thumb: "WSSA0029" },
+    { id: "tank", label: "Cartier Tank", thumb: "WSTA0042" },
+    { id: "op", label: "Oyster Perpetual", thumb: "134300-0006" },
+    { id: "yachtmaster", label: "Rolex Yacht-Master", thumb: "126622" },
+    { id: "explorer", label: "Rolex Explorer", thumb: "224270" },
+    { id: "milgauss", label: "Rolex Milgauss", thumb: null },
+    { id: "airking", label: "Rolex Air-King", thumb: "126900" },
+    { id: "pepsi", label: "GMT Pepsi", thumb: "126710BLRO" },
+    { id: "luminor", label: "Panerai Luminor", thumb: "PAM01314" },
+    { id: "batman", label: "GMT Batman", thumb: "126710BLNR" },
+    { id: "bruce", label: "GMT Bruce Wayne", thumb: "126710GRNR" },
+    { id: "rootbeer", label: "GMT Root Beer", thumb: "126711CHNR" },
+    { id: "dsotm", label: "Dark Side of the Moon", thumb: null },
+    { id: "pistachio", label: "OP Pistachio", thumb: "134300-0006" },
+    { id: "ballon", label: "Ballon Bleu", thumb: "WSBB0062" },
+  ];
+
+  function shortXAsOf(s) {
+    const raw = s || "";
+    const m = String(raw).match(/(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2})/);
+    if (!m) return raw || "19 nov 2026";
+    const months = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+    return Number(m[3]) + " " + months[Number(m[2]) - 1] + ", " + m[4] + ":" + m[5] + " Lisbon";
+  }
+  function queryById(id) {
+    return xQueries().find((q) => q.id === id) || null;
+  }
+
+  function sparklineSVG(daily) {
+    if (!daily || daily.length < 2) return "";
+    const pts = daily.filter((d) => d.date >= "2026-11-13" && d.date <= "2026-11-19");
+    if (pts.length < 2) return "";
+    const w = 72, h = 28, pad = 1;
+    const vals = pts.map((p) => p.count);
+    const max = Math.max.apply(null, vals.concat([1]));
+    const step = (w - pad * 2) / (pts.length - 1);
+    const coord = (i, v) => {
+      const x = pad + i * step;
+      const y = h - pad - (v / max) * (h - pad * 2);
+      return x.toFixed(1) + "," + y.toFixed(1);
+    };
+    const line = pts.map((p, i) => coord(i, p.count)).join(" ");
+    const last = pts[pts.length - 1];
+    const lastPt = coord(pts.length - 1, last.count);
+    const [lx, ly] = lastPt.split(",");
+    return `<svg class="buzz-spark" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" aria-hidden="true"><polyline points="${line}" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="${lx}" cy="${ly}" r="1.6" fill="currentColor"/></svg>`;
+  }
+
+  function renderTrendScatter(points) {
+    if (trendScatter) {
+      trendScatter.destroy();
+      trendScatter = null;
+    }
+    const canvas = document.getElementById("trend-scatter");
+    if (!canvas || !window.Chart || !points.length) return;
+    if (typeof chartDefaults === "function") chartDefaults();
+    trendScatter = new Chart(canvas, {
+      type: "scatter",
+      data: {
+        datasets: [{
+          data: points.map((p) => ({ x: p.x, y: p.y, ref: p.ref })),
+          backgroundColor: points.map((p) => p.y >= 0 ? "rgba(166,60,36,.85)" : "rgba(62,90,70,.85)"),
+          borderWidth: 0,
+          pointStyle: "rect",
+          pointRadius: 5,
+          pointHoverRadius: 6,
+        }],
+      },
+      options: {
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              title: (items) => {
+                const i = items[0] && items[0].dataIndex;
+                return i == null ? "" : points[i].label;
+              },
+              label: (item) => {
+                const p = points[item.dataIndex];
+                const fam = p.family ? " (família)" : "";
+                return [
+                  "X 7d: " + NUM.format(p.x) + fam,
+                  "Preço: " + pct(p.y) + " · " + p.period,
+                ];
+              },
+            },
+          },
+        },
+        scales: {
+          x: {
+            title: { display: true, text: "Posts X, 7 dias", color: MUTED },
+            grid: { color: "rgba(27,24,20,.08)", drawBorder: false },
+            ticks: { color: MUTED, callback: (v) => NUM.format(v) },
+          },
+          y: {
+            title: { display: true, text: "Variação de mercado %", color: MUTED },
+            grid: { color: "rgba(27,24,20,.08)", drawBorder: false },
+            ticks: { color: MUTED, callback: (v) => pct(v) },
+          },
+        },
+        onClick: (ev, els) => {
+          if (!els.length) return;
+          const p = points[els[0].index];
+          if (p && p.ref) openDrawer(p.ref);
+        },
+      },
+    });
+  }
+
+  function renderTrends() {
+    const root = document.getElementById("trends");
+    if (!root) return;
+    const items = (TRENDS && TRENDS.items) || [];
+    const featured = (TRENDS && TRENDS.headlines_featured) || [];
+    const failed = (TRENDS && TRENDS.feeds_failed) || [];
+    const insta = (SOCIAL && SOCIAL.instagram) || {};
+    const xAsOf = (SOCIAL && SOCIAL.x && SOCIAL.x.as_of) || "19 nov 2026";
+    const sm = queryById("speedmaster");
+    const dj = queryById("datejust");
+    const pepsiQ = queryById("pepsi");
+    const spikeDay = (sm && sm.daily || []).find((d) => d.date === "2026-11-19");
+    const pepsiWatch = (DATA.watches || []).find((w) => w.ref === "126710BLRO");
+    const pepsiMove = priceMoveFor("126710BLRO");
+    const combo = pepsiWatch && comboFlag(pepsiWatch);
+
+    const barRows = BUZZ_BARS.map((meta) => {
+      const q = queryById(meta.id);
+      if (!q || q.total == null) return null;
+      return Object.assign({}, meta, { q, total: q.total, daily: q.daily || [] });
+    }).filter(Boolean).sort((a, b) => b.total - a.total);
+    const second = barRows.find((r) => !r.outlier);
+    const capAt = second ? second.total : Math.max.apply(null, barRows.map((r) => r.total).concat([1]));
+
+    const scatterPts = [];
+    const moves = (TRENDS && TRENDS.price_move) || {};
+    (DATA.watches || []).forEach((w) => {
+      const mv = moves[w.ref];
+      if (!mv || mv.change_pct == null) return;
+      const buzz = buzzFor(w);
+      if (buzz.x_7d == null) return;
+      scatterPts.push({
+        ref: w.ref,
+        label: w.brand + " " + w.model,
+        x: buzz.x_7d,
+        y: mv.change_pct,
+        family: !!buzz.family,
+        period: formatSeenShort(mv.from_date) + " – " + formatSeenShort(mv.to_date),
+        source: mv.source_last,
+      });
+    });
+
+    const heads = featured.length ? featured : items.slice().sort((a, b) => (b.date || "").localeCompare(a.date || "")).slice(0, 9);
+    const ig = [].concat(insta.hashtags || [], insta.accounts || []);
+
+    const failBits = failed.map((f) => f.name + (f.error ? " (" + f.error + ")" : "")).join(", ");
+
+    root.innerHTML = `
+      <div class="hero-grid">
+        <article class="hero-cell">
+          <p class="hero-kicker">Mais buzz · 7 dias</p>
+          <p class="hero-num">${sm && sm.total != null ? NUM.format(sm.total) : "—"}</p>
+          <p class="hero-label">Omega Speedmaster</p>
+          <p class="hero-src">X · 7 dias · ${escapeHtml(shortXAsOf(xAsOf))}</p>
+        </article>
+        <article class="hero-cell">
+          <p class="hero-kicker">Pico do dia</p>
+          <p class="hero-num">${spikeDay ? NUM.format(spikeDay.count) : "—"}</p>
+          <p class="hero-label">Speedmaster, 19 nov${spikeDay && spikeDay.partial ? " · dia parcial" : ""}</p>
+          <p class="hero-src">X · 19 nov, até 22:07 Lisbon</p>
+        </article>
+        <article class="hero-cell">
+          <p class="hero-kicker">${combo ? escapeHtml(combo.label) : "Buzz e preço"}</p>
+          <p class="hero-num">${pepsiMove && pepsiMove.change_pct != null ? pct(pepsiMove.change_pct) : "—"}</p>
+          <p class="hero-label">Rolex GMT Pepsi</p>
+          <p class="hero-src">${pepsiMove ? `<a href="${pepsiMove.source_last}" target="_blank" rel="noopener noreferrer">WatchCharts ${formatSeenShort(pepsiMove.from_date)} – ${formatSeenShort(pepsiMove.to_date)}</a>` : ""}${pepsiQ && pepsiQ.total != null ? " · X " + NUM.format(pepsiQ.total) + " posts · 7d" : ""}</p>
+        </article>
+        <article class="hero-cell">
+          <p class="hero-kicker">Titulares</p>
+          <p class="hero-num">${NUM.format(items.length)}</p>
+          <p class="hero-label">na janela do feed</p>
+          <p class="hero-src">RSS · 6 de 8 feeds · 19 nov 2026</p>
+        </article>
+      </div>
+
+      <div class="trends-block">
+        <h2>Buzz no X</h2>
+        <ul class="buzz-bars">${barRows.map((r) => {
+          const capped = r.outlier && r.total > capAt;
+          const width = capped ? 100 : Math.max(2, Math.round((r.total / capAt) * 100));
+          const thumb = r.thumb && PHOTOS[r.thumb]
+            ? `<img src="${photoPath(r.thumb)}" alt="" width="64" height="64">`
+            : `<span class="buzz-mono">${escapeHtml(r.label.charAt(0))}</span>`;
+          const mark = capped ? `<span class="buzz-cap">barra limitada · pico 19 nov</span>` : "";
+          return `<li class="${capped ? "is-outlier" : ""}">
+            <span class="buzz-thumb">${thumb}</span>
+            <span class="buzz-main">
+              <span class="buzz-head"><span class="buzz-name">${escapeHtml(r.label)}</span><span class="buzz-n">${NUM.format(r.total)}</span></span>
+              <span class="buzz-track">${capped ? `<span class="buzz-fill cap" style="width:${width}%"></span><span class="buzz-break" aria-hidden="true"></span>` : `<span class="buzz-fill" style="width:${width}%"></span>`}</span>
+              ${mark}
+            </span>
+            ${sparklineSVG(r.daily)}
+          </li>`;
+        }).join("")}</ul>
+      </div>
+
+      <div class="trends-block">
+        <h2>Titulares</h2>
+        <ul class="headline-grid">${heads.map((h) => {
+          const img = h.image
+            ? `<img src="${h.image}" alt="" width="700" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer">`
+            : (h.image_url ? `<img src="${h.image_url}" alt="" width="700" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer">` : `<span class="hl-ph"></span>`);
+          const chips = (h.matched_brands || []).map((b) => `<span class="chip buzz">${escapeHtml(b)}</span>`).join("");
+          const credit = h.image_credit || h.source;
+          return `<li>
+            <a href="${h.url}" target="_blank" rel="noopener noreferrer">
+              <span class="hl-img">${img}</span>
+              <span class="hl-copy">
+                <span class="hl-meta">${escapeHtml(h.source)}${h.date ? " · " + formatSeenShort(h.date) : ""}</span>
+                <span class="hl-title">${escapeHtml(h.title)}</span>
+                ${chips ? `<span class="chip-row">${chips}</span>` : ""}
+              </span>
+            </a>
+          </li>`;
+        }).join("")}</ul>
+      </div>
+
+      ${scatterPts.length ? `<div class="trends-block">
+        <h2>Buzz × preço</h2>
+        <p class="block-src">Só modelos com posts X de 7 dias e variação de mercado no histórico. Eixo X: família ou referência, conforme a consulta. Clique abre a ficha.</p>
+        <div class="scatter-wrap"><canvas id="trend-scatter"></canvas></div>
+      </div>` : ""}
+
+      <div class="trends-block ig-block">
+        <h2>Instagram</h2>
+        <ul class="ig-chips">${ig.map((x) => `<li><a href="${x.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(x.label)}</a></li>`).join("")}</ul>
+      </div>
+
+      <details class="como">
+        <summary>Como medimos</summary>
+        <div class="como-body">
+          <p>Revistas: ${NUM.format(items.length)} itens nos RSS obtidos a 19 nov 2026 (Hodinkee, Fratello, Monochrome, Revolution, Revolution México/LATAM, Time+Tide). As janelas de 30 e 90 dias referem-se a essa recolha, não a um arquivo. Falharam: ${escapeHtml(failBits || "—")}.</p>
+          <p>X: totais de 7 dias da API get_posts_counts_recent, ${escapeHtml(xAsOf)}. Os dias 12 e 19 nov são parciais. Consultas ruidosas (Omega isolado; Dark Side of the Moon sem Omega; Moonwatch genérico; Sprite com sobreposição de referência) ficam de fora das barras. A barra do Speedmaster está limitada à largura do 2.º lugar (Datejust, ${dj && dj.total != null ? NUM.format(dj.total) : "—"}) para o resto permanecer legível; o número à direita é o total real. A amostra de pesquisa de 30 dias, quando existe, está limitada a 25 posts e não é um total.</p>
+          <p>Pico Speedmaster: ${spikeDay ? NUM.format(spikeDay.count) : "—"} posts a 19 nov (balde parcial até ~22:07). O total de 7 dias (${sm && sm.total != null ? NUM.format(sm.total) : "—"}) é quase só esse dia.</p>
+          <p>Buzz ↑ e preço ↑ no Pepsi: mercado WatchCharts ${pepsiMove ? money(pepsiMove.from_eur) + " (" + formatSeenShort(pepsiMove.from_date) + ") → " + money(pepsiMove.to_eur) + " (" + formatSeenShort(pepsiMove.to_date) + ", " + pct(pepsiMove.change_pct) + ")" : "—"}; X ${pepsiQ && pepsiQ.total != null ? NUM.format(pepsiQ.total) : "—"} posts em 7 dias. Só assinalamos quando as duas fontes existem.</p>
+          <p>Imagens dos titulares: og:image ou media do RSS, carregadas directamente do site de cada revista (não copiadas), creditadas e com ligação ao artigo. Instagram é só uma ligação, sem recolha de publicações.</p>
+        </div>
+      </details>
+    `;
+    renderTrendScatter(scatterPts);
+  }
+
   function renderFooter() {
     const src = DATA.sources || {};
     const updated = formatSeen(DATA.updated);
@@ -914,7 +1346,7 @@
     document.getElementById("foot").innerHTML = `
       <div>
         <p><strong>Dados ${updated}</strong>, Europe/Lisbon. Não é aconselhamento financeiro.</p>
-        <p>Cada preço no ecrã tem a respectiva fonte. Mercado e procura: WatchCharts (data ao lado do valor). Retalho e ofertas: AD em Portugal, 18 nov. 2026. Histórico: Wayback Machine + WatchCharts. Ligações Chrono24 são pesquisas, não anúncios. Importação estimada: 1,23 × (mercado + 150,80 €).</p>
+        <p>Cada preço no ecrã tem a respectiva fonte. Mercado e procura: WatchCharts (data ao lado do valor). Retalho e ofertas: AD em Portugal e dealers europeus com ficha exacta. Histórico: Wayback Machine + WatchCharts. Tendências: RSS públicos + contagens X de 7 dias (API). Instagram é só ligação, sem recolha. Oportunidades: anúncios exactos ≤ mercado − 5 %, ou ≤ PVP PT + 5 % em modelos a prémio; lista vazia se nenhum cumprir. Ligações Chrono24 são pesquisas, não anúncios. Importação estimada: 1,23 × (preço + 150,80 €).</p>
       </div>
       <div>
         <p>Edição 01 · G Watch Radar</p>
@@ -1022,16 +1454,22 @@
   }
 
   async function init() {
-    const [wRes, iRes, cRes, hRes] = await Promise.all([
+    const [wRes, iRes, cRes, hRes, tRes, sRes, dRes] = await Promise.all([
       fetch("data/watches.json"),
       fetch("data/indices.json"),
       fetch("img/credits.json"),
       fetch("data/history.json"),
+      fetch("data/trends.json"),
+      fetch("data/social.json"),
+      fetch("data/deals.json"),
     ]);
     if (!wRes.ok || !iRes.ok) throw new Error("Falha a ler os dados.");
     DATA = await wRes.json();
     INDEX = await iRes.json();
     if (hRes.ok) HISTORY = await hRes.json();
+    if (tRes.ok) TRENDS = await tRes.json();
+    if (sRes.ok) SOCIAL = await sRes.json();
+    if (dRes.ok) DEALS = await dRes.json();
     if (cRes.ok) {
       const cred = await cRes.json();
       CREDITS = cred.images || [];
@@ -1040,6 +1478,8 @@
     fillBrandFilter();
     fillSizeFilter();
     applyURL();
+    renderDeals();
+    renderTrends();
     renderGrid();
     renderOutliers();
     document.getElementById("filters").addEventListener("change", renderGrid);
@@ -1055,9 +1495,24 @@
     const params = new URLSearchParams(location.search);
     const openRef = params.get("open");
     if (openRef) openDrawer(openRef);
-    if (params.get("shot") === "mercado") {
-      const modelos = document.getElementById("modelos");
-      if (modelos) modelos.hidden = true;
+    const shot = params.get("shot");
+    if (shot === "mercado") {
+      ["modelos", "oportunidades", "tendencias"].forEach((id) => {
+        const el = document.getElementById(id);
+        if (el) el.hidden = true;
+      });
+    }
+    if (shot === "oportunidades") {
+      ["modelos", "tendencias", "mercado"].forEach((id) => {
+        const el = document.getElementById(id);
+        if (el) el.hidden = true;
+      });
+    }
+    if (shot === "tendencias") {
+      ["modelos", "oportunidades", "mercado"].forEach((id) => {
+        const el = document.getElementById(id);
+        if (el) el.hidden = true;
+      });
     }
     chartDefaults();
     renderCharts();

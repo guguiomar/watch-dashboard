@@ -1,0 +1,1768 @@
+{
+  "updated": "2026-11-19",
+  "timezone": "Europe/Lisbon",
+  "note": "Contagens X: API get_posts_counts_recent (janela de 7 dias, totais exactos da API). As pesquisas de 30 dias, quando existirem, estão limitadas a 25 resultados e não são um total. Consultas ruidosas (Omega isolado; Dark Side of the Moon sem Omega) ficam registadas mas não entram no buzz apresentado. Instagram: só ligações, sem recolha.",
+  "x": {
+    "as_of": "2026-11-19 22:07 Europe/Lisbon",
+    "window": "7d",
+    "api": "get_posts_counts_recent",
+    "queries": [
+      {
+        "id": "rolex",
+        "query": "Rolex",
+        "total": 64179,
+        "use_for_brand": "Rolex",
+        "note": "consulta de marca ampla",
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 827,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 10044,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 9644,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 6283,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 12710,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 10305,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 7925,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 6441,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "omega-raw",
+        "query": "Omega",
+        "total": 345106,
+        "use_for_brand": null,
+        "noisy": true,
+        "note": "demasiado genérico (Omega fora de relógios); não usado no buzz de marca",
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 3835,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 47936,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 46538,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 44020,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 42146,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 47921,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 46773,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 65937,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "cartier",
+        "query": "Cartier",
+        "total": 49914,
+        "use_for_brand": "Cartier",
+        "note": "pode incluir joalharia Cartier",
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 760,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 9404,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 5222,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 3467,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 7823,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 5848,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 9187,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 8203,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "panerai",
+        "query": "Panerai",
+        "total": 300,
+        "use_for_brand": "Panerai",
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 2,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 82,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 37,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 25,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 41,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 48,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 42,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 23,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "pepsi",
+        "query": "\"Rolex Pepsi\" OR 126710BLRO OR \"GMT Pepsi\"",
+        "total": 30,
+        "map_refs": [
+          "126710BLRO"
+        ],
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 0,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 1,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 1,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 1,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 7,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 11,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 4,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 5,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "batman",
+        "query": "\"Rolex Batman\" OR 126710BLNR",
+        "total": 23,
+        "map_refs": [
+          "126710BLNR"
+        ],
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 4,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 3,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 2,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 3,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 2,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 4,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 3,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 2,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "bruce",
+        "query": "\"Bruce Wayne\" Rolex OR 126710GRNR",
+        "total": 21,
+        "map_refs": [
+          "126710GRNR"
+        ],
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 0,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 0,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 3,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 3,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 3,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 6,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 3,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 3,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "sprite",
+        "query": "\"Rolex Sprite\" OR 126710GRNR OR 126720VTNR",
+        "total": 15,
+        "use_for_model": false,
+        "note": "sobreposição com Bruce Wayne via 126710GRNR; não atribuído a um modelo do catálogo",
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 0,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 1,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 2,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 4,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 0,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 5,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 1,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 2,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "submariner",
+        "query": "Rolex Submariner",
+        "total": 714,
+        "map_families": [
+          "Submariner"
+        ],
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 74,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 198,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 49,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 42,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 58,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 56,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 80,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 157,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "daytona",
+        "query": "Rolex Daytona",
+        "total": 1489,
+        "map_families": [
+          "Daytona",
+          "Cosmograph Daytona"
+        ],
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 15,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 171,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 136,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 348,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 232,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 244,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 225,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 118,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "explorer",
+        "query": "Rolex Explorer",
+        "total": 82,
+        "map_families": [
+          "Explorer",
+          "Explorer II"
+        ],
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 1,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 12,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 5,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 8,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 7,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 25,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 19,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 5,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "yachtmaster",
+        "query": "Rolex \"Yacht-Master\" OR \"Yacht Master\"",
+        "total": 100,
+        "map_families": [
+          "Yacht-Master"
+        ],
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 0,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 11,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 10,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 12,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 12,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 6,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 37,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 12,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "airking",
+        "query": "Rolex \"Air-King\" OR \"Air King\"",
+        "total": 58,
+        "map_families": [
+          "Air-King"
+        ],
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 1,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 15,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 4,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 7,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 10,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 7,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 3,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 11,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "milgauss",
+        "query": "Milgauss",
+        "total": 62,
+        "map_families": [
+          "Milgauss"
+        ],
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 1,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 6,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 8,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 12,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 8,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 12,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 3,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 12,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "datejust",
+        "query": "Rolex Datejust",
+        "total": 4575,
+        "map_families": [
+          "Datejust"
+        ],
+        "note": "pico nos dias 16–17 nov (1 634 e 2 187 posts)",
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 4,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 80,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 105,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 162,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 1634,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 2187,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 347,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 56,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "daydate",
+        "query": "Rolex \"Day-Date\" OR DayDate",
+        "total": 1002,
+        "map_families": [
+          "Day-Date"
+        ],
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 10,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 180,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 153,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 165,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 122,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 169,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 108,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 95,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "op",
+        "query": "\"Oyster Perpetual\"",
+        "total": 201,
+        "map_families": [
+          "Oyster Perpetual"
+        ],
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 2,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 17,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 20,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 18,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 46,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 36,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 37,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 25,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "pistachio",
+        "query": "pistachio Rolex OR pistache Rolex OR \"134300-0006\"",
+        "total": 12,
+        "map_refs": [
+          "134300-0006"
+        ],
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 1,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 9,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 0,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 0,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 0,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 1,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 1,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 0,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "speedmaster-moonwatch-raw",
+        "query": "\"Omega Speedmaster\" OR Moonwatch",
+        "total": 21226,
+        "noisy": true,
+        "note": "Moonwatch é demasiado genérico; usar a consulta refinada",
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 0,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 20,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 9,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 57,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 35,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 38,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 43,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 21024,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "dsotm-raw",
+        "query": "\"Dark Side of the Moon\" OR DSOTM",
+        "total": 1980,
+        "noisy": true,
+        "note": "colide com Pink Floyd; não usado. Ver consulta refinada.",
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 23,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 249,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 265,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 359,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 365,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 272,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 241,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 206,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "speedmaster57",
+        "query": "\"Speedmaster '57\" OR \"Speedmaster 57\" OR \"Speedmaster Broad Arrow\"",
+        "total": 0,
+        "map_families": [
+          "Speedmaster '57"
+        ],
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 0,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 0,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 0,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 0,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 0,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 0,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 0,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 0,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "santos",
+        "query": "\"Cartier Santos\"",
+        "total": 343,
+        "map_families": [
+          "Santos"
+        ],
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 4,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 36,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 14,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 16,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 32,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 148,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 71,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 22,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "tank",
+        "query": "\"Cartier Tank\"",
+        "total": 247,
+        "map_families": [
+          "Tank"
+        ],
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 0,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 13,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 12,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 13,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 22,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 20,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 98,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 69,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "ballon",
+        "query": "\"Ballon Bleu\"",
+        "total": 6,
+        "map_families": [
+          "Ballon Bleu"
+        ],
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 0,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 1,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 0,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 1,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 0,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 1,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 1,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 2,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "luminor",
+        "query": "Panerai Luminor OR PAM01314 OR PAM01123",
+        "total": 27,
+        "map_families": [
+          "Luminor",
+          "Luminor Due"
+        ],
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 0,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 3,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 5,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 1,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 1,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 4,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 8,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 5,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "rootbeer",
+        "query": "\"Root Beer\" Rolex OR 126711CHNR OR 126715CHNR",
+        "total": 17,
+        "map_families": [
+          "GMT-Master II"
+        ],
+        "note": "família GMT; 126711CHNR pode não estar no catálogo",
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 0,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 4,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 6,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 4,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 0,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 0,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 1,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 2,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "speedmaster",
+        "query": "\"Omega Speedmaster\"",
+        "total": 21169,
+        "use_for_brand": "Omega",
+        "map_families": [
+          "Speedmaster"
+        ],
+        "note": "pico a 19 nov 2026: 21 016 posts nesse dia; os outros 6 dias somam cerca de 153. O total de 7 dias é dominado por esse pico.",
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 0,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 15,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 4,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 39,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 31,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 31,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 33,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 21016,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "dsotm",
+        "query": "Omega (\"Dark Side of the Moon\" OR DSOTM)",
+        "total": 13,
+        "map_families": [
+          "Dark Side of the Moon",
+          "Speedmaster Dark Side of the Moon"
+        ],
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 0,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 1,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 0,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 1,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 11,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 0,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 0,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 0,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      },
+      {
+        "id": "omega-refined",
+        "query": "\"Omega watch\" OR \"Omega watches\" OR \"Omega Speedmaster\" OR \"Omega Seamaster\" OR @omega",
+        "total": 21605,
+        "use_for_brand": "Omega",
+        "note": "consulta refinada de marca; o total é dominado pelo pico Speedmaster de 19 nov (21 098 nesse dia). Não usar a consulta 'Omega' isolada.",
+        "daily": [
+          {
+            "date": "2026-11-12",
+            "count": 0,
+            "partial": true
+          },
+          {
+            "date": "2026-11-13",
+            "count": 106,
+            "partial": false
+          },
+          {
+            "date": "2026-11-14",
+            "count": 29,
+            "partial": false
+          },
+          {
+            "date": "2026-11-15",
+            "count": 75,
+            "partial": false
+          },
+          {
+            "date": "2026-11-16",
+            "count": 81,
+            "partial": false
+          },
+          {
+            "date": "2026-11-17",
+            "count": 107,
+            "partial": false
+          },
+          {
+            "date": "2026-11-18",
+            "count": 109,
+            "partial": false
+          },
+          {
+            "date": "2026-11-19",
+            "count": 21098,
+            "partial": true
+          }
+        ],
+        "daily_note": "12 e 19 nov 2026 são dias parciais (janela da API ~22:04–22:07 Europe/Lisbon)."
+      }
+    ],
+    "posts": [
+      {
+        "query_id": "batman",
+        "query": "\"Rolex Batman\" OR 126710BLNR",
+        "url": "https://x.com/MapleStax/status/2115907198844805260",
+        "username": "MapleStax",
+        "text": "Looking for my first Rolex\n\nBatman or Bruce Wayne?",
+        "created_at_lisbon": "2026-10-29 20:42 Europe/Lisbon",
+        "likes": 51,
+        "impressions": 17924,
+        "map_refs": [
+          "126710BLNR",
+          "126710GRNR"
+        ]
+      },
+      {
+        "query_id": "batman",
+        "query": "\"Rolex Batman\" OR 126710BLNR",
+        "url": "https://x.com/CT_Timepieces/status/2120530452251639941",
+        "username": "CT_Timepieces",
+        "text": "Rolex Batman\n\nFull Set\n\nDM for pricing",
+        "created_at_lisbon": "2026-11-11 14:53 Europe/Lisbon",
+        "likes": 35,
+        "impressions": 1398,
+        "map_refs": [
+          "126710BLNR"
+        ]
+      },
+      {
+        "query_id": "santos",
+        "query": "\"Cartier Santos\"",
+        "url": "https://x.com/kekeyapistir/status/2116877706058940880",
+        "username": "kekeyapistir",
+        "text": "6 taksitle cartier santos.. olum mantıklı geliyor lan",
+        "created_at_lisbon": "2026-11-01 12:59 Europe/Lisbon",
+        "likes": 2444,
+        "impressions": 512912,
+        "map_families": [
+          "Santos"
+        ]
+      },
+      {
+        "query_id": "santos",
+        "query": "\"Cartier Santos\"",
+        "url": "https://x.com/ManZonex/status/2119324037071687938",
+        "username": "ManZonex",
+        "text": "Cartier Santos Arabic Number",
+        "created_at_lisbon": "2026-11-08 07:00 Europe/Lisbon",
+        "likes": 26,
+        "impressions": 2630,
+        "map_families": [
+          "Santos"
+        ]
+      },
+      {
+        "query_id": "santos",
+        "query": "\"Cartier Santos\"",
+        "url": "https://x.com/BQWatch/status/2122781821251579935",
+        "username": "BQWatch",
+        "text": "The Cartier Santos, with a titanium twist.",
+        "created_at_lisbon": "2026-11-17 20:00 Europe/Lisbon",
+        "likes": 1,
+        "impressions": 56,
+        "map_families": [
+          "Santos"
+        ]
+      },
+      {
+        "query_id": "pistachio",
+        "query": "pistachio Rolex OR pistache Rolex OR \"134300-0006\"",
+        "url": "https://x.com/ZyroCar/status/2113042648902594906",
+        "username": "ZyroCar",
+        "text": "Rolex – Oyster Perpetual 31, 36, or 41 (Pistachio / Green Dial, Ref. 124300 / 126000 / 277200)",
+        "created_at_lisbon": "2026-10-21 23:00 Europe/Lisbon",
+        "likes": 31,
+        "impressions": 1480,
+        "map_refs": [
+          "134300-0006"
+        ],
+        "note": "O post cita também referências antigas 124300 / 126000 / 277200."
+      },
+      {
+        "query_id": "pistachio",
+        "query": "pistachio Rolex OR pistache Rolex OR \"134300-0006\"",
+        "url": "https://x.com/BQWatch/status/2122743667480055941",
+        "username": "BQWatch",
+        "text": "The Rolex Oyster Perpetual ‘Pistachio’ pairs a soft pastel green dial with the clean, understated design that has made the collection a favourite for generations.",
+        "created_at_lisbon": "2026-11-17 17:28 Europe/Lisbon",
+        "likes": 0,
+        "impressions": 33,
+        "map_refs": [
+          "134300-0006"
+        ]
+      },
+      {
+        "query_id": "speedmaster",
+        "query": "\"Omega Speedmaster\"",
+        "url": "https://x.com/theJAXES/status/2114412238358630430",
+        "username": "theJAXES",
+        "text": "Debating getting an Omega Speedmaster…any input? Manual winding daily seemed off putting but being an OCD routine person I would build in a daily process",
+        "created_at_lisbon": "2026-10-25 17:42 Europe/Lisbon",
+        "likes": 3,
+        "impressions": 188,
+        "map_families": [
+          "Speedmaster"
+        ]
+      },
+      {
+        "query_id": "speedmaster",
+        "query": "\"Omega Speedmaster\"",
+        "url": "https://x.com/watchlabb_com/status/2123088269197951006",
+        "username": "watchlabb_com",
+        "text": "Watchlabb'da satılık: Omega Speedmaster Professional Moonwatch Ref. 310.30.42.50.01.002 · 2025 · 42 mm",
+        "created_at_lisbon": "2026-11-18 16:17 Europe/Lisbon",
+        "likes": 0,
+        "impressions": 68,
+        "map_refs": [
+          "310.30.42.50.01.002"
+        ]
+      },
+      {
+        "query_id": "daytona",
+        "query": "Rolex Daytona",
+        "url": "https://x.com/TheChronoHunter/status/2119037816076124363",
+        "username": "TheChronoHunter",
+        "text": "Black or white? Two versions of one of the world’s most recognisable chronographs. Which Rolex Daytona gets your vote?",
+        "created_at_lisbon": "2026-11-07 12:02 Europe/Lisbon",
+        "likes": 0,
+        "impressions": 25,
+        "map_families": [
+          "Daytona",
+          "Cosmograph Daytona"
+        ]
+      },
+      {
+        "query_id": "daytona",
+        "query": "Rolex Daytona",
+        "url": "https://x.com/allocatedclub/status/2119717769901949341",
+        "username": "allocatedclub",
+        "text": "Would you wear a diamond Daytona — or is steel the only real Daytona? Christie's Geneva today, lot 4: Rolex Daytona 116588TBR \"Eye of the Tiger\".",
+        "created_at_lisbon": "2026-11-09 09:04 Europe/Lisbon",
+        "likes": 0,
+        "impressions": 5,
+        "map_families": [
+          "Daytona"
+        ]
+      }
+    ],
+    "spec": {
+      "note": "Usar as ferramentas públicas X (get_posts_counts_recent para totais de 7 dias; search_posts_all com start_time ~30 dias, max_results=25, sort_order=relevancy) para preencher posts. Respeitar 30/min e 1000/dia. Não tratar a pesquisa de 30 dias (máx. 25) como um total.",
+      "counts_api": "get_posts_counts_recent",
+      "search_api": "search_posts_all",
+      "search_start_time": "2026-10-20T00:00:00Z",
+      "max_results": 25,
+      "queries": [
+        "Rolex",
+        "\"Omega Speedmaster\"",
+        "\"Omega watch\" OR \"Omega watches\" OR \"Omega Speedmaster\" OR \"Omega Seamaster\" OR @omega",
+        "Cartier",
+        "Panerai",
+        "\"Rolex Pepsi\" OR 126710BLRO OR \"GMT Pepsi\"",
+        "\"Rolex Batman\" OR 126710BLNR",
+        "\"Bruce Wayne\" Rolex OR 126710GRNR",
+        "Rolex Submariner",
+        "Rolex Daytona",
+        "Rolex Explorer",
+        "Rolex \"Yacht-Master\" OR \"Yacht Master\"",
+        "Rolex \"Air-King\" OR \"Air King\"",
+        "Milgauss",
+        "Rolex Datejust",
+        "Rolex \"Day-Date\" OR DayDate",
+        "\"Oyster Perpetual\"",
+        "pistachio Rolex OR pistache Rolex OR \"134300-0006\"",
+        "Omega (\"Dark Side of the Moon\" OR DSOTM)",
+        "\"Speedmaster '57\" OR \"Speedmaster 57\" OR \"Speedmaster Broad Arrow\"",
+        "\"Cartier Santos\"",
+        "\"Cartier Tank\"",
+        "\"Ballon Bleu\"",
+        "Panerai Luminor OR PAM01314 OR PAM01123",
+        "\"Root Beer\" Rolex OR 126711CHNR OR 126715CHNR"
+      ],
+      "do_not_use": [
+        "Omega (isolado — demasiado genérico)",
+        "\"Dark Side of the Moon\" OR DSOTM (sem Omega — colide com Pink Floyd)",
+        "\"Omega Speedmaster\" OR Moonwatch (Moonwatch demasiado genérico; o pico de 19 nov manteve-se mesmo só com \"Omega Speedmaster\")"
+      ]
+    },
+    "posts_note": "Amostra da pesquisa search_posts_all (relevancy, máx. 25, desde 2026-10-20T00:00:00Z). Não é um total de 30 dias. Retweets excluídos da amostra mostrada. A pesquisa de «Omega Speedmaster» não devolveu o pico de 19 nov (21 016 posts nesse dia na API de contagens); as duas fontes não se substituem.",
+    "search_calls": 6,
+    "counts_calls": 29,
+    "daily_dates": [
+      "2026-11-12",
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-18",
+      "2026-11-19"
+    ],
+    "daily_note": "Série diária da API get_posts_counts_recent, 19 nov 2026. O primeiro e o último balde são parciais."
+  },
+  "instagram": {
+    "note": "Apenas ligações públicas. Sem login, sem recolha de publicações, sem scraping.",
+    "hashtags": [
+      {
+        "label": "#rolex",
+        "url": "https://www.instagram.com/explore/tags/rolex/"
+      },
+      {
+        "label": "#omegawatches",
+        "url": "https://www.instagram.com/explore/tags/omegawatches/"
+      },
+      {
+        "label": "#speedmaster",
+        "url": "https://www.instagram.com/explore/tags/speedmaster/"
+      },
+      {
+        "label": "#cartier",
+        "url": "https://www.instagram.com/explore/tags/cartier/"
+      },
+      {
+        "label": "#panerai",
+        "url": "https://www.instagram.com/explore/tags/panerai/"
+      },
+      {
+        "label": "#gmtmaster",
+        "url": "https://www.instagram.com/explore/tags/gmtmaster/"
+      }
+    ],
+    "accounts": [
+      {
+        "label": "@rolex",
+        "url": "https://www.instagram.com/rolex/",
+        "kind": "oficial"
+      },
+      {
+        "label": "@omega",
+        "url": "https://www.instagram.com/omega/",
+        "kind": "oficial"
+      },
+      {
+        "label": "@cartier",
+        "url": "https://www.instagram.com/cartier/",
+        "kind": "oficial"
+      },
+      {
+        "label": "@panerai",
+        "url": "https://www.instagram.com/panerai/",
+        "kind": "oficial"
+      },
+      {
+        "label": "@hodinkee",
+        "url": "https://www.instagram.com/hodinkee/",
+        "kind": "revista"
+      },
+      {
+        "label": "@fratellowatches",
+        "url": "https://www.instagram.com/fratellowatches/",
+        "kind": "revista"
+      },
+      {
+        "label": "@monochromewatches",
+        "url": "https://www.instagram.com/monochromewatches/",
+        "kind": "revista"
+      },
+      {
+        "label": "@revolutionwatch",
+        "url": "https://www.instagram.com/revolutionwatch/",
+        "kind": "revista"
+      },
+      {
+        "label": "@timeandtidewatches",
+        "url": "https://www.instagram.com/timeandtidewatches/",
+        "kind": "revista"
+      }
+    ]
+  }
+}

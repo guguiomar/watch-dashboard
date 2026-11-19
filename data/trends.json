@@ -1,0 +1,1983 @@
+{
+  "updated": "2026-11-19",
+  "timezone": "Europe/Lisbon",
+  "note": "Itens de RSS/Atom públicos. As janelas de 30 e 90 dias referem-se apenas ao que o feed devolveu nesta recolha (muitas vezes as últimas 6–30 peças). WatchPro e feeds vazios ficam em feeds_failed. Não inventámos títulos nem datas.",
+  "feeds": [
+    {
+      "id": "hodinkee",
+      "name": "Hodinkee",
+      "url": "https://www.hodinkee.com/articles/rss.xml",
+      "lang": "en",
+      "ok": true,
+      "items": 10,
+      "error": null
+    },
+    {
+      "id": "fratello",
+      "name": "Fratello",
+      "url": "https://www.fratellowatches.com/feed/",
+      "lang": "en",
+      "ok": true,
+      "items": 10,
+      "error": null
+    },
+    {
+      "id": "monochrome",
+      "name": "Monochrome Watches",
+      "url": "https://monochrome-watches.com/feed/",
+      "lang": "en",
+      "ok": true,
+      "items": 10,
+      "error": null
+    },
+    {
+      "id": "revolution",
+      "name": "Revolution",
+      "url": "https://revolutionwatch.com/feed/",
+      "lang": "en",
+      "ok": true,
+      "items": 6,
+      "error": null
+    },
+    {
+      "id": "revolution-latam",
+      "name": "Revolution México / LATAM",
+      "url": "https://www.revolution.watch/feed/",
+      "lang": "es",
+      "ok": true,
+      "items": 10,
+      "error": null
+    },
+    {
+      "id": "time-tide",
+      "name": "Time+Tide",
+      "url": "https://timeandtidewatches.com/feed/",
+      "lang": "en",
+      "ok": true,
+      "items": 30,
+      "error": null
+    },
+    {
+      "id": "watchpro",
+      "name": "WatchPro",
+      "url": "https://www.watchpro.com/feed/",
+      "lang": "en",
+      "ok": false,
+      "items": 0,
+      "error": "http 403"
+    },
+    {
+      "id": "watchonista",
+      "name": "Watchonista",
+      "url": "https://www.watchonista.com/feed/",
+      "lang": "en",
+      "ok": true,
+      "items": 0,
+      "error": "empty-feed"
+    }
+  ],
+  "feeds_failed": [
+    {
+      "id": "watchpro",
+      "name": "WatchPro",
+      "url": "https://www.watchpro.com/feed/",
+      "lang": "en",
+      "ok": false,
+      "items": 0,
+      "error": "http 403"
+    },
+    {
+      "id": "watchonista",
+      "name": "Watchonista",
+      "url": "https://www.watchonista.com/feed/",
+      "lang": "en",
+      "ok": true,
+      "items": 0,
+      "error": "empty-feed"
+    }
+  ],
+  "items": [
+    {
+      "title": "Happenings: The Horological Society Of New York Introduces “Chronometry Talks” Lecture Series",
+      "url": "https://www.hodinkee.com/articles/the-horological-society-of-new-york-introduces-inaugural-chronometry-talks-lecture-series",
+      "source": "Hodinkee",
+      "source_id": "hodinkee",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T20:00:00+00:00",
+      "summary": " A new, two-day series exploring the history, science, and future of timekeeping. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://hodinkee.imgix.net/uploads/articles/ec0f08c5-00ac-4cbd-b992-3401528917fe/HSNY-Hero.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&ch=Width%2CDPR%2CSave-Data&fit=crop&w=2000"
+    },
+    {
+      "title": "Introducing: The New Releases From IAMWATCH 2026",
+      "url": "https://www.hodinkee.com/articles/all-the-new-releases-from-iamwatch-2026",
+      "source": "Hodinkee",
+      "source_id": "hodinkee",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T18:00:00+00:00",
+      "summary": " The indie-focused fair in Singapore has wrapped up, but there are a ton of new releases to talk about. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://hodinkee.imgix.net/uploads/articles/079c9390-d77d-4e32-bf09-d1c032c4b9e5/IAMWATCH-Releases.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&ch=Width%2CDPR%2CSave-Data&fit=crop&w=2000"
+    },
+    {
+      "title": "Auctions: Three Trends To Follow And Six Watches I'd Buy (If I Could) At Phillips And Christie's Hong Kong Auctions",
+      "url": "https://www.hodinkee.com/articles/three-things-to-watch-at-phillips-and-christies-hong-kong-auction",
+      "source": "Hodinkee",
+      "source_id": "hodinkee",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T16:00:00+00:00",
+      "summary": " The sales take place November 21-22 for Phillips and November 26 for Christie's, so there's a little time to browse and pick a few watches to bid on. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://hodinkee.imgix.net/uploads/articles/b37822e9-1ffc-4712-b8db-d843e54365ce/Untitled-1.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&ch=Width%2CDPR%2CSave-Data&fit=crop&w=2000",
+      "image": "https://hodinkee.imgix.net/uploads/articles/b37822e9-1ffc-4712-b8db-d843e54365ce/Untitled-1.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&ch=Width%2CDPR%2CSave-Data&fit=crop&w=2000",
+      "image_original": "https://hodinkee.imgix.net/uploads/articles/b37822e9-1ffc-4712-b8db-d843e54365ce/Untitled-1.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&ch=Width%2CDPR%2CSave-Data&fit=crop&w=2000",
+      "image_credit": "Hodinkee"
+    },
+    {
+      "title": "Introducing: The Oris Doraemon Limited Edition",
+      "url": "https://www.hodinkee.com/articles/oris-doraemon",
+      "source": "Hodinkee",
+      "source_id": "hodinkee",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T14:00:00+00:00",
+      "summary": " The iconic cat robot makes his way to Holstein for this new watch. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://hodinkee.imgix.net/uploads/articles/aade4d4e-d02b-4348-b2d4-dd8d4f97840d/oris-doraemon-header.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&ch=Width%2CDPR%2CSave-Data&fit=crop&w=2000"
+    },
+    {
+      "title": "Introducing: The Roger W. Smith Series 7 Annual Calendar Tourbillon",
+      "url": "https://www.hodinkee.com/articles/the-roger-w-smith-series-7-annual-calendar-tourbillon",
+      "source": "Hodinkee",
+      "source_id": "hodinkee",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T12:41:06+00:00",
+      "summary": " To celebrate 25 years of his brand, Smith unveils a complicated watch, thoroughly grounded in his past and his mentor George Daniels' legacy. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://hodinkee.imgix.net/uploads/images/8ca685ea-dfd0-4836-b76f-604c15a4f586/RWSSeriesSevenFront.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&ch=Width%2CDPR%2CSave-Data&fit=crop&w=2000"
+    },
+    {
+      "title": "Introducing: The Merci Super Collection",
+      "url": "https://www.hodinkee.com/articles/merci-super",
+      "source": "Hodinkee",
+      "source_id": "hodinkee",
+      "lang": "en",
+      "date": "2026-11-18",
+      "date_iso": "2026-11-18T22:00:00+00:00",
+      "summary": " A new series of four models inspired by 70s-era architecture adds to the Parisian boutique's catalog of well-priced, intentionally designed watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://hodinkee.imgix.net/uploads/articles/8575676a-1ac7-4de5-b96c-f7548d806d9d/merci-header.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&ch=Width%2CDPR%2CSave-Data&fit=crop&w=2000"
+    },
+    {
+      "title": "Introducing: Horologically Unique Revives The 'Chronoscope' Jump Hour With The HU-02",
+      "url": "https://www.hodinkee.com/articles/introducing-horologically-unique-hu-02",
+      "source": "Hodinkee",
+      "source_id": "hodinkee",
+      "lang": "en",
+      "date": "2026-11-18",
+      "date_iso": "2026-11-18T20:00:00+00:00",
+      "summary": " A striking and fan-favorite Art Deco design comes back as a disco volante. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://hodinkee.imgix.net/uploads/images/a478169b-fcf8-466c-8aef-2ab3f17135cd/HU-02_GROUP_02_HR.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&ch=Width%2CDPR%2CSave-Data&fit=crop&w=2000"
+    },
+    {
+      "title": "Introducing: Hublot Brings Denim Back To The Big Bang Collection",
+      "url": "https://www.hodinkee.com/articles/hublot-brings-denim-to-the-big-bang-collection",
+      "source": "Hodinkee",
+      "source_id": "hodinkee",
+      "lang": "en",
+      "date": "2026-11-18",
+      "date_iso": "2026-11-18T18:00:00+00:00",
+      "summary": " The Big Bang has always made a statement. Now, it's joining Hublot's permanent collection in denim. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://hodinkee.imgix.net/uploads/articles/e83764e6-6f37-401d-88f8-ea96951e0cba/Hublot-Big-Bang-HERO.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&ch=Width%2CDPR%2CSave-Data&fit=crop&w=2000"
+    },
+    {
+      "title": "Magazine Feature: Nothing More. Nothing Less.",
+      "url": "https://www.hodinkee.com/articles/nothing-more-nothing-less",
+      "source": "Hodinkee",
+      "source_id": "hodinkee",
+      "lang": "en",
+      "date": "2026-11-18",
+      "date_iso": "2026-11-18T16:00:02+00:00",
+      "summary": " On Panerai, Italian industrial design, and the strange perfection of an object stripped to its essentials. ",
+      "matched_brands": [
+        "Panerai"
+      ],
+      "matched_refs": [],
+      "image_url": "https://framerusercontent.com/assets/S0JplnTh62Aq01aZBIstpF6fJ5Q.jpg",
+      "image": "https://framerusercontent.com/assets/S0JplnTh62Aq01aZBIstpF6fJ5Q.jpg",
+      "image_original": "https://framerusercontent.com/assets/S0JplnTh62Aq01aZBIstpF6fJ5Q.jpg",
+      "image_credit": "Hodinkee"
+    },
+    {
+      "title": "The Business of Watches Podcast: Wilhelm Schmid, Chief Executive Officer Of A. Lange & Söhne",
+      "url": "https://www.hodinkee.com/articles/a-lange-and-sohne-chief-executive-officer-wilhelm-schmid",
+      "source": "Hodinkee",
+      "source_id": "hodinkee",
+      "lang": "en",
+      "date": "2026-11-18",
+      "date_iso": "2026-11-18T16:00:00+00:00",
+      "summary": " Schmid tells the unique business story of reviving one of the world's finest watchmakers and how the brand keeps clients engaged despite its highly limited production and often eye-watering prices. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://hodinkee.imgix.net/uploads/images/68497916-31fe-447e-ba4f-5ea0e638f27a/BusinessOfWatcheshero01.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&ch=Width%2CDPR%2CSave-Data&fit=crop&w=2000"
+    },
+    {
+      "title": "Merci Instruments Introduces The Super Collection — Four Watches Inspired By 1970s Architecture And Design",
+      "url": "https://www.fratellowatches.com/new-merci-instruments-super-collection/",
+      "source": "Fratello",
+      "source_id": "fratello",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T12:00:43+00:00",
+      "summary": " We’ve been impressed by Merci Instruments in the past. The French brand has consistently offered great-looking watches at accessible prices, with a design approach that feels considered without becoming overly complicated. Its latest collection, Super, continues that direction with four new automatic models inspired by the creative freedom of 1970s industrial design and architecture. Where […] Vi",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://www.fratellowatches.com/wp-content/uploads/2026/11/Merci-Instruments-Super-collection-15.jpg",
+      "image": "https://www.fratellowatches.com/wp-content/uploads/2026/11/Merci-Instruments-Super-collection-15.jpg",
+      "image_original": "https://www.fratellowatches.com/wp-content/uploads/2026/11/Merci-Instruments-Super-collection-15.jpg",
+      "image_credit": "Fratello"
+    },
+    {
+      "title": "The New HTD Aquatìc GMT Series Displays Great Italian Charm",
+      "url": "https://www.fratellowatches.com/new-htd-aquatic-gmt-series/",
+      "source": "Fratello",
+      "source_id": "fratello",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T10:00:18+00:00",
+      "summary": " Every time HTD releases a new watch, I take notice. The likeable Italian brand has introduced several notable models over the past few years, including the Safarigraph, which Lex reviewed in 2021, and the Hesagraph Variante B, which I reviewed last year. Now, HTD unveils the Aquatìc GMT series, comprising four travel watches that build […] Visit The New HTD Aquatìc GMT Series Displays Great Itali",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": null
+    },
+    {
+      "title": "Fratello Talks: Bringing Gallet Back To Life With Erwan Rossignol",
+      "url": "https://www.fratellowatches.com/fratello-talks-bringing-gallet-back-to-life-with-erwan-rossignol/",
+      "source": "Fratello",
+      "source_id": "fratello",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T09:30:52+00:00",
+      "summary": " Gallet is a name with two centuries of watchmaking history behind it. Founded in 1826, the Swiss brand built a reputation for chronographs associated with aviation, motorsport, sailing, and exploration. Now, following its acquisition by Breitling, Gallet is entering a new chapter. And with its relaunch coinciding with its 200th anniversary, there is plenty to […] Visit Fratello Talks: Bringing Ga",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": null
+    },
+    {
+      "title": "The Fratello Holiday Gift Guide 2026",
+      "url": "https://www.fratellowatches.com/the-fratello-holiday-gift-guide-2026/",
+      "source": "Fratello",
+      "source_id": "fratello",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T09:00:16+00:00",
+      "summary": " The holidays are just around the corner, and with them comes the annual challenge of finding gifts that feel a little more personal. Luckily, dear Fratelli, we’ve got you covered. For the Fratello Holiday Gift Guide 2026, we’ve gathered a fresh collection of ideas for the watch enthusiast in your life — or for yourself, […] Visit The Fratello Holiday Gift Guide 2026 to read the full article. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": null
+    },
+    {
+      "title": "The Oris Big Crown Pointer Date Gets A Doraemon-Inspired Limited Edition",
+      "url": "https://www.fratellowatches.com/oris-big-crown-pointer-date-doraemon-limited-edition/",
+      "source": "Fratello",
+      "source_id": "fratello",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T08:00:38+00:00",
+      "summary": " Oris has found an unexpected companion for its Big Crown Pointer Date. The new Doraemon Limited Edition brings the beloved Japanese manga and anime character to the Swiss brand’s signature collection. First published in 1970, the original Doraemon manga follows a robotic cat from the 22nd century who travels back in time to help a […] Visit The Oris Big Crown Pointer Date Gets A Doraemon-Inspired",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": null
+    },
+    {
+      "title": "Hands-On With The Chopard L.U.C 1963 Heritage Chronograph In Prussian Blue",
+      "url": "https://www.fratellowatches.com/hands-on-with-the-chopard-l-u-c-1963-heritage-chronograph/",
+      "source": "Fratello",
+      "source_id": "fratello",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T06:00:30+00:00",
+      "summary": " The dial is new, but the watch isn’t, and that doesn’t matter. One look at the Chopard L.U.C 1963 Heritage Chronograph in Prussian Blue is enough to make you drown in the dial’s depth. When you finally come up for air and turn the watch over, you’ll find another source of fascination — the L.U.C […] Visit Hands-On With The Chopard L.U.C 1963 Heritage Chronograph In Prussian Blue to read the full ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://www.fratellowatches.com/wp-content/uploads/2026/11/Chopard-L.U.C-1963-Heritage-Chronograph-4.jpg",
+      "image": "https://www.fratellowatches.com/wp-content/uploads/2026/11/Chopard-L.U.C-1963-Heritage-Chronograph-4.jpg",
+      "image_original": "https://www.fratellowatches.com/wp-content/uploads/2026/11/Chopard-L.U.C-1963-Heritage-Chronograph-4.jpg",
+      "image_credit": "Fratello"
+    },
+    {
+      "title": "Hands-On With The Peren One — The Brand’s First Chronograph And Integrated-Bracelet Watch",
+      "url": "https://www.fratellowatches.com/hands-on-peren-one/",
+      "source": "Fratello",
+      "source_id": "fratello",
+      "lang": "en",
+      "date": "2026-11-18",
+      "date_iso": "2026-11-18T12:00:31+00:00",
+      "summary": " Stainless steel sports watches with an integrated bracelet are still very popular these days. That’s probably why Andy Bica, founder of Peren, decided to develop the One, which he released late last year. You can clearly see the ’70s inspiration with the lugless case, substantial bezel, and matching bracelet. Thankfully, though, Peren’s unmistakable minimalist design […] Visit Hands-On With The P",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": null
+    },
+    {
+      "title": "Shadow Icons: The Underappreciated References — Vacheron Constantin Overseas",
+      "url": "https://www.fratellowatches.com/shadow-icons-the-underappreciated-references-vacheron-constantin-overseas/",
+      "source": "Fratello",
+      "source_id": "fratello",
+      "lang": "en",
+      "date": "2026-11-18",
+      "date_iso": "2026-11-18T08:00:47+00:00",
+      "summary": " There’s a reason icons are icons. Some watches have thoroughly earned that status. Yet an icon can stand so tall that it leaves other worthwhile timepieces in a brand’s lineup in its shadow. In this series, we shine the spotlight on some of the watches that deserve more attention. One of them is the Vacheron […] Visit Shadow Icons: The Underappreciated References — Vacheron Constantin Overseas to",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": null
+    },
+    {
+      "title": "Introducing The ArtyA Purity Curvy HMS Sapphire Sport Edition: The Bird-Of Paradise Watch",
+      "url": "https://www.fratellowatches.com/introducing-the-artya-purity-curvy-hms-sapphire-sport-edition/",
+      "source": "Fratello",
+      "source_id": "fratello",
+      "lang": "en",
+      "date": "2026-11-18",
+      "date_iso": "2026-11-18T06:00:02+00:00",
+      "summary": " ArtyA is known for a couple of things, but two stand out — sapphire crystal and color. The Geneva-based brand has worked with clear and colored sapphire crystal for more than 15 years, developing considerable expertise in machining this exceptionally hard material. You might think that the nine versions of the Purity Curvy HMS Sapphire […] Visit Introducing The ArtyA Purity Curvy HMS Sapphire Spo",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": null
+    },
+    {
+      "title": "Book Review — Vintage Watches: The Modern Guide",
+      "url": "https://www.fratellowatches.com/book-review-vintage-watches-the-modern-guide/",
+      "source": "Fratello",
+      "source_id": "fratello",
+      "lang": "en",
+      "date": "2026-11-17",
+      "date_iso": "2026-11-17T16:00:58+00:00",
+      "summary": " As a watch collector, I approach books about my pastime with healthy skepticism. I own quite a few, and while most recent brand-focused editions have been fantastic, some are less impressive. Whether it’s erroneous information or a book that adds little to my favorite topic, these are my largest concerns. Plus, with the ever-evolving internet […] Visit Book Review — Vintage Watches: The Modern Gu",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": null
+    },
+    {
+      "title": "Introducing – The New Hublot Big Bang Denim Collection with Hand-Textured Cases",
+      "url": "https://monochrome-watches.com/hublot-big-bang-denim-collection-with-hand-textured-cases-and-textile-dials-introducing-price/",
+      "source": "Monochrome Watches",
+      "source_id": "monochrome",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T17:30:12+00:00",
+      "summary": "As a brand that deploys the “Art of Fusion” tagline, unconventional materials and unusual pairings are ingrained in Hublot’s identity. Denim, the rugged fabric used for jeans, was featured by Hublot in 2013 on the dials and straps of two limited editions. Pushing the concept further, the four new, non-limited Big Bang and Spirit of […]",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://monochrome-watches.com/app/uploads/2026/11/Hublot-Big-Bang-Denim-collection-1.jpg"
+    },
+    {
+      "title": "Introducing – The Norqain Independence Skeleton 40mm Arctic Blue, with Updated Steel Bracelet",
+      "url": "https://monochrome-watches.com/the-norqain-independence-skeleton-40mm-arctic-blue-with-updated-steel-bracelet/",
+      "source": "Monochrome Watches",
+      "source_id": "monochrome",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T13:01:15+00:00",
+      "summary": "The Independence collection has, since its introduction in 2020, become an important stone in Norqain‘s portfolio. An everyday sports watch, the collection has gradually expanded to now include the bold and high-tech Wild One, a flyback chronograph, openworked models, and a long list of pretty appealing colours. Today, the brand introduces a new version of […]",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://monochrome-watches.com/app/uploads/2026/11/Norqain-Independence-Skeleton-40mm-Arctic-Blue-New-Steel-Bracelet-1.jpg"
+    },
+    {
+      "title": "First Look – Nomos Goes Black-and-Gold with the new Noir Series",
+      "url": "https://monochrome-watches.com/nomos-noir-series-tangente-ludwig-tertra-hand-wound-steel-or-gold-review-price/",
+      "source": "Monochrome Watches",
+      "source_id": "monochrome",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T11:30:43+00:00",
+      "summary": "When you think about Nomos, in particular some of its most emblematic models, you might picture a steel watch with compact dimensions and a Bauhaus-inspired silver-plated dial, time read with blued hands and black printed markers – something like this. And yes, this is true for the timeless Tangente, the classic Ludwig and the square […]",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://monochrome-watches.com/app/uploads/2026/11/nomos-noir-series-tangente-ludwig-tertra-hand-wound-steel-or-gold-review-13.jpg",
+      "image": "https://monochrome-watches.com/app/uploads/2026/11/nomos-noir-series-tangente-ludwig-tertra-hand-wound-steel-or-gold-review-13.jpg",
+      "image_original": "https://monochrome-watches.com/app/uploads/2026/11/nomos-noir-series-tangente-ludwig-tertra-hand-wound-steel-or-gold-review-13.jpg",
+      "image_credit": "Monochrome Watches"
+    },
+    {
+      "title": "Introducing – The Chronoswiss ReSec Final Edition, The Last of Its Kind",
+      "url": "https://monochrome-watches.com/introducing-chronoswiss-resec-final-edition-last-of-modern-regulator-guilloche-dial-price/",
+      "source": "Monochrome Watches",
+      "source_id": "monochrome",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T11:01:41+00:00",
+      "summary": "In 2018, Chronoswiss introduced the Open Gear ReSec, a watch that gave the traditional regulator display a very contemporary, three-dimensional edge. With its exposed mechanics, it became one of the defining designs of the brand’s modern era. After eight years of interpretations and technical evolution, the collection now concludes with the ReSec Final Edition. The […]",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://monochrome-watches.com/app/uploads/2026/11/Chronoswiss-ReSec-Final-Edition-4.jpg"
+    },
+    {
+      "title": "First Look – Oris Welcomes Another Famous Character to Its Collection with the Doraemon Limited Edition (Incl. Video)",
+      "url": "https://monochrome-watches.com/oris-doraemon-limited-edition-big-crown-pointer-date-manga-inspired-video-review-price/",
+      "source": "Monochrome Watches",
+      "source_id": "monochrome",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T08:01:38+00:00",
+      "summary": "What’s not to love about Oris‘ playful tradition of collaborating with characters from popular culture? It began with Kermit the Frog in 2023, whose appearance in the date window of the ProPilot X Calibre 400 brought a dose of humour to the titanium pilot’s watch. Miss Piggy followed in a smaller, pink-dial ProPilot X, and […]",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://monochrome-watches.com/app/uploads/2026/11/Oris-Doraemon-Limited-Edition-Big-Crown-Pointer-Date-Japanese-Manga-Inspired-video-review-10.jpg"
+    },
+    {
+      "title": "First Look – Frederique Constant’s More Compact Classic Tourbillon Perpetual Calendar with Sapphire Dial (Incl. Video)",
+      "url": "https://monochrome-watches.com/2026-frederique-constants-tourbillon-perpetual-calendar-40mm-sapphire-marquetry-dial-video-review-price/",
+      "source": "Monochrome Watches",
+      "source_id": "monochrome",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T07:01:28+00:00",
+      "summary": "The tourbillon and perpetual calendar are two of watchmaking’s most coveted complications: the first for the kinetic theatre of its rotating cage, the second for its ingenious mastery of time’s irregularities. United, they form a formidable alliance traditionally reserved for the deepest pockets. However, that all changed with Frederique Constant and its founding principle of […]",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://monochrome-watches.com/app/uploads/2026/11/2026-Frederique-Constant-Classic-Tourbillon-Perpetual-Calendar-Manufacture-40mm-Sapphire-marquetry-dial-video-review-11.jpg"
+    },
+    {
+      "title": "Introducing – A Seconds Hand That Slows, Stops, Runs Backwards, Races Fast, but is Never Late… by Algorithme du Temps",
+      "url": "https://monochrome-watches.com/algorithme-du-temps-reveries-des-secondes-watch-indie-watchmaking-seconds-hand-non-linear-motion-introducing-price/",
+      "source": "Monochrome Watches",
+      "source_id": "monochrome",
+      "lang": "en",
+      "date": "2026-11-18",
+      "date_iso": "2026-11-18T17:30:53+00:00",
+      "summary": "Do you know the feeling that time sometimes passes very quickly, while at other moments, time seems to drag on with an annoyingly slow pace? The seconds hand on your watch sometimes simply does not comply with how you feel that time passes by, and Nadim Elgarhy created the Algorithme du Temps Rêveries des Secondes […]",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://monochrome-watches.com/app/uploads/2026/11/Algorithme-du-Temps-Reveries-des-Secondes-Watch-non-linear-seconds-hand-that-slows-stops-runs-backwards-7.jpg"
+    },
+    {
+      "title": "Introducing – Stowa Brings Back the Full-Lume Dial with Four New Marine Models",
+      "url": "https://monochrome-watches.com/stowa-marine-classic-and-marine-bronze-vintage-arabic-blue-lume-luminous-dial-introducing-price/",
+      "source": "Monochrome Watches",
+      "source_id": "monochrome",
+      "lang": "en",
+      "date": "2026-11-18",
+      "date_iso": "2026-11-18T14:01:19+00:00",
+      "summary": "Stowa has a long association with marine and observation watches, and the brand’s contemporary Marine collection draws on this heritage, notably through models such as the Marine Original Arabic. Now, the German brand revisits its historical archives once again and launches four new references: the Marine Classic 36 and 40 Arabic Blue Lume, and the […]",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://monochrome-watches.com/app/uploads/2026/11/Stowa-Marine-Classic-and-Marine-Bronze-Vintage-Arabic-Blue-Lume-Classic-Marine-Instruments-with-Fully-Luminous-Dials-1.jpg"
+    },
+    {
+      "title": "Introducing – Bangalore Watch Company Epoch, a Hand-Wound Dress Watch from India",
+      "url": "https://monochrome-watches.com/bangalore-watch-company-epoch-hand-wound-dress-watch-from-india-introducing-price/",
+      "source": "Monochrome Watches",
+      "source_id": "monochrome",
+      "lang": "en",
+      "date": "2026-11-18",
+      "date_iso": "2026-11-18T10:30:48+00:00",
+      "summary": "Bangalore Watch Company was founded in 2018 and is now known to our regular readers through its purpose-built, sporty designs inspired by modern India, with collections exploring aviation, space, cricket and the outdoors. And it has become an important part of modern Indian watchmaking. However, its debut model, the Renaissance Automatic, was a dress watch, […]",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://monochrome-watches.com/app/uploads/2026/11/Bangalore-Watch-Company-Epoch-Collection-Dress-Watch-From-India-1.jpg"
+    },
+    {
+      "title": "Interview – Beyond Revival, Alex Rosenfield’s Vision for the Future of Urban Jürgensen",
+      "url": "https://monochrome-watches.com/beyond-revival-alex-rosenfields-vision-for-the-future-of-urban-jurgensen/",
+      "source": "Monochrome Watches",
+      "source_id": "monochrome",
+      "lang": "en",
+      "date": "2026-11-18",
+      "date_iso": "2026-11-18T08:00:16+00:00",
+      "summary": "When Urban Jürgensen reemerged a couple of years ago, it marked one of the most anticipated revivals in modern independent watchmaking. The historic manufacture made its return to the spotlight with a high-profile launch event in California, unveiling three distinct models that seamlessly married classic Danish-Swiss horological heritage with contemporary craftsmanship… That new chapter was […]",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://monochrome-watches.com/app/uploads/2026/11/interview-alex-rosenfield-urban-jurgensen-revival-and-future-of-brand.jpg"
+    },
+    {
+      "title": "Roger W. Smith Series Seven: His Own Chapter",
+      "url": "https://revolutionwatch.com/roger-w-smith-series-seven-his-own-chapter/",
+      "source": "Revolution",
+      "source_id": "revolution",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T12:00:14+00:00",
+      "summary": " The post Roger W. Smith Series Seven: His Own Chapter appeared first on Revolution Watch . ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://revolutionwatch.com/wp-content/uploads/2026/11/11-Roger-Smith-Series-Seven.jpg",
+      "image": "https://revolutionwatch.com/wp-content/uploads/2026/11/11-Roger-Smith-Series-Seven.jpg",
+      "image_original": "https://revolutionwatch.com/wp-content/uploads/2026/11/11-Roger-Smith-Series-Seven.jpg",
+      "image_credit": "Revolution"
+    },
+    {
+      "title": "IAMWATCH, We Are Awed",
+      "url": "https://revolutionwatch.com/iamwatch-2026/",
+      "source": "Revolution",
+      "source_id": "revolution",
+      "lang": "en",
+      "date": "2026-11-18",
+      "date_iso": "2026-11-18T11:00:57+00:00",
+      "summary": " The post IAMWATCH, We Are Awed appeared first on Revolution Watch . ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": null
+    },
+    {
+      "title": "Parmigiani Fleurier and the Art of the Invisible",
+      "url": "https://revolutionwatch.com/parmigiani-fleurier-and-the-art-of-the-invisible/",
+      "source": "Revolution",
+      "source_id": "revolution",
+      "lang": "en",
+      "date": "2026-11-17",
+      "date_iso": "2026-11-17T12:00:30+00:00",
+      "summary": " The post Parmigiani Fleurier and the Art of the Invisible appeared first on Revolution Watch . ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": null
+    },
+    {
+      "title": "Last Week in Watches: Zenith Teams Up with J.N. Shapiro, Murakami Makes His Move",
+      "url": "https://revolutionwatch.com/last-week-in-watches-zenith-teams-up-with-j-n-shapiro-murakami-makes-his-move/",
+      "source": "Revolution",
+      "source_id": "revolution",
+      "lang": "en",
+      "date": "2026-11-16",
+      "date_iso": "2026-11-16T14:14:39+00:00",
+      "summary": " The post Last Week in Watches: Zenith Teams Up with J.N. Shapiro, Murakami Makes His Move appeared first on Revolution Watch . ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": null
+    },
+    {
+      "title": "IAMWATCH 2026: The Future Looks Bright",
+      "url": "https://revolutionwatch.com/iamwatch-2026-the-future-looks-bright/",
+      "source": "Revolution",
+      "source_id": "revolution",
+      "lang": "en",
+      "date": "2026-11-15",
+      "date_iso": "2026-11-15T06:25:38+00:00",
+      "summary": " The post IAMWATCH 2026: The Future Looks Bright appeared first on Revolution Watch . ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": null
+    },
+    {
+      "title": "Independent Watchmakers of Our Time",
+      "url": "https://revolutionwatch.com/independent-watchmakers-of-our-time/",
+      "source": "Revolution",
+      "source_id": "revolution",
+      "lang": "en",
+      "date": "2026-11-15",
+      "date_iso": "2026-11-15T00:05:36+00:00",
+      "summary": " The post Independent Watchmakers of Our Time appeared first on Revolution Watch . ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": null
+    },
+    {
+      "title": "Arnold & Son renueva el Time Pyramid con ágata y opciones en oro y platino",
+      "url": "https://revolution.watch/mxl/arnold-son-renueva-el-time-pyramid-con-agata-y-opciones-en-oro-y-platino/",
+      "source": "Revolution México / LATAM",
+      "source_id": "revolution-latam",
+      "lang": "es",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T09:09:05+00:00",
+      "summary": " Arnold & Son presenta dos nuevas versiones del Time Pyramid de 42.5 mm, en oro rojo y platino 950, con carátulas y fondos de ágata. Cada edición se limita a ocho piezas. The post Arnold & Son renueva el Time Pyramid con ágata y opciones en oro y platino appeared first on Revolution México y LATAM . ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://revolution.watch/mxl/wp-content/uploads/2026/11/Time-Pyramid-RG-Agate_3-4.jpeg",
+      "image": "https://revolution.watch/mxl/wp-content/uploads/2026/11/Time-Pyramid-RG-Agate_3-4.jpeg",
+      "image_original": "https://revolution.watch/mxl/wp-content/uploads/2026/11/Time-Pyramid-RG-Agate_3-4.jpeg",
+      "image_credit": "Revolution México / LATAM"
+    },
+    {
+      "title": "Armin Strom Dual Time GMT Resonance Meteorite: del espacio exterior en edición limitada",
+      "url": "https://revolution.watch/mxl/armin-strom-dual-time-gmt-resonance-meteorite-del-espacio-exterior-en-edicion-limitada/",
+      "source": "Revolution México / LATAM",
+      "source_id": "revolution-latam",
+      "lang": "es",
+      "date": "2026-11-18",
+      "date_iso": "2026-11-18T09:52:56+00:00",
+      "summary": " Armin Strom presenta 15 piezas del Dual Time GMT Resonance con carátulas de meteorito. El calibre ARF22 de manufactura sincroniza dos volantes por resonancia para mejorar la estabilidad cronométrica. The post Armin Strom Dual Time GMT Resonance Meteorite: del espacio exterior en edición limitada appeared first on Revolution México y LATAM . ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://revolution.watch/mxl/wp-content/uploads/2026/11/LR_13_ARMINSTROM_DTGMTRMETEORITE_RET.jpeg"
+    },
+    {
+      "title": "Breguet viste de platino al Classique Souscription en su nueva edición",
+      "url": "https://revolution.watch/mxl/breguet-viste-de-platino-al-classique-souscription-en-su-nueva-edicion/",
+      "source": "Revolution México / LATAM",
+      "source_id": "revolution-latam",
+      "lang": "es",
+      "date": "2026-11-17",
+      "date_iso": "2026-11-17T09:04:50+00:00",
+      "summary": " Breguet presenta el Classique Souscription 2026 en platino, con calibre de cuerda manual VS00, 96 horas de reserva de marcha y carátula de esmalte ‘grand feu’ de una sola aguja. The post Breguet viste de platino al Classique Souscription en su nueva edición appeared first on Revolution México y LATAM . ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://revolution.watch/mxl/wp-content/uploads/2026/11/BREGUET_CLASSIQUE_SOUSCRIPTION_2026PT_LIFESTYLE_LATERAL-2_50x50cm_300dpi_sRGB_MASTER_HR.jpg"
+    },
+    {
+      "title": "Longines Spirit Pilot Flyback: el tiempo entre dos rumbos",
+      "url": "https://revolution.watch/mxl/longines-spirit-pilot-flyback-el-tiempo-entre-dos-rumbos/",
+      "source": "Revolution México / LATAM",
+      "source_id": "revolution-latam",
+      "lang": "es",
+      "date": "2026-11-16",
+      "date_iso": "2026-11-16T09:20:33+00:00",
+      "summary": " Longines presenta dos versiones azules del Spirit Pilot Flyback para 2026, un cronógrafo de cuerda manual con función flyback y rueda de pilares que retoma el legado del calibre 13ZN de 1936. Un nuevo matiz a uno de sus grandes logros en cronografía optimizada para la aviación. The post Longines Spirit Pilot Flyback: el tiempo entre dos rumbos appeared first on Revolution México y LATAM . ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://revolution.watch/mxl/wp-content/uploads/2026/11/L37214936_DRfacef.jpg"
+    },
+    {
+      "title": "Blancpain Ladybird Colors Zodiaque: nuevo calibre, nuevo territorio en el calendario",
+      "url": "https://revolution.watch/mxl/blancpain-ladybird-colors-zodiaque-nuevo-calibre-nuevo-territorio-en-el-calendario/",
+      "source": "Revolution México / LATAM",
+      "source_id": "revolution-latam",
+      "lang": "es",
+      "date": "2026-11-13",
+      "date_iso": "2026-11-13T09:43:46+00:00",
+      "summary": " Blancpain presenta el Ladybird Colors Zodiaque con el calibre 2653QZ, el primer movimiento de la manufactura dedicado al zodíaco occidental, con indicación de fecha, mes retrógrado y disco de doce signos. The post Blancpain Ladybird Colors Zodiaque: nuevo calibre, nuevo territorio en el calendario appeared first on Revolution México y LATAM . ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://revolution.watch/mxl/wp-content/uploads/2026/11/3664_2954_55_PR_RGB.jpg"
+    },
+    {
+      "title": "Tudor, Arvid Lindblad y Racing Bulls: ruta ascendente",
+      "url": "https://revolution.watch/mxl/tudor-arvid-lindblad-y-racing-bulls-ruta-ascendente/",
+      "source": "Revolution México / LATAM",
+      "source_id": "revolution-latam",
+      "lang": "es",
+      "date": "2026-11-12",
+      "date_iso": "2026-11-12T09:33:12+00:00",
+      "summary": " Conversamos con la joven y creciente estrella del equipo V-CARB Racing Bulls, Arvid Lindblad, en el marco del GP de F1 de la Ciudad de México. Búsqueda de rendimiento y su gusto por los relojes, fueron los ejes. The post Tudor, Arvid Lindblad y Racing Bulls: ruta ascendente appeared first on Revolution México y LATAM . ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://revolution.watch/mxl/wp-content/uploads/2026/11/SI202611020002.jpeg"
+    },
+    {
+      "title": "Konstantin Chaykin: cómo las caminatas espaciales dieron forma al SC02C",
+      "url": "https://revolution.watch/mxl/konstantin-chaykin-como-las-caminatas-espaciales-dieron-forma-al-sc02c/",
+      "source": "Revolution México / LATAM",
+      "source_id": "revolution-latam",
+      "lang": "es",
+      "date": "2026-11-11",
+      "date_iso": "2026-11-11T09:54:10+00:00",
+      "summary": " El SC02C, de Konstantin Chaykin, nació de un programa con Roscosmos y acompañó cuatro caminatas espaciales. La edición limitada de 28 piezas lleva ese historial a los coleccionistas. The post Konstantin Chaykin: cómo las caminatas espaciales dieron forma al SC02C appeared first on Revolution México y LATAM . ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://revolution.watch/mxl/wp-content/uploads/2026/11/Konstantin-Chaykin-SC02C-Product-1-1024x683-1.jpg"
+    },
+    {
+      "title": "Hublot Big Bang Soldier All Black",
+      "url": "https://revolution.watch/mxl/hublot-big-bang-soldier-all-black/",
+      "source": "Revolution México / LATAM",
+      "source_id": "revolution-latam",
+      "lang": "es",
+      "date": "2026-11-10",
+      "date_iso": "2026-11-10T09:24:28+00:00",
+      "summary": " Hublot y el artista Soldier presentan el Big Bang Soldier All Black, un cronógrafo de 42 mm en cerámica negra, limitado a 50 piezas. Es el primer reloj del músico cuyo nombre es Leonard Iheagwam. The post Hublot Big Bang Soldier All Black appeared first on Revolution México y LATAM . ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://revolution.watch/mxl/wp-content/uploads/2026/11/441.CI_.1140.NR_.HBL26-BOX-HR-B.jpeg"
+    },
+    {
+      "title": "GPHG 2026: aquí los ganadores de la noche relojera más especial",
+      "url": "https://revolution.watch/mxl/gphg-2026-aqui-los-ganadores-de-la-noche-relojera-mas-especial/",
+      "source": "Revolution México / LATAM",
+      "source_id": "revolution-latam",
+      "lang": "es",
+      "date": "2026-11-09",
+      "date_iso": "2026-11-09T09:50:04+00:00",
+      "summary": " Rexhep Rexhepi se lleva el Gran Premio Aiguille d'Or con su Chronograph Flyback, mientras la 26ª edición del Grand Prix d’Horlogerie de Genève (GPHG) corona los relojes, relojeros y creaciones horológicas más destacadas de 2026. The post GPHG 2026: aquí los ganadores de la noche relojera más especial appeared first on Revolution México y LATAM . ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://revolution.watch/mxl/wp-content/uploads/2026/11/20261107174339_gphg-cerem-bfm_PHOTO-NICOLAS-LIEBER-1920x1281-1.jpg"
+    },
+    {
+      "title": "Jacob & Co. viste de negro al águila real en su nueva edición para México",
+      "url": "https://revolution.watch/mxl/jacob-co-viste-de-negro-al-aguila-real-en-su-nueva-edicion-para-mexico/",
+      "source": "Revolution México / LATAM",
+      "source_id": "revolution-latam",
+      "lang": "es",
+      "date": "2026-11-06",
+      "date_iso": "2026-11-06T09:55:03+00:00",
+      "summary": " Jacob & Co. revela 28 piezas del Epic X Black DLC – The Eagle’s Legacy, una edición para México con caja de titanio y DLC negro. El águila real regresa en oro 5N sobre un movimiento esqueletado de carga manual. The post Jacob & Co. viste de negro al águila real en su nueva edición para México appeared first on Revolution México y LATAM . ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://revolution.watch/mxl/wp-content/uploads/2026/11/EPIC_X_BLACK_DLC_THE_EAGLES_LEGACY_COBRA_BLACK.jpg"
+    },
+    {
+      "title": "14 of the best dive watches for all sorts of aquatic adventures",
+      "url": "https://timeandtidewatches.com/best-dive-watches/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T18:30:00+00:00",
+      "summary": " The diver has pretty much become the quintessential watch - and here are some of the best. The post 14 of the best dive watches for all sorts of aquatic adventures appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-best-dive-watches-2026.webp",
+      "image": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-best-dive-watches-2026.webp",
+      "image_original": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-best-dive-watches-2026.webp",
+      "image_credit": "Time+Tide"
+    },
+    {
+      "title": "A tale of two Citizens – celebrating half a century of Eco-Drive",
+      "url": "https://timeandtidewatches.com/citizen-promaster-eco-drive-skyhawk-bullhead-50th-anniversary-hands-on/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T13:01:16+00:00",
+      "summary": " Citizen celebrates 50 years of Eco-Drive with two very different Promasters. We go hands-on with the Skyhawk and Tsuno Bullhead limited editions The post A tale of two Citizens – celebrating half a century of Eco-Drive appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/10/featured-image-citizen-promaster-skyhawk-bullhead-50th-anniversary.jpg"
+    },
+    {
+      "title": "Ain’t No Glacier High Enough To Keep Norqain From Releasing Another Icy Stunner",
+      "url": "https://timeandtidewatches.com/norqain-independence-arctic-blue-introducing/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T13:00:05+00:00",
+      "summary": " Norqain gives the Independence Skeleton an Arctic Blue transparent dial, and its first semi-integrated steel bracelet The post Ain’t No Glacier High Enough To Keep Norqain From Releasing Another Icy Stunner appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-independence-arctic-blue.jpg"
+    },
+    {
+      "title": "Farer’s Field Watch Series III puts a colourful spin on the dark-coated tool watch",
+      "url": "https://timeandtidewatches.com/farer-field-watch-series-iii-introducing-2/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T12:00:38+00:00",
+      "summary": " A redesigned 40mm steel case, a longer power reserve and two luminous Midnight editions give Farer’s latest field watches more than a fresh coat of paint. The post Farer’s Field Watch Series III puts a colourful spin on the dark-coated tool watch appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/farer-field-watch-series-iii-featured-image.webp"
+    },
+    {
+      "title": "Chronoswiss Calls the Curtain on the ReSec with the Final Edition",
+      "url": "https://timeandtidewatches.com/chronoswiss-resec-final-edition-introducing/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-19",
+      "date_iso": "2026-11-19T11:00:25+00:00",
+      "summary": " The Chronoswiss ReSec Final Edition marks the end of an eight-year chapter with rose gold guilloché, titanium and the C.6005 movement. The post Chronoswiss Calls the Curtain on the ReSec with the Final Edition appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/Chronoswiss-Resec-Final-Edition-Featured-Image.jpg"
+    },
+    {
+      "title": "Vive la France! 11 French watch brands are coming to London for one very special Weekender",
+      "url": "https://timeandtidewatches.com/vive-lhorlogerie-time-tide-london-events/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-18",
+      "date_iso": "2026-11-18T17:30:22+00:00",
+      "summary": " Join Time+Tide on December 5th for Vive L'Horlogerie, a French watchmaking celebration featuring 11 brands, exclusive experiences and more The post Vive la France! 11 French watch brands are coming to London for one very special Weekender appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-vive-lhorlogerie-london-dec-26-2.jpg"
+    },
+    {
+      "title": "Hublot’s new Big Bang Denim watches are anything but off the rack",
+      "url": "https://timeandtidewatches.com/hublot-big-bang-denim-editions-hands-on/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-18",
+      "date_iso": "2026-11-18T13:00:41+00:00",
+      "summary": " We get hands-on with Hublot’s new Big Bang Denim Editions, featuring genuine denim dials and straps and hand-finished cases The post Hublot’s new Big Bang Denim watches are anything but off the rack appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-hublot-big-bang-denim.jpg"
+    },
+    {
+      "title": "The Sartory-Billard SB04-E Shanga puts Tanzanian glassmaking at the heart of its dial",
+      "url": "https://timeandtidewatches.com/sartory-billard-shanga-sb04-e-hands-on/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-18",
+      "date_iso": "2026-11-18T07:00:54+00:00",
+      "summary": " Recycled glass, handwritten numerals and Maasai spear-inspired hands give the SB04-E Shanga a character inseparable from the artisans who helped create it. The post The Sartory-Billard SB04-E Shanga puts Tanzanian glassmaking at the heart of its dial appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/sb04-sartory-billard-shanga-featured-image.webp"
+    },
+    {
+      "title": "What are they saying? The watch world reacts to the TAG Heuer Aquaracer Professional 300 x Time+Tide Sundowner II",
+      "url": "https://timeandtidewatches.com/tag-heuer-aquaracer-professional-300-x-timetide-sundowner-ii-social-reactions/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-17",
+      "date_iso": "2026-11-17T14:30:11+00:00",
+      "summary": " The TAG Heuer × Time+Tide Sundowner II has made waves across the watch world, but what's everyone saying about our latest collab? The post What are they saying? The watch world reacts to the TAG Heuer Aquaracer Professional 300 x Time+Tide Sundowner II appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/tag-heuer-time-tide-sundowner-ii-social-reactions-social-reactions.jpg"
+    },
+    {
+      "title": "It will be impossible not to want a vintage Movado after watching this…",
+      "url": "https://timeandtidewatches.com/vintage-movado-watches-explored-in-depth-video/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-17",
+      "date_iso": "2026-11-17T12:01:34+00:00",
+      "summary": " A table of vintage pieces, laid out chronologically in the Movado archive room, proved just how much the brand is more than the Museum. The post It will be impossible not to want a vintage Movado after watching this… appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/vintage-movado-watches-in-depth-61.jpg"
+    },
+    {
+      "title": "From Melbourne to Manhattan: The TAG Heuer x Time+Tide Sundowner II launches across three continents",
+      "url": "https://timeandtidewatches.com/from-melbourne-to-manhattan-the-tag-heuer-x-timetide-sundowner-ii-launches-across-three-continents/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-17",
+      "date_iso": "2026-11-17T11:00:58+00:00",
+      "summary": " It’s been almost a year since the opening of our Time+Tide Discovery Studio in New York, and as someone who has been following Time+Tide since the start of my personal watch journey, participating in studio-wide events like the Sundowner II launch party still feels very much like a pinch-me moment. Following the immense success of the original TAG … Continued The post From Melbourne to Manhattan:",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-tag-heuer-sundowner-ii-launch-event.webp"
+    },
+    {
+      "title": "Global orders open now! Zach breaks down what makes our Sundowner II so distinct and special",
+      "url": "https://timeandtidewatches.com/tag-heuer-x-timetide-aquaracer-professional-300-sundowner-ii-full-overview-video/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-17",
+      "date_iso": "2026-11-17T01:00:49+00:00",
+      "summary": " The TAG Heuer x Time+Tide Aquaracer Professional 300 'Sundowner II' Limited Edition is now available for purchase. The post Global orders open now! Zach breaks down what makes our Sundowner II so distinct and special appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/tag-heuer-time-tide-sundowner-ii-tom-austin-photos-9.jpg"
+    },
+    {
+      "title": "Why the latest Christopher Ward x Mr Jones collab is more than just a pretty song bird",
+      "url": "https://timeandtidewatches.com/christopher-ward-x-mr-jones-bel-canto-lucia-interview/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-16",
+      "date_iso": "2026-11-16T17:30:47+00:00",
+      "summary": " A new collaboration shows how two brands can plug each other's gaps and make something only possible through coming together. The post Why the latest Christopher Ward x Mr Jones collab is more than just a pretty song bird appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/christopher-ward-mr-jones-bel-canto-lucia-1.jpg"
+    },
+    {
+      "title": "Through a dealer’s lens: The extraordinary watches of Mann About Time Volume 1",
+      "url": "https://timeandtidewatches.com/mann-about-time-volume-1-recommended-reading/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-16",
+      "date_iso": "2026-11-16T07:00:52+00:00",
+      "summary": " Mann About Time Volume 1 is a celebration of vintage watches, photographed and self-published by British dealer and collector Robin Mann. The post Through a dealer’s lens: The extraordinary watches of Mann About Time Volume 1 appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/01_cover.jpg"
+    },
+    {
+      "title": "The Trey Stone Experience gets the daily wearer right",
+      "url": "https://timeandtidewatches.com/trey-stone-experience-micro-mondays/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-15",
+      "date_iso": "2026-11-15T14:30:04+00:00",
+      "summary": " Trey Stone hits the ground running with the Experience, a daily wearer with intriguing dial colours, solid specs and a charitable streak The post The Trey Stone Experience gets the daily wearer right appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/trey-stone-experience-featured-image.jpg"
+    },
+    {
+      "title": "Wren returns to familiar waters with the Diver One Titanium Glacier",
+      "url": "https://timeandtidewatches.com/wren-diver-one-titanium-glacier-introducing/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-15",
+      "date_iso": "2026-11-15T07:00:48+00:00",
+      "summary": " The Wren Diver One Titanium Glacier pairs an ice-blue gradient dial with grade 5 titanium, a Swiss ETA movement, and 200m water resistance The post Wren returns to familiar waters with the Diver One Titanium Glacier appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-wren-titanium-glacier.jpg"
+    },
+    {
+      "title": "New releases from Vacheron Constantin, Petermann Bedat, Ming and more",
+      "url": "https://timeandtidewatches.com/vacheron-constantin-petermann-bedat-ming-last-week-in-watches/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-14",
+      "date_iso": "2026-11-14T14:30:12+00:00",
+      "summary": " What a week it’s been! While Singapore’s IAMWATCH show is just getting started, with all the releases that come with it, we have a new addition of our own: the Sundowner is back for its second chapter. On top of that, Vacheron Constantin expands the Fiftysix collection with some seriously attractive steel models, independent duo … Continued The post New releases from Vacheron Constantin, Peterman",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/ming-web.jpg"
+    },
+    {
+      "title": "Cameron Green reveals the story behind his new Rado Captain Cook in island paradise",
+      "url": "https://timeandtidewatches.com/rado-captain-cook-cameron-green-events/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-14",
+      "date_iso": "2026-11-14T07:00:35+00:00",
+      "summary": " Alex got hands on with the Rado Captain Cook x Cameron Green Limited Edition on Rottnest Island and spoke to the man behind it The post Cameron Green reveals the story behind his new Rado Captain Cook in island paradise appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-rado-captian-cook-cameron-green-event.webp"
+    },
+    {
+      "title": "14 of the best titanium watches to solve your lightweight needs",
+      "url": "https://timeandtidewatches.com/best-titanium-watches/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-14",
+      "date_iso": "2026-11-14T00:00:00+00:00",
+      "summary": " Explore 14 of the best titanium watches from Rolex, TAG Heuer, and more, combining lightweight comfort, durability and impressive design. The post 14 of the best titanium watches to solve your lightweight needs appeared first on Time+Tide Watches. ",
+      "matched_brands": [
+        "Rolex"
+      ],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-best-titanium-watches-2026-2-update.webp",
+      "image": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-best-titanium-watches-2026-2-update.webp",
+      "image_original": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-best-titanium-watches-2026-2-update.webp",
+      "image_credit": "Time+Tide"
+    },
+    {
+      "title": "Studio Underd0g stays up to date with its new 04SERIES",
+      "url": "https://timeandtidewatches.com/studio-underd0g-04series-hands-on/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-13",
+      "date_iso": "2026-11-13T15:00:07+00:00",
+      "summary": " The newest model from Studio Underd0g brings its first calendar complication and automatic movement to market. The post Studio Underd0g stays up to date with its new 04SERIES appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/studio-underd0g-04series-1.jpg"
+    },
+    {
+      "title": "We launched our second Sundowner around the world, and our thoughts on the GPHG results",
+      "url": "https://timeandtidewatches.com/sundowner-ii-launch-gphg-reaction-friday-wind-down/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-13",
+      "date_iso": "2026-11-13T06:01:02+00:00",
+      "summary": " It was a big week for us all around the world at Time+Tide as we launched the mechanical sequel to our first TAG Heuer collab. The post We launched our second Sundowner around the world, and our thoughts on the GPHG results appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/tag-heuer-time-tide-sundowner-2-london-launch-event-1.jpg"
+    },
+    {
+      "title": "Zenith’s legendary Calibre 135 gets an American makeover courtesy of J.N. Shapiro",
+      "url": "https://timeandtidewatches.com/zenith-g-f-j-calibre-135-double-signed-with-j-n-shapiro-introducing/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-12",
+      "date_iso": "2026-11-12T18:00:27+00:00",
+      "summary": " Zenith’s second Double Signed collaboration pairs a California-made guilloché dial with American-style damaskeening on the Calibre 135, in a rose gold edition of 25 pieces. The post Zenith’s legendary Calibre 135 gets an American makeover courtesy of J.N. Shapiro appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-zenith-gfj-jn-shapiro.jpg"
+    },
+    {
+      "title": "Anders & Co goes rectangular with the ultra-slim AC3 Lago",
+      "url": "https://timeandtidewatches.com/anders-co-ac3-lago-hands-on/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-12",
+      "date_iso": "2026-11-12T15:00:37+00:00",
+      "summary": " The Anders & Co AC3 Lago introduces an ultra-slim rectangular case, five colourful dials and a Miyota quartz movement at an affordable price. The post Anders & Co goes rectangular with the ultra-slim AC3 Lago appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-anders-co-ac3-lago.jpg"
+    },
+    {
+      "title": "Vario drops some heavy metal with the Futurist Tantalum Edition",
+      "url": "https://timeandtidewatches.com/vario-futurist-tantalum-introducing/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-12",
+      "date_iso": "2026-11-12T14:30:16+00:00",
+      "summary": " Vario gives its retro-futurist Futurist a tantalum makeover, pairing the rare metal with seven sunburst dials and a faceted sapphire crystal. The post Vario drops some heavy metal with the Futurist Tantalum Edition appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/Vario-Futurist-Tantalum-Featured-Image-2.jpg"
+    },
+    {
+      "title": "From the outback to the ocean: The TAG Heuer Aquaracer x Time+Tide ‘Sundowner II’",
+      "url": "https://timeandtidewatches.com/tag-heuer-aquaracer-time-tide-sundowner-ii-hands-on/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-11",
+      "date_iso": "2026-11-11T19:00:13+00:00",
+      "summary": " The Sundowner is back! This time it features an all new case, dial, and movement, and this time, it's powered by you. The post From the outback to the ocean: The TAG Heuer Aquaracer x Time+Tide ‘Sundowner II’ appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/tag-heuer-timetide-sundowner-ii-nov-26-featured-image.jpg"
+    },
+    {
+      "title": "11 of the best time-only watches, when simplicity is all you need",
+      "url": "https://timeandtidewatches.com/best-time-only-watches/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-10",
+      "date_iso": "2026-11-10T16:31:00+00:00",
+      "summary": " There's something about a time-only watch that stands out. The post 11 of the best time-only watches, when simplicity is all you need appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/time-only-watches-2026-featured-image.webp"
+    },
+    {
+      "title": "MB&F makes room for Gabriel Colliard’s miniature enamel jungles in the LM101",
+      "url": "https://timeandtidewatches.com/mbf-lm101-gabriel-colliard-introducing/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-10",
+      "date_iso": "2026-11-10T15:31:37+00:00",
+      "summary": " MB&F collaborates with enameller Gabriel Colliard on three limited-edition LM101 watches, featuring intricate cloisonné enamel jungle scenes The post MB&F makes room for Gabriel Colliard’s miniature enamel jungles in the LM101 appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-mbf-lm101-gabriel-colliard-1.webp"
+    },
+    {
+      "title": "Jaeger-LeCoultre’s 8th “The Collectibles” capsule collection highlights the brand’s relationship with America",
+      "url": "https://timeandtidewatches.com/jaeger-lecoultres-the-collectibles-capsule-news/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-10",
+      "date_iso": "2026-11-10T14:30:14+00:00",
+      "summary": " For the 250th anniversary of the USA, Jaeger-LeCoultre's latest The Collectibles capsule collection looks at the watches built for the US. The post Jaeger-LeCoultre’s 8th “The Collectibles” capsule collection highlights the brand’s relationship with America appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/LeCoultre-Triple-Calendar-1952-feature-image.jpg"
+    },
+    {
+      "title": "145 years of Seiko: A celebration of Japanese watchmaking on Sydney Harbour",
+      "url": "https://timeandtidewatches.com/seiko-145th-anniversary-in-sydney-events/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-10",
+      "date_iso": "2026-11-10T07:00:08+00:00",
+      "summary": " Seiko celebrates its 145th anniversary in Sydney with collectors, exclusive timepieces, and exciting news from the world of Prospex. The post 145 years of Seiko: A celebration of Japanese watchmaking on Sydney Harbour appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/seiko-145th-anniversary-event-sydney-featured-image.webp"
+    },
+    {
+      "title": "What makes the new Glashütte Original Seventies collection a strong integrated bracelet contender?",
+      "url": "https://timeandtidewatches.com/new-glashutte-original-vintage-seventies-collection-hands-on/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "lang": "en",
+      "date": "2026-11-09",
+      "date_iso": "2026-11-09T13:01:17+00:00",
+      "summary": " What makes the new Glashütte Original Seventies collection a strong integrated bracelet contender? Zach goes hands-on to find out... The post What makes the new Glashütte Original Seventies collection a strong integrated bracelet contender? appeared first on Time+Tide Watches. ",
+      "matched_brands": [],
+      "matched_refs": [],
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/Glashutte-Original-Vintage-Seventies-2026-Collection-4.jpg"
+    }
+  ],
+  "brand_buzz": [
+    {
+      "brand": "Cartier",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "window_note": "Contagens na janela do feed obtido (tipicamente as últimas 6–30 entradas), não um arquivo completo de 90 dias.",
+      "headlines": []
+    },
+    {
+      "brand": "Omega",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "window_note": "Contagens na janela do feed obtido (tipicamente as últimas 6–30 entradas), não um arquivo completo de 90 dias.",
+      "headlines": []
+    },
+    {
+      "brand": "Panerai",
+      "magazine_30d": 1,
+      "magazine_90d": 1,
+      "window_note": "Contagens na janela do feed obtido (tipicamente as últimas 6–30 entradas), não um arquivo completo de 90 dias.",
+      "headlines": [
+        {
+          "title": "Magazine Feature: Nothing More. Nothing Less.",
+          "url": "https://www.hodinkee.com/articles/nothing-more-nothing-less",
+          "source": "Hodinkee",
+          "date": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "brand": "Rolex",
+      "magazine_30d": 1,
+      "magazine_90d": 1,
+      "window_note": "Contagens na janela do feed obtido (tipicamente as últimas 6–30 entradas), não um arquivo completo de 90 dias.",
+      "headlines": [
+        {
+          "title": "14 of the best titanium watches to solve your lightweight needs",
+          "url": "https://timeandtidewatches.com/best-titanium-watches/",
+          "source": "Time+Tide",
+          "date": "2026-11-14"
+        }
+      ]
+    }
+  ],
+  "model_buzz": [
+    {
+      "ref": "126000-0001",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 36 prateado",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126000-0006",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 36 azul-turquesa",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126000-0008",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 36 rosa candy",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126000-0011",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 36 verde pistachio",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126000-0012",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 36 bege",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126000-0014",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 36 preto",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126000-0015",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 36 azul-mediterrâneo",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "134300-0006",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 41 verde pistachio",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "134300-0001",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 41 prateado",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "134300-0004",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 41 verde",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "134300-0007",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 41 bege",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "134300-0008",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 41 preto",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "134300-0009",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 41 azul-mediterrâneo",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "124300",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 41",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "277200-0006",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 31 verde",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "277200-0014",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 31 lavender",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "277200-0016",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 31 preto",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126610LN",
+      "brand": "Rolex",
+      "model": "Submariner Date",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "124060",
+      "brand": "Rolex",
+      "model": "Submariner sem data",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126600",
+      "brand": "Rolex",
+      "model": "Sea-Dweller",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126710BLRO",
+      "brand": "Rolex",
+      "model": "GMT-Master II Pepsi",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126710BLNR",
+      "brand": "Rolex",
+      "model": "GMT-Master II Batman",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126710GRNR",
+      "brand": "Rolex",
+      "model": "GMT-Master II Bruce Wayne",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126720VTNR",
+      "brand": "Rolex",
+      "model": "GMT-Master II Sprite",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126711CHNR",
+      "brand": "Rolex",
+      "model": "GMT-Master II Root Beer",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126715CHNR",
+      "brand": "Rolex",
+      "model": "GMT-Master II Root Beer Everose",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126713GRNR",
+      "brand": "Rolex",
+      "model": "GMT-Master II Rolesor amarelo",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "116710LN",
+      "brand": "Rolex",
+      "model": "GMT-Master II 116710LN",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "116710BLNR",
+      "brand": "Rolex",
+      "model": "GMT-Master II Batman 116710BLNR",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "224270",
+      "brand": "Rolex",
+      "model": "Explorer 40",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "226570",
+      "brand": "Rolex",
+      "model": "Explorer II",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126622",
+      "brand": "Rolex",
+      "model": "Yacht-Master 40",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126900",
+      "brand": "Rolex",
+      "model": "Air-King",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "116400GV-0001",
+      "brand": "Rolex",
+      "model": "Milgauss 116400GV preto",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "116400GV-0002",
+      "brand": "Rolex",
+      "model": "Milgauss 116400GV Z-blue",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "116400-0001",
+      "brand": "Rolex",
+      "model": "Milgauss 116400 preto",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "116400-0002",
+      "brand": "Rolex",
+      "model": "Milgauss 116400 branco",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126500LN-0001",
+      "brand": "Rolex",
+      "model": "Cosmograph Daytona (branco)",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126234",
+      "brand": "Rolex",
+      "model": "Datejust 36",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "126334",
+      "brand": "Rolex",
+      "model": "Datejust 41",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "278274",
+      "brand": "Rolex",
+      "model": "Datejust 31",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "279174",
+      "brand": "Rolex",
+      "model": "Lady-Datejust 28",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "276200-0008",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 28 lavender",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "276200-0009",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 28 rosa candy",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "276200-0010",
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 28 preto",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "228238",
+      "brand": "Rolex",
+      "model": "Day-Date 40",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "310.30.42.50.01.001",
+      "brand": "Omega",
+      "model": "Speedmaster Moonwatch Professional",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "310.30.42.50.01.002",
+      "brand": "Omega",
+      "model": "Speedmaster Moonwatch Professional (safira)",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "310.30.42.50.04.001",
+      "brand": "Omega",
+      "model": "Speedmaster Moonwatch Professional branco",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "310.60.42.50.02.001",
+      "brand": "Omega",
+      "model": "Speedmaster Moonwatch Professional Canopus Gold",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "332.10.41.51.03.001",
+      "brand": "Omega",
+      "model": "Speedmaster '57 azul",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "311.92.44.51.01.007",
+      "brand": "Omega",
+      "model": "Speedmaster Dark Side of the Moon",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "324.30.38.50.01.001",
+      "brand": "Omega",
+      "model": "Speedmaster 38",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "3510.50",
+      "brand": "Omega",
+      "model": "Speedmaster Reduced",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "210.30.42.20.01.001",
+      "brand": "Omega",
+      "model": "Seamaster Diver 300M",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "215.30.44.21.01.001",
+      "brand": "Omega",
+      "model": "Seamaster Planet Ocean 600M 43,5 mm",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "220.10.41.21.01.001",
+      "brand": "Omega",
+      "model": "Aqua Terra 150M 41 mm",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "220.10.34.20.01.001",
+      "brand": "Omega",
+      "model": "Aqua Terra 150M 34 mm",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "131.10.29.20.55.001",
+      "brand": "Omega",
+      "model": "Constellation 29 mm",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "WSSA0018",
+      "brand": "Cartier",
+      "model": "Santos de Cartier grande",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "WSSA0029",
+      "brand": "Cartier",
+      "model": "Santos de Cartier médio",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "WSSA0082",
+      "brand": "Cartier",
+      "model": "Santos de Cartier pequeno",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "WSSA0032",
+      "brand": "Cartier",
+      "model": "Santos-Dumont extra-grande",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "WSTA0108",
+      "brand": "Cartier",
+      "model": "Tank Must grande",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "WSTA0042",
+      "brand": "Cartier",
+      "model": "Tank Must pequeno",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "WGTA0342",
+      "brand": "Cartier",
+      "model": "Tank Louis Cartier pequeno",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "WSTA0129",
+      "brand": "Cartier",
+      "model": "Tank Française pequeno",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "WSBB0062",
+      "brand": "Cartier",
+      "model": "Ballon Bleu 33 mm",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "WSPN0013",
+      "brand": "Cartier",
+      "model": "Panthère de Cartier pequeno",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "PAM01314",
+      "brand": "Panerai",
+      "model": "Luminor Marina 44 mm",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "PAM00683",
+      "brand": "Panerai",
+      "model": "Submersible 42 mm",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "PAM01123",
+      "brand": "Panerai",
+      "model": "Luminor Due 38 mm",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    },
+    {
+      "ref": "PAM00753",
+      "brand": "Panerai",
+      "model": "Radiomir Logo 45 mm",
+      "magazine_30d": 0,
+      "magazine_90d": 0,
+      "headlines": []
+    }
+  ],
+  "price_move": {
+    "126610LN": {
+      "from_eur": 14807,
+      "to_eur": 12247,
+      "from_date": "2022-10-20",
+      "to_date": "2026-11-17",
+      "change_eur": -2560,
+      "change_pct": -17.3,
+      "direction": "down",
+      "n_points": 5,
+      "source_first": "https://web.archive.org/web/20221022022350/https://watchcharts.com/watch_model/21817-rolex-submariner-date-126610/overview",
+      "source_last": "https://watchcharts.com/watch_model/21817-rolex-submariner-date-126610/overview"
+    },
+    "226570": {
+      "from_eur": 12510,
+      "to_eur": 9639,
+      "from_date": "2022-10-24",
+      "to_date": "2026-11-17",
+      "change_eur": -2871,
+      "change_pct": -22.9,
+      "direction": "down",
+      "n_points": 3,
+      "source_first": "https://web.archive.org/web/20221027140110/https://watchcharts.com/watch_model/33628-rolex-explorer-ii-226570/overview",
+      "source_last": "https://watchcharts.com/watch_model/33628-rolex-explorer-ii-226570/overview"
+    },
+    "228238": {
+      "from_eur": 39650,
+      "to_eur": 46201,
+      "from_date": "2023-03-10",
+      "to_date": "2026-11-17",
+      "change_eur": 6551,
+      "change_pct": 16.5,
+      "direction": "up",
+      "n_points": 2,
+      "source_first": "https://web.archive.org/web/20230311175052/https://watchcharts.com/watch_model/659-rolex-day-date-40-228238/overview",
+      "source_last": "https://watchcharts.com/watch_model/659-rolex-day-date-40-228238/overview"
+    },
+    "220.10.41.21.01.001": {
+      "from_eur": 3604,
+      "to_eur": 3605,
+      "from_date": "2023-05-18",
+      "to_date": "2026-11-17",
+      "change_eur": 1,
+      "change_pct": 0.0,
+      "direction": "up",
+      "n_points": 2,
+      "source_first": "https://web.archive.org/web/20230521064620/https://watchcharts.com/watch_model/1251-omega-seamaster-aqua-terra-150m-220-10-41-21-01-001/overview",
+      "source_last": "https://watchcharts.com/watch_model/1251-omega-seamaster-aqua-terra-150m-220-10-41-21-01-001/overview"
+    },
+    "278274": {
+      "from_eur": 9439,
+      "to_eur": 11460,
+      "from_date": "2023-12-03",
+      "to_date": "2026-11-17",
+      "change_eur": 2021,
+      "change_pct": 21.4,
+      "direction": "up",
+      "n_points": 2,
+      "source_first": "https://web.archive.org/web/20231206192044/https://watchcharts.com/watch_model/21829-rolex-datejust-31-278274/overview",
+      "source_last": "https://watchcharts.com/watch_model/21829-rolex-datejust-31-278274/overview"
+    },
+    "126334": {
+      "from_eur": 11503,
+      "to_eur": 12932,
+      "from_date": "2023-12-15",
+      "to_date": "2026-11-17",
+      "change_eur": 1429,
+      "change_pct": 12.4,
+      "direction": "up",
+      "n_points": 2,
+      "source_first": "https://web.archive.org/web/20231217001214/https://watchcharts.com/watch_model/727-rolex-datejust-41-126334/overview",
+      "source_last": "https://watchcharts.com/watch_model/727-rolex-datejust-41-126334/overview"
+    },
+    "126710BLRO": {
+      "from_eur": 17764,
+      "to_eur": 20143,
+      "from_date": "2025-03-09",
+      "to_date": "2026-11-17",
+      "change_eur": 2379,
+      "change_pct": 13.4,
+      "direction": "up",
+      "n_points": 3,
+      "source_first": "https://web.archive.org/web/20250310041941/https://watchcharts.com/watch_model/733-rolex-gmt-master-ii-pepsi-126710blro/overview",
+      "source_last": "https://watchcharts.com/watch_model/733-rolex-gmt-master-ii-pepsi-126710blro/overview"
+    },
+    "126711CHNR": {
+      "from_eur": 15686,
+      "to_eur": 16974,
+      "from_date": "2025-04-15",
+      "to_date": "2026-11-17",
+      "change_eur": 1288,
+      "change_pct": 8.2,
+      "direction": "up",
+      "n_points": 3,
+      "source_first": "https://web.archive.org/web/20250416065705/https://watchcharts.com/watch_model/756-rolex-gmt-master-ii-root-beer-126711chnr/overview",
+      "source_last": "https://watchcharts.com/watch_model/756-rolex-gmt-master-ii-root-beer-126711chnr/overview"
+    },
+    "116710BLNR": {
+      "from_eur": 11737,
+      "to_eur": 12864,
+      "from_date": "2025-07-14",
+      "to_date": "2026-11-17",
+      "change_eur": 1127,
+      "change_pct": 9.6,
+      "direction": "up",
+      "n_points": 2,
+      "source_first": "https://web.archive.org/web/20250715160614/https://watchcharts.com/watch_model/739-rolex-gmt-master-ii-batman-116710blnr/overview",
+      "source_last": "https://watchcharts.com/watch_model/739-rolex-gmt-master-ii-batman-116710blnr/overview"
+    }
+  },
+  "headlines_featured": [
+    {
+      "title": "Magazine Feature: Nothing More. Nothing Less.",
+      "url": "https://www.hodinkee.com/articles/nothing-more-nothing-less",
+      "source": "Hodinkee",
+      "source_id": "hodinkee",
+      "date": "2026-11-18",
+      "image": "https://framerusercontent.com/assets/S0JplnTh62Aq01aZBIstpF6fJ5Q.jpg",
+      "image_url": "https://framerusercontent.com/assets/S0JplnTh62Aq01aZBIstpF6fJ5Q.jpg",
+      "image_credit": "Hodinkee",
+      "matched_brands": [
+        "Panerai"
+      ],
+      "matched_refs": [],
+      "lang": "en"
+    },
+    {
+      "title": "Auctions: Three Trends To Follow And Six Watches I'd Buy (If I Could) At Phillips And Christie's Hong Kong Auctions",
+      "url": "https://www.hodinkee.com/articles/three-things-to-watch-at-phillips-and-christies-hong-kong-auction",
+      "source": "Hodinkee",
+      "source_id": "hodinkee",
+      "date": "2026-11-19",
+      "image": "https://hodinkee.imgix.net/uploads/articles/b37822e9-1ffc-4712-b8db-d843e54365ce/Untitled-1.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&ch=Width%2CDPR%2CSave-Data&fit=crop&w=2000",
+      "image_url": "https://hodinkee.imgix.net/uploads/articles/b37822e9-1ffc-4712-b8db-d843e54365ce/Untitled-1.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&ch=Width%2CDPR%2CSave-Data&fit=crop&w=2000",
+      "image_credit": "Hodinkee",
+      "matched_brands": [],
+      "matched_refs": [],
+      "lang": "en"
+    },
+    {
+      "title": "Hands-On With The Chopard L.U.C 1963 Heritage Chronograph In Prussian Blue",
+      "url": "https://www.fratellowatches.com/hands-on-with-the-chopard-l-u-c-1963-heritage-chronograph/",
+      "source": "Fratello",
+      "source_id": "fratello",
+      "date": "2026-11-19",
+      "image": "https://www.fratellowatches.com/wp-content/uploads/2026/11/Chopard-L.U.C-1963-Heritage-Chronograph-4.jpg",
+      "image_url": "https://www.fratellowatches.com/wp-content/uploads/2026/11/Chopard-L.U.C-1963-Heritage-Chronograph-4.jpg",
+      "image_credit": "Fratello",
+      "matched_brands": [],
+      "matched_refs": [],
+      "lang": "en"
+    },
+    {
+      "title": "Merci Instruments Introduces The Super Collection — Four Watches Inspired By 1970s Architecture And Design",
+      "url": "https://www.fratellowatches.com/new-merci-instruments-super-collection/",
+      "source": "Fratello",
+      "source_id": "fratello",
+      "date": "2026-11-19",
+      "image": "https://www.fratellowatches.com/wp-content/uploads/2026/11/Merci-Instruments-Super-collection-15.jpg",
+      "image_url": "https://www.fratellowatches.com/wp-content/uploads/2026/11/Merci-Instruments-Super-collection-15.jpg",
+      "image_credit": "Fratello",
+      "matched_brands": [],
+      "matched_refs": [],
+      "lang": "en"
+    },
+    {
+      "title": "First Look – Nomos Goes Black-and-Gold with the new Noir Series",
+      "url": "https://monochrome-watches.com/nomos-noir-series-tangente-ludwig-tertra-hand-wound-steel-or-gold-review-price/",
+      "source": "Monochrome Watches",
+      "source_id": "monochrome",
+      "date": "2026-11-19",
+      "image": "https://monochrome-watches.com/app/uploads/2026/11/nomos-noir-series-tangente-ludwig-tertra-hand-wound-steel-or-gold-review-13.jpg",
+      "image_url": "https://monochrome-watches.com/app/uploads/2026/11/nomos-noir-series-tangente-ludwig-tertra-hand-wound-steel-or-gold-review-13.jpg",
+      "image_credit": "Monochrome Watches",
+      "matched_brands": [],
+      "matched_refs": [],
+      "lang": "en"
+    },
+    {
+      "title": "Roger W. Smith Series Seven: His Own Chapter",
+      "url": "https://revolutionwatch.com/roger-w-smith-series-seven-his-own-chapter/",
+      "source": "Revolution",
+      "source_id": "revolution",
+      "date": "2026-11-19",
+      "image": "https://revolutionwatch.com/wp-content/uploads/2026/11/11-Roger-Smith-Series-Seven.jpg",
+      "image_url": "https://revolutionwatch.com/wp-content/uploads/2026/11/11-Roger-Smith-Series-Seven.jpg",
+      "image_credit": "Revolution",
+      "matched_brands": [],
+      "matched_refs": [],
+      "lang": "en"
+    },
+    {
+      "title": "Arnold & Son renueva el Time Pyramid con ágata y opciones en oro y platino",
+      "url": "https://revolution.watch/mxl/arnold-son-renueva-el-time-pyramid-con-agata-y-opciones-en-oro-y-platino/",
+      "source": "Revolution México / LATAM",
+      "source_id": "revolution-latam",
+      "date": "2026-11-19",
+      "image": "https://revolution.watch/mxl/wp-content/uploads/2026/11/Time-Pyramid-RG-Agate_3-4.jpeg",
+      "image_url": "https://revolution.watch/mxl/wp-content/uploads/2026/11/Time-Pyramid-RG-Agate_3-4.jpeg",
+      "image_credit": "Revolution México / LATAM",
+      "matched_brands": [],
+      "matched_refs": [],
+      "lang": "es"
+    },
+    {
+      "title": "14 of the best dive watches for all sorts of aquatic adventures",
+      "url": "https://timeandtidewatches.com/best-dive-watches/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "date": "2026-11-19",
+      "image": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-best-dive-watches-2026.webp",
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-best-dive-watches-2026.webp",
+      "image_credit": "Time+Tide",
+      "matched_brands": [],
+      "matched_refs": [],
+      "lang": "en"
+    },
+    {
+      "title": "14 of the best titanium watches to solve your lightweight needs",
+      "url": "https://timeandtidewatches.com/best-titanium-watches/",
+      "source": "Time+Tide",
+      "source_id": "time-tide",
+      "date": "2026-11-14",
+      "image": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-best-titanium-watches-2026-2-update.webp",
+      "image_url": "https://timeandtidewatches.com/wp-content/uploads/2026/11/featured-image-best-titanium-watches-2026-2-update.webp",
+      "image_credit": "Time+Tide",
+      "matched_brands": [
+        "Rolex"
+      ],
+      "matched_refs": [],
+      "lang": "en"
+    }
+  ]
+}

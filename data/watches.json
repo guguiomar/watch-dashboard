@@ -1611,6 +1611,18 @@
           "url": "https://www.montredo.com/en/search?q=124060",
           "seen": "2026-11-19",
           "kind": "search"
+        },
+        {
+          "seller": "Kronos 360",
+          "type": "dealer",
+          "country": "FR",
+          "price_eur": 13100,
+          "condition": "CPO; verificar condição/papéis",
+          "url": "https://www.kronos360.com/en/submariner/61752-124060-rolex-submariner-124060.html",
+          "seen": "2026-11-19",
+          "price_text": "13.100 €",
+          "http": 200,
+          "kind": "listing"
         }
       ],
       "fx": {
@@ -1786,6 +1798,18 @@
           "url": "https://www.montredo.com/en/search?q=126710BLRO",
           "seen": "2026-11-19",
           "kind": "search"
+        },
+        {
+          "seller": "Kronos 360",
+          "type": "dealer",
+          "country": "FR",
+          "price_eur": 19500,
+          "condition": "CPO; verificar condição/papéis",
+          "url": "https://www.kronos360.com/en/gmt-master-2/61837-126710blro-rolex-gmt-master-ii-126710blro-pepsi.html",
+          "seen": "2026-11-19",
+          "price_text": "19.500 €",
+          "http": 200,
+          "kind": "listing"
         }
       ],
       "market_source": {
@@ -1880,6 +1904,44 @@
           "url": "https://www.montredo.com/en/search?q=126710BLNR",
           "seen": "2026-11-19",
           "kind": "search"
+        },
+        {
+          "seller": "Uhrinstinkt",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": 15450,
+          "condition": "CPO; verificar condição/papéis",
+          "url": "https://www.uhrinstinkt.de/en/products/rolex-gmt-master-ii-batman-m126710blnr-0003-plx501808",
+          "seen": "2026-11-19",
+          "price_text": "15.450,00 €",
+          "http": 200,
+          "kind": "listing",
+          "note": "M126710BLNR-0003 (Batman)"
+        },
+        {
+          "seller": "Uhrinstinkt",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": 16400,
+          "condition": "CPO; verificar condição/papéis",
+          "url": "https://www.uhrinstinkt.de/en/products/rolex-gmt-master-ii-batgirl-m126710blnr-0002-plx501820",
+          "seen": "2026-11-19",
+          "price_text": "16.400,00 €",
+          "http": 200,
+          "kind": "listing",
+          "note": "M126710BLNR-0002 (Batgirl, bracelete Jubilee)"
+        },
+        {
+          "seller": "Kronos 360",
+          "type": "dealer",
+          "country": "FR",
+          "price_eur": 19000,
+          "condition": "CPO; verificar condição/papéis",
+          "url": "https://www.kronos360.com/en/gmt-master-2/51348-126710blnr-rolex-000-eur-126710blnr000-eur.html",
+          "seen": "2026-11-19",
+          "price_text": "19.000 €",
+          "http": 200,
+          "kind": "listing"
         }
       ],
       "fx": {
@@ -1966,6 +2028,30 @@
           "url": "https://www.montredo.com/en/search?q=126710GRNR",
           "seen": "2026-11-19",
           "kind": "search"
+        },
+        {
+          "seller": "Uhrinstinkt",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": 19500,
+          "condition": "CPO; verificar condição/papéis",
+          "url": "https://www.uhrinstinkt.de/en/products/rolex-gmt-master-ii-bruce-wayne-m126710grnr-0003-plx501918",
+          "seen": "2026-11-19",
+          "price_text": "19.500,00 €",
+          "http": 200,
+          "kind": "listing"
+        },
+        {
+          "seller": "Kronos 360",
+          "type": "dealer",
+          "country": "FR",
+          "price_eur": 20500,
+          "condition": "CPO; verificar condição/papéis",
+          "url": "https://www.kronos360.com/en/gmt-master-2/61681-126710grnr-rolex-gmt-master-ii-bruce-wayne.html",
+          "seen": "2026-11-19",
+          "price_text": "20.500 €",
+          "http": 200,
+          "kind": "listing"
         }
       ],
       "fx": {
@@ -3988,6 +4074,18 @@
           "url": "https://www.montredo.com/en/search?q=310.30.42.50.01.002",
           "seen": "2026-11-19",
           "kind": "search"
+        },
+        {
+          "seller": "Kronos 360",
+          "type": "dealer",
+          "country": "FR",
+          "price_eur": 6700,
+          "condition": "CPO; verificar condição/papéis",
+          "url": "https://www.kronos360.com/en/omega-speedmaster/61754-31030425001002-omega-speedmaster-moonwatch-31030425001002.html",
+          "seen": "2026-11-19",
+          "price_text": "6.700 €",
+          "http": 200,
+          "kind": "listing"
         }
       ],
       "fx": {
@@ -4315,6 +4413,18 @@
           "url": "https://www.montredo.com/en/search?q=324.30.38.50.01.001",
           "seen": "2026-11-19",
           "kind": "search"
+        },
+        {
+          "seller": "Uhrinstinkt",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": 3900,
+          "condition": "CPO; verificar condição/papéis",
+          "url": "https://www.uhrinstinkt.de/en/products/omega-speedmaster-38-co-axial-chronograph-38-mm-324-30-38-50-01-001-plx501787",
+          "seen": "2026-11-19",
+          "price_text": "3.900,00 €",
+          "http": 200,
+          "kind": "listing"
         }
       ],
       "fx": {
@@ -5007,6 +5117,18 @@
           "url": "https://www.montredo.com/en/search?q=WSSA0082",
           "seen": "2026-11-19",
           "kind": "search"
+        },
+        {
+          "seller": "HORANDO",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": 6700,
+          "condition": "CPO; verificar condição/papéis",
+          "url": "https://www.horando.de/en/products/cartier-santos-de-cartier-wssa0082",
+          "seen": "2026-11-19",
+          "price_text": "6.700,00 €",
+          "http": 200,
+          "kind": "listing"
         }
       ],
       "market_source": {
