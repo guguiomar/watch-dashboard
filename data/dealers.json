@@ -1,0 +1,79 @@
+{
+  "updated": "2026-11-19",
+  "timezone": "Europe/Lisbon",
+  "note": "Directório de dealers e AD citados no Radar. Páginas públicas apenas; sem login Chrono24 e sem scraping em massa. Um preço só entra quando a página exacta do anúncio o mostra.",
+  "dealers": [
+    {
+      "name": "Watchfinder",
+      "country": "GB",
+      "site": "https://www.watchfinder.co.uk/",
+      "type": "marketplace",
+      "notes": "Anúncios pré-owned com página de listagem própria. robots.txt desautoriza /search?q e /find/.",
+      "source": "https://www.watchfinder.co.uk/robots.txt"
+    },
+    {
+      "name": "Montredo",
+      "country": "DE",
+      "site": "https://www.montredo.com/",
+      "type": "independent",
+      "notes": "Dealer europeu independente; páginas de produto e pesquisa públicas.",
+      "source": "https://www.montredo.com/"
+    },
+    {
+      "name": "Bucherer Certified Pre-Owned",
+      "country": "CH",
+      "site": "https://www.bucherer.com/",
+      "type": "AD CPO",
+      "notes": "Programa CPO de AD. robots.txt desautoriza */search*; não recolhemos preços de páginas de pesquisa.",
+      "source": "https://www.bucherer.com/robots.txt"
+    },
+    {
+      "name": "Torres Joalheiros",
+      "country": "PT",
+      "site": "https://rolex.torres.pt/",
+      "type": "AD",
+      "notes": "AD Rolex em Portugal; PVP e fichas de produto.",
+      "source": "https://rolex.torres.pt/"
+    },
+    {
+      "name": "Ourivesaria Machado",
+      "country": "PT",
+      "site": "https://www.machadojoalheiro.com/",
+      "type": "AD",
+      "notes": "AD Cartier em Portugal.",
+      "source": "https://www.machadojoalheiro.com/"
+    },
+    {
+      "name": "Boutique dos Relógios",
+      "country": "PT",
+      "site": "https://boutiquedosrelogios.pt/",
+      "type": "AD",
+      "notes": "AD Omega, Cartier e Panerai em Portugal.",
+      "source": "https://boutiquedosrelogios.pt/"
+    },
+    {
+      "name": "Marcolino 1926",
+      "country": "PT",
+      "site": "https://www.marcolino.pt/",
+      "type": "AD",
+      "notes": "AD Omega em Portugal.",
+      "source": "https://www.marcolino.pt/"
+    },
+    {
+      "name": "David Rosas",
+      "country": "PT",
+      "site": "https://davidrosas.pt/",
+      "type": "AD",
+      "notes": "AD Rolex em Portugal; catálogo institucional, sem PVP nas páginas consultadas.",
+      "source": "https://davidrosas.pt/pages/rolex-watches"
+    },
+    {
+      "name": "Chrono24",
+      "country": "EU",
+      "site": "https://www.chrono24.pt/",
+      "type": "marketplace",
+      "notes": "Apenas ligações de pesquisa (sem preços). Pedidos automatizados devolvem 403; não há login nem scraping.",
+      "source": "https://www.chrono24.pt/"
+    }
+  ]
+}

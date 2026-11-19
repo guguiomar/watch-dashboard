@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "timezone": "Europe/Lisbon",
   "note": "Registo append-only de preços de mercado públicos. Cada ponto tem fonte e data. Não interpolámos nem inventámos valores.",
   "fx_source": "https://data-api.ecb.europa.eu/service/data/EXR/D.USD.EUR.SP00.A",
@@ -199,6 +199,30 @@
       "fx_date": "2026-10-16"
     },
     {
+      "date": "2026-11-12",
+      "ref": "310.60.42.50.02.001",
+      "source": "WatchCharts",
+      "source_url": "https://watchcharts.com/watch_model/32066-omega-speedmaster-professional-moonwatch-3861-canopus-gold-310-60-42-50-02-001/overview",
+      "as_of": "2026-11-12",
+      "via": "página pública WatchCharts",
+      "market_usd": 29190,
+      "market_eur": 26342,
+      "fx_usd_per_eur": 1.1081,
+      "fx_date": "2026-11-12"
+    },
+    {
+      "date": "2026-11-12",
+      "ref": "311.92.44.51.01.007",
+      "source": "WatchCharts",
+      "source_url": "https://watchcharts.com/watch_model/1280-omega-speedmaster-dark-side-of-the-moon-311-92-44-51-01-007/overview",
+      "as_of": "2026-11-12",
+      "via": "página pública WatchCharts",
+      "market_usd": 7278,
+      "market_eur": 6568,
+      "fx_usd_per_eur": 1.1081,
+      "fx_date": "2026-11-12"
+    },
+    {
       "date": "2026-11-13",
       "ref": "126713GRNR",
       "market_eur": 18724,
@@ -211,6 +235,18 @@
       "fx_date": "2026-11-13"
     },
     {
+      "date": "2026-11-13",
+      "ref": "332.10.41.51.03.001",
+      "source": "WatchCharts",
+      "source_url": "https://watchcharts.com/watch_model/43096-omega-speedmaster-57-332-10-41-51-03-001/overview",
+      "as_of": "2026-11-13",
+      "via": "página pública WatchCharts",
+      "market_usd": 6914,
+      "market_eur": 6256,
+      "fx_usd_per_eur": 1.1052,
+      "fx_date": "2026-11-13"
+    },
+    {
       "date": "2026-11-16",
       "ref": "126715CHNR",
       "market_eur": 34842,
@@ -219,6 +255,18 @@
       "source_url": "https://watchcharts.com/watch_model/1555-rolex-gmt-master-ii-126715/overview",
       "as_of": "2026-11-16",
       "via": "página pública",
+      "fx_usd_per_eur": 1.1014,
+      "fx_date": "2026-11-16"
+    },
+    {
+      "date": "2026-11-16",
+      "ref": "324.30.38.50.01.001",
+      "source": "WatchCharts",
+      "source_url": "https://watchcharts.com/watch_model/1463-omega-speedmaster-38-324-30-38-50-01-001/overview",
+      "as_of": "2026-11-16",
+      "via": "página pública WatchCharts",
+      "market_usd": 4166,
+      "market_eur": 3782,
       "fx_usd_per_eur": 1.1014,
       "fx_date": "2026-11-16"
     },
@@ -315,6 +363,30 @@
       "source_url": "https://watchcharts.com/watch_model/21826-rolex-oyster-perpetual-36-126000/overview",
       "as_of": "2026-11-17",
       "via": "página pública",
+      "fx_usd_per_eur": 1.0989,
+      "fx_date": "2026-11-17"
+    },
+    {
+      "date": "2026-11-17",
+      "ref": "126000-0012",
+      "source": "WatchCharts",
+      "source_url": "https://watchcharts.com/watch_model/21826-rolex-oyster-perpetual-36-126000/overview",
+      "as_of": "2026-11-17",
+      "via": "página pública WatchCharts",
+      "market_usd": 8878,
+      "market_eur": 8079,
+      "fx_usd_per_eur": 1.0989,
+      "fx_date": "2026-11-17"
+    },
+    {
+      "date": "2026-11-17",
+      "ref": "126000-0015",
+      "source": "WatchCharts",
+      "source_url": "https://watchcharts.com/watch_model/21826-rolex-oyster-perpetual-36-126000/overview",
+      "as_of": "2026-11-17",
+      "via": "página pública WatchCharts",
+      "market_usd": 7966,
+      "market_eur": 7249,
       "fx_usd_per_eur": 1.0989,
       "fx_date": "2026-11-17"
     },
@@ -471,6 +543,78 @@
       "source_url": "https://watchcharts.com/watch_model/3669-omega-constellation-manhattan-29-co-axial-master-chronometer-131-10-29-20-55-001/overview",
       "as_of": "2026-11-17",
       "via": "página pública",
+      "fx_usd_per_eur": 1.0989,
+      "fx_date": "2026-11-17"
+    },
+    {
+      "date": "2026-11-17",
+      "ref": "134300-0001",
+      "source": "WatchCharts",
+      "source_url": "https://watchcharts.com/watch_model/54382-rolex-134300/overview",
+      "as_of": "2026-11-17",
+      "via": "página pública WatchCharts",
+      "market_usd": 9420,
+      "market_eur": 8572,
+      "fx_usd_per_eur": 1.0989,
+      "fx_date": "2026-11-17"
+    },
+    {
+      "date": "2026-11-17",
+      "ref": "134300-0004",
+      "source": "WatchCharts",
+      "source_url": "https://watchcharts.com/watch_model/54382-rolex-134300/overview",
+      "as_of": "2026-11-17",
+      "via": "página pública WatchCharts",
+      "market_usd": 9601,
+      "market_eur": 8737,
+      "fx_usd_per_eur": 1.0989,
+      "fx_date": "2026-11-17"
+    },
+    {
+      "date": "2026-11-17",
+      "ref": "134300-0006",
+      "source": "WatchCharts",
+      "source_url": "https://watchcharts.com/watch_model/54382-rolex-134300/overview",
+      "as_of": "2026-11-17",
+      "via": "página pública WatchCharts",
+      "market_usd": 11077,
+      "market_eur": 10080,
+      "fx_usd_per_eur": 1.0989,
+      "fx_date": "2026-11-17"
+    },
+    {
+      "date": "2026-11-17",
+      "ref": "134300-0007",
+      "source": "WatchCharts",
+      "source_url": "https://watchcharts.com/watch_model/54382-rolex-134300/overview",
+      "as_of": "2026-11-17",
+      "via": "página pública WatchCharts",
+      "market_usd": 11320,
+      "market_eur": 10301,
+      "fx_usd_per_eur": 1.0989,
+      "fx_date": "2026-11-17"
+    },
+    {
+      "date": "2026-11-17",
+      "ref": "134300-0008",
+      "source": "WatchCharts",
+      "source_url": "https://watchcharts.com/watch_model/54382-rolex-134300/overview",
+      "as_of": "2026-11-17",
+      "via": "página pública WatchCharts",
+      "market_usd": 9280,
+      "market_eur": 8445,
+      "fx_usd_per_eur": 1.0989,
+      "fx_date": "2026-11-17"
+    },
+    {
+      "date": "2026-11-17",
+      "ref": "134300-0009",
+      "source": "WatchCharts",
+      "source_url": "https://watchcharts.com/watch_model/54382-rolex-134300/overview",
+      "as_of": "2026-11-17",
+      "via": "página pública WatchCharts",
+      "market_usd": 9455,
+      "market_eur": 8604,
       "fx_usd_per_eur": 1.0989,
       "fx_date": "2026-11-17"
     },
@@ -761,6 +905,66 @@
       "via": "página pública",
       "fx_usd_per_eur": 1.0989,
       "fx_date": "2026-11-17"
+    },
+    {
+      "date": "2026-11-18",
+      "ref": "116400-0001",
+      "source": "WatchCharts",
+      "source_url": "https://watchcharts.com/watch_model/736-rolex-milgauss-116400/overview",
+      "as_of": "2026-11-18",
+      "via": "página pública WatchCharts",
+      "market_usd": 8445,
+      "market_eur": 7700,
+      "fx_usd_per_eur": 1.0968,
+      "fx_date": "2026-11-18"
+    },
+    {
+      "date": "2026-11-18",
+      "ref": "116400-0002",
+      "source": "WatchCharts",
+      "source_url": "https://watchcharts.com/watch_model/736-rolex-milgauss-116400/overview",
+      "as_of": "2026-11-18",
+      "via": "página pública WatchCharts",
+      "market_usd": 9538,
+      "market_eur": 8696,
+      "fx_usd_per_eur": 1.0968,
+      "fx_date": "2026-11-18"
+    },
+    {
+      "date": "2026-11-18",
+      "ref": "116400GV-0001",
+      "source": "WatchCharts",
+      "source_url": "https://watchcharts.com/watch_model/649-rolex-milgauss-116400gv/overview",
+      "as_of": "2026-11-18",
+      "via": "página pública WatchCharts",
+      "market_usd": 9906,
+      "market_eur": 9032,
+      "fx_usd_per_eur": 1.0968,
+      "fx_date": "2026-11-18"
+    },
+    {
+      "date": "2026-11-18",
+      "ref": "116400GV-0002",
+      "source": "WatchCharts",
+      "source_url": "https://watchcharts.com/watch_model/649-rolex-milgauss-116400gv/overview",
+      "as_of": "2026-11-18",
+      "via": "página pública WatchCharts",
+      "market_usd": 12736,
+      "market_eur": 11612,
+      "fx_usd_per_eur": 1.0968,
+      "fx_date": "2026-11-18"
+    },
+    {
+      "date": "2026-11-18",
+      "ref": "3510.50",
+      "source": "WatchCharts",
+      "source_url": "https://watchcharts.com/watch_model/24-omega-speedmaster-reduced-3510-50/overview",
+      "as_of": "2026-11-18",
+      "via": "página pública WatchCharts",
+      "market_usd": 2991,
+      "market_eur": 2727,
+      "fx_usd_per_eur": 1.0968,
+      "fx_date": "2026-11-18"
     }
   ]
 }

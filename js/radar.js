@@ -37,13 +37,34 @@
   function shortSeller(name) {
     return (name || "").replace(/\s*\/\s*.+$/, "").trim();
   }
-  function isSearch(o) {
+  function offerIsSearch(o) {
+    if (!o) return true;
+    if (o.kind === "search") return true;
+    if (o.kind === "listing") return false;
+    const u = (o.url || "").toLowerCase();
     const t = ((o.condition || "") + " " + (o.note || "")).toLowerCase();
-    return (
-      /chrono24/i.test(o.seller) ||
-      t.includes("pesquisa") ||
-      o.price_eur == null && t.includes("catálogo")
-    );
+    if (/pesquisa/i.test(t) || /pesquisa/i.test(o.seller || "")) return true;
+    if (/chrono24/i.test(o.seller) && /search|dosearch|query=/.test(u)) return true;
+    if (/\/search|\/pesquisa|[?&]q=|[?&]query=|dosearch=/.test(u)) return true;
+    if (/watchfinder\./.test(u) && !/\/\d+\/?$/.test(u.split("?")[0])) return true;
+    return false;
+  }
+  function isSearch(o) { return offerIsSearch(o); }
+  function isPricedListing(o) {
+    return o && o.price_eur != null && o.url && !offerIsSearch(o);
+  }
+  function bestDirectOffer(w) {
+    const priced = (w.offers || []).filter(isPricedListing);
+    const dealers = priced.filter((o) => o.type !== "AD");
+    const pool = dealers.length ? dealers.slice() : [];
+    pool.sort((a, b) => a.price_eur - b.price_eur);
+    return pool[0] || null;
+  }
+  function bestOfferHTML(w) {
+    const o = bestDirectOffer(w);
+    if (!o) return "";
+    const who = shortSeller(o.seller) + (o.seen ? " · " + formatSeenShort(o.seen) : "");
+    return `<p class="price best"><span class="price-label">Melhor oferta</span><a class="best-link" href="${o.url}" target="_blank" rel="noopener noreferrer" data-stop="1">${money(o.price_eur)}</a>${sourceHTML({ label: who, url: o.url })}</p>`;
   }
   function rankedOffers(offers) {
     const copy = (offers || []).slice();
@@ -408,10 +429,11 @@
     if (!shown.length && all.length) shown = all.slice(0, 1);
     const rest = all.length - shown.length;
     const links = shown.map((o) => {
-      const search = isSearch(o) || /chrono24/i.test(o.seller);
+      const search = offerIsSearch(o) || /chrono24/i.test(o.seller);
       const label = shortSeller(o.seller);
-      const price = o.price_eur != null ? money(o.price_eur) : (search ? "pesquisa" : "");
-      const src = o.price_eur != null && o.seen ? `<span class="osrc">${escapeHtml(formatSeenShort(o.seen))}</span>` : "";
+      const priced = !search && o.price_eur != null;
+      const price = priced ? money(o.price_eur) : (search ? "pesquisa" : "");
+      const src = priced && o.seen ? `<span class="osrc">${escapeHtml(formatSeenShort(o.seen))}</span>` : "";
       return `<a class="${search ? "search" : ""}" href="${o.url}" target="_blank" rel="noopener noreferrer" data-stop="1">
         <span class="seller">${escapeHtml(label)}</span>
         <span class="oprice">${price}${src}</span>
@@ -440,6 +462,7 @@
       <p class="ref">${escapeHtml(w.ref)}</p>
       <p class="price"><span class="price-label">Mercado</span>${money(w.market_eur)}${sourceHTML(w.market_source)}</p>
       <p class="retail">Retalho PT <strong>${money(w.retail_pt_eur)}</strong>${sourceHTML(w.retail_source)}</p>
+      ${bestOfferHTML(w)}
       ${sparkline(w.ref)}
       ${pill}
       <p class="onde-label">Onde comprar</p>
@@ -452,12 +475,23 @@
     const gender = document.getElementById("f-gender").value;
     const signal = document.getElementById("f-signal").value;
     const sort = document.getElementById("f-sort").value;
+    const sizeEl = document.getElementById("f-size");
+    const priceEl = document.getElementById("f-price");
+    const size = sizeEl ? sizeEl.value : "";
+    const price = priceEl ? priceEl.value : "";
     const qEl = document.getElementById("f-search");
     const q = qEl ? norm(qEl.value) : "";
     let list = DATA.watches.slice();
     if (brand) list = list.filter((w) => w.brand === brand);
     if (gender) list = list.filter((w) => w.gender === gender);
     if (signal) list = list.filter((w) => w.signal === signal);
+    if (size) list = list.filter((w) => w.case_size_mm != null && String(w.case_size_mm) === size);
+    if (price) {
+      const [loS, hiS] = price.split("-");
+      const lo = loS === "" ? 0 : Number(loS);
+      const hi = hiS === "" ? Infinity : Number(hiS);
+      list = list.filter((w) => w.market_eur != null && w.market_eur >= lo && w.market_eur < hi);
+    }
     if (q) {
       list = list.filter((w) => {
         const hay = norm([w.brand, w.model, w.ref].join(" "));
@@ -491,6 +525,67 @@
     grid.innerHTML = list.length
       ? list.map(cardHTML).join("")
       : `<p class="empty-grid">Nenhum modelo corresponde à procura.</p>`;
+    syncURL();
+  }
+
+  function syncURL() {
+    const params = new URLSearchParams(location.search);
+    const keep = {};
+    if (params.get("open")) keep.open = params.get("open");
+    if (params.get("shot")) keep.shot = params.get("shot");
+    const next = new URLSearchParams();
+    const map = [
+      ["brand", "f-brand"],
+      ["gender", "f-gender"],
+      ["signal", "f-signal"],
+      ["sort", "f-sort"],
+      ["size", "f-size"],
+      ["price", "f-price"],
+    ];
+    map.forEach(([key, id]) => {
+      const el = document.getElementById(id);
+      const val = el ? el.value : "";
+      if (!val) return;
+      if (key === "sort" && val === "brand") return;
+      next.set(key, val);
+    });
+    const qEl = document.getElementById("f-search");
+    const q = qEl ? qEl.value.trim() : "";
+    if (q) next.set("q", q);
+    Object.keys(keep).forEach((k) => next.set(k, keep[k]));
+    const qs = next.toString();
+    const url = qs ? location.pathname + "?" + qs : location.pathname;
+    if (url !== location.pathname + location.search) {
+      history.replaceState(null, "", url);
+    }
+  }
+
+  function applyURL() {
+    const params = new URLSearchParams(location.search);
+    ["brand", "gender", "signal", "sort", "size", "price"].forEach((key) => {
+      const el = document.getElementById("f-" + key);
+      if (el && params.has(key)) el.value = params.get(key);
+    });
+    const q0 = params.get("q");
+    const qEl = document.getElementById("f-search");
+    if (q0 && qEl) qEl.value = q0;
+  }
+
+  function fillSizeFilter() {
+    const sel = document.getElementById("f-size");
+    if (!sel) return;
+    const by = new Map();
+    (DATA.watches || []).forEach((w) => {
+      if (w.case_size_mm == null) return;
+      const key = String(w.case_size_mm);
+      if (!by.has(key)) by.set(key, w.case_size_label || (String(w.case_size_mm).replace(".", ",") + " mm"));
+    });
+    const keys = Array.from(by.keys()).sort((a, b) => Number(a) - Number(b));
+    const current = sel.value;
+    sel.innerHTML = `<option value="">Todos</option>` + keys.map((k) =>
+      `<option value="${k}">${escapeHtml(by.get(k))}</option>`
+    ).join("");
+    if (current && keys.indexOf(current) !== -1) sel.value = current;
   }
 
   function typeLabel(t) {
@@ -507,16 +602,17 @@
     const days = w.demand && w.demand.days_on_market != null ? NUM1.format(w.demand.days_on_market) : "—";
     const offers = rankedOffers(w.offers)
       .map((o) => {
-        const search = /chrono24/i.test(o.seller);
+        const search = offerIsSearch(o) || /chrono24/i.test(o.seller);
         const flag = search ? `<span class="tag-search">pesquisa</span>` : "";
         const cond = o.condition ? escapeHtml(o.condition) : "";
         const seen = o.seen ? formatSeen(o.seen) : "";
         const meta = [typeLabel(o.type), o.country, cond, seen].filter(Boolean).join(" · ");
+        const priceTxt = !search && o.price_eur != null ? money(o.price_eur) : (search ? "pesquisa" : "abrir");
         return `<li>
           <a href="${o.url}" target="_blank" rel="noopener noreferrer">
             <div class="offer-top">
               <span class="offer-seller">${escapeHtml(shortSeller(o.seller))}${flag}</span>
-              <span class="offer-price">${o.price_eur != null ? money(o.price_eur) : "abrir"}</span>
+              <span class="offer-price">${priceTxt}</span>
             </div>
             <p class="offer-meta">${meta}</p>
           </a>
@@ -528,8 +624,10 @@
       <h2 class="model" id="drawer-title">${escapeHtml(w.model)}</h2>
       <div class="illu">${portrait(w)}</div>
       <p class="ref">${escapeHtml(w.ref)}</p>
+      ${w.spec_diff ? `<p class="spec-diff">${escapeHtml(w.spec_diff)}</p>` : ""}
       <p class="price"><span class="price-label">Mercado</span>${money(w.market_eur)}${sourceHTML(w.market_source)}</p>
       <p class="retail">Retalho PT <strong>${money(w.retail_pt_eur)}</strong>${sourceHTML(w.retail_source)}</p>
+      ${bestOfferHTML(w)}
       <span class="pill ${signalClass(w.signal)}">${escapeHtml(w.signal)}${w.premium_pct != null ? " · " + pct(w.premium_pct) : ""}</span>
       ${w.blurb ? `<p class="blurb">${escapeHtml(w.blurb)}</p>` : ""}
       ${w.market_note ? `<p class="market-note">${escapeHtml(w.market_note)}</p>` : ""}
@@ -825,6 +923,72 @@
       ${creditBlock}`;
   }
 
+  function renderOutliers() {
+    const root = document.getElementById("outliers");
+    if (!root) return;
+    const by = {};
+    (HISTORY.snapshots || []).forEach((p) => {
+      if (p.market_eur == null || !p.ref) return;
+      (by[p.ref] || (by[p.ref] = [])).push(p);
+    });
+    const movers = [];
+    Object.keys(by).forEach((ref) => {
+      const pts = by[ref].slice().sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
+      if (pts.length < 2) return;
+      const a = pts[0], b = pts[pts.length - 1];
+      if (!a.market_eur) return;
+      const chg = ((b.market_eur - a.market_eur) / a.market_eur) * 100;
+      const w = DATA.watches.find((x) => x.ref === ref);
+      movers.push({
+        ref,
+        brand: w ? w.brand : "",
+        model: w ? w.model : ref,
+        pct: chg,
+        from: a,
+        to: b,
+        n: pts.length,
+      });
+    });
+    const up = movers.filter((m) => m.pct > 0).sort((a, b) => b.pct - a.pct).slice(0, 4);
+    const down = movers.filter((m) => m.pct < 0).sort((a, b) => a.pct - b.pct).slice(0, 4);
+    if (!up.length && !down.length) {
+      root.hidden = true;
+      root.innerHTML = "";
+      return;
+    }
+    function item(m, dir) {
+      const srcUrl = m.to.source_url || (m.to.source && m.to.source.url) || "";
+      const period = formatSeenShort(m.from.as_of || m.from.date) + " – " + formatSeenShort(m.to.as_of || m.to.date);
+      const src = srcUrl
+        ? `<a href="${srcUrl}" target="_blank" rel="noopener noreferrer">${escapeHtml(m.to.source || "WatchCharts")}</a>`
+        : escapeHtml(m.to.source || "WatchCharts");
+      const thin = m.n < 3 ? `<span class="thin">série curta</span>` : "";
+      return `<li>
+        <div>
+          <p class="omodel">${escapeHtml(m.brand)} ${escapeHtml(m.model)}</p>
+          <p class="ometa">${escapeHtml(period)} · ${src}${thin}</p>
+        </div>
+        <span class="opct ${dir}">${pct(m.pct)}</span>
+      </li>`;
+    }
+    root.hidden = false;
+    root.innerHTML = `
+      <div class="outliers-head">
+        <h2 class="chart-title">Outliers</h2>
+        <p class="outliers-note">Variação entre o primeiro e o último ponto de mercado com fonte. Sem interpolação. Série curta: só dois pontos.</p>
+      </div>
+      <div class="outliers-grid">
+        <div class="outliers-col">
+          <h3>A subir</h3>
+          <ul>${up.length ? up.map((m) => item(m, "up")).join("") : "<li><p class=\"ometa\">Sem subidas com período sourced.</p></li>"}</ul>
+        </div>
+        <div class="outliers-col">
+          <h3>A descer</h3>
+          <ul>${down.length ? down.map((m) => item(m, "down")).join("") : "<li><p class=\"ometa\">Sem descidas com período sourced.</p></li>"}</ul>
+        </div>
+      </div>`;
+  }
+
   function fillBrandFilter() {
     const sel = document.getElementById("f-brand");
     const brands = [...new Set(DATA.watches.map((w) => w.brand))];
@@ -874,10 +1038,10 @@
       CREDITS.forEach((c) => { if (c.ref) PHOTOS[c.ref] = true; });
     }
     fillBrandFilter();
-    const params = new URLSearchParams(location.search);
-    const q0 = params.get("q");
-    if (q0 && document.getElementById("f-search")) document.getElementById("f-search").value = q0;
+    fillSizeFilter();
+    applyURL();
     renderGrid();
+    renderOutliers();
     document.getElementById("filters").addEventListener("change", renderGrid);
     const search = document.getElementById("f-search");
     if (search) search.addEventListener("input", renderGrid);
@@ -888,6 +1052,7 @@
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape") closeDrawer();
     });
+    const params = new URLSearchParams(location.search);
     const openRef = params.get("open");
     if (openRef) openDrawer(openRef);
     if (params.get("shot") === "mercado") {

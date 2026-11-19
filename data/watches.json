@@ -1,6 +1,6 @@
 {
-  "title": "G Watch Radar — dados v2",
-  "updated": "2026-11-18",
+  "title": "G Watch Radar — dados v3",
+  "updated": "2026-11-19",
   "timezone": "Europe/Lisbon",
   "disclaimer": "Dados públicos, recolhidos manualmente; não é aconselhamento financeiro.",
   "fx": {
@@ -11,7 +11,7 @@
     "note": "Preços em GBP foram convertidos para EUR com esta taxa (1 EUR = 0,83305 GBP)."
   },
   "landed_formula": "1,23 × (mercado WC em EUR + 150 € portes estimados + 0,80 € de direito)",
-  "demand_proxy": "Vendas a 1 ano e dias medianos no mercado, WatchCharts, 17 nov. 2026.",
+  "demand_proxy": "Vendas a 1 ano e dias medianos no mercado, WatchCharts; a data está em demand_source de cada referência.",
   "watches": [
     {
       "brand": "Rolex",
@@ -58,7 +58,8 @@
           "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0001/",
           "seen": "2026-11-18",
           "price_text": "6.700 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -69,14 +70,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126000-0001",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126000-0001",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 36,
+      "case_size_label": "36 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0001/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3230 automático · 36 mm"
     },
     {
       "brand": "Rolex",
@@ -123,7 +144,8 @@
           "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0006/",
           "seen": "2026-11-18",
           "price_text": "6.700 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -134,14 +156,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126000-0006",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126000-0006",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 36,
+      "case_size_label": "36 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0006/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3230 automático · 36 mm"
     },
     {
       "brand": "Rolex",
@@ -188,7 +230,8 @@
           "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0008/",
           "seen": "2026-11-18",
           "price_text": "6.700 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -199,14 +242,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126000-0008",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126000-0008",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 36,
+      "case_size_label": "36 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0008/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3230 automático · 36 mm"
     },
     {
       "brand": "Rolex",
@@ -253,7 +316,8 @@
           "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0011/",
           "seen": "2026-11-18",
           "price_text": "6.700 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -264,14 +328,803 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126000-0011",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126000-0011",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 36,
+      "case_size_label": "36 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0011/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3230 automático · 36 mm"
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 36 bege",
+      "ref": "126000-0012",
+      "gender": "homem",
+      "retail_pt_eur": 6700,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0012/",
+        "as_of": "2026-11-19"
+      },
+      "market_eur": 8079,
+      "market_usd": 8878,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21826-rolex-oyster-perpetual-36-126000/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da variação, publicado na página da família 126000 na WatchCharts, 17 nov. 2026. Volume e dias são da família.",
+      "premium_pct": 20.6,
+      "dealer_eur": null,
+      "landed_import_eur": 10123,
+      "demand": {
+        "sales_1y": 3596,
+        "days_on_market": 35.1
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21826-rolex-oyster-perpetual-36-126000/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "prémio",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 6700,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0012/",
+          "seen": "2026-11-19",
+          "price_text": "6700 €",
+          "http": 200,
+          "kind": "listing"
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126000-0012",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126000-0012",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      },
+      "case_size_mm": 36,
+      "case_size_label": "36 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0012/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3230 automático · 36 mm",
+      "production": "current"
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 36 preto",
+      "ref": "126000-0014",
+      "gender": "homem",
+      "retail_pt_eur": 6700,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0014/",
+        "as_of": "2026-11-19"
+      },
+      "market_eur": null,
+      "market_usd": null,
+      "market_source": {},
+      "market_note": "Sem preço de mercado da variação 0014 na página WatchCharts da família 126000 (a variação preta aí listada é a 0002, referência distinta).",
+      "premium_pct": null,
+      "dealer_eur": null,
+      "landed_import_eur": null,
+      "demand": {
+        "sales_1y": null,
+        "days_on_market": null
+      },
+      "demand_source": {},
+      "signal": "—",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 6700,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0014/",
+          "seen": "2026-11-19",
+          "price_text": "6700 €",
+          "http": 200,
+          "kind": "listing"
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126000-0014",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126000-0014",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {},
+      "case_size_mm": 36,
+      "case_size_label": "36 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0014/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3230 automático · 36 mm",
+      "production": "current"
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 36 azul-mediterrâneo",
+      "ref": "126000-0015",
+      "gender": "homem",
+      "retail_pt_eur": 6700,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0015/",
+        "as_of": "2026-11-19"
+      },
+      "market_eur": 7249,
+      "market_usd": 7966,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21826-rolex-oyster-perpetual-36-126000/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da variação, publicado na página da família 126000 na WatchCharts, 17 nov. 2026. Volume e dias são da família.",
+      "premium_pct": 8.2,
+      "dealer_eur": null,
+      "landed_import_eur": 9102,
+      "demand": {
+        "sales_1y": 3596,
+        "days_on_market": 35.1
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21826-rolex-oyster-perpetual-36-126000/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "perto",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 6700,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0015/",
+          "seen": "2026-11-19",
+          "price_text": "6700 €",
+          "http": 200,
+          "kind": "listing"
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126000-0015",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126000-0015",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      },
+      "case_size_mm": 36,
+      "case_size_label": "36 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0015/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3230 automático · 36 mm",
+      "production": "current"
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 41 verde pistachio",
+      "ref": "134300-0006",
+      "gender": "homem",
+      "retail_pt_eur": 7050,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0006/",
+        "as_of": "2026-11-19"
+      },
+      "market_eur": 10080,
+      "market_usd": 11077,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/54382-rolex-134300/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da variação, publicado na página da família 134300 na WatchCharts, 17 nov. 2026. Volume e dias são da família (início de mercado abr. 2025).",
+      "premium_pct": 43.0,
+      "dealer_eur": 10002,
+      "landed_import_eur": 12584,
+      "demand": {
+        "sales_1y": 2643,
+        "days_on_market": 30.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/54382-rolex-134300/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "prémio",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 7050,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0006/",
+          "seen": "2026-11-19",
+          "price_text": "7050 €",
+          "http": 200,
+          "kind": "listing"
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=134300-0006",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=134300-0006",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      },
+      "case_size_mm": 41,
+      "case_size_label": "41 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0006/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3230 automático · 41 mm",
+      "production": "current"
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 41 prateado",
+      "ref": "134300-0001",
+      "gender": "homem",
+      "retail_pt_eur": 7050,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0001/",
+        "as_of": "2026-11-19"
+      },
+      "market_eur": 8572,
+      "market_usd": 9420,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/54382-rolex-134300/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da variação, publicado na página da família 134300 na WatchCharts, 17 nov. 2026. Volume e dias são da família (início de mercado abr. 2025).",
+      "premium_pct": 21.6,
+      "dealer_eur": 10002,
+      "landed_import_eur": 10729,
+      "demand": {
+        "sales_1y": 2643,
+        "days_on_market": 30.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/54382-rolex-134300/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "prémio",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 7050,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0001/",
+          "seen": "2026-11-19",
+          "price_text": "7050 €",
+          "http": 200,
+          "kind": "listing"
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=134300-0001",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=134300-0001",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      },
+      "case_size_mm": 41,
+      "case_size_label": "41 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0001/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3230 automático · 41 mm",
+      "production": "current"
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 41 verde",
+      "ref": "134300-0004",
+      "gender": "homem",
+      "retail_pt_eur": 7050,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0004/",
+        "as_of": "2026-11-19"
+      },
+      "market_eur": 8737,
+      "market_usd": 9601,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/54382-rolex-134300/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da variação, publicado na página da família 134300 na WatchCharts, 17 nov. 2026. Volume e dias são da família (início de mercado abr. 2025).",
+      "premium_pct": 23.9,
+      "dealer_eur": 10002,
+      "landed_import_eur": 10932,
+      "demand": {
+        "sales_1y": 2643,
+        "days_on_market": 30.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/54382-rolex-134300/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "prémio",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 7050,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0004/",
+          "seen": "2026-11-19",
+          "price_text": "7050 €",
+          "http": 200,
+          "kind": "listing"
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=134300-0004",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=134300-0004",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      },
+      "case_size_mm": 41,
+      "case_size_label": "41 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0004/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3230 automático · 41 mm",
+      "production": "current"
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 41 bege",
+      "ref": "134300-0007",
+      "gender": "homem",
+      "retail_pt_eur": 7050,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0007/",
+        "as_of": "2026-11-19"
+      },
+      "market_eur": 10301,
+      "market_usd": 11320,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/54382-rolex-134300/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da variação, publicado na página da família 134300 na WatchCharts, 17 nov. 2026. Volume e dias são da família (início de mercado abr. 2025).",
+      "premium_pct": 46.1,
+      "dealer_eur": 10002,
+      "landed_import_eur": 12856,
+      "demand": {
+        "sales_1y": 2643,
+        "days_on_market": 30.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/54382-rolex-134300/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "prémio",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 7050,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0007/",
+          "seen": "2026-11-19",
+          "price_text": "7050 €",
+          "http": 200,
+          "kind": "listing"
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=134300-0007",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=134300-0007",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      },
+      "case_size_mm": 41,
+      "case_size_label": "41 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0007/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3230 automático · 41 mm",
+      "production": "current"
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 41 preto",
+      "ref": "134300-0008",
+      "gender": "homem",
+      "retail_pt_eur": 7050,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0008/",
+        "as_of": "2026-11-19"
+      },
+      "market_eur": 8445,
+      "market_usd": 9280,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/54382-rolex-134300/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da variação, publicado na página da família 134300 na WatchCharts, 17 nov. 2026. Volume e dias são da família (início de mercado abr. 2025).",
+      "premium_pct": 19.8,
+      "dealer_eur": 10002,
+      "landed_import_eur": 10573,
+      "demand": {
+        "sales_1y": 2643,
+        "days_on_market": 30.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/54382-rolex-134300/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "prémio",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 7050,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0008/",
+          "seen": "2026-11-19",
+          "price_text": "7050 €",
+          "http": 200,
+          "kind": "listing"
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=134300-0008",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=134300-0008",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      },
+      "case_size_mm": 41,
+      "case_size_label": "41 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0008/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3230 automático · 41 mm",
+      "production": "current"
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 41 azul-mediterrâneo",
+      "ref": "134300-0009",
+      "gender": "homem",
+      "retail_pt_eur": 7050,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0009/",
+        "as_of": "2026-11-19"
+      },
+      "market_eur": 8604,
+      "market_usd": 9455,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/54382-rolex-134300/overview",
+        "as_of": "2026-11-17"
+      },
+      "market_note": "Preço de mercado da variação, publicado na página da família 134300 na WatchCharts, 17 nov. 2026. Volume e dias são da família (início de mercado abr. 2025).",
+      "premium_pct": 22.0,
+      "dealer_eur": 10002,
+      "landed_import_eur": 10768,
+      "demand": {
+        "sales_1y": 2643,
+        "days_on_market": 30.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/54382-rolex-134300/overview",
+        "as_of": "2026-11-17"
+      },
+      "signal": "prémio",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 7050,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0009/",
+          "seen": "2026-11-19",
+          "price_text": "7050 €",
+          "http": 200,
+          "kind": "listing"
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=134300-0009",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=134300-0009",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0989,
+        "date": "2026-11-17",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      },
+      "case_size_mm": 41,
+      "case_size_label": "41 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0009/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3230 automático · 41 mm",
+      "production": "current"
     },
     {
       "brand": "Rolex",
@@ -314,14 +1167,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=124300",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=124300",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 41,
+      "case_size_label": "41 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 17 nov",
+        "url": "https://watchcharts.com/watch_model/21827-rolex-oyster-perpetual-41-124300/overview",
+        "as_of": "2026-11-17"
+      },
+      "spec_diff": "41 mm · descontinuado"
     },
     {
       "brand": "Rolex",
@@ -368,7 +1241,8 @@
           "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0006/",
           "seen": "2026-11-18",
           "price_text": "6.250 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -379,14 +1253,180 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=277200-0006",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=277200-0006",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 31,
+      "case_size_label": "31 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0006/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 2232 automático · 31 mm"
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 31 lavender",
+      "ref": "277200-0014",
+      "gender": "mulher",
+      "retail_pt_eur": 6250,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0014/",
+        "as_of": "2026-11-19"
+      },
+      "market_eur": null,
+      "market_usd": null,
+      "market_source": {},
+      "market_note": "Sem preço de mercado da variação 0014 na página WatchCharts da família 277200 consultada.",
+      "premium_pct": null,
+      "dealer_eur": null,
+      "landed_import_eur": null,
+      "demand": {
+        "sales_1y": null,
+        "days_on_market": null
+      },
+      "demand_source": {},
+      "signal": "—",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 6250,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0014/",
+          "seen": "2026-11-19",
+          "price_text": "6250 €",
+          "http": 200,
+          "kind": "listing"
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=277200-0014",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=277200-0014",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {},
+      "case_size_mm": 31,
+      "case_size_label": "31 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0014/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 2232 automático · 31 mm",
+      "production": "current"
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 31 preto",
+      "ref": "277200-0016",
+      "gender": "mulher",
+      "retail_pt_eur": 6250,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0016/",
+        "as_of": "2026-11-19"
+      },
+      "market_eur": null,
+      "market_usd": null,
+      "market_source": {},
+      "market_note": "Sem preço de mercado da variação 0016 na página WatchCharts da família 277200 consultada.",
+      "premium_pct": null,
+      "dealer_eur": null,
+      "landed_import_eur": null,
+      "demand": {
+        "sales_1y": null,
+        "days_on_market": null
+      },
+      "demand_source": {},
+      "signal": "—",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 6250,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0016/",
+          "seen": "2026-11-19",
+          "price_text": "6250 €",
+          "http": 200,
+          "kind": "listing"
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=277200-0016",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=277200-0016",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {},
+      "case_size_mm": 31,
+      "case_size_label": "31 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0016/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 2232 automático · 31 mm",
+      "production": "current"
     },
     {
       "brand": "Rolex",
@@ -414,7 +1454,8 @@
           "url": "https://rolex.torres.pt/relogio/submariner/m126610ln-0001/",
           "seen": "2026-11-18",
           "price_text": "11.300 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "David Rosas",
@@ -424,7 +1465,8 @@
           "condition": "catálogo oficial, sem preço nem stock nesta página",
           "url": "https://davidrosas.pt/pages/rolex-submariner",
           "seen": "2026-11-18",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Watchfinder / Kettle Club Watches",
@@ -435,7 +1477,8 @@
           "url": "https://www.watchfinder.co.uk/watches/rolex/submariner/126610-ln/456946",
           "seen": "2026-11-18",
           "price_text": "£12,495",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Watchfinder",
@@ -445,7 +1488,8 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.watchfinder.co.uk/watches/rolex/submariner/126610-ln",
           "seen": "2026-11-18",
-          "http": 200
+          "http": 200,
+          "kind": "search"
         },
         {
           "seller": "Chrono24",
@@ -456,7 +1500,18 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126610LN",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126610LN",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -477,7 +1532,16 @@
         "label": "Torres · 18 nov",
         "url": "https://rolex.torres.pt/relogio/submariner/m126610ln-0001/",
         "as_of": "2026-11-18"
-      }
+      },
+      "case_size_mm": 41,
+      "case_size_label": "41 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/submariner/m126610ln-0001/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3235 automático · 41 mm"
     },
     {
       "brand": "Rolex",
@@ -523,7 +1587,8 @@
           "url": "https://rolex.torres.pt/relogio/submariner/m124060-0001/",
           "seen": "2026-11-18",
           "price_text": "10.050 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -534,14 +1599,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=124060",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=124060",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 41,
+      "case_size_label": "41 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/submariner/m124060-0001/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3230 automático · 41 mm"
     },
     {
       "brand": "Rolex",
@@ -588,7 +1673,8 @@
           "url": "https://rolex.torres.pt/relogio/sea-dweller/m126600-0002/",
           "seen": "2026-11-18",
           "price_text": "14.450 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -599,14 +1685,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126600",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126600",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 43,
+      "case_size_label": "43 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/sea-dweller/m126600-0002/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3235 automático · 43 mm"
     },
     {
       "brand": "Rolex",
@@ -633,7 +1739,8 @@
           "condition": "distribuidor oficial Rolex; o Pepsi está descontinuado, consultar",
           "url": "https://davidrosas.pt/pages/rolex-watches",
           "seen": "2026-11-18",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Watchfinder / BQ Watches",
@@ -644,7 +1751,8 @@
           "url": "https://www.watchfinder.co.uk/watches/rolex/gmt-master-ii/126710-blro/454340",
           "seen": "2026-11-18",
           "price_text": "£22,450",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Watchfinder",
@@ -654,7 +1762,8 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.watchfinder.co.uk/watches/rolex/gmt-master-ii/126710-blro",
           "seen": "2026-11-18",
-          "http": 200
+          "http": 200,
+          "kind": "search"
         },
         {
           "seller": "Chrono24",
@@ -665,7 +1774,18 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126710BLRO",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126710BLRO",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -680,7 +1800,16 @@
         "url": "https://watchcharts.com/watch_model/733-rolex-gmt-master-ii-pepsi-126710blro/overview",
         "as_of": "2026-11-17"
       },
-      "retail_source": null
+      "retail_source": null,
+      "case_size_mm": 40,
+      "case_size_label": "40 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 19 nov",
+        "url": "https://watchcharts.com/watch_model/733-rolex-gmt-master-ii-pepsi-126710blro/overview",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "40 mm"
     },
     {
       "brand": "Rolex",
@@ -727,7 +1856,8 @@
           "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126710blnr-0002/",
           "seen": "2026-11-18",
           "price_text": "11.950 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -738,14 +1868,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126710BLNR",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126710BLNR",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 40,
+      "case_size_label": "40 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126710blnr-0002/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3285 automático · 40 mm"
     },
     {
       "brand": "Rolex",
@@ -792,7 +1942,8 @@
           "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126710grnr-0003/",
           "seen": "2026-11-18",
           "price_text": "11.950 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -803,14 +1954,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126710GRNR",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126710GRNR",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 40,
+      "case_size_label": "40 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126710grnr-0003/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3285 automático · 40 mm"
     },
     {
       "brand": "Rolex",
@@ -857,7 +2028,8 @@
           "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126720vtnr-0001/",
           "seen": "2026-11-18",
           "price_text": "12.250 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -868,14 +2040,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126720VTNR",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126720VTNR",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 40,
+      "case_size_label": "40 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126720vtnr-0001/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3285 automático · 40 mm"
     },
     {
       "brand": "Rolex",
@@ -921,7 +2113,8 @@
           "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126711chnr-0002/",
           "seen": "2026-11-18",
           "price_text": "20.000 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -932,14 +2125,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126711CHNR",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126711CHNR",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 40,
+      "case_size_label": "40 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126711chnr-0002/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3285 automático · 40 mm"
     },
     {
       "brand": "Rolex",
@@ -986,7 +2199,8 @@
           "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126715chnr-0002/",
           "seen": "2026-11-18",
           "price_text": "57.300 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -997,14 +2211,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126715CHNR",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126715CHNR",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.1014,
         "date": "2026-11-16",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 40,
+      "case_size_label": "40 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126715chnr-0002/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3285 automático · 40 mm"
     },
     {
       "brand": "Rolex",
@@ -1051,7 +2285,8 @@
           "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126713grnr-0001/",
           "seen": "2026-11-18",
           "price_text": "20.300 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -1062,14 +2297,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126713GRNR",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126713GRNR",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.1052,
         "date": "2026-11-13",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 40,
+      "case_size_label": "40 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126713grnr-0001/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3285 automático · 40 mm"
     },
     {
       "brand": "Rolex",
@@ -1112,14 +2367,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=116710LN",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=116710LN",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 40,
+      "case_size_label": "40 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 19 nov",
+        "url": "https://watchcharts.com/watch_model/53-rolex-gmt-master-ii-116710/overview",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "40 mm · descontinuado"
     },
     {
       "brand": "Rolex",
@@ -1161,14 +2436,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=116710BLNR",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=116710BLNR",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 40,
+      "case_size_label": "40 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 19 nov",
+        "url": "https://watchcharts.com/watch_model/739-rolex-gmt-master-ii-batman-116710blnr/overview",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "40 mm · descontinuado"
     },
     {
       "brand": "Rolex",
@@ -1214,7 +2509,8 @@
           "url": "https://rolex.torres.pt/relogio/explorer/m224270-0001/",
           "seen": "2026-11-18",
           "price_text": "8.350 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -1225,14 +2521,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=224270",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=224270",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 40,
+      "case_size_label": "40 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/explorer/m224270-0001/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3230 automático · 40 mm"
     },
     {
       "brand": "Rolex",
@@ -1279,7 +2595,8 @@
           "url": "https://rolex.torres.pt/relogio/explorer-ii/m226570-0001/",
           "seen": "2026-11-18",
           "price_text": "10.600 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -1290,14 +2607,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=226570",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=226570",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 42,
+      "case_size_label": "42 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/explorer-ii/m226570-0001/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3285 automático · 42 mm"
     },
     {
       "brand": "Rolex",
@@ -1344,7 +2681,8 @@
           "url": "https://rolex.torres.pt/relogio/yacht-master/m126622-0001/",
           "seen": "2026-11-18",
           "price_text": "13.150 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -1355,14 +2693,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126622",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126622",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 40,
+      "case_size_label": "40 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/yacht-master/m126622-0001/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3235 automático · 40 mm"
     },
     {
       "brand": "Rolex",
@@ -1408,7 +2766,8 @@
           "url": "https://rolex.torres.pt/relogio/air-king/m126900-0001/",
           "seen": "2026-11-18",
           "price_text": "8.100 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -1419,14 +2778,314 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126900",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126900",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 40,
+      "case_size_label": "40 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/air-king/m126900-0001/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3230 automático · 40 mm"
+    },
+    {
+      "brand": "Rolex",
+      "model": "Milgauss 116400GV preto",
+      "ref": "116400GV-0001",
+      "gender": "homem",
+      "retail_pt_eur": null,
+      "retail_source": {},
+      "market_eur": 9032,
+      "market_usd": 9906,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 18 nov",
+        "url": "https://watchcharts.com/watch_model/649-rolex-milgauss-116400gv/overview",
+        "as_of": "2026-11-18"
+      },
+      "market_note": "Descontinuado. Preço de mercado da variação preta (116400GV-0001), publicado na página da família 116400GV na WatchCharts, 18 nov. 2026. Volume e dias são da família. Retalho PT: —.",
+      "premium_pct": null,
+      "dealer_eur": 11080,
+      "landed_import_eur": 11295,
+      "demand": {
+        "sales_1y": 1932,
+        "days_on_market": 27.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 18 nov",
+        "url": "https://watchcharts.com/watch_model/649-rolex-milgauss-116400gv/overview",
+        "as_of": "2026-11-18"
+      },
+      "signal": "—",
+      "offers": [
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=116400GV-0001",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=116400GV-0001",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0968,
+        "date": "2026-11-18",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      },
+      "case_size_mm": 40,
+      "case_size_label": "40 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 18 nov",
+        "url": "https://watchcharts.com/watch_model/649-rolex-milgauss-116400gv/overview",
+        "as_of": "2026-11-18"
+      },
+      "spec_diff": "cristal verde GV · cal. 3131 automático · 40 mm",
+      "production": "discontinued"
+    },
+    {
+      "brand": "Rolex",
+      "model": "Milgauss 116400GV Z-blue",
+      "ref": "116400GV-0002",
+      "gender": "homem",
+      "retail_pt_eur": null,
+      "retail_source": {},
+      "market_eur": 11612,
+      "market_usd": 12736,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 18 nov",
+        "url": "https://watchcharts.com/watch_model/649-rolex-milgauss-116400gv/overview",
+        "as_of": "2026-11-18"
+      },
+      "market_note": "Descontinuado. Preço de mercado da variação azul (116400GV-0002), publicado na página da família 116400GV na WatchCharts, 18 nov. 2026. Volume e dias são da família. Retalho PT: —.",
+      "premium_pct": null,
+      "dealer_eur": 11080,
+      "landed_import_eur": 14468,
+      "demand": {
+        "sales_1y": 1932,
+        "days_on_market": 27.0
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 18 nov",
+        "url": "https://watchcharts.com/watch_model/649-rolex-milgauss-116400gv/overview",
+        "as_of": "2026-11-18"
+      },
+      "signal": "—",
+      "offers": [
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=116400GV-0002",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=116400GV-0002",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0968,
+        "date": "2026-11-18",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      },
+      "case_size_mm": 40,
+      "case_size_label": "40 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 18 nov",
+        "url": "https://watchcharts.com/watch_model/649-rolex-milgauss-116400gv/overview",
+        "as_of": "2026-11-18"
+      },
+      "spec_diff": "cristal verde GV · cal. 3131 automático · 40 mm",
+      "production": "discontinued"
+    },
+    {
+      "brand": "Rolex",
+      "model": "Milgauss 116400 preto",
+      "ref": "116400-0001",
+      "gender": "homem",
+      "retail_pt_eur": null,
+      "retail_source": {},
+      "market_eur": 7700,
+      "market_usd": 8445,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 18 nov",
+        "url": "https://watchcharts.com/watch_model/736-rolex-milgauss-116400/overview",
+        "as_of": "2026-11-18"
+      },
+      "market_note": "Descontinuado (referência anterior à 116400GV). Preço de mercado da variação preta (116400-0001), publicado na página da família 116400 na WatchCharts, 18 nov. 2026. Volume e dias são da família. Retalho PT: —.",
+      "premium_pct": null,
+      "dealer_eur": 9459,
+      "landed_import_eur": 9656,
+      "demand": {
+        "sales_1y": 816,
+        "days_on_market": 33.1
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 18 nov",
+        "url": "https://watchcharts.com/watch_model/736-rolex-milgauss-116400/overview",
+        "as_of": "2026-11-18"
+      },
+      "signal": "—",
+      "offers": [
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=116400-0001",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=116400-0001",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0968,
+        "date": "2026-11-18",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      },
+      "case_size_mm": 40,
+      "case_size_label": "40 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 18 nov",
+        "url": "https://watchcharts.com/watch_model/736-rolex-milgauss-116400/overview",
+        "as_of": "2026-11-18"
+      },
+      "spec_diff": "cal. 3131 automático · 40 mm",
+      "production": "discontinued"
+    },
+    {
+      "brand": "Rolex",
+      "model": "Milgauss 116400 branco",
+      "ref": "116400-0002",
+      "gender": "homem",
+      "retail_pt_eur": null,
+      "retail_source": {},
+      "market_eur": 8696,
+      "market_usd": 9538,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 18 nov",
+        "url": "https://watchcharts.com/watch_model/736-rolex-milgauss-116400/overview",
+        "as_of": "2026-11-18"
+      },
+      "market_note": "Descontinuado (referência anterior à 116400GV). Preço de mercado da variação branca (116400-0002), publicado na página da família 116400 na WatchCharts, 18 nov. 2026. Volume e dias são da família. Retalho PT: —.",
+      "premium_pct": null,
+      "dealer_eur": 9459,
+      "landed_import_eur": 10882,
+      "demand": {
+        "sales_1y": 816,
+        "days_on_market": 33.1
+      },
+      "demand_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 18 nov",
+        "url": "https://watchcharts.com/watch_model/736-rolex-milgauss-116400/overview",
+        "as_of": "2026-11-18"
+      },
+      "signal": "—",
+      "offers": [
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=116400-0002",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=116400-0002",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0968,
+        "date": "2026-11-18",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      },
+      "case_size_mm": 40,
+      "case_size_label": "40 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 18 nov",
+        "url": "https://watchcharts.com/watch_model/736-rolex-milgauss-116400/overview",
+        "as_of": "2026-11-18"
+      },
+      "spec_diff": "cal. 3131 automático · 40 mm",
+      "production": "discontinued"
     },
     {
       "brand": "Rolex",
@@ -1454,7 +3113,8 @@
           "url": "https://rolex.torres.pt/en/watch/cosmograph-daytona/m126500ln-0001/",
           "seen": "2026-11-18",
           "price_text": "16.750 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Watchfinder",
@@ -1464,7 +3124,8 @@
           "condition": "pesquisa 126500 LN; a lista mistura mostrador branco e preto — não usar um preço da lista sem abrir o anúncio",
           "url": "https://www.watchfinder.co.uk/watches/rolex/daytona/126500-ln",
           "seen": "2026-11-18",
-          "http": 200
+          "http": 200,
+          "kind": "search"
         },
         {
           "seller": "Chrono24",
@@ -1475,7 +3136,18 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126500LN",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126500LN-0001",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -1495,7 +3167,16 @@
         "label": "Torres · 18 nov",
         "url": "https://rolex.torres.pt/en/watch/cosmograph-daytona/m126500ln-0001/",
         "as_of": "2026-11-18"
-      }
+      },
+      "case_size_mm": 40,
+      "case_size_label": "40 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/en/watch/cosmograph-daytona/m126500ln-0001/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 4131 automático · 40 mm"
     },
     {
       "brand": "Rolex",
@@ -1542,7 +3223,8 @@
           "url": "https://rolex.torres.pt/relogio/datejust/m126234-0015/",
           "seen": "2026-11-18",
           "price_text": "10.100 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -1553,14 +3235,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126234",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126234",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 36,
+      "case_size_label": "36 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/datejust/m126234-0015/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3235 automático · 36 mm"
     },
     {
       "brand": "Rolex",
@@ -1588,7 +3290,8 @@
           "url": "https://rolex.torres.pt/relogio/datejust/m126334-0033/",
           "seen": "2026-11-18",
           "price_text": "11.650 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Watchfinder / BQ Watches",
@@ -1599,7 +3302,8 @@
           "url": "https://www.watchfinder.co.uk/watches/rolex/datejust-41/126334/453530",
           "seen": "2026-11-18",
           "price_text": "£12,250",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -1610,7 +3314,18 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=126334",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=126334",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -1630,7 +3345,16 @@
         "label": "Torres · 18 nov",
         "url": "https://rolex.torres.pt/relogio/datejust/m126334-0033/",
         "as_of": "2026-11-18"
-      }
+      },
+      "case_size_mm": 41,
+      "case_size_label": "41 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/datejust/m126334-0033/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3235 automático · 41 mm"
     },
     {
       "brand": "Rolex",
@@ -1658,7 +3382,8 @@
           "url": "https://rolex.torres.pt/relogio/datejust/m278274-0018/",
           "seen": "2026-11-18",
           "price_text": "9.550 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Watchfinder / Bonds of Brentwood",
@@ -1669,7 +3394,8 @@
           "url": "https://www.watchfinder.co.uk/watches/rolex/datejust-lady-31/278274/448820",
           "seen": "2026-11-18",
           "price_text": "£10,650",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -1680,7 +3406,18 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=278274",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=278274",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -1700,7 +3437,16 @@
         "label": "Torres · 18 nov",
         "url": "https://rolex.torres.pt/relogio/datejust/m278274-0018/",
         "as_of": "2026-11-18"
-      }
+      },
+      "case_size_mm": 31,
+      "case_size_label": "31 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/datejust/m278274-0018/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 2236 automático · 31 mm"
     },
     {
       "brand": "Rolex",
@@ -1728,7 +3474,8 @@
           "url": "https://rolex.torres.pt/relogio/lady-datejust/m279174-0020/",
           "seen": "2026-11-18",
           "price_text": "9.100 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Watchfinder / BLOOMBAR",
@@ -1739,7 +3486,8 @@
           "url": "https://www.watchfinder.co.uk/watches/rolex/datejust-lady-28/279174/434799",
           "seen": "2026-11-18",
           "price_text": "£8,450",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Watchfinder / BLOOMBAR",
@@ -1750,7 +3498,8 @@
           "url": "https://www.watchfinder.co.uk/watches/rolex/datejust-lady-28/279174/426275",
           "seen": "2026-11-18",
           "price_text": "£8,000",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -1761,7 +3510,18 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=279174",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=279174",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -1781,7 +3541,235 @@
         "label": "Torres · 18 nov",
         "url": "https://rolex.torres.pt/relogio/lady-datejust/m279174-0020/",
         "as_of": "2026-11-18"
-      }
+      },
+      "case_size_mm": 28,
+      "case_size_label": "28 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/lady-datejust/m279174-0020/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 2236 automático · 28 mm"
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 28 lavender",
+      "ref": "276200-0008",
+      "gender": "mulher",
+      "retail_pt_eur": 6150,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0008/",
+        "as_of": "2026-11-19"
+      },
+      "market_eur": null,
+      "market_usd": null,
+      "market_source": {},
+      "market_note": "A página WatchCharts da família 276200 lista as variações 0001–0004, não esta referência actual; mercado omitido.",
+      "premium_pct": null,
+      "dealer_eur": null,
+      "landed_import_eur": null,
+      "demand": {
+        "sales_1y": null,
+        "days_on_market": null
+      },
+      "demand_source": {},
+      "signal": "—",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 6150,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0008/",
+          "seen": "2026-11-19",
+          "price_text": "6150 €",
+          "http": 200,
+          "kind": "listing"
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=276200-0008",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=276200-0008",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {},
+      "case_size_mm": 28,
+      "case_size_label": "28 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0008/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 2232 automático · 28 mm",
+      "production": "current"
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 28 rosa candy",
+      "ref": "276200-0009",
+      "gender": "mulher",
+      "retail_pt_eur": 6150,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0009/",
+        "as_of": "2026-11-19"
+      },
+      "market_eur": null,
+      "market_usd": null,
+      "market_source": {},
+      "market_note": "A página WatchCharts da família 276200 lista as variações 0001–0004, não esta referência actual; mercado omitido.",
+      "premium_pct": null,
+      "dealer_eur": null,
+      "landed_import_eur": null,
+      "demand": {
+        "sales_1y": null,
+        "days_on_market": null
+      },
+      "demand_source": {},
+      "signal": "—",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 6150,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0009/",
+          "seen": "2026-11-19",
+          "price_text": "6150 €",
+          "http": 200,
+          "kind": "listing"
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=276200-0009",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=276200-0009",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {},
+      "case_size_mm": 28,
+      "case_size_label": "28 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0009/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 2232 automático · 28 mm",
+      "production": "current"
+    },
+    {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual 28 preto",
+      "ref": "276200-0010",
+      "gender": "mulher",
+      "retail_pt_eur": 6150,
+      "retail_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0010/",
+        "as_of": "2026-11-19"
+      },
+      "market_eur": null,
+      "market_usd": null,
+      "market_source": {},
+      "market_note": "A página WatchCharts da família 276200 lista as variações 0001–0004, não esta referência actual; mercado omitido.",
+      "premium_pct": null,
+      "dealer_eur": null,
+      "landed_import_eur": null,
+      "demand": {
+        "sales_1y": null,
+        "days_on_market": null
+      },
+      "demand_source": {},
+      "signal": "—",
+      "offers": [
+        {
+          "seller": "Torres Joalheiros",
+          "type": "AD",
+          "country": "PT",
+          "price_eur": 6150,
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0010/",
+          "seen": "2026-11-19",
+          "price_text": "6150 €",
+          "http": 200,
+          "kind": "listing"
+        },
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=276200-0010",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=276200-0010",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {},
+      "case_size_mm": 28,
+      "case_size_label": "28 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0010/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 2232 automático · 28 mm",
+      "production": "current"
     },
     {
       "brand": "Rolex",
@@ -1828,7 +3816,8 @@
           "url": "https://rolex.torres.pt/relogio/day-date/m228238-0042/",
           "seen": "2026-11-18",
           "price_text": "50.200 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -1839,14 +3828,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=228238",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=228238",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 40,
+      "case_size_label": "40 mm",
+      "case_size_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres Joalheiros · 19 nov",
+        "url": "https://rolex.torres.pt/relogio/day-date/m228238-0042/",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "cal. 3255 automático · 40 mm"
     },
     {
       "brand": "Omega",
@@ -1874,7 +3883,8 @@
           "url": "https://www.marcolino.pt/en/watches/omega/moonwatch-professional-co-axial-master-chronometer-chrono-31030425001001-8015",
           "seen": "2026-11-18",
           "price_text": "7.800 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -1885,7 +3895,18 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=310.30.42.50.01.001",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=310.30.42.50.01.001",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -1905,7 +3926,16 @@
         "label": "Marcolino · 18 nov",
         "url": "https://www.marcolino.pt/en/watches/omega/moonwatch-professional-co-axial-master-chronometer-chrono-31030425001001-8015",
         "as_of": "2026-11-18"
-      }
+      },
+      "case_size_mm": 42,
+      "case_size_label": "42 mm",
+      "case_size_source": {
+        "name": "Omega",
+        "label": "Omega · 19 nov",
+        "url": "https://www.omegawatches.com/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31030425001001",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "Hesalite · cal. 3861 manual · 42 mm"
     },
     {
       "brand": "Omega",
@@ -1946,14 +3976,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=310.30.42.50.01.002",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=310.30.42.50.01.002",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 42,
+      "case_size_label": "42 mm",
+      "case_size_source": {
+        "name": "Omega",
+        "label": "Omega · 19 nov",
+        "url": "https://www.omegawatches.com/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31030425001002",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "Safira (sandwich) · cal. 3861 manual · 42 mm"
     },
     {
       "brand": "Omega",
@@ -1994,14 +4044,359 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=310.30.42.50.04.001",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=310.30.42.50.04.001",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 42,
+      "case_size_label": "42 mm",
+      "case_size_source": {
+        "name": "Omega",
+        "label": "Omega · 19 nov",
+        "url": "https://www.omegawatches.com/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31030425004001",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "Safira · cal. 3861 manual · 42 mm"
+    },
+    {
+      "brand": "Omega",
+      "model": "Speedmaster Moonwatch Professional Canopus Gold",
+      "ref": "310.60.42.50.02.001",
+      "gender": "homem",
+      "retail_pt_eur": null,
+      "retail_source": {},
+      "market_eur": 26342,
+      "market_usd": 29190,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 12 nov",
+        "url": "https://watchcharts.com/watch_model/32066-omega-speedmaster-professional-moonwatch-3861-canopus-gold-310-60-42-50-02-001/overview",
+        "as_of": "2026-11-12"
+      },
+      "market_note": "Em produção. Retalho PT não encontrado numa página de AD português; o retalho WatchCharts é 66 300 USD (set. 2026), não usado como PVP PT. Sem volume de vendas público na página consultada.",
+      "premium_pct": null,
+      "dealer_eur": 32620,
+      "landed_import_eur": 32586,
+      "demand": {
+        "sales_1y": null,
+        "days_on_market": null
+      },
+      "demand_source": {},
+      "signal": "—",
+      "offers": [
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=310.60.42.50.02.001",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=310.60.42.50.02.001",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.1081,
+        "date": "2026-11-12",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      },
+      "case_size_mm": 42,
+      "case_size_label": "42 mm",
+      "case_size_source": {
+        "name": "Omega",
+        "label": "Omega · 19 nov",
+        "url": "https://www.omegawatches.com/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31060425002001",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "Safira · cal. 3861 manual · 42 mm · Canopus Gold",
+      "production": "current"
+    },
+    {
+      "brand": "Omega",
+      "model": "Speedmaster '57 azul",
+      "ref": "332.10.41.51.03.001",
+      "gender": "homem",
+      "retail_pt_eur": null,
+      "retail_source": {},
+      "market_eur": 6256,
+      "market_usd": 6914,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 13 nov",
+        "url": "https://watchcharts.com/watch_model/43096-omega-speedmaster-57-332-10-41-51-03-001/overview",
+        "as_of": "2026-11-13"
+      },
+      "market_note": "Linha actual Speedmaster '57, aço sobre aço, 40,5 mm, mostrador azul (não a edição limitada 311.10.39.30.01.002). Retalho PT não encontrado; retalho WatchCharts 10 700 USD (set. 2026), não usado como PVP PT. Vendas a 1 ano não publicadas na página consultada.",
+      "premium_pct": null,
+      "dealer_eur": 7102,
+      "landed_import_eur": 7880,
+      "demand": {
+        "sales_1y": null,
+        "days_on_market": null
+      },
+      "demand_source": {},
+      "signal": "—",
+      "offers": [
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=332.10.41.51.03.001",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=332.10.41.51.03.001",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.1052,
+        "date": "2026-11-13",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      },
+      "case_size_mm": 40.5,
+      "case_size_label": "40,5 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 13 nov",
+        "url": "https://watchcharts.com/watch_model/43096-omega-speedmaster-57-332-10-41-51-03-001/overview",
+        "as_of": "2026-11-13"
+      },
+      "spec_diff": "Safira · cal. 9906 manual · 40,5 mm",
+      "production": "current"
+    },
+    {
+      "brand": "Omega",
+      "model": "Speedmaster Dark Side of the Moon",
+      "ref": "311.92.44.51.01.007",
+      "gender": "homem",
+      "retail_pt_eur": null,
+      "retail_source": {},
+      "market_eur": 6568,
+      "market_usd": 7278,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 12 nov",
+        "url": "https://watchcharts.com/watch_model/1280-omega-speedmaster-dark-side-of-the-moon-311-92-44-51-01-007/overview",
+        "as_of": "2026-11-12"
+      },
+      "market_note": "Descontinuado. Caixa cerâmica; a página WatchCharts indica 44,25 mm no título e 44,2 mm na especificação (Case Diameter). Retalho WatchCharts 14 400 USD (out. 2025), não é PVP PT. Vendas a 1 ano não publicadas na página consultada.",
+      "premium_pct": null,
+      "dealer_eur": null,
+      "landed_import_eur": 8264,
+      "demand": {
+        "sales_1y": null,
+        "days_on_market": null
+      },
+      "demand_source": {},
+      "signal": "—",
+      "offers": [
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=311.92.44.51.01.007",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=311.92.44.51.01.007",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.1081,
+        "date": "2026-11-12",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      },
+      "case_size_mm": 44.25,
+      "case_size_label": "44,25 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 12 nov",
+        "url": "https://watchcharts.com/watch_model/1280-omega-speedmaster-dark-side-of-the-moon-311-92-44-51-01-007/overview",
+        "as_of": "2026-11-12"
+      },
+      "spec_diff": "Safira · cerâmica · 44,25 mm · descontinuado",
+      "production": "discontinued"
+    },
+    {
+      "brand": "Omega",
+      "model": "Speedmaster 38",
+      "ref": "324.30.38.50.01.001",
+      "gender": "homem",
+      "retail_pt_eur": null,
+      "retail_source": {},
+      "market_eur": 3782,
+      "market_usd": 4166,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 16 nov",
+        "url": "https://watchcharts.com/watch_model/1463-omega-speedmaster-38-324-30-38-50-01-001/overview",
+        "as_of": "2026-11-16"
+      },
+      "market_note": "Em produção. Retalho PT não encontrado; retalho WatchCharts 6 300 USD (set. 2026), não usado como PVP PT. Vendas a 1 ano não publicadas na página consultada.",
+      "premium_pct": null,
+      "dealer_eur": 4158,
+      "landed_import_eur": 4837,
+      "demand": {
+        "sales_1y": null,
+        "days_on_market": null
+      },
+      "demand_source": {},
+      "signal": "—",
+      "offers": [
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=324.30.38.50.01.001",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=324.30.38.50.01.001",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.1014,
+        "date": "2026-11-16",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      },
+      "case_size_mm": 38,
+      "case_size_label": "38 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 16 nov",
+        "url": "https://watchcharts.com/watch_model/1463-omega-speedmaster-38-324-30-38-50-01-001/overview",
+        "as_of": "2026-11-16"
+      },
+      "spec_diff": "Safira · cal. 3330 automático · 38 mm",
+      "production": "current"
+    },
+    {
+      "brand": "Omega",
+      "model": "Speedmaster Reduced",
+      "ref": "3510.50",
+      "gender": "homem",
+      "retail_pt_eur": null,
+      "retail_source": {},
+      "market_eur": 2727,
+      "market_usd": 2991,
+      "market_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 18 nov",
+        "url": "https://watchcharts.com/watch_model/24-omega-speedmaster-reduced-3510-50/overview",
+        "as_of": "2026-11-18"
+      },
+      "market_note": "Descontinuado. Retalho PT: —. Vendas a 1 ano não publicadas na página consultada.",
+      "premium_pct": null,
+      "dealer_eur": 3075,
+      "landed_import_eur": 3540,
+      "demand": {
+        "sales_1y": null,
+        "days_on_market": null
+      },
+      "demand_source": {},
+      "signal": "—",
+      "offers": [
+        {
+          "seller": "Chrono24",
+          "type": "marketplace",
+          "country": "EU",
+          "price_eur": null,
+          "condition": "pesquisa pública desta referência",
+          "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=3510.50",
+          "seen": "2026-11-19",
+          "http": 403,
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=3510.50",
+          "seen": "2026-11-19",
+          "kind": "search"
+        }
+      ],
+      "fx": {
+        "usd_per_eur": 1.0968,
+        "date": "2026-11-18",
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      },
+      "case_size_mm": 39,
+      "case_size_label": "39 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 18 nov",
+        "url": "https://watchcharts.com/watch_model/24-omega-speedmaster-reduced-3510-50/overview",
+        "as_of": "2026-11-18"
+      },
+      "spec_diff": "Plexiglass · cal. 3220 automático · 39 mm · descontinuado",
+      "production": "discontinued"
     },
     {
       "brand": "Omega",
@@ -2029,7 +4424,8 @@
           "url": "https://www.marcolino.pt/en/watches/omega/seamaster-diver-300m-co-axial-master-21030422001001-767",
           "seen": "2026-11-18",
           "price_text": "6.700 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Watchfinder",
@@ -2039,7 +4435,8 @@
           "condition": "pesquisa desta referência; dois anúncios abertos nesta ronda já estavam vendidos, por isso não há preço vivo aqui",
           "url": "https://www.watchfinder.co.uk/watches/omega/seamaster-diver-300m/210-30-42-20-01-001",
           "seen": "2026-11-18",
-          "http": 200
+          "http": 200,
+          "kind": "search"
         },
         {
           "seller": "Chrono24",
@@ -2050,7 +4447,18 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=210.30.42.20.01.001",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=210.30.42.20.01.001",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -2070,7 +4478,16 @@
         "label": "Marcolino · 18 nov",
         "url": "https://www.marcolino.pt/en/watches/omega/seamaster-diver-300m-co-axial-master-21030422001001-767",
         "as_of": "2026-11-18"
-      }
+      },
+      "case_size_mm": 42,
+      "case_size_label": "42 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 19 nov",
+        "url": "https://watchcharts.com/watch_model/869-omega-seamaster-diver-300m-210-30-42-20-01-001/overview",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "Safira · 42 mm"
     },
     {
       "brand": "Omega",
@@ -2113,14 +4530,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=215.30.44.21.01.001",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=215.30.44.21.01.001",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 43.5,
+      "case_size_label": "43,5 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 19 nov",
+        "url": "https://watchcharts.com/watch_model/1273-omega-seamaster-planet-ocean-600m-215-30-44-21-01-001/overview",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "43,5 mm · descontinuado"
     },
     {
       "brand": "Omega",
@@ -2148,7 +4585,8 @@
           "url": "https://www.marcolino.pt/en/watches/omega/seamaster-aqua-terra-150m-co-axial-master-41mm-22010412101001-755",
           "seen": "2026-11-18",
           "price_text": "7.100 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -2159,7 +4597,18 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=220.10.41.21.01.001",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=220.10.41.21.01.001",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -2179,7 +4628,16 @@
         "label": "Marcolino · 18 nov",
         "url": "https://www.marcolino.pt/en/watches/omega/seamaster-aqua-terra-150m-co-axial-master-41mm-22010412101001-755",
         "as_of": "2026-11-18"
-      }
+      },
+      "case_size_mm": 41,
+      "case_size_label": "41 mm",
+      "case_size_source": {
+        "name": "Marcolino 1926",
+        "label": "Marcolino 1926 · 18 nov",
+        "url": "https://www.marcolino.pt/en/watches/omega/seamaster-aqua-terra-150m-co-axial-master-41mm-22010412101001-755",
+        "as_of": "2026-11-18"
+      },
+      "spec_diff": "41 mm"
     },
     {
       "brand": "Omega",
@@ -2207,7 +4665,8 @@
           "url": "https://www.marcolino.pt/pt/relogios/omega/seamaster-aqua-terra-22010342001001-37369",
           "seen": "2026-11-18",
           "price_text": "7.500 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -2218,7 +4677,18 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=220.10.34.20.01.001",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=220.10.34.20.01.001",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "market_source": null,
@@ -2227,7 +4697,16 @@
         "label": "Marcolino · 18 nov",
         "url": "https://www.marcolino.pt/pt/relogios/omega/seamaster-aqua-terra-22010342001001-37369",
         "as_of": "2026-11-18"
-      }
+      },
+      "case_size_mm": 34,
+      "case_size_label": "34 mm",
+      "case_size_source": {
+        "name": "Marcolino 1926",
+        "label": "Marcolino 1926 · 18 nov",
+        "url": "https://www.marcolino.pt/pt/relogios/omega/seamaster-aqua-terra-22010342001001-37369",
+        "as_of": "2026-11-18"
+      },
+      "spec_diff": "34 mm"
     },
     {
       "brand": "Omega",
@@ -2255,7 +4734,18 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=131.10.29.20.55.001",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=131.10.29.20.55.001",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -2270,7 +4760,16 @@
         "url": "https://watchcharts.com/watch_model/3669-omega-constellation-manhattan-29-co-axial-master-chronometer-131-10-29-20-55-001/overview",
         "as_of": "2026-11-17"
       },
-      "retail_source": null
+      "retail_source": null,
+      "case_size_mm": 29,
+      "case_size_label": "29 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 19 nov",
+        "url": "https://watchcharts.com/watch_model/3669-omega-constellation-manhattan-29-co-axial-master-chronometer-131-10-29-20-55-001/overview",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "29 mm"
     },
     {
       "brand": "Cartier",
@@ -2298,7 +4797,8 @@
           "url": "https://www.machadojoalheiro.com/shop/catalogue/cartier-santos-grande-modelo_4230/",
           "seen": "2026-11-18",
           "price_text": "9.300 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Watchfinder / Kettle Club Watches",
@@ -2309,7 +4809,8 @@
           "url": "https://www.watchfinder.co.uk/watches/cartier/santos-de-cartier/wssa0018/445096",
           "seen": "2026-11-18",
           "price_text": "£7,995",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -2320,7 +4821,18 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSSA0018",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=WSSA0018",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -2340,7 +4852,16 @@
         "label": "Machado · 18 nov",
         "url": "https://www.machadojoalheiro.com/shop/catalogue/cartier-santos-grande-modelo_4230/",
         "as_of": "2026-11-18"
-      }
+      },
+      "case_size_mm": 39.8,
+      "case_size_label": "39,8 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 19 nov",
+        "url": "https://watchcharts.com/watch_model/35441-cartier-santos-large-wssa0018/overview",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "Safira · cal. 1847 MC automático · 39,8 mm"
     },
     {
       "brand": "Cartier",
@@ -2368,7 +4889,8 @@
           "url": "https://www.machadojoalheiro.com/shop/catalogue/cartier-santos-medio-modelo_4237/?r=105",
           "seen": "2026-11-18",
           "price_text": "8.500 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Montredo",
@@ -2379,7 +4901,8 @@
           "url": "https://www.montredo.com/products/cartier-santos-automatic-silver-42mm-49684",
           "seen": "2026-11-18",
           "price_text": "7.900 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -2390,7 +4913,8 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSSA0029",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -2410,7 +4934,16 @@
         "label": "Machado · 18 nov",
         "url": "https://www.machadojoalheiro.com/shop/catalogue/cartier-santos-medio-modelo_4237/?r=105",
         "as_of": "2026-11-18"
-      }
+      },
+      "case_size_mm": 35.1,
+      "case_size_label": "35,1 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 19 nov",
+        "url": "https://watchcharts.com/watch_model/35440-cartier-santos-medium-wssa0029/overview",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "Safira · cal. 1847 MC automático · 35,1 mm"
     },
     {
       "brand": "Cartier",
@@ -2438,7 +4971,8 @@
           "url": "https://www.machadojoalheiro.com/shop/catalogue/cartier-santos-pequeno-modelo_8443/",
           "seen": "2026-11-18",
           "price_text": "6.900 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Watchfinder / Knights Fine Jewellery",
@@ -2449,7 +4983,8 @@
           "url": "https://www.watchfinder.co.uk/watches/cartier/santos-de-cartier/wssa0082/437426",
           "seen": "2026-11-18",
           "price_text": "£5,995",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -2460,7 +4995,18 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSSA0082",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=WSSA0082",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -2526,7 +5072,8 @@
           "url": "https://boutiquedosrelogios.pt/pt/santos-dumont-cartier-wssa0032",
           "seen": "2026-11-18",
           "price_text": "7.900 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -2537,14 +5084,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSSA0032",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=WSSA0032",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 46.6,
+      "case_size_label": "46,6 × 33,9 mm",
+      "case_size_source": {
+        "name": "Boutique dos Relógios",
+        "label": "Boutique dos Relógios · 18 nov",
+        "url": "https://boutiquedosrelogios.pt/pt/santos-dumont-cartier-wssa0032",
+        "as_of": "2026-11-18"
+      },
+      "spec_diff": "46,6 × 33,9 mm"
     },
     {
       "brand": "Cartier",
@@ -2585,7 +5152,18 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSTA0108",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=WSTA0108",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
@@ -2639,7 +5217,8 @@
           "url": "https://boutiquedosrelogios.pt/pt/tank-must-cartier-wsta0042",
           "seen": "2026-11-18",
           "price_text": "3.800 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -2650,14 +5229,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSTA0042",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=WSTA0042",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 29.5,
+      "case_size_label": "29,5 × 22 mm",
+      "case_size_source": {
+        "name": "Boutique dos Relógios",
+        "label": "Boutique dos Relógios · 18 nov",
+        "url": "https://boutiquedosrelogios.pt/pt/tank-must-cartier-wsta0042",
+        "as_of": "2026-11-18"
+      },
+      "spec_diff": "29,5 × 22 mm"
     },
     {
       "brand": "Cartier",
@@ -2703,7 +5302,8 @@
           "url": "https://boutiquedosrelogios.pt/pt/tank-cartier-wgta0342",
           "seen": "2026-11-18",
           "price_text": "12.500 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -2714,14 +5314,34 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WGTA0342",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=WGTA0342",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "fx": {
         "usd_per_eur": 1.1253,
         "date": "2026-10-16",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-      }
+      },
+      "case_size_mm": 29.5,
+      "case_size_label": "29,5 × 22 mm",
+      "case_size_source": {
+        "name": "Boutique dos Relógios",
+        "label": "Boutique dos Relógios · 18 nov",
+        "url": "https://boutiquedosrelogios.pt/pt/tank-cartier-wgta0342",
+        "as_of": "2026-11-18"
+      },
+      "spec_diff": "29,5 × 22 mm"
     },
     {
       "brand": "Cartier",
@@ -2749,7 +5369,8 @@
           "url": "https://boutiquedosrelogios.pt/pt/rel-gio-tank-fran-aise-cartier-wsta0129",
           "seen": "2026-11-18",
           "price_text": "4.500 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Montredo",
@@ -2760,7 +5381,8 @@
           "url": "https://www.montredo.com/products/cartier-tank-francaise-quartz-silver-25-7-x-21-2mm-49933",
           "seen": "2026-11-18",
           "price_text": "4.130 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -2771,7 +5393,8 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSTA0129",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -2819,7 +5442,8 @@
           "url": "https://www.watchfinder.co.uk/watches/cartier/ballon-bleu/wsbb0062/431775",
           "seen": "2026-11-18",
           "price_text": "£4,950",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -2830,7 +5454,18 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSBB0062",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=WSBB0062",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -2845,7 +5480,16 @@
         "url": "https://watchcharts.com/watch_model/43726-cartier-ballon-bleu-wsbb0062/overview",
         "as_of": "2026-11-17"
       },
-      "retail_source": null
+      "retail_source": null,
+      "case_size_mm": 33,
+      "case_size_label": "33 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 19 nov",
+        "url": "https://watchcharts.com/watch_model/43726-cartier-ballon-bleu-wsbb0062/overview",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "Safira · 33 mm"
     },
     {
       "brand": "Cartier",
@@ -2873,7 +5517,8 @@
           "url": "https://boutiquedosrelogios.pt/pt/rel-gio-panth-re-de-cartier-cartier-wspn0013",
           "seen": "2026-11-18",
           "price_text": "5.400 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Montredo",
@@ -2884,7 +5529,8 @@
           "url": "https://www.montredo.com/products/cartier-panth-re-quartz-silver-30mm-59063",
           "seen": "2026-11-18",
           "price_text": "4.730 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -2895,7 +5541,8 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=WSPN0013",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -2915,7 +5562,16 @@
         "label": "BdR · 18 nov",
         "url": "https://boutiquedosrelogios.pt/pt/rel-gio-panth-re-de-cartier-cartier-wspn0013",
         "as_of": "2026-11-18"
-      }
+      },
+      "case_size_mm": 23,
+      "case_size_label": "23 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 19 nov",
+        "url": "https://watchcharts.com/watch_model/49273-cartier-panthere-wspn0013/overview",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "quartz · 23 mm"
     },
     {
       "brand": "Panerai",
@@ -2943,7 +5599,8 @@
           "url": "https://boutiquedosrelogios.pt/pt/luminor-marina-44mm-panerai-pam01314",
           "seen": "2026-11-18",
           "price_text": "9.200 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Montredo",
@@ -2954,7 +5611,8 @@
           "url": "https://www.montredo.com/products/panerai-luminor-automatic-white-44mm-38344",
           "seen": "2026-11-18",
           "price_text": "7.370 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -2965,7 +5623,8 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=PAM01314",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -2985,7 +5644,16 @@
         "label": "BdR · 18 nov",
         "url": "https://boutiquedosrelogios.pt/pt/luminor-marina-44mm-panerai-pam01314",
         "as_of": "2026-11-18"
-      }
+      },
+      "case_size_mm": 44,
+      "case_size_label": "44 mm",
+      "case_size_source": {
+        "name": "Boutique dos Relógios",
+        "label": "Boutique dos Relógios · 18 nov",
+        "url": "https://boutiquedosrelogios.pt/pt/luminor-marina-44mm-panerai-pam01314",
+        "as_of": "2026-11-18"
+      },
+      "spec_diff": "44 mm"
     },
     {
       "brand": "Panerai",
@@ -3013,7 +5681,8 @@
           "url": "https://www.watchfinder.co.uk/watches/panerai/submersible/pam00683/407836",
           "seen": "2026-11-18",
           "price_text": "£6,695",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -3024,7 +5693,18 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=PAM00683",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=PAM00683",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -3039,7 +5719,16 @@
         "url": "https://watchcharts.com/watch_model/1836-panerai-luminor-submersible-pam683/overview",
         "as_of": "2026-11-17"
       },
-      "retail_source": null
+      "retail_source": null,
+      "case_size_mm": 42,
+      "case_size_label": "42 mm",
+      "case_size_source": {
+        "name": "WatchCharts",
+        "label": "WatchCharts · 19 nov",
+        "url": "https://watchcharts.com/watch_model/1836-panerai-luminor-submersible-pam683/overview",
+        "as_of": "2026-11-19"
+      },
+      "spec_diff": "42 mm"
     },
     {
       "brand": "Panerai",
@@ -3067,7 +5756,8 @@
           "url": "https://boutiquedosrelogios.pt/pt/luminor-due-38mm-panerai",
           "seen": "2026-11-18",
           "price_text": "7.800 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Watchfinder / BLOOMBAR",
@@ -3078,7 +5768,8 @@
           "url": "https://www.watchfinder.co.uk/watches/panerai/luminor-due/pam01123/456976",
           "seen": "2026-11-18",
           "price_text": "£4,450",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -3089,7 +5780,18 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=PAM01123",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=PAM01123",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
       ],
       "market_source": {
@@ -3109,7 +5811,16 @@
         "label": "BdR · 18 nov",
         "url": "https://boutiquedosrelogios.pt/pt/luminor-due-38mm-panerai",
         "as_of": "2026-11-18"
-      }
+      },
+      "case_size_mm": 38,
+      "case_size_label": "38 mm",
+      "case_size_source": {
+        "name": "Boutique dos Relógios",
+        "label": "Boutique dos Relógios · 18 nov",
+        "url": "https://boutiquedosrelogios.pt/pt/luminor-due-38mm-panerai",
+        "as_of": "2026-11-18"
+      },
+      "spec_diff": "38 mm"
     },
     {
       "brand": "Panerai",
@@ -3144,7 +5855,8 @@
           "url": "https://boutiquedosrelogios.pt/pt/radiomir-panerai-pam00753",
           "seen": "2026-11-18",
           "price_text": "5.000 €",
-          "http": 200
+          "http": 200,
+          "kind": "listing"
         },
         {
           "seller": "Chrono24",
@@ -3155,27 +5867,47 @@
           "url": "https://www.chrono24.pt/search/index.htm?dosearch=true&query=PAM00753",
           "seen": "2026-11-18",
           "http": 403,
-          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser"
+          "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
+          "kind": "search"
+        },
+        {
+          "seller": "Montredo",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": null,
+          "condition": "pesquisa de anúncios desta referência",
+          "url": "https://www.montredo.com/en/search?q=PAM00753",
+          "seen": "2026-11-19",
+          "kind": "search"
         }
-      ]
+      ],
+      "case_size_mm": 45,
+      "case_size_label": "45 mm",
+      "case_size_source": {
+        "name": "Boutique dos Relógios",
+        "label": "Boutique dos Relógios · 18 nov",
+        "url": "https://boutiquedosrelogios.pt/pt/radiomir-panerai-pam00753",
+        "as_of": "2026-11-18"
+      },
+      "spec_diff": "45 mm"
     }
   ],
   "aggregates": {
     "by_brand": [
       {
         "brand": "Rolex",
-        "n_models": 28,
-        "n_with_premium": 24,
-        "avg_premium_pct": 13.4,
-        "median_market_eur": 11854,
-        "total_sales_1y": 83634
+        "n_models": 46,
+        "n_with_premium": 32,
+        "avg_premium_pct": 16.5,
+        "median_market_eur": 10470,
+        "total_sales_1y": 112180
       },
       {
         "brand": "Omega",
-        "n_models": 8,
+        "n_models": 13,
         "n_with_premium": 3,
         "avg_premium_pct": -42.1,
-        "median_market_eur": 3955,
+        "median_market_eur": 4473,
         "total_sales_1y": 6927
       },
       {
@@ -3221,6 +5953,22 @@
         "sales_1y": 2989
       },
       {
+        "ref": "134300-0007",
+        "brand": "Rolex",
+        "model": "Oyster Perpetual 41 bege",
+        "premium_pct": 46.1,
+        "market_eur": 10301,
+        "sales_1y": 2643
+      },
+      {
+        "ref": "134300-0006",
+        "brand": "Rolex",
+        "model": "Oyster Perpetual 41 verde pistachio",
+        "premium_pct": 43.0,
+        "market_eur": 10080,
+        "sales_1y": 2643
+      },
+      {
         "ref": "126000-0008",
         "brand": "Rolex",
         "model": "Oyster Perpetual 36 rosa candy",
@@ -3245,12 +5993,52 @@
         "sales_1y": 3596
       },
       {
+        "ref": "134300-0004",
+        "brand": "Rolex",
+        "model": "Oyster Perpetual 41 verde",
+        "premium_pct": 23.9,
+        "market_eur": 8737,
+        "sales_1y": 2643
+      },
+      {
+        "ref": "134300-0009",
+        "brand": "Rolex",
+        "model": "Oyster Perpetual 41 azul-mediterrâneo",
+        "premium_pct": 22.0,
+        "market_eur": 8604,
+        "sales_1y": 2643
+      },
+      {
+        "ref": "134300-0001",
+        "brand": "Rolex",
+        "model": "Oyster Perpetual 41 prateado",
+        "premium_pct": 21.6,
+        "market_eur": 8572,
+        "sales_1y": 2643
+      },
+      {
+        "ref": "126000-0012",
+        "brand": "Rolex",
+        "model": "Oyster Perpetual 36 bege",
+        "premium_pct": 20.6,
+        "market_eur": 8079,
+        "sales_1y": 3596
+      },
+      {
         "ref": "278274",
         "brand": "Rolex",
         "model": "Datejust 31",
         "premium_pct": 20.0,
         "market_eur": 11460,
         "sales_1y": 1456
+      },
+      {
+        "ref": "134300-0008",
+        "brand": "Rolex",
+        "model": "Oyster Perpetual 41 preto",
+        "premium_pct": 19.8,
+        "market_eur": 8445,
+        "sales_1y": 2643
       },
       {
         "ref": "126720VTNR",
@@ -3307,6 +6095,14 @@
         "premium_pct": 8.4,
         "market_eur": 12247,
         "sales_1y": 5078
+      },
+      {
+        "ref": "126000-0015",
+        "brand": "Rolex",
+        "model": "Oyster Perpetual 36 azul-mediterrâneo",
+        "premium_pct": 8.2,
+        "market_eur": 7249,
+        "sales_1y": 3596
       },
       {
         "ref": "279174",
@@ -3496,9 +6292,10 @@
   },
   "http_notes": "URLs verificados com curl -L em 18 nov. 2026 (Europe/Lisbon). Chrono24 devolve 403 a pedidos automatizados; as ligações de pesquisa mantêm-se para uso num browser. Páginas oficiais Rolex, Cartier, Omega e WatchCharts também costumam bloquear curl (403 ou timeout); não foram tratadas como mortas e não entram nas ofertas quando não há um 200.",
   "sources": {
-    "market": "WatchCharts páginas públicas, 13–17 nov. 2026 (a data exacta está em cada referência). EUR = USD / taxa BCE do dia do preço (ou último dia útil anterior).",
-    "retail_pt": "Páginas de AD portugueses (Torres, Machado, Boutique dos Relógios, Marcolino), 18 nov. 2026.",
-    "offers": "AD PT e ligações de pesquisa Chrono24; visto 18 nov. 2026, Europe/Lisbon. Sem scraping em massa da Chrono24.",
-    "history": "Pontos históricos: instantâneos da Wayback Machine de páginas WatchCharts, com a data «as of» publicada em cada página. Sem interpolação."
+    "market": "WatchCharts páginas públicas, 12–18 nov. 2026 (a data exacta está em cada referência). EUR = USD / taxa BCE do dia do preço (ou último dia útil anterior).",
+    "retail_pt": "Páginas de AD portugueses (Torres, Machado, Boutique dos Relógios, Marcolino). Datas no campo as_of de cada fonte.",
+    "offers": "AD PT e anúncios exactos Watchfinder/Montredo quando a página da listagem mostra o preço; ligações de pesquisa (Chrono24, Montredo) sem preço. Visto 19 nov. 2026, Europe/Lisbon. Sem scraping em massa da Chrono24 e sem login.",
+    "history": "Pontos históricos: instantâneos da Wayback Machine de páginas WatchCharts, com a data «as of» publicada; mais o ponto corrente de cada referência com mercado. Sem interpolação.",
+    "sizes": "Diâmetro da caixa (ou dimensões, nos modelos rectangulares) tirado das fichas de AD ou da especificação WatchCharts/Omega, com URL em cada referência."
   }
 }

@@ -43,6 +43,20 @@
             <option value="mulher">Senhora</option>
           </select>
         </label>
+        <label>Tamanho
+          <select name="size" id="f-size">
+            <option value="">Todos</option>
+          </select>
+        </label>
+        <label>Preço
+          <select name="price" id="f-price">
+            <option value="">Todos</option>
+            <option value="0-5000">Até 5 000 €</option>
+            <option value="5000-10000">5 000–10 000 €</option>
+            <option value="10000-20000">10 000–20 000 €</option>
+            <option value="20000-">Mais de 20 000 €</option>
+          </select>
+        </label>
         <label>Sinal
           <select name="signal" id="f-signal">
             <option value="">Todos</option>
@@ -69,6 +83,7 @@
       <div class="sec-head">
         <p class="kicker">Mercado</p>
       </div>
+      <div class="outliers" id="outliers" hidden></div>
       <div class="snapshots" id="snapshots"></div>
       <figure class="chart-fig chart-wide">
         <h2 class="chart-title">Tendência de preços (pontos reais)</h2>
