@@ -73,6 +73,38 @@
     if (!w || (w.brand || "") !== "Rolex") return true;
     return o.bracelet_match !== "mismatch";
   }
+  function marketValidation(w) {
+    return (w && w.market_validation) || null;
+  }
+  function marketIsValidated(w) {
+    const v = marketValidation(w);
+    return !!(v && v.status === "validado");
+  }
+  function marketStatusHTML(w, compact) {
+    const v = marketValidation(w);
+    if (!v || w.market_eur == null) return "";
+    if (v.status === "validado") {
+      const list = v.confirming || [];
+      const n = v.confirmed_by != null ? v.confirmed_by : list.length;
+      const links = list.map((c) =>
+        `<a href="${c.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(shortSeller(c.seller))}</a>`
+      ).join(", ");
+      const label = n === 1 ? "Confirmado por 1 anúncio" : "Confirmado por " + NUM.format(n) + " anúncios";
+      if (compact) return `<span class="market-val-tag ok">confirmado</span>`;
+      return `<span class="market-val-tag ok">${label}${links ? ": " + links : ""}</span>`;
+    }
+    if (v.status === "não validado") {
+      const tag = compact
+        ? `<span class="market-val-tag no">não confirmado</span>`
+        : `<span class="market-val-tag no">Mercado não confirmado por anúncios</span>`;
+      const cheap = v.cheapest_listing;
+      const ref = (!compact && cheap && cheap.url && cheap.price_eur != null)
+        ? `<span class="market-cheap">Anúncio mais barato: <a href="${cheap.url}" target="_blank" rel="noopener noreferrer">${money(cheap.price_eur)} · ${escapeHtml(shortSeller(cheap.seller))}</a></span>`
+        : "";
+      return tag + ref;
+    }
+    return "";
+  }
   function offerBadgesHTML(o, w) {
     const cmp = compareEur(o);
     if (cmp == null) return "";
@@ -83,7 +115,7 @@
       const above = gR > 0;
       bits.push(`<span class="gap-pill ${above ? "up" : "down"}">${above ? "Acima do retalho" : "Abaixo do retalho"} ${pct(gR)}</span>`);
     }
-    if (gM != null) {
+    if (gM != null && marketIsValidated(w)) {
       const above = gM > 0;
       bits.push(`<span class="gap-pill ${above ? "up" : "down"}">${above ? "Acima do mercado" : "Abaixo do mercado"} ${pct(gM)}</span>`);
     }
@@ -626,6 +658,7 @@
   function modelDealStatus(w) {
     const ev = ((DEALS && DEALS.evaluated) || []).filter((e) => e.ref === w.ref && !e.bracelet_mismatch);
     if (!ev.length) return null;
+    if (!marketIsValidated(w)) return "esperar";
     const th = (DEALS && DEALS.thresholds) || {};
     const lim = th.market_discount_pct != null ? th.market_discount_pct : 5;
     const dealRefs = new Set(((DEALS && DEALS.deals) || []).filter((d) => !d.bracelet_mismatch).map((d) => d.ref));
@@ -647,7 +680,7 @@
       <h3 class="model">${escapeHtml(w.model)}</h3>
       ${bracelet}
       <div class="price-block">
-        <p class="price"><span>Mercado ${money(w.market_eur)}</span>${sourceHTML(w.market_source)}</p>
+        <p class="price${marketIsValidated(w) || w.market_eur == null ? "" : " market-dim"}"><span>Mercado ${money(w.market_eur)}</span>${sourceHTML(w.market_source)}${marketStatusHTML(w, true)}</p>
         ${w.retail_pt_eur != null ? `<p class="retail-line"><span>PVP PT ${money(w.retail_pt_eur)}</span>${sourceHTML(w.retail_source)}</p>` : ""}
       </div>
     </article>`;
@@ -835,7 +868,7 @@
     const bracelet = (w.bracelet_label || w.bracelet)
       ? `<span class="bracelet-chip" title="${escapeHtml((w.bracelet_note || (w.bracelet_source && (w.bracelet_source.label + (w.bracelet_source.url ? " · " + w.bracelet_source.url : ""))) || "").toString())}">${escapeHtml(w.bracelet_label || w.bracelet)}</span>`
       : "";
-    const marketBadge = (w.signal && w.signal !== "—")
+    const marketBadge = (marketIsValidated(w) && w.signal && w.signal !== "—")
       ? `<span class="pill ${signalClass(w.signal)}">${escapeHtml(w.signal)}${w.premium_pct != null ? " · " + pct(w.premium_pct) : ""}</span>`
       : "";
     const offers = rankedOffers(w.offers)
@@ -886,11 +919,12 @@
           ${w.bracelet_note ? `<p class="spec-diff">${escapeHtml(w.bracelet_note)}</p>` : ""}
           ${w.spec_diff ? `<p class="spec-diff">${escapeHtml(w.spec_diff)}</p>` : ""}
           <div class="pdp-price">
-            <div class="row">
+            <div class="row${marketIsValidated(w) || w.market_eur == null ? "" : " market-unvalidated"}">
               <span class="label">Mercado</span>
               <span class="val">${money(w.market_eur)}</span>
               ${sourceHTML(w.market_source)}${marketNote}
               ${marketBadge}
+              ${marketStatusHTML(w, false)}
             </div>
             <div class="row">
               <span class="label">Retalho PT</span>
@@ -1296,9 +1330,9 @@
     const importChip = e.import_flag
       ? `<span class="chip import" title="${escapeHtml(landedTitle)}">custo final c/ IVA e portes ≈ ${money(e.compare_eur)}</span>`
       : "";
-    const gapMarket = e.gap_vs_market_pct != null
+    const gapMarket = (m.validated && e.gap_vs_market_pct != null)
       ? `<span class="gap-pill ${e.gap_vs_market_pct <= 0 ? "down" : "up"}">${pct(e.gap_vs_market_pct)} vs mercado</span>`
-      : "";
+      : (m.validated === false ? `<span class="market-val-tag no">Mercado não confirmado por anúncios</span>` : "");
     const gapRetail = (e.retail_pt_eur != null && e.gap_vs_retail_pct != null)
       ? `<span class="gap-pill ${e.gap_vs_retail_pct <= 0 ? "down" : "up"}">${pct(e.gap_vs_retail_pct)} vs PVP</span>`
       : "";
@@ -1331,7 +1365,8 @@
     const e = m.best;
     const w = m.w || { ref: m.ref, brand: e.brand, model: e.model };
     const thumb = PHOTOS[w.ref] ? `<img src="${photoPath(w.ref)}" alt="" width="56" height="56">` : "";
-    const gap = e.gap_vs_market_pct != null ? pct(e.gap_vs_market_pct) : "—";
+    const validated = marketIsValidated(w);
+    const gap = (validated && e.gap_vs_market_pct != null) ? pct(e.gap_vs_market_pct) : "não confirmado";
     return `<li>
       <a href="${e.url}" target="_blank" rel="noopener noreferrer">
         <span class="quase-thumb">${thumb}</span>
@@ -1339,7 +1374,7 @@
           <span class="quase-name">${escapeHtml((w.brand || e.brand || "") + " " + (w.model || e.model || m.ref))}</span>
           <span class="quase-meta">${escapeHtml(shortSeller(e.seller))}${e.seen ? " · " + formatSeenShort(e.seen) : ""}</span>
         </span>
-        <span class="quase-gap up">${escapeHtml(gap)}</span>
+        <span class="quase-gap ${validated ? "up" : "muted"}">${escapeHtml(gap)}</span>
       </a>
     </li>`;
   }
@@ -1376,11 +1411,13 @@
         return (a.compare_eur || 0) - (b.compare_eur || 0);
       });
       const best = sorted[0];
-      const qualifies = comparable.some((e) => e.qualifies === true) || (comparable.length && dealRefs.has(ref));
+      const wRef = byWatch[ref];
+      const validated = marketIsValidated(wRef);
+      const qualifies = validated && (comparable.some((e) => e.qualifies === true) || (comparable.length && dealRefs.has(ref)));
       let status = "esperar";
       if (qualifies) status = "comprar";
-      else if (best.gap_vs_market_pct != null && best.gap_vs_market_pct <= lim) status = "perto";
-      return { ref, best, count: items.length, status, w: byWatch[ref] };
+      else if (validated && best.gap_vs_market_pct != null && best.gap_vs_market_pct <= lim) status = "perto";
+      return { ref, best, count: items.length, status, w: wRef, validated };
     });
 
     const order = { comprar: 0, perto: 1, esperar: 2 };
@@ -1409,7 +1446,7 @@
         <span class="strip-chip perto"><b>${nPerto}</b> Perto</span>
         <span class="strip-chip esperar"><b>${nEsperar}</b> Esperar</span>
       </div>
-      <p class="deal-rule">Comprar = ≤ mercado −${NUM1.format(lim)} %, ou ≤ PVP +${NUM1.format(margin)} % nos modelos a prémio
+      <p class="deal-rule">Comprar = ≤ mercado −${NUM1.format(lim)} %, ou ≤ PVP +${NUM1.format(margin)} % nos modelos a prémio — só com mercado confirmado por anúncios (±15 %)
         <span class="info-icon" tabindex="0" title="${escapeHtml(th.landed_formula || "")}">ⓘ</span>
         · ${NUM.format(ev.length)} anúncios exactos verificados · ${escapeHtml(updated)}</p>
     </div>`;
@@ -1720,7 +1757,7 @@
             <li>Histórico: Wayback Machine + WatchCharts.</li>
             <li>Tendências: RSS públicos + contagens X de 7 dias (API)${failedBits ? ". Falharam: " + escapeHtml(failedBits) : ""}.</li>
             <li>Instagram: ${escapeHtml(ig || "só ligação, sem recolha")}.</li>
-            <li>Oportunidades: anúncios exactos ≤ mercado − 5 %, ou ≤ PVP PT + 5 % em modelos a prémio; lista vazia se nenhum cumprir.</li>
+            <li>Oportunidades: anúncios exactos ≤ mercado − 5 %, ou ≤ PVP PT + 5 % em modelos a prémio — só com mercado confirmado por pelo menos um anúncio no intervalo ±15 % (preço pedido em EUR, sem custo de importação). Lista vazia se nenhum cumprir.</li>
             <li>Ligações Chrono24 são pesquisas, não anúncios.</li>
             <li>Importação estimada: 1,23 × (preço + 150,80 €).</li>
           </ul>

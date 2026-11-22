@@ -1438,13 +1438,20 @@
       "type": "marketplace",
       "kind": "listing",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-22",
       "status": "active",
       "gone_date": null,
       "gone_http": null,
       "price_observations": [
         {
           "date": "2026-11-18",
+          "price": 7995,
+          "currency": "GBP",
+          "price_eur": 9597,
+          "price_text": "£7,995"
+        },
+        {
+          "date": "2026-11-22",
           "price": 7995,
           "currency": "GBP",
           "price_eur": 9597,
@@ -1638,6 +1645,48 @@
           "currency": "GBP",
           "price_eur": 14999,
           "price_text": "£12,495"
+        }
+      ]
+    },
+    "https://www.montredo.com/products/cartier-santos-automatic-silvery-opaline-39-8-x-47-5mm-2-49964": {
+      "ref": "WSSA0018",
+      "seller": "Montredo",
+      "country": "DE",
+      "type": "dealer",
+      "kind": "listing",
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-22",
+          "price": 8370,
+          "currency": "EUR",
+          "price_eur": 8370,
+          "price_text": "8.370 €"
+        }
+      ]
+    },
+    "https://www.horando.de/en/products/cartier-santos-de-cartier-wssa0018": {
+      "ref": "WSSA0018",
+      "seller": "HORANDO",
+      "country": "DE",
+      "type": "dealer",
+      "kind": "listing",
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-22",
+          "price": 9000,
+          "currency": "EUR",
+          "price_eur": 9000,
+          "price_text": "9.000 €"
         }
       ]
     }

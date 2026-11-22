@@ -1,13 +1,21 @@
 {
   "updated": "2026-11-19",
   "timezone": "Europe/Lisbon",
-  "note": "Uma oportunidade é um anúncio exacto, com preço e URL de ficha (não pesquisa, não AD), cujo preço comparável (landed se a origem for extra-UE) está pelo menos 5 % abaixo da estimativa WatchCharts de mercado, ou — só para modelos a prémio / com prémio ≥ 15 % — no máximo 5 % acima do PVP PT. O limiar de 5 % abaixo do mercado justifica-se porque o número WatchCharts é uma estimativa de venda entre particulares e os dealers costumam pedir esse valor ou mais; um desconto de 5 % ou superior face a essa estimativa pública não se explica só por câmbio ou arredondamento. Sempre com fontes e datas. Se nenhum anúncio cumprir o limiar, a lista fica vazia — não inventamos ofertas.",
+  "note": "Uma oportunidade é um anúncio exacto, com preço e URL de ficha (não pesquisa, não AD), cujo preço comparável (landed se a origem for extra-UE) está pelo menos 5 % abaixo da estimativa WatchCharts de mercado, ou — só para modelos a prémio / com prémio ≥ 15 % — no máximo 5 % acima do PVP PT. O limiar de 5 % abaixo do mercado justifica-se porque o número WatchCharts é uma estimativa de venda entre particulares e os dealers costumam pedir esse valor ou mais; um desconto de 5 % ou superior face a essa estimativa pública não se explica só por câmbio ou arredondamento. Sempre com fontes e datas. Se nenhum anúncio cumprir o limiar, a lista fica vazia — não inventamos ofertas. Um preço de mercado só é usado para Comprar/Perto se estiver validado por pelo menos um anúncio exacto no intervalo ±15 % (preço pedido em EUR, sem custo de importação; AD excluídos; pulseira correspondente nos Rolex).",
   "thresholds": {
     "market_discount_pct": 5,
     "allocated_retail_margin_pct": 5,
     "allocated_rule": "signal == prémio ou premium_pct >= 15, e retail_pt_eur sourced",
     "landed_formula": "1.23 × (preço + 150.80 €) para GB/US/CH e outros extra-UE",
-    "landed_formula_source": "mesmo critério já usado no Radar para custo de importação para PT"
+    "landed_formula_source": "mesmo critério já usado no Radar para custo de importação para PT",
+    "market_validation": {
+      "tolerance": 0.15,
+      "window_days": 14,
+      "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+      "ad_excluded": true,
+      "rolex_bracelet": "só anúncios com bracelet_match == match",
+      "rule": "O mercado WatchCharts só entra na lógica Comprar/Perto e nos selos % vs mercado quando está validado por pelo menos um anúncio exacto no intervalo ±15 %."
+    }
   },
   "evaluated_count": 25,
   "deal_count": 0,
@@ -45,7 +53,9 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": false,
+      "unvalidated_market": true
     },
     {
       "ref": "124060",
@@ -79,7 +89,9 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": false,
+      "unvalidated_market": true
     },
     {
       "ref": "126710BLRO",
@@ -108,7 +120,9 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": false,
+      "unvalidated_market": true
     },
     {
       "ref": "126710BLRO",
@@ -137,7 +151,9 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": false,
+      "unvalidated_market": true
     },
     {
       "ref": "126710BLNR",
@@ -172,7 +188,8 @@
       "reason": null,
       "photo": null,
       "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça. Pulseira diferente da configuração PVP (Jubilee); não comparável.",
-      "bracelet_mismatch": true
+      "bracelet_mismatch": true,
+      "market_validated": true
     },
     {
       "ref": "126710BLNR",
@@ -207,7 +224,8 @@
       "reason": null,
       "photo": null,
       "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
-      "bracelet_mismatch": null
+      "bracelet_mismatch": null,
+      "market_validated": true
     },
     {
       "ref": "126710BLNR",
@@ -242,7 +260,8 @@
       "reason": null,
       "photo": null,
       "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça. Pulseira não confirmada no anúncio; pode não corresponder à configuração PVP.",
-      "bracelet_mismatch": null
+      "bracelet_mismatch": null,
+      "market_validated": true
     },
     {
       "ref": "126710GRNR",
@@ -277,7 +296,8 @@
       "reason": null,
       "photo": null,
       "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
-      "bracelet_mismatch": false
+      "bracelet_mismatch": false,
+      "market_validated": true
     },
     {
       "ref": "126710GRNR",
@@ -311,7 +331,8 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": true
     },
     {
       "ref": "126334",
@@ -345,7 +366,8 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": true
     },
     {
       "ref": "278274",
@@ -379,7 +401,8 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": true
     },
     {
       "ref": "279174",
@@ -413,7 +436,8 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": true
     },
     {
       "ref": "279174",
@@ -447,7 +471,8 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": true
     },
     {
       "ref": "310.30.42.50.01.002",
@@ -476,7 +501,8 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": true
     },
     {
       "ref": "324.30.38.50.01.001",
@@ -505,7 +531,8 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": true
     },
     {
       "ref": "WSSA0018",
@@ -539,7 +566,9 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": false,
+      "unvalidated_market": true
     },
     {
       "ref": "WSSA0029",
@@ -573,7 +602,9 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": false,
+      "unvalidated_market": true
     },
     {
       "ref": "WSSA0082",
@@ -607,7 +638,9 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": false,
+      "unvalidated_market": true
     },
     {
       "ref": "WSSA0082",
@@ -641,7 +674,9 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": false,
+      "unvalidated_market": true
     },
     {
       "ref": "WSTA0129",
@@ -675,7 +710,9 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": false,
+      "unvalidated_market": true
     },
     {
       "ref": "WSBB0062",
@@ -704,7 +741,9 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": false,
+      "unvalidated_market": true
     },
     {
       "ref": "WSPN0013",
@@ -738,7 +777,8 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": true
     },
     {
       "ref": "PAM01314",
@@ -772,7 +812,9 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": false,
+      "unvalidated_market": true
     },
     {
       "ref": "PAM00683",
@@ -801,7 +843,9 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": false,
+      "unvalidated_market": true
     },
     {
       "ref": "PAM01123",
@@ -835,7 +879,8 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "market_validated": true
     }
   ]
 }

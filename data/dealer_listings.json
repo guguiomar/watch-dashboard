@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-22",
   "timezone": "Europe/Lisbon",
   "note": "Listagens exactas, com preço visível e URL estável, recolhidas de forma educada a 19 nov 2026. Não inclui páginas de pesquisa nem a ficha Kronos 134300 (mostrador não identificado). A listagem Collector Square 126610LV (16.500 €) ficou de fora porque essa referência não está no catálogo.",
   "listings": [
@@ -179,6 +179,40 @@
       "import_flag": false,
       "availability": "https://schema.org/InStock",
       "source": "página de produto HORANDO, 19 nov 2026"
+    },
+    {
+      "ref": "WSSA0018",
+      "seller": "Montredo",
+      "type": "dealer",
+      "country": "DE",
+      "price_eur": 8370,
+      "price_text": "8.370 €",
+      "currency": "EUR",
+      "condition": "novo, nunca usado",
+      "url": "https://www.montredo.com/products/cartier-santos-automatic-silvery-opaline-39-8-x-47-5mm-2-49964",
+      "seen": "2026-11-22",
+      "http": 200,
+      "kind": "listing",
+      "import_flag": false,
+      "variant_note": "Santos de Cartier grande / 39,8 mm, aço, cadran opalino",
+      "source": "página de produto Montredo, 22 nov 2026 (InStock, 8.370 €, regular 9.000 €)"
+    },
+    {
+      "ref": "WSSA0018",
+      "seller": "HORANDO",
+      "type": "dealer",
+      "country": "DE",
+      "price_eur": 9000,
+      "price_text": "9.000 €",
+      "currency": "EUR",
+      "condition": "novo, caixa e papéis, 2026; prazo de entrega 4–6 semanas",
+      "url": "https://www.horando.de/en/products/cartier-santos-de-cartier-wssa0018",
+      "seen": "2026-11-22",
+      "http": 200,
+      "kind": "listing",
+      "import_flag": false,
+      "variant_note": "Santos de Cartier grande / 39,8 mm, aço, cadran opalino",
+      "source": "página de produto HORANDO, 22 nov 2026 (InStock, 9.000 €, NewCondition)"
     }
   ]
 }

@@ -8,9 +8,23 @@ Run from the repo root or any cwd; paths are relative to this file's parent.
   python3 tools/refresh_trends_deals.py --skip-feeds   # reuse last trends items if fetch fails
   python3 tools/refresh_trends_deals.py --x-counts /path/to/counts.json
 
-After listings have been rechecked, also update the listing history:
+After listings have been rechecked, also update the listing history
+and re-validate market prices against real listings:
 
   python3 tools/update_listing_history.py --check-gone
+  python3 tools/validate_market.py
+
+validate_market.py also runs at the end of this script, so a plain
+
+  python3 tools/refresh_trends_deals.py
+
+already applies the ±15 % confirmation rule (market is 'validado' only
+when at least one exact active listing, matching Rolex bracelet, own
+page URL, visible price, seen in the last 14 days, sits within
+market × 0.85–1.15; comparable = asking EUR, no import costs; AD
+excluded). Standalone command for the weekly routine:
+
+  python3 tools/validate_market.py
 
 
 X (Twitter) is not called from this script: the Monday routine may not have
@@ -558,6 +572,8 @@ def main():
     dump_json(DATA / "trends.json", trends)
 
     deals = compute_deals(watches, listings, dealers)
+    from validate_market import hook_from_refresh
+    hook_from_refresh(watches, deals)
     dump_json(DATA / "deals.json", deals)
 
     # social.json

@@ -112,7 +112,32 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0001/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 6700,
+          "price_text": "6.700 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0001",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 0.913,
+          "delta_pct": -8.7
+        },
+        "band_lo_eur": 6237.3,
+        "band_hi_eur": 8438.7,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -213,7 +238,32 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0006/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 6700,
+          "price_text": "6.700 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0006",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 0.522,
+          "delta_pct": -47.8
+        },
+        "band_lo_eur": 10911.45,
+        "band_hi_eur": 14762.55,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -314,7 +364,32 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0008/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 6700,
+          "price_text": "6.700 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0008",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 0.755,
+          "delta_pct": -24.5
+        },
+        "band_lo_eur": 7538.65,
+        "band_hi_eur": 10199.35,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -415,7 +490,32 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0011/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 6700,
+          "price_text": "6.700 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0011",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 0.769,
+          "delta_pct": -23.1
+        },
+        "band_lo_eur": 7400.95,
+        "band_hi_eur": 10013.05,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -517,7 +617,32 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0012/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 6700,
+          "price_text": "6700 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0012",
+          "seen": "2026-11-19",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 0.829,
+          "delta_pct": -17.1
+        },
+        "band_lo_eur": 6867.15,
+        "band_hi_eur": 9290.85,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -605,7 +730,30 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0014/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "sem mercado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 6700,
+          "price_text": "6700 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0014",
+          "seen": "2026-11-19",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
+        },
+        "band_lo_eur": null,
+        "band_hi_eur": null,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem preço de mercado WatchCharts"
+      }
     },
     {
       "brand": "Rolex",
@@ -707,7 +855,32 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0015/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 6700,
+          "price_text": "6700 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0015",
+          "seen": "2026-11-19",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 0.924,
+          "delta_pct": -7.6
+        },
+        "band_lo_eur": 6161.65,
+        "band_hi_eur": 8336.35,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -809,7 +982,32 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0006/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 7050,
+          "price_text": "7050 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0006",
+          "seen": "2026-11-19",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 0.699,
+          "delta_pct": -30.1
+        },
+        "band_lo_eur": 8568.0,
+        "band_hi_eur": 11592.0,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -911,7 +1109,32 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0001/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 7050,
+          "price_text": "7050 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0001",
+          "seen": "2026-11-19",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 0.822,
+          "delta_pct": -17.8
+        },
+        "band_lo_eur": 7286.2,
+        "band_hi_eur": 9857.8,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -1013,7 +1236,32 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0004/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 7050,
+          "price_text": "7050 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0004",
+          "seen": "2026-11-19",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 0.807,
+          "delta_pct": -19.3
+        },
+        "band_lo_eur": 7426.45,
+        "band_hi_eur": 10047.55,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -1115,7 +1363,32 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0007/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 7050,
+          "price_text": "7050 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0007",
+          "seen": "2026-11-19",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 0.684,
+          "delta_pct": -31.6
+        },
+        "band_lo_eur": 8755.85,
+        "band_hi_eur": 11846.15,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -1217,7 +1490,32 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0008/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 7050,
+          "price_text": "7050 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0008",
+          "seen": "2026-11-19",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 0.835,
+          "delta_pct": -16.5
+        },
+        "band_lo_eur": 7178.25,
+        "band_hi_eur": 9711.75,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -1319,7 +1617,32 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0009/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 7050,
+          "price_text": "7050 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0009",
+          "seen": "2026-11-19",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 0.819,
+          "delta_pct": -18.1
+        },
+        "band_lo_eur": 7313.4,
+        "band_hi_eur": 9894.6,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -1403,7 +1726,19 @@
         "as_of": "2026-11-22"
       },
       "bracelet_confidence": "unverified_but_documented",
-      "bracelet_note": "124300 (OP 41, descontinuado, substituído pela 134300) não tem página PVP Torres nos nossos dados; pulseira Oyster por ser a única oferecida na Oyster Perpetual. rolex.com devolveu 403 ao nosso fetch; não confirmámos num URL que conseguíssemos abrir."
+      "bracelet_note": "124300 (OP 41, descontinuado, substituído pela 134300) não tem página PVP Torres nos nossos dados; pulseira Oyster por ser a única oferecida na Oyster Perpetual. rolex.com devolveu 403 ao nosso fetch; não confirmámos num URL que conseguíssemos abrir.",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": null,
+        "band_lo_eur": 6822.1,
+        "band_hi_eur": 9229.9,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem anúncios exactos com preço visível nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -1504,7 +1839,32 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0006/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 6250,
+          "price_text": "6.250 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0006",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 0.842,
+          "delta_pct": -15.8
+        },
+        "band_lo_eur": 6311.25,
+        "band_hi_eur": 8538.75,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -1592,7 +1952,30 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0014/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "sem mercado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 6250,
+          "price_text": "6250 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0014",
+          "seen": "2026-11-19",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
+        },
+        "band_lo_eur": null,
+        "band_hi_eur": null,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem preço de mercado WatchCharts"
+      }
     },
     {
       "brand": "Rolex",
@@ -1680,7 +2063,30 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0016/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "sem mercado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 6250,
+          "price_text": "6250 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0016",
+          "seen": "2026-11-19",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
+        },
+        "band_lo_eur": null,
+        "band_hi_eur": null,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem preço de mercado WatchCharts"
+      }
     },
     {
       "brand": "Rolex",
@@ -1816,7 +2222,32 @@
         "url": "https://rolex.torres.pt/relogio/submariner/m126610ln-0001/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Watchfinder / Kettle Club Watches",
+          "country": "GB",
+          "type": "marketplace",
+          "price_eur": 14999,
+          "price_text": "£12,495",
+          "url": "https://www.watchfinder.co.uk/watches/rolex/submariner/126610-ln/456946",
+          "seen": "2026-11-18",
+          "condition": "unworn, caixa e papéis, 2026",
+          "bracelet": null,
+          "bracelet_match": "unknown",
+          "ratio": 1.225,
+          "delta_pct": 22.5
+        },
+        "band_lo_eur": 10409.95,
+        "band_hi_eur": 14084.05,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -1930,7 +2361,32 @@
         "url": "https://rolex.torres.pt/relogio/submariner/m124060-0001/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Kronos 360",
+          "country": "FR",
+          "type": "dealer",
+          "price_eur": 13100,
+          "price_text": "13.100 €",
+          "url": "https://www.kronos360.com/en/submariner/61752-124060-rolex-submariner-124060.html",
+          "seen": "2026-11-19",
+          "condition": "CPO; verificar condição/papéis",
+          "bracelet": null,
+          "bracelet_match": "unknown",
+          "ratio": 1.173,
+          "delta_pct": 17.3
+        },
+        "band_lo_eur": 9491.95,
+        "band_hi_eur": 12842.05,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -2031,7 +2487,32 @@
         "url": "https://rolex.torres.pt/relogio/sea-dweller/m126600-0002/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 14450,
+          "price_text": "14.450 €",
+          "url": "https://rolex.torres.pt/relogio/sea-dweller/m126600-0002",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 1.358,
+          "delta_pct": 35.8
+        },
+        "band_lo_eur": 9044.0,
+        "band_hi_eur": 12236.0,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -2162,7 +2643,32 @@
         "url": null,
         "as_of": "2026-11-22"
       },
-      "bracelet_note": "O Pepsi em aço (126710BLRO) é amplamente documentado como vendido em pulseira Jubilee, mas não conseguimos abrir rolex.com (403) nem confirmar o bracelete nas páginas de anúncio que tentámos (Kronos 360 devolveu 403; a página Watchfinder ficou sem conteúdo útil ao fetch). Tratar como conhecimento comum mas não confirmado por nós nesta passagem."
+      "bracelet_note": "O Pepsi em aço (126710BLRO) é amplamente documentado como vendido em pulseira Jubilee, mas não conseguimos abrir rolex.com (403) nem confirmar o bracelete nas páginas de anúncio que tentámos (Kronos 360 devolveu 403; a página Watchfinder ficou sem conteúdo útil ao fetch). Tratar como conhecimento comum mas não confirmado por nós nesta passagem.",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Kronos 360",
+          "country": "FR",
+          "type": "dealer",
+          "price_eur": 19500,
+          "price_text": "19.500 €",
+          "url": "https://www.kronos360.com/en/gmt-master-2/61837-126710blro-rolex-gmt-master-ii-126710blro-pepsi.html",
+          "seen": "2026-11-19",
+          "condition": "CPO; verificar condição/papéis",
+          "bracelet": null,
+          "bracelet_match": "unknown",
+          "ratio": 0.968,
+          "delta_pct": -3.2
+        },
+        "band_lo_eur": 17121.55,
+        "band_hi_eur": 23164.45,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -2310,7 +2816,47 @@
       "bracelet_confidence": "verified_torres_22nov",
       "config_ref": "m126710blnr-0002",
       "bracelet_note": "O PVP e o mercado seguem a configuração 0002 (Jubilee, \"Batgirl\"); a 0003 (Oyster, \"Batman\") é outra pulseira e não está representada aqui.",
-      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem."
+      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem.",
+      "market_validation": {
+        "status": "validado",
+        "confirmed_by": 1,
+        "confirming": [
+          {
+            "seller": "Uhrinstinkt",
+            "country": "DE",
+            "type": "dealer",
+            "price_eur": 16400,
+            "price_text": "16.400,00 €",
+            "url": "https://www.uhrinstinkt.de/en/products/rolex-gmt-master-ii-batgirl-m126710blnr-0002-plx501820",
+            "seen": "2026-11-19",
+            "condition": "CPO; verificar condição/papéis",
+            "bracelet": "Jubilee",
+            "bracelet_match": "match",
+            "ratio": 1.046,
+            "delta_pct": 4.6
+          }
+        ],
+        "cheapest_listing": {
+          "seller": "Uhrinstinkt",
+          "country": "DE",
+          "type": "dealer",
+          "price_eur": 16400,
+          "price_text": "16.400,00 €",
+          "url": "https://www.uhrinstinkt.de/en/products/rolex-gmt-master-ii-batgirl-m126710blnr-0002-plx501820",
+          "seen": "2026-11-19",
+          "condition": "CPO; verificar condição/papéis",
+          "bracelet": "Jubilee",
+          "bracelet_match": "match",
+          "ratio": 1.046,
+          "delta_pct": 4.6
+        },
+        "band_lo_eur": 13321.2,
+        "band_hi_eur": 18022.8,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": null
+      }
     },
     {
       "brand": "Rolex",
@@ -2441,7 +2987,47 @@
       },
       "bracelet_confidence": "verified_torres_22nov",
       "config_ref": "m126710grnr-0003",
-      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem."
+      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem.",
+      "market_validation": {
+        "status": "validado",
+        "confirmed_by": 1,
+        "confirming": [
+          {
+            "seller": "Uhrinstinkt",
+            "country": "DE",
+            "type": "dealer",
+            "price_eur": 19500,
+            "price_text": "19.500,00 €",
+            "url": "https://www.uhrinstinkt.de/en/products/rolex-gmt-master-ii-bruce-wayne-m126710grnr-0003-plx501918",
+            "seen": "2026-11-19",
+            "condition": "CPO; verificar condição/papéis",
+            "bracelet": "Jubilee",
+            "bracelet_match": "match",
+            "ratio": 1.055,
+            "delta_pct": 5.5
+          }
+        ],
+        "cheapest_listing": {
+          "seller": "Uhrinstinkt",
+          "country": "DE",
+          "type": "dealer",
+          "price_eur": 19500,
+          "price_text": "19.500,00 €",
+          "url": "https://www.uhrinstinkt.de/en/products/rolex-gmt-master-ii-bruce-wayne-m126710grnr-0003-plx501918",
+          "seen": "2026-11-19",
+          "condition": "CPO; verificar condição/papéis",
+          "bracelet": "Jubilee",
+          "bracelet_match": "match",
+          "ratio": 1.055,
+          "delta_pct": 5.5
+        },
+        "band_lo_eur": 15712.25,
+        "band_hi_eur": 21257.75,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": null
+      }
     },
     {
       "brand": "Rolex",
@@ -2542,7 +3128,32 @@
         "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126720vtnr-0001/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 12250,
+          "price_text": "12.250 €",
+          "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126720vtnr-0001",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 0.837,
+          "delta_pct": -16.3
+        },
+        "band_lo_eur": 12440.6,
+        "band_hi_eur": 16831.4,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -2642,7 +3253,32 @@
         "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126711chnr-0002/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 20000,
+          "price_text": "20.000 €",
+          "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126711chnr-0002",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 1.178,
+          "delta_pct": 17.8
+        },
+        "band_lo_eur": 14427.9,
+        "band_hi_eur": 19520.1,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -2743,7 +3379,32 @@
         "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126715chnr-0002/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 57300,
+          "price_text": "57.300 €",
+          "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126715chnr-0002",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 1.645,
+          "delta_pct": 64.5
+        },
+        "band_lo_eur": 29615.7,
+        "band_hi_eur": 40068.3,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -2844,7 +3505,32 @@
         "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126713grnr-0001/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 20300,
+          "price_text": "20.300 €",
+          "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126713grnr-0001",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 1.084,
+          "delta_pct": 8.4
+        },
+        "band_lo_eur": 15915.4,
+        "band_hi_eur": 21532.6,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -2928,7 +3614,19 @@
         "url": null,
         "as_of": "2026-11-22"
       },
-      "bracelet_note": "116710LN (GMT-Master II série 116710, descontinuado) foi vendido apenas em pulseira Oyster durante a produção — facto bem documentado na literatura geral sobre esta série. Tentámos aceder a rolex.com para confirmar numa página aberta por nós e recebemos 403; não temos um URL que tenhamos efectivamente aberto para citar como fonte."
+      "bracelet_note": "116710LN (GMT-Master II série 116710, descontinuado) foi vendido apenas em pulseira Oyster durante a produção — facto bem documentado na literatura geral sobre esta série. Tentámos aceder a rolex.com para confirmar numa página aberta por nós e recebemos 403; não temos um URL que tenhamos efectivamente aberto para citar como fonte.",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": null,
+        "band_lo_eur": 9259.9,
+        "band_hi_eur": 12528.1,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem anúncios exactos com preço visível nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -3011,7 +3709,19 @@
         "url": null,
         "as_of": "2026-11-22"
       },
-      "bracelet_note": "116710BLNR (GMT-Master II série 116710, descontinuado) foi vendido apenas em pulseira Oyster durante a produção — facto bem documentado na literatura geral sobre esta série. Tentámos aceder a rolex.com para confirmar numa página aberta por nós e recebemos 403; não temos um URL que tenhamos efectivamente aberto para citar como fonte."
+      "bracelet_note": "116710BLNR (GMT-Master II série 116710, descontinuado) foi vendido apenas em pulseira Oyster durante a produção — facto bem documentado na literatura geral sobre esta série. Tentámos aceder a rolex.com para confirmar numa página aberta por nós e recebemos 403; não temos um URL que tenhamos efectivamente aberto para citar como fonte.",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": null,
+        "band_lo_eur": 10934.4,
+        "band_hi_eur": 14793.6,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem anúncios exactos com preço visível nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -3111,7 +3821,32 @@
         "url": "https://rolex.torres.pt/relogio/explorer/m224270-0001/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 8350,
+          "price_text": "8.350 €",
+          "url": "https://rolex.torres.pt/relogio/explorer/m224270-0001",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 1.064,
+          "delta_pct": 6.4
+        },
+        "band_lo_eur": 6673.35,
+        "band_hi_eur": 9028.65,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -3212,7 +3947,32 @@
         "url": "https://rolex.torres.pt/relogio/explorer-ii/m226570-0001/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 10600,
+          "price_text": "10.600 €",
+          "url": "https://rolex.torres.pt/relogio/explorer-ii/m226570-0001",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 1.1,
+          "delta_pct": 10.0
+        },
+        "band_lo_eur": 8193.15,
+        "band_hi_eur": 11084.85,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -3313,7 +4073,32 @@
         "url": "https://rolex.torres.pt/relogio/yacht-master/m126622-0001/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 13150,
+          "price_text": "13.150 €",
+          "url": "https://rolex.torres.pt/relogio/yacht-master/m126622-0001",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 1.042,
+          "delta_pct": 4.2
+        },
+        "band_lo_eur": 10728.7,
+        "band_hi_eur": 14515.3,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -3413,7 +4198,32 @@
         "url": "https://rolex.torres.pt/relogio/air-king/m126900-0001/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 8100,
+          "price_text": "8.100 €",
+          "url": "https://rolex.torres.pt/relogio/air-king/m126900-0001",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 1.08,
+          "delta_pct": 8.0
+        },
+        "band_lo_eur": 6375.85,
+        "band_hi_eur": 8626.15,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -3497,7 +4307,19 @@
         "url": null,
         "as_of": "2026-11-22"
       },
-      "bracelet_note": "116400GV-0001 (Milgauss, descontinuado) foi vendido apenas em pulseira Oyster — facto bem documentado na literatura geral sobre o Milgauss. Tentámos aceder a rolex.com para confirmar numa página aberta por nós e recebemos 403; não temos um URL que tenhamos efectivamente aberto para citar como fonte."
+      "bracelet_note": "116400GV-0001 (Milgauss, descontinuado) foi vendido apenas em pulseira Oyster — facto bem documentado na literatura geral sobre o Milgauss. Tentámos aceder a rolex.com para confirmar numa página aberta por nós e recebemos 403; não temos um URL que tenhamos efectivamente aberto para citar como fonte.",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": null,
+        "band_lo_eur": 7677.2,
+        "band_hi_eur": 10386.8,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem anúncios exactos com preço visível nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -3581,7 +4403,19 @@
         "url": null,
         "as_of": "2026-11-22"
       },
-      "bracelet_note": "116400GV-0002 (Milgauss, descontinuado) foi vendido apenas em pulseira Oyster — facto bem documentado na literatura geral sobre o Milgauss. Tentámos aceder a rolex.com para confirmar numa página aberta por nós e recebemos 403; não temos um URL que tenhamos efectivamente aberto para citar como fonte."
+      "bracelet_note": "116400GV-0002 (Milgauss, descontinuado) foi vendido apenas em pulseira Oyster — facto bem documentado na literatura geral sobre o Milgauss. Tentámos aceder a rolex.com para confirmar numa página aberta por nós e recebemos 403; não temos um URL que tenhamos efectivamente aberto para citar como fonte.",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": null,
+        "band_lo_eur": 9870.2,
+        "band_hi_eur": 13353.8,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem anúncios exactos com preço visível nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -3665,7 +4499,19 @@
         "url": null,
         "as_of": "2026-11-22"
       },
-      "bracelet_note": "116400-0001 (Milgauss, descontinuado) foi vendido apenas em pulseira Oyster — facto bem documentado na literatura geral sobre o Milgauss. Tentámos aceder a rolex.com para confirmar numa página aberta por nós e recebemos 403; não temos um URL que tenhamos efectivamente aberto para citar como fonte."
+      "bracelet_note": "116400-0001 (Milgauss, descontinuado) foi vendido apenas em pulseira Oyster — facto bem documentado na literatura geral sobre o Milgauss. Tentámos aceder a rolex.com para confirmar numa página aberta por nós e recebemos 403; não temos um URL que tenhamos efectivamente aberto para citar como fonte.",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": null,
+        "band_lo_eur": 6545.0,
+        "band_hi_eur": 8855.0,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem anúncios exactos com preço visível nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -3749,7 +4595,19 @@
         "url": null,
         "as_of": "2026-11-22"
       },
-      "bracelet_note": "116400-0002 (Milgauss, descontinuado) foi vendido apenas em pulseira Oyster — facto bem documentado na literatura geral sobre o Milgauss. Tentámos aceder a rolex.com para confirmar numa página aberta por nós e recebemos 403; não temos um URL que tenhamos efectivamente aberto para citar como fonte."
+      "bracelet_note": "116400-0002 (Milgauss, descontinuado) foi vendido apenas em pulseira Oyster — facto bem documentado na literatura geral sobre o Milgauss. Tentámos aceder a rolex.com para confirmar numa página aberta por nós e recebemos 403; não temos um URL que tenhamos efectivamente aberto para citar como fonte.",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": null,
+        "band_lo_eur": 7391.6,
+        "band_hi_eur": 10000.4,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem anúncios exactos com preço visível nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -3857,7 +4715,32 @@
         "url": "https://rolex.torres.pt/en/watch/cosmograph-daytona/m126500ln-0001/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 16750,
+          "price_text": "16.750 €",
+          "url": "https://rolex.torres.pt/en/watch/cosmograph-daytona/m126500ln-0001",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., mostrador branco, consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 0.526,
+          "delta_pct": -47.4
+        },
+        "band_lo_eur": 27066.55,
+        "band_hi_eur": 36619.45,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -3960,7 +4843,32 @@
       },
       "bracelet_confidence": "verified_torres_22nov",
       "config_ref": "m126234-0015",
-      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem."
+      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem.",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 10100,
+          "price_text": "10.100 €",
+          "url": "https://rolex.torres.pt/relogio/datejust/m126234-0015",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Jubilee",
+          "bracelet_match": "match",
+          "ratio": 0.886,
+          "delta_pct": -11.4
+        },
+        "band_lo_eur": 9686.6,
+        "band_hi_eur": 13105.4,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Rolex",
@@ -4004,8 +4912,8 @@
           "price_text": "£12,250",
           "http": 200,
           "kind": "listing",
-          "bracelet": null,
-          "bracelet_match": "unknown"
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -4071,7 +4979,47 @@
       },
       "bracelet_confidence": "verified_torres_22nov",
       "config_ref": "m126334-0033",
-      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem."
+      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem.",
+      "market_validation": {
+        "status": "validado",
+        "confirmed_by": 1,
+        "confirming": [
+          {
+            "seller": "Watchfinder / BQ Watches",
+            "country": "GB",
+            "type": "marketplace",
+            "price_eur": 14705,
+            "price_text": "£12,250",
+            "url": "https://www.watchfinder.co.uk/watches/rolex/datejust-41/126334/453530",
+            "seen": "2026-11-18",
+            "condition": "excellent, caixa e papéis, 2026, mostrador slate baton, Oyster",
+            "bracelet": "Oyster",
+            "bracelet_match": "match",
+            "ratio": 1.137,
+            "delta_pct": 13.7
+          }
+        ],
+        "cheapest_listing": {
+          "seller": "Watchfinder / BQ Watches",
+          "country": "GB",
+          "type": "marketplace",
+          "price_eur": 14705,
+          "price_text": "£12,250",
+          "url": "https://www.watchfinder.co.uk/watches/rolex/datejust-41/126334/453530",
+          "seen": "2026-11-18",
+          "condition": "excellent, caixa e papéis, 2026, mostrador slate baton, Oyster",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 1.137,
+          "delta_pct": 13.7
+        },
+        "band_lo_eur": 10992.2,
+        "band_hi_eur": 14871.8,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": null
+      }
     },
     {
       "brand": "Rolex",
@@ -4115,8 +5063,8 @@
           "price_text": "£10,650",
           "http": 200,
           "kind": "listing",
-          "bracelet": null,
-          "bracelet_match": "unknown"
+          "bracelet": "Jubilee",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -4182,7 +5130,47 @@
       },
       "bracelet_confidence": "verified_torres_22nov",
       "config_ref": "m278274-0018",
-      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem."
+      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem.",
+      "market_validation": {
+        "status": "validado",
+        "confirmed_by": 1,
+        "confirming": [
+          {
+            "seller": "Watchfinder / Bonds of Brentwood",
+            "country": "GB",
+            "type": "marketplace",
+            "price_eur": 12784,
+            "price_text": "£10,650",
+            "url": "https://www.watchfinder.co.uk/watches/rolex/datejust-lady-31/278274/448820",
+            "seen": "2026-11-18",
+            "condition": "unworn, caixa e papéis, 2026, roman azul, Jubilee",
+            "bracelet": "Jubilee",
+            "bracelet_match": "match",
+            "ratio": 1.116,
+            "delta_pct": 11.6
+          }
+        ],
+        "cheapest_listing": {
+          "seller": "Watchfinder / Bonds of Brentwood",
+          "country": "GB",
+          "type": "marketplace",
+          "price_eur": 12784,
+          "price_text": "£10,650",
+          "url": "https://www.watchfinder.co.uk/watches/rolex/datejust-lady-31/278274/448820",
+          "seen": "2026-11-18",
+          "condition": "unworn, caixa e papéis, 2026, roman azul, Jubilee",
+          "bracelet": "Jubilee",
+          "bracelet_match": "match",
+          "ratio": 1.116,
+          "delta_pct": 11.6
+        },
+        "band_lo_eur": 9741.0,
+        "band_hi_eur": 13179.0,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": null
+      }
     },
     {
       "brand": "Rolex",
@@ -4226,8 +5214,8 @@
           "price_text": "£8,450",
           "http": 200,
           "kind": "listing",
-          "bracelet": null,
-          "bracelet_match": "unknown"
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Watchfinder / BLOOMBAR",
@@ -4240,8 +5228,8 @@
           "price_text": "£8,000",
           "http": 200,
           "kind": "listing",
-          "bracelet": null,
-          "bracelet_match": "unknown"
+          "bracelet": "Jubilee",
+          "bracelet_match": "mismatch"
         },
         {
           "seller": "Chrono24",
@@ -4307,7 +5295,47 @@
       },
       "bracelet_confidence": "verified_torres_22nov",
       "config_ref": "m279174-0020",
-      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem."
+      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem.",
+      "market_validation": {
+        "status": "validado",
+        "confirmed_by": 1,
+        "confirming": [
+          {
+            "seller": "Watchfinder / BLOOMBAR",
+            "country": "GB",
+            "type": "marketplace",
+            "price_eur": 10143,
+            "price_text": "£8,450",
+            "url": "https://www.watchfinder.co.uk/watches/rolex/datejust-lady-28/279174/434799",
+            "seen": "2026-11-18",
+            "condition": "very good, caixa e papéis, 2025, mostrador cinzento, Oyster",
+            "bracelet": "Oyster",
+            "bracelet_match": "match",
+            "ratio": 1.066,
+            "delta_pct": 6.6
+          }
+        ],
+        "cheapest_listing": {
+          "seller": "Watchfinder / BLOOMBAR",
+          "country": "GB",
+          "type": "marketplace",
+          "price_eur": 10143,
+          "price_text": "£8,450",
+          "url": "https://www.watchfinder.co.uk/watches/rolex/datejust-lady-28/279174/434799",
+          "seen": "2026-11-18",
+          "condition": "very good, caixa e papéis, 2025, mostrador cinzento, Oyster",
+          "bracelet": "Oyster",
+          "bracelet_match": "match",
+          "ratio": 1.066,
+          "delta_pct": 6.6
+        },
+        "band_lo_eur": 8085.2,
+        "band_hi_eur": 10938.8,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": null
+      }
     },
     {
       "brand": "Rolex",
@@ -4395,7 +5423,30 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0008/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "sem mercado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 6150,
+          "price_text": "6150 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0008",
+          "seen": "2026-11-19",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
+        },
+        "band_lo_eur": null,
+        "band_hi_eur": null,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem preço de mercado WatchCharts"
+      }
     },
     {
       "brand": "Rolex",
@@ -4483,7 +5534,30 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0009/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "sem mercado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 6150,
+          "price_text": "6150 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0009",
+          "seen": "2026-11-19",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
+        },
+        "band_lo_eur": null,
+        "band_hi_eur": null,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem preço de mercado WatchCharts"
+      }
     },
     {
       "brand": "Rolex",
@@ -4571,7 +5645,30 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0010/",
         "as_of": "2026-11-22"
       },
-      "bracelet_confidence": "verified_torres_22nov"
+      "bracelet_confidence": "verified_torres_22nov",
+      "market_validation": {
+        "status": "sem mercado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 6150,
+          "price_text": "6150 €",
+          "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0010",
+          "seen": "2026-11-19",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
+        },
+        "band_lo_eur": null,
+        "band_hi_eur": null,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem preço de mercado WatchCharts"
+      }
     },
     {
       "brand": "Rolex",
@@ -4674,7 +5771,32 @@
       },
       "bracelet_confidence": "verified_torres_22nov",
       "config_ref": "m228238-0042",
-      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem."
+      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem.",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Torres Joalheiros",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 50200,
+          "price_text": "50.200 €",
+          "url": "https://rolex.torres.pt/relogio/day-date/m228238-0042",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": "President",
+          "bracelet_match": "match",
+          "ratio": 1.087,
+          "delta_pct": 8.7
+        },
+        "band_lo_eur": 39270.85,
+        "band_hi_eur": 53131.15,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Omega",
@@ -4754,7 +5876,32 @@
         "url": "https://www.omegawatches.com/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31030425001001",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "Hesalite · cal. 3861 manual · 42 mm"
+      "spec_diff": "Hesalite · cal. 3861 manual · 42 mm",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Marcolino 1926",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 7800,
+          "price_text": "7.800 €",
+          "url": "https://www.marcolino.pt/en/watches/omega/moonwatch-professional-co-axial-master-chronometer-chrono-31030425001001-8015",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., sem stock nesta consulta",
+          "bracelet": null,
+          "bracelet_match": null,
+          "ratio": 1.563,
+          "delta_pct": 56.3
+        },
+        "band_lo_eur": 4242.35,
+        "band_hi_eur": 5739.65,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Omega",
@@ -4834,7 +5981,47 @@
         "url": "https://www.omegawatches.com/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31030425001002",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "Safira (sandwich) · cal. 3861 manual · 42 mm"
+      "spec_diff": "Safira (sandwich) · cal. 3861 manual · 42 mm",
+      "market_validation": {
+        "status": "validado",
+        "confirmed_by": 1,
+        "confirming": [
+          {
+            "seller": "Kronos 360",
+            "country": "FR",
+            "type": "dealer",
+            "price_eur": 6700,
+            "price_text": "6.700 €",
+            "url": "https://www.kronos360.com/en/omega-speedmaster/61754-31030425001002-omega-speedmaster-moonwatch-31030425001002.html",
+            "seen": "2026-11-19",
+            "condition": "CPO; verificar condição/papéis",
+            "bracelet": null,
+            "bracelet_match": null,
+            "ratio": 1.123,
+            "delta_pct": 12.3
+          }
+        ],
+        "cheapest_listing": {
+          "seller": "Kronos 360",
+          "country": "FR",
+          "type": "dealer",
+          "price_eur": 6700,
+          "price_text": "6.700 €",
+          "url": "https://www.kronos360.com/en/omega-speedmaster/61754-31030425001002-omega-speedmaster-moonwatch-31030425001002.html",
+          "seen": "2026-11-19",
+          "condition": "CPO; verificar condição/papéis",
+          "bracelet": null,
+          "bracelet_match": null,
+          "ratio": 1.123,
+          "delta_pct": 12.3
+        },
+        "band_lo_eur": 5071.1,
+        "band_hi_eur": 6860.9,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": null
+      }
     },
     {
       "brand": "Omega",
@@ -4902,7 +6089,19 @@
         "url": "https://www.omegawatches.com/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31030425004001",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "Safira · cal. 3861 manual · 42 mm"
+      "spec_diff": "Safira · cal. 3861 manual · 42 mm",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": null,
+        "band_lo_eur": 5810.6,
+        "band_hi_eur": 7861.4,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem anúncios exactos com preço visível nos últimos 14 dias"
+      }
     },
     {
       "brand": "Omega",
@@ -4967,7 +6166,19 @@
         "as_of": "2026-11-19"
       },
       "spec_diff": "Safira · cal. 3861 manual · 42 mm · Canopus Gold",
-      "production": "current"
+      "production": "current",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": null,
+        "band_lo_eur": 22390.7,
+        "band_hi_eur": 30293.3,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem anúncios exactos com preço visível nos últimos 14 dias"
+      }
     },
     {
       "brand": "Omega",
@@ -5032,7 +6243,19 @@
         "as_of": "2026-11-13"
       },
       "spec_diff": "Safira · cal. 9906 manual · 40,5 mm",
-      "production": "current"
+      "production": "current",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": null,
+        "band_lo_eur": 5317.6,
+        "band_hi_eur": 7194.4,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem anúncios exactos com preço visível nos últimos 14 dias"
+      }
     },
     {
       "brand": "Omega",
@@ -5097,7 +6320,19 @@
         "as_of": "2026-11-12"
       },
       "spec_diff": "Safira · cerâmica · 44,25 mm · descontinuado",
-      "production": "discontinued"
+      "production": "discontinued",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": null,
+        "band_lo_eur": 5582.8,
+        "band_hi_eur": 7553.2,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem anúncios exactos com preço visível nos últimos 14 dias"
+      }
     },
     {
       "brand": "Omega",
@@ -5174,7 +6409,47 @@
         "as_of": "2026-11-16"
       },
       "spec_diff": "Safira · cal. 3330 automático · 38 mm",
-      "production": "current"
+      "production": "current",
+      "market_validation": {
+        "status": "validado",
+        "confirmed_by": 1,
+        "confirming": [
+          {
+            "seller": "Uhrinstinkt",
+            "country": "DE",
+            "type": "dealer",
+            "price_eur": 3900,
+            "price_text": "3.900,00 €",
+            "url": "https://www.uhrinstinkt.de/en/products/omega-speedmaster-38-co-axial-chronograph-38-mm-324-30-38-50-01-001-plx501787",
+            "seen": "2026-11-19",
+            "condition": "CPO; verificar condição/papéis",
+            "bracelet": null,
+            "bracelet_match": null,
+            "ratio": 1.031,
+            "delta_pct": 3.1
+          }
+        ],
+        "cheapest_listing": {
+          "seller": "Uhrinstinkt",
+          "country": "DE",
+          "type": "dealer",
+          "price_eur": 3900,
+          "price_text": "3.900,00 €",
+          "url": "https://www.uhrinstinkt.de/en/products/omega-speedmaster-38-co-axial-chronograph-38-mm-324-30-38-50-01-001-plx501787",
+          "seen": "2026-11-19",
+          "condition": "CPO; verificar condição/papéis",
+          "bracelet": null,
+          "bracelet_match": null,
+          "ratio": 1.031,
+          "delta_pct": 3.1
+        },
+        "band_lo_eur": 3214.7,
+        "band_hi_eur": 4349.3,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": null
+      }
     },
     {
       "brand": "Omega",
@@ -5239,7 +6514,19 @@
         "as_of": "2026-11-18"
       },
       "spec_diff": "Plexiglass · cal. 3220 automático · 39 mm · descontinuado",
-      "production": "discontinued"
+      "production": "discontinued",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": null,
+        "band_lo_eur": 2317.95,
+        "band_hi_eur": 3136.05,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem anúncios exactos com preço visível nos últimos 14 dias"
+      }
     },
     {
       "brand": "Omega",
@@ -5330,7 +6617,32 @@
         "url": "https://watchcharts.com/watch_model/869-omega-seamaster-diver-300m-210-30-42-20-01-001/overview",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "Safira · 42 mm"
+      "spec_diff": "Safira · 42 mm",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Marcolino 1926",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 6700,
+          "price_text": "6.700 €",
+          "url": "https://www.marcolino.pt/en/watches/omega/seamaster-diver-300m-co-axial-master-21030422001001-767",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., sem stock nesta consulta",
+          "bracelet": null,
+          "bracelet_match": null,
+          "ratio": 1.694,
+          "delta_pct": 69.4
+        },
+        "band_lo_eur": 3361.75,
+        "band_hi_eur": 4548.25,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Omega",
@@ -5400,7 +6712,19 @@
         "url": "https://watchcharts.com/watch_model/1273-omega-seamaster-planet-ocean-600m-215-30-44-21-01-001/overview",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "43,5 mm · descontinuado"
+      "spec_diff": "43,5 mm · descontinuado",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": null,
+        "band_lo_eur": 3189.2,
+        "band_hi_eur": 4314.8,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem anúncios exactos com preço visível nos últimos 14 dias"
+      }
     },
     {
       "brand": "Omega",
@@ -5480,7 +6804,32 @@
         "url": "https://www.marcolino.pt/en/watches/omega/seamaster-aqua-terra-150m-co-axial-master-41mm-22010412101001-755",
         "as_of": "2026-11-18"
       },
-      "spec_diff": "41 mm"
+      "spec_diff": "41 mm",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Marcolino 1926",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 7100,
+          "price_text": "7.100 €",
+          "url": "https://www.marcolino.pt/en/watches/omega/seamaster-aqua-terra-150m-co-axial-master-41mm-22010412101001-755",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., sem stock nesta consulta",
+          "bracelet": null,
+          "bracelet_match": null,
+          "ratio": 1.969,
+          "delta_pct": 96.9
+        },
+        "band_lo_eur": 3064.25,
+        "band_hi_eur": 4145.75,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Omega",
@@ -5549,7 +6898,30 @@
         "url": "https://www.marcolino.pt/pt/relogios/omega/seamaster-aqua-terra-22010342001001-37369",
         "as_of": "2026-11-18"
       },
-      "spec_diff": "34 mm"
+      "spec_diff": "34 mm",
+      "market_validation": {
+        "status": "sem mercado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Marcolino 1926",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 7500,
+          "price_text": "7.500 €",
+          "url": "https://www.marcolino.pt/pt/relogios/omega/seamaster-aqua-terra-22010342001001-37369",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl.",
+          "bracelet": null,
+          "bracelet_match": null
+        },
+        "band_lo_eur": null,
+        "band_hi_eur": null,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem preço de mercado WatchCharts"
+      }
     },
     {
       "brand": "Omega",
@@ -5612,7 +6984,19 @@
         "url": "https://watchcharts.com/watch_model/3669-omega-constellation-manhattan-29-co-axial-master-chronometer-131-10-29-20-55-001/overview",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "29 mm"
+      "spec_diff": "29 mm",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": null,
+        "band_lo_eur": 3130.55,
+        "band_hi_eur": 4235.45,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem anúncios exactos com preço visível nos últimos 14 dias"
+      }
     },
     {
       "brand": "Cartier",
@@ -5650,7 +7034,7 @@
           "price_eur": 9597,
           "condition": "unworn, caixa e papéis, 2026",
           "url": "https://www.watchfinder.co.uk/watches/cartier/santos-de-cartier/wssa0018/445096",
-          "seen": "2026-11-18",
+          "seen": "2026-11-22",
           "price_text": "£7,995",
           "http": 200,
           "kind": "listing"
@@ -5671,11 +7055,31 @@
           "seller": "Montredo",
           "type": "dealer",
           "country": "DE",
-          "price_eur": null,
-          "condition": "pesquisa de anúncios desta referência",
-          "url": "https://www.montredo.com/en/search?q=WSSA0018",
-          "seen": "2026-11-19",
-          "kind": "search"
+          "price_eur": 8370,
+          "price_text": "8.370 €",
+          "currency": "EUR",
+          "condition": "novo, nunca usado",
+          "url": "https://www.montredo.com/products/cartier-santos-automatic-silvery-opaline-39-8-x-47-5mm-2-49964",
+          "seen": "2026-11-22",
+          "http": 200,
+          "kind": "listing",
+          "import_flag": false,
+          "source": "página de produto Montredo, 22 nov 2026 (InStock, 8.370 €, regular 9.000 €)"
+        },
+        {
+          "seller": "HORANDO",
+          "type": "dealer",
+          "country": "DE",
+          "price_eur": 9000,
+          "price_text": "9.000 €",
+          "currency": "EUR",
+          "condition": "novo, caixa e papéis, 2026; prazo de entrega 4–6 semanas",
+          "url": "https://www.horando.de/en/products/cartier-santos-de-cartier-wssa0018",
+          "seen": "2026-11-22",
+          "http": 200,
+          "kind": "listing",
+          "import_flag": false,
+          "source": "página de produto HORANDO, 22 nov 2026 (InStock, 9.000 €, NewCondition)"
         }
       ],
       "market_source": {
@@ -5704,7 +7108,32 @@
         "url": "https://watchcharts.com/watch_model/35441-cartier-santos-large-wssa0018/overview",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "Safira · cal. 1847 MC automático · 39,8 mm"
+      "spec_diff": "Safira · cal. 1847 MC automático · 39,8 mm",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Montredo",
+          "country": "DE",
+          "type": "dealer",
+          "price_eur": 8370,
+          "price_text": "8.370 €",
+          "url": "https://www.montredo.com/products/cartier-santos-automatic-silvery-opaline-39-8-x-47-5mm-2-49964",
+          "seen": "2026-11-22",
+          "condition": "novo, nunca usado",
+          "bracelet": null,
+          "bracelet_match": null,
+          "ratio": 1.298,
+          "delta_pct": 29.8
+        },
+        "band_lo_eur": 5482.5,
+        "band_hi_eur": 7417.5,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio exacto confirma o mercado no intervalo ±15 %"
+      }
     },
     {
       "brand": "Cartier",
@@ -5786,7 +7215,32 @@
         "url": "https://watchcharts.com/watch_model/35440-cartier-santos-medium-wssa0029/overview",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "Safira · cal. 1847 MC automático · 35,1 mm"
+      "spec_diff": "Safira · cal. 1847 MC automático · 35,1 mm",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Montredo",
+          "country": "DE",
+          "type": "dealer",
+          "price_eur": 7900,
+          "price_text": "7.900 €",
+          "url": "https://www.montredo.com/products/cartier-santos-automatic-silver-42mm-49684",
+          "seen": "2026-11-18",
+          "condition": "novo e por usar, caixa e papéis, 2026",
+          "bracelet": null,
+          "bracelet_match": null,
+          "ratio": 1.266,
+          "delta_pct": 26.6
+        },
+        "band_lo_eur": 5305.7,
+        "band_hi_eur": 7178.3,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio exacto confirma o mercado no intervalo ±15 %"
+      }
     },
     {
       "brand": "Cartier",
@@ -5881,6 +7335,31 @@
         "label": "Machado · 18 nov",
         "url": "https://www.machadojoalheiro.com/shop/catalogue/cartier-santos-pequeno-modelo_8443/",
         "as_of": "2026-11-18"
+      },
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "HORANDO",
+          "country": "DE",
+          "type": "dealer",
+          "price_eur": 6700,
+          "price_text": "6.700,00 €",
+          "url": "https://www.horando.de/en/products/cartier-santos-de-cartier-wssa0082",
+          "seen": "2026-11-19",
+          "condition": "CPO; verificar condição/papéis",
+          "bracelet": null,
+          "bracelet_match": null,
+          "ratio": 1.244,
+          "delta_pct": 24.4
+        },
+        "band_lo_eur": 4576.4,
+        "band_hi_eur": 6191.6,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio exacto confirma o mercado no intervalo ±15 %"
       }
     },
     {
@@ -5966,7 +7445,32 @@
         "url": "https://boutiquedosrelogios.pt/pt/santos-dumont-cartier-wssa0032",
         "as_of": "2026-11-18"
       },
-      "spec_diff": "46,6 × 33,9 mm"
+      "spec_diff": "46,6 × 33,9 mm",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Boutique dos Relógios",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 7900,
+          "price_text": "7.900 €",
+          "url": "https://boutiquedosrelogios.pt/pt/santos-dumont-cartier-wssa0032",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": null,
+          "bracelet_match": null,
+          "ratio": 1.508,
+          "delta_pct": 50.8
+        },
+        "band_lo_eur": 4452.3,
+        "band_hi_eur": 6023.7,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Cartier",
@@ -6025,6 +7529,18 @@
         "usd_per_eur": 1.0989,
         "date": "2026-11-17",
         "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+      },
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": null,
+        "band_lo_eur": 2815.2,
+        "band_hi_eur": 3808.8,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem anúncios exactos com preço visível nos últimos 14 dias"
       }
     },
     {
@@ -6111,7 +7627,32 @@
         "url": "https://boutiquedosrelogios.pt/pt/tank-must-cartier-wsta0042",
         "as_of": "2026-11-18"
       },
-      "spec_diff": "29,5 × 22 mm"
+      "spec_diff": "29,5 × 22 mm",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Boutique dos Relógios",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 3800,
+          "price_text": "3.800 €",
+          "url": "https://boutiquedosrelogios.pt/pt/tank-must-cartier-wsta0042",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": null,
+          "bracelet_match": null,
+          "ratio": 1.448,
+          "delta_pct": 44.8
+        },
+        "band_lo_eur": 2230.4,
+        "band_hi_eur": 3017.6,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Cartier",
@@ -6196,7 +7737,32 @@
         "url": "https://boutiquedosrelogios.pt/pt/tank-cartier-wgta0342",
         "as_of": "2026-11-18"
       },
-      "spec_diff": "29,5 × 22 mm"
+      "spec_diff": "29,5 × 22 mm",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Boutique dos Relógios",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 12500,
+          "price_text": "12.500 €",
+          "url": "https://boutiquedosrelogios.pt/pt/tank-cartier-wgta0342",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": null,
+          "bracelet_match": null,
+          "ratio": 1.631,
+          "delta_pct": 63.1
+        },
+        "band_lo_eur": 6516.1,
+        "band_hi_eur": 8815.9,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio de dealer/mercado com pulseira confirmada nos últimos 14 dias"
+      }
     },
     {
       "brand": "Cartier",
@@ -6269,6 +7835,31 @@
         "label": "BdR · 18 nov",
         "url": "https://boutiquedosrelogios.pt/pt/rel-gio-tank-fran-aise-cartier-wsta0129",
         "as_of": "2026-11-18"
+      },
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Montredo",
+          "country": "DE",
+          "type": "dealer",
+          "price_eur": 4130,
+          "price_text": "4.130 €",
+          "url": "https://www.montredo.com/products/cartier-tank-francaise-quartz-silver-25-7-x-21-2mm-49933",
+          "seen": "2026-11-18",
+          "condition": "novo e por usar, caixa e papéis, 2026",
+          "bracelet": null,
+          "bracelet_match": null,
+          "ratio": 1.252,
+          "delta_pct": 25.2
+        },
+        "band_lo_eur": 2803.3,
+        "band_hi_eur": 3792.7,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio exacto confirma o mercado no intervalo ±15 %"
       }
     },
     {
@@ -6344,7 +7935,32 @@
         "url": "https://watchcharts.com/watch_model/43726-cartier-ballon-bleu-wsbb0062/overview",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "Safira · 33 mm"
+      "spec_diff": "Safira · 33 mm",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Watchfinder",
+          "country": "GB",
+          "type": "CPO",
+          "price_eur": 5942,
+          "price_text": "£4,950",
+          "url": "https://www.watchfinder.co.uk/watches/cartier/ballon-bleu/wsbb0062/431775",
+          "seen": "2026-11-18",
+          "condition": "very good, caixa e papéis, 2022, garantia oficial Cartier Pre-Owned",
+          "bracelet": null,
+          "bracelet_match": null,
+          "ratio": 1.264,
+          "delta_pct": 26.4
+        },
+        "band_lo_eur": 3996.7,
+        "band_hi_eur": 5407.3,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio exacto confirma o mercado no intervalo ±15 %"
+      }
     },
     {
       "brand": "Cartier",
@@ -6426,7 +8042,47 @@
         "url": "https://watchcharts.com/watch_model/49273-cartier-panthere-wspn0013/overview",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "quartz · 23 mm"
+      "spec_diff": "quartz · 23 mm",
+      "market_validation": {
+        "status": "validado",
+        "confirmed_by": 1,
+        "confirming": [
+          {
+            "seller": "Montredo",
+            "country": "DE",
+            "type": "dealer",
+            "price_eur": 4730,
+            "price_text": "4.730 €",
+            "url": "https://www.montredo.com/products/cartier-panth-re-quartz-silver-30mm-59063",
+            "seen": "2026-11-18",
+            "condition": "novo e por usar, caixa e papéis, 2026",
+            "bracelet": null,
+            "bracelet_match": null,
+            "ratio": 1.003,
+            "delta_pct": 0.3
+          }
+        ],
+        "cheapest_listing": {
+          "seller": "Montredo",
+          "country": "DE",
+          "type": "dealer",
+          "price_eur": 4730,
+          "price_text": "4.730 €",
+          "url": "https://www.montredo.com/products/cartier-panth-re-quartz-silver-30mm-59063",
+          "seen": "2026-11-18",
+          "condition": "novo e por usar, caixa e papéis, 2026",
+          "bracelet": null,
+          "bracelet_match": null,
+          "ratio": 1.003,
+          "delta_pct": 0.3
+        },
+        "band_lo_eur": 4009.45,
+        "band_hi_eur": 5424.55,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": null
+      }
     },
     {
       "brand": "Panerai",
@@ -6508,7 +8164,32 @@
         "url": "https://boutiquedosrelogios.pt/pt/luminor-marina-44mm-panerai-pam01314",
         "as_of": "2026-11-18"
       },
-      "spec_diff": "44 mm"
+      "spec_diff": "44 mm",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Montredo",
+          "country": "DE",
+          "type": "dealer",
+          "price_eur": 7370,
+          "price_text": "7.370 €",
+          "url": "https://www.montredo.com/products/panerai-luminor-automatic-white-44mm-38344",
+          "seen": "2026-11-18",
+          "condition": "novo e por usar, caixa e papéis, 2026, pulseira de pele cinzenta",
+          "bracelet": null,
+          "bracelet_match": null,
+          "ratio": 1.564,
+          "delta_pct": 56.4
+        },
+        "band_lo_eur": 4006.05,
+        "band_hi_eur": 5419.95,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio exacto confirma o mercado no intervalo ±15 %"
+      }
     },
     {
       "brand": "Panerai",
@@ -6583,7 +8264,32 @@
         "url": "https://watchcharts.com/watch_model/1836-panerai-luminor-submersible-pam683/overview",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "42 mm"
+      "spec_diff": "42 mm",
+      "market_validation": {
+        "status": "não validado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Watchfinder / Mark Worthington Jewellers",
+          "country": "GB",
+          "type": "marketplace",
+          "price_eur": 8037,
+          "price_text": "£6,695",
+          "url": "https://www.watchfinder.co.uk/watches/panerai/submersible/pam00683/407836",
+          "seen": "2026-11-18",
+          "condition": "excellent, caixa e papéis, 2019, pulseira de borracha",
+          "bracelet": null,
+          "bracelet_match": null,
+          "ratio": 1.427,
+          "delta_pct": 42.7
+        },
+        "band_lo_eur": 4788.9,
+        "band_hi_eur": 6479.1,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "nenhum anúncio exacto confirma o mercado no intervalo ±15 %"
+      }
     },
     {
       "brand": "Panerai",
@@ -6675,7 +8381,47 @@
         "url": "https://boutiquedosrelogios.pt/pt/luminor-due-38mm-panerai",
         "as_of": "2026-11-18"
       },
-      "spec_diff": "38 mm"
+      "spec_diff": "38 mm",
+      "market_validation": {
+        "status": "validado",
+        "confirmed_by": 1,
+        "confirming": [
+          {
+            "seller": "Watchfinder / BLOOMBAR",
+            "country": "GB",
+            "type": "marketplace",
+            "price_eur": 5342,
+            "price_text": "£4,450",
+            "url": "https://www.watchfinder.co.uk/watches/panerai/luminor-due/pam01123/456976",
+            "seen": "2026-11-18",
+            "condition": "excellent, papéis sim, caixa não, 2022, mostrador azul, bracelete de aço",
+            "bracelet": null,
+            "bracelet_match": null,
+            "ratio": 1.123,
+            "delta_pct": 12.3
+          }
+        ],
+        "cheapest_listing": {
+          "seller": "Watchfinder / BLOOMBAR",
+          "country": "GB",
+          "type": "marketplace",
+          "price_eur": 5342,
+          "price_text": "£4,450",
+          "url": "https://www.watchfinder.co.uk/watches/panerai/luminor-due/pam01123/456976",
+          "seen": "2026-11-18",
+          "condition": "excellent, papéis sim, caixa não, 2022, mostrador azul, bracelete de aço",
+          "bracelet": null,
+          "bracelet_match": null,
+          "ratio": 1.123,
+          "delta_pct": 12.3
+        },
+        "band_lo_eur": 4042.6,
+        "band_hi_eur": 5469.4,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": null
+      }
     },
     {
       "brand": "Panerai",
@@ -6744,7 +8490,30 @@
         "url": "https://boutiquedosrelogios.pt/pt/radiomir-panerai-pam00753",
         "as_of": "2026-11-18"
       },
-      "spec_diff": "45 mm"
+      "spec_diff": "45 mm",
+      "market_validation": {
+        "status": "sem mercado",
+        "confirmed_by": 0,
+        "confirming": [],
+        "cheapest_listing": {
+          "seller": "Boutique dos Relógios",
+          "country": "PT",
+          "type": "AD",
+          "price_eur": 5000,
+          "price_text": "5.000 €",
+          "url": "https://boutiquedosrelogios.pt/pt/radiomir-panerai-pam00753",
+          "seen": "2026-11-18",
+          "condition": "novo, IVA incl., consultar disponibilidade",
+          "bracelet": null,
+          "bracelet_match": null
+        },
+        "band_lo_eur": null,
+        "band_hi_eur": null,
+        "tolerance": 0.15,
+        "comparable": "preço do anúncio em EUR (preço UE, ou câmbio do preço pedido extra-UE; sem custo de importação)",
+        "as_of": "2026-11-22",
+        "unvalidated_reason": "sem preço de mercado WatchCharts"
+      }
     }
   ],
   "aggregates": {
@@ -7151,6 +8920,7 @@
     "retail_pt": "Páginas de AD portugueses (Torres, Machado, Boutique dos Relógios, Marcolino). Datas no campo as_of de cada fonte.",
     "offers": "AD PT e anúncios exactos Watchfinder/Montredo quando a página da listagem mostra o preço; ligações de pesquisa (Chrono24, Montredo) sem preço. Visto 19 nov. 2026, Europe/Lisbon. Sem scraping em massa da Chrono24 e sem login.",
     "history": "Pontos históricos: instantâneos da Wayback Machine de páginas WatchCharts, com a data «as of» publicada; mais o ponto corrente de cada referência com mercado. Sem interpolação.",
-    "sizes": "Diâmetro da caixa (ou dimensões, nos modelos rectangulares) tirado das fichas de AD ou da especificação WatchCharts/Omega, com URL em cada referência."
+    "sizes": "Diâmetro da caixa (ou dimensões, nos modelos rectangulares) tirado das fichas de AD ou da especificação WatchCharts/Omega, com URL em cada referência.",
+    "market_validation": "Um preço WatchCharts só é «validado» se pelo menos um anúncio exacto activo (ficha própria, preço visível, visto nos últimos 14 dias; pulseira correspondente nos Rolex; excluídos AD/PVP) estiver entre 85 % e 115 % do mercado. Comparável: preço do anúncio em EUR (preço UE ou câmbio do preço pedido extra-UE), sem IVA de importação nem portes."
   }
 }
