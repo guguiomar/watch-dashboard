@@ -18,7 +18,9 @@
       "kind": "listing",
       "import_flag": false,
       "variant_note": "M126710BLNR-0003 (Batman)",
-      "source": "página de produto Uhrinstinkt, 19 nov 2026"
+      "source": "página de produto Uhrinstinkt, 19 nov 2026",
+      "bracelet": "Oyster",
+      "bracelet_match": "mismatch"
     },
     {
       "ref": "126710BLNR",
@@ -35,7 +37,9 @@
       "kind": "listing",
       "import_flag": false,
       "variant_note": "M126710BLNR-0002 (Batgirl, bracelete Jubilee)",
-      "source": "página de produto Uhrinstinkt, 19 nov 2026"
+      "source": "página de produto Uhrinstinkt, 19 nov 2026",
+      "bracelet": "Jubilee",
+      "bracelet_match": "match"
     },
     {
       "ref": "126710GRNR",
@@ -51,7 +55,9 @@
       "http": 200,
       "kind": "listing",
       "import_flag": false,
-      "source": "página de produto Uhrinstinkt, 19 nov 2026"
+      "source": "página de produto Uhrinstinkt, 19 nov 2026",
+      "bracelet": "Jubilee",
+      "bracelet_match": "match"
     },
     {
       "ref": "324.30.38.50.01.001",
@@ -83,7 +89,9 @@
       "http": 200,
       "kind": "listing",
       "import_flag": false,
-      "source": "página de produto Kronos 360, 19 nov 2026"
+      "source": "página de produto Kronos 360, 19 nov 2026",
+      "bracelet": null,
+      "bracelet_match": "unknown"
     },
     {
       "ref": "126710GRNR",
@@ -99,7 +107,9 @@
       "http": 200,
       "kind": "listing",
       "import_flag": false,
-      "source": "página de produto Kronos 360, 19 nov 2026"
+      "source": "página de produto Kronos 360, 19 nov 2026",
+      "bracelet": null,
+      "bracelet_match": "unknown"
     },
     {
       "ref": "126710BLNR",
@@ -115,7 +125,9 @@
       "http": 200,
       "kind": "listing",
       "import_flag": false,
-      "source": "página de produto Kronos 360, 19 nov 2026"
+      "source": "página de produto Kronos 360, 19 nov 2026",
+      "bracelet": null,
+      "bracelet_match": "unknown"
     },
     {
       "ref": "124060",
@@ -131,7 +143,9 @@
       "http": 200,
       "kind": "listing",
       "import_flag": false,
-      "source": "página de produto Kronos 360, 19 nov 2026"
+      "source": "página de produto Kronos 360, 19 nov 2026",
+      "bracelet": null,
+      "bracelet_match": "unknown"
     },
     {
       "ref": "310.30.42.50.01.002",

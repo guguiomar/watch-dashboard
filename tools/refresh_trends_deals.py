@@ -8,6 +8,11 @@ Run from the repo root or any cwd; paths are relative to this file's parent.
   python3 tools/refresh_trends_deals.py --skip-feeds   # reuse last trends items if fetch fails
   python3 tools/refresh_trends_deals.py --x-counts /path/to/counts.json
 
+After listings have been rechecked, also update the listing history:
+
+  python3 tools/update_listing_history.py --check-gone
+
+
 X (Twitter) is not called from this script: the Monday routine may not have
 the X tools. Pass a counts JSON produced by Grok Bot, or leave social.json
 counts in place and only refresh Instagram metadata / timestamps.
@@ -457,6 +462,19 @@ def compute_deals(watches, listings, dealers):
             reason = "market"
         elif hard and retail is not None and compare <= retail * (1 + RETAIL_MARGIN):
             reason = "retail_allocated"
+
+        bracelet_match = o.get("bracelet_match")
+        bracelet_mismatch = None
+        caveat = "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+        if bracelet_match == "mismatch":
+            bracelet_mismatch = True
+            reason = None  # never qualify a deal across mismatched bracelets
+            model_bracelet = w.get("bracelet") or "?"
+            caveat += " Pulseira diferente da configuração PVP (" + model_bracelet + "); não comparável."
+        elif bracelet_match == "unknown":
+            bracelet_mismatch = None
+            caveat += " Pulseira não confirmada no anúncio; pode não corresponder à configuração PVP."
+
         rec = {
             "ref": w["ref"],
             "brand": w["brand"],
@@ -479,7 +497,8 @@ def compute_deals(watches, listings, dealers):
             "qualifies": reason is not None,
             "reason": reason,
             "photo": w.get("image") or w.get("photo") or w.get("img"),
-            "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+            "bracelet_mismatch": bracelet_mismatch,
+            "caveat": caveat,
         }
         evaluated.append(rec)
         if reason:

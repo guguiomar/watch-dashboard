@@ -3,48 +3,45 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>G Watch Radar — Edição 01</title>
+  <title>G Watch Radar</title>
   <meta name="description" content="Preços de mercado com fonte, onde comprar e tendência histórica de relógios.">
   <link rel="stylesheet" href="css/radar.css">
 </head>
 <body>
-  <div class="spine" aria-hidden="true"></div>
-
-  <header class="mast">
-    <div class="folio">
-      <span id="updated-line">A carregar…</span>
+  <header class="site-header">
+    <div class="header-row">
+      <a class="wordmark" href="#/" id="wordmark">G Watch <em>Radar</em></a>
+      <p class="header-meta" id="updated-line">A carregar…</p>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="cat-nav" aria-label="Menu">Menu</button>
     </div>
-    <div class="mast-row">
-      <h1><span class="g-mark">G</span> Watch <em>Radar</em></h1>
-      <nav class="mast-nav" aria-label="Secções">
-        <a href="#oportunidades">Oportunidades</a>
-        <a href="#modelos">Modelos</a>
-        <a href="#tendencias">Tendências</a>
-        <a href="#mercado">Mercado</a>
-      </nav>
-    </div>
+    <nav class="cat-nav" id="cat-nav" aria-label="Categorias">
+      <div class="cat-group" role="list">
+        <a href="#/" data-filter="brand" data-value="Rolex">Rolex</a>
+        <a href="#/" data-filter="brand" data-value="Omega">Omega</a>
+        <a href="#/" data-filter="brand" data-value="Cartier">Cartier</a>
+        <a href="#/" data-filter="brand" data-value="Panerai">Panerai</a>
+      </div>
+      <div class="cat-group" role="list">
+        <a href="#/" data-filter="gender" data-value="homem">Homem</a>
+        <a href="#/" data-filter="gender" data-value="mulher">Senhora</a>
+      </div>
+      <div class="cat-group cat-dest" role="list">
+        <a href="#/oportunidades">Oportunidades</a>
+        <a href="#/tendencias">Tendências</a>
+      </div>
+    </nav>
   </header>
 
-  <main>
-    <section id="oportunidades" class="sec">
-      <div class="sec-head">
-        <p class="kicker">Comprar agora?</p>
-      </div>
-      <div id="deals"></div>
-    </section>
-
-    <section id="modelos" class="sec">
-      <div class="sec-head">
-        <p class="kicker">Modelos</p>
-        <p class="count" id="count"></p>
-      </div>
-      <div class="filters-bar">
-        <label class="search-field">Procurar
+  <div id="view-listing" class="view shop-view">
+    <aside class="filter-col">
+      <form class="filters" id="filters" aria-label="Filtros">
+        <div class="filter-head">
+          <p class="filter-title">Filtros</p>
+          <button type="button" class="filters-close" id="filters-close">Fechar</button>
+        </div>
+        <label>Procurar
           <input type="search" name="q" id="f-search" placeholder="Marca, modelo, referência" autocomplete="off" spellcheck="false">
         </label>
-        <button type="button" class="filters-toggle" id="filters-toggle" aria-expanded="false" aria-controls="filters">Filtros</button>
-      </div>
-      <form class="filters" id="filters" aria-label="Filtros">
         <label>Marca
           <select name="brand" id="f-brand">
             <option value="">Todas</option>
@@ -62,7 +59,7 @@
             <option value="">Todos</option>
           </select>
         </label>
-        <label>Preço
+        <label>Preço de mercado
           <select name="price" id="f-price">
             <option value="">Todos</option>
             <option value="0-5000">Até 5 000 €</option>
@@ -79,28 +76,66 @@
             <option value="prémio">Prémio</option>
           </select>
         </label>
-        <label>Ordenar
-          <select name="sort" id="f-sort">
-            <option value="brand">Marca</option>
-            <option value="price">Preço de mercado</option>
-            <option value="premium">Prémio</option>
+        <label>Pulseira
+          <select name="bracelet" id="f-bracelet">
+            <option value="">Todas</option>
+            <option value="Oyster">Oyster</option>
+            <option value="Jubilee">Jubilee</option>
+            <option value="President">President</option>
+            <option value="Oysterflex">Oysterflex</option>
           </select>
         </label>
+        <button type="button" class="filters-clear" id="filters-clear">Limpar</button>
       </form>
+    </aside>
+
+    <section class="listing" id="modelos" aria-label="Modelos">
+      <div class="listing-bar">
+        <div>
+          <h1 class="listing-title">Relógios</h1>
+          <p class="count" id="count"></p>
+        </div>
+        <div class="listing-actions">
+          <button type="button" class="filters-toggle" id="filters-toggle" aria-expanded="false" aria-controls="filters">Filtros</button>
+          <label class="sort-field">
+            <span class="sort-label">Ordenar</span>
+            <select name="sort" id="f-sort" aria-label="Ordenar">
+              <option value="brand">Marca</option>
+              <option value="price">Preço</option>
+              <option value="premium">Prémio</option>
+            </select>
+          </label>
+        </div>
+      </div>
       <div class="grid" id="grid"></div>
     </section>
+  </div>
 
+  <div id="view-pdp" class="view pdp-view" hidden></div>
+
+  <div id="view-oportunidades" class="view editorial-view" hidden>
+    <section id="oportunidades" class="sec">
+      <header class="sec-head">
+        <p class="eyebrow">Oportunidades</p>
+        <h1>Comprar agora?</h1>
+      </header>
+      <div id="deals"></div>
+    </section>
+  </div>
+
+  <div id="view-tendencias" class="view editorial-view" hidden>
     <section id="tendencias" class="sec">
-      <div class="sec-head">
-        <p class="kicker">Tendências</p>
-      </div>
+      <header class="sec-head">
+        <p class="eyebrow">Tendências</p>
+        <h1>O que se está a falar</h1>
+      </header>
       <div id="trends"></div>
     </section>
-
     <section id="mercado" class="sec">
-      <div class="sec-head">
-        <p class="kicker">Mercado</p>
-      </div>
+      <header class="sec-head">
+        <p class="eyebrow">Mercado</p>
+        <h2 class="sec-title">Números com fonte</h2>
+      </header>
       <div class="outliers" id="outliers" hidden></div>
       <div class="snapshots" id="snapshots"></div>
       <figure class="chart-fig chart-wide">
@@ -139,15 +174,12 @@
         <p class="chart-source" id="cap-rank"></p>
       </figure>
     </section>
-  </main>
+  </div>
 
   <footer class="foot" id="foot"></footer>
 
   <div class="scrim" id="scrim" hidden></div>
-  <aside class="drawer" id="drawer" hidden role="dialog" aria-modal="true" aria-labelledby="drawer-title">
-    <button class="drawer-close" id="drawer-close" type="button" aria-label="Fechar">Fechar</button>
-    <div class="drawer-body" id="drawer-body"></div>
-  </aside>
+  <div class="scrim" id="filter-scrim" hidden></div>
 
   <script src="js/chart.umd.min.js"></script>
   <script src="js/radar.js"></script>

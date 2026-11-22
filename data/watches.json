@@ -59,7 +59,9 @@
           "seen": "2026-11-18",
           "price_text": "6.700 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -71,7 +73,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -81,7 +85,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126000-0001",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -97,7 +103,16 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0001/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3230 automático · 36 mm"
+      "spec_diff": "cal. 3230 automático · 36 mm",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0001/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -145,7 +160,9 @@
           "seen": "2026-11-18",
           "price_text": "6.700 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -157,7 +174,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -167,7 +186,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126000-0006",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -183,7 +204,16 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0006/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3230 automático · 36 mm"
+      "spec_diff": "cal. 3230 automático · 36 mm",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0006/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -231,7 +261,9 @@
           "seen": "2026-11-18",
           "price_text": "6.700 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -243,7 +275,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -253,7 +287,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126000-0008",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -269,7 +305,16 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0008/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3230 automático · 36 mm"
+      "spec_diff": "cal. 3230 automático · 36 mm",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0008/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -317,7 +362,9 @@
           "seen": "2026-11-18",
           "price_text": "6.700 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -329,7 +376,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -339,7 +388,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126000-0011",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -355,7 +406,16 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0011/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3230 automático · 36 mm"
+      "spec_diff": "cal. 3230 automático · 36 mm",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0011/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -403,7 +463,9 @@
           "seen": "2026-11-19",
           "price_text": "6700 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -415,7 +477,9 @@
           "seen": "2026-11-19",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -425,7 +489,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126000-0012",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -442,7 +508,16 @@
         "as_of": "2026-11-19"
       },
       "spec_diff": "cal. 3230 automático · 36 mm",
-      "production": "current"
+      "production": "current",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0012/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -480,7 +555,9 @@
           "seen": "2026-11-19",
           "price_text": "6700 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -492,7 +569,9 @@
           "seen": "2026-11-19",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -502,7 +581,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126000-0014",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {},
@@ -515,7 +596,16 @@
         "as_of": "2026-11-19"
       },
       "spec_diff": "cal. 3230 automático · 36 mm",
-      "production": "current"
+      "production": "current",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0014/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -563,7 +653,9 @@
           "seen": "2026-11-19",
           "price_text": "6700 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -575,7 +667,9 @@
           "seen": "2026-11-19",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -585,7 +679,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126000-0015",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -602,7 +698,16 @@
         "as_of": "2026-11-19"
       },
       "spec_diff": "cal. 3230 automático · 36 mm",
-      "production": "current"
+      "production": "current",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0015/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -650,7 +755,9 @@
           "seen": "2026-11-19",
           "price_text": "7050 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -662,7 +769,9 @@
           "seen": "2026-11-19",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -672,7 +781,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=134300-0006",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -689,7 +800,16 @@
         "as_of": "2026-11-19"
       },
       "spec_diff": "cal. 3230 automático · 41 mm",
-      "production": "current"
+      "production": "current",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0006/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -737,7 +857,9 @@
           "seen": "2026-11-19",
           "price_text": "7050 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -749,7 +871,9 @@
           "seen": "2026-11-19",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -759,7 +883,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=134300-0001",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -776,7 +902,16 @@
         "as_of": "2026-11-19"
       },
       "spec_diff": "cal. 3230 automático · 41 mm",
-      "production": "current"
+      "production": "current",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0001/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -824,7 +959,9 @@
           "seen": "2026-11-19",
           "price_text": "7050 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -836,7 +973,9 @@
           "seen": "2026-11-19",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -846,7 +985,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=134300-0004",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -863,7 +1004,16 @@
         "as_of": "2026-11-19"
       },
       "spec_diff": "cal. 3230 automático · 41 mm",
-      "production": "current"
+      "production": "current",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0004/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -911,7 +1061,9 @@
           "seen": "2026-11-19",
           "price_text": "7050 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -923,7 +1075,9 @@
           "seen": "2026-11-19",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -933,7 +1087,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=134300-0007",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -950,7 +1106,16 @@
         "as_of": "2026-11-19"
       },
       "spec_diff": "cal. 3230 automático · 41 mm",
-      "production": "current"
+      "production": "current",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0007/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -998,7 +1163,9 @@
           "seen": "2026-11-19",
           "price_text": "7050 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -1010,7 +1177,9 @@
           "seen": "2026-11-19",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -1020,7 +1189,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=134300-0008",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -1037,7 +1208,16 @@
         "as_of": "2026-11-19"
       },
       "spec_diff": "cal. 3230 automático · 41 mm",
-      "production": "current"
+      "production": "current",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0008/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -1085,7 +1265,9 @@
           "seen": "2026-11-19",
           "price_text": "7050 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -1097,7 +1279,9 @@
           "seen": "2026-11-19",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -1107,7 +1291,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=134300-0009",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -1124,7 +1310,16 @@
         "as_of": "2026-11-19"
       },
       "spec_diff": "cal. 3230 automático · 41 mm",
-      "production": "current"
+      "production": "current",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0009/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -1168,7 +1363,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -1178,7 +1375,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=124300",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -1194,7 +1393,17 @@
         "url": "https://watchcharts.com/watch_model/21827-rolex-oyster-perpetual-41-124300/overview",
         "as_of": "2026-11-17"
       },
-      "spec_diff": "41 mm · descontinuado"
+      "spec_diff": "41 mm · descontinuado",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Rolex Oyster Perpetual (família)",
+        "label": "nota interna · não verificado num URL específico",
+        "url": null,
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "unverified_but_documented",
+      "bracelet_note": "124300 (OP 41, descontinuado, substituído pela 134300) não tem página PVP Torres nos nossos dados; pulseira Oyster por ser a única oferecida na Oyster Perpetual. rolex.com devolveu 403 ao nosso fetch; não confirmámos num URL que conseguíssemos abrir."
     },
     {
       "brand": "Rolex",
@@ -1242,7 +1451,9 @@
           "seen": "2026-11-18",
           "price_text": "6.250 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -1254,7 +1465,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -1264,7 +1477,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=277200-0006",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -1280,7 +1495,16 @@
         "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0006/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 2232 automático · 31 mm"
+      "spec_diff": "cal. 2232 automático · 31 mm",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0006/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -1318,7 +1542,9 @@
           "seen": "2026-11-19",
           "price_text": "6250 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -1330,7 +1556,9 @@
           "seen": "2026-11-19",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -1340,7 +1568,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=277200-0014",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {},
@@ -1353,7 +1583,16 @@
         "as_of": "2026-11-19"
       },
       "spec_diff": "cal. 2232 automático · 31 mm",
-      "production": "current"
+      "production": "current",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0014/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -1391,7 +1630,9 @@
           "seen": "2026-11-19",
           "price_text": "6250 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -1403,7 +1644,9 @@
           "seen": "2026-11-19",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -1413,7 +1656,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=277200-0016",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {},
@@ -1426,7 +1671,16 @@
         "as_of": "2026-11-19"
       },
       "spec_diff": "cal. 2232 automático · 31 mm",
-      "production": "current"
+      "production": "current",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0016/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -1455,7 +1709,9 @@
           "seen": "2026-11-18",
           "price_text": "11.300 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "David Rosas",
@@ -1466,7 +1722,9 @@
           "url": "https://davidrosas.pt/pages/rolex-submariner",
           "seen": "2026-11-18",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Watchfinder / Kettle Club Watches",
@@ -1478,7 +1736,9 @@
           "seen": "2026-11-18",
           "price_text": "£12,495",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Watchfinder",
@@ -1489,7 +1749,9 @@
           "url": "https://www.watchfinder.co.uk/watches/rolex/submariner/126610-ln",
           "seen": "2026-11-18",
           "http": 200,
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Chrono24",
@@ -1501,7 +1763,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -1511,7 +1775,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126610LN",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "market_source": {
@@ -1541,7 +1807,16 @@
         "url": "https://rolex.torres.pt/relogio/submariner/m126610ln-0001/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3235 automático · 41 mm"
+      "spec_diff": "cal. 3235 automático · 41 mm",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/submariner/m126610ln-0001/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -1588,7 +1863,9 @@
           "seen": "2026-11-18",
           "price_text": "10.050 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -1600,7 +1877,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -1610,7 +1889,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=124060",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Kronos 360",
@@ -1622,7 +1903,9 @@
           "seen": "2026-11-19",
           "price_text": "13.100 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -1638,7 +1921,16 @@
         "url": "https://rolex.torres.pt/relogio/submariner/m124060-0001/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3230 automático · 41 mm"
+      "spec_diff": "cal. 3230 automático · 41 mm",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/submariner/m124060-0001/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -1686,7 +1978,9 @@
           "seen": "2026-11-18",
           "price_text": "14.450 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -1698,7 +1992,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -1708,7 +2004,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126600",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -1724,7 +2022,16 @@
         "url": "https://rolex.torres.pt/relogio/sea-dweller/m126600-0002/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3235 automático · 43 mm"
+      "spec_diff": "cal. 3235 automático · 43 mm",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/sea-dweller/m126600-0002/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -1752,7 +2059,9 @@
           "url": "https://davidrosas.pt/pages/rolex-watches",
           "seen": "2026-11-18",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Jubilee",
+          "bracelet_match": "match"
         },
         {
           "seller": "Watchfinder / BQ Watches",
@@ -1764,7 +2073,9 @@
           "seen": "2026-11-18",
           "price_text": "£22,450",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Watchfinder",
@@ -1775,7 +2086,9 @@
           "url": "https://www.watchfinder.co.uk/watches/rolex/gmt-master-ii/126710-blro",
           "seen": "2026-11-18",
           "http": 200,
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Chrono24",
@@ -1787,7 +2100,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -1797,7 +2112,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126710BLRO",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Kronos 360",
@@ -1809,7 +2126,9 @@
           "seen": "2026-11-19",
           "price_text": "19.500 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "market_source": {
@@ -1833,7 +2152,17 @@
         "url": "https://watchcharts.com/watch_model/733-rolex-gmt-master-ii-pepsi-126710blro/overview",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "40 mm"
+      "spec_diff": "40 mm",
+      "bracelet": "Jubilee",
+      "bracelet_label": "Jubilee",
+      "bracelet_confidence": "unverified",
+      "bracelet_source": {
+        "name": "não verificado",
+        "label": "não verificado",
+        "url": null,
+        "as_of": "2026-11-22"
+      },
+      "bracelet_note": "O Pepsi em aço (126710BLRO) é amplamente documentado como vendido em pulseira Jubilee, mas não conseguimos abrir rolex.com (403) nem confirmar o bracelete nas páginas de anúncio que tentámos (Kronos 360 devolveu 403; a página Watchfinder ficou sem conteúdo útil ao fetch). Tratar como conhecimento comum mas não confirmado por nós nesta passagem."
     },
     {
       "brand": "Rolex",
@@ -1881,7 +2210,9 @@
           "seen": "2026-11-18",
           "price_text": "11.950 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Jubilee",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -1893,7 +2224,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -1903,7 +2236,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126710BLNR",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Uhrinstinkt",
@@ -1916,7 +2251,9 @@
           "price_text": "15.450,00 €",
           "http": 200,
           "kind": "listing",
-          "note": "M126710BLNR-0003 (Batman)"
+          "note": "M126710BLNR-0003 (Batman)",
+          "bracelet": "Oyster",
+          "bracelet_match": "mismatch"
         },
         {
           "seller": "Uhrinstinkt",
@@ -1929,7 +2266,9 @@
           "price_text": "16.400,00 €",
           "http": 200,
           "kind": "listing",
-          "note": "M126710BLNR-0002 (Batgirl, bracelete Jubilee)"
+          "note": "M126710BLNR-0002 (Batgirl, bracelete Jubilee)",
+          "bracelet": "Jubilee",
+          "bracelet_match": "match"
         },
         {
           "seller": "Kronos 360",
@@ -1941,7 +2280,9 @@
           "seen": "2026-11-19",
           "price_text": "19.000 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -1957,7 +2298,19 @@
         "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126710blnr-0002/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3285 automático · 40 mm"
+      "spec_diff": "cal. 3285 automático · 40 mm",
+      "bracelet": "Jubilee",
+      "bracelet_label": "Jubilee",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126710blnr-0002/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov",
+      "config_ref": "m126710blnr-0002",
+      "bracelet_note": "O PVP e o mercado seguem a configuração 0002 (Jubilee, \"Batgirl\"); a 0003 (Oyster, \"Batman\") é outra pulseira e não está representada aqui.",
+      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem."
     },
     {
       "brand": "Rolex",
@@ -2005,7 +2358,9 @@
           "seen": "2026-11-18",
           "price_text": "11.950 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Jubilee",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -2017,7 +2372,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -2027,7 +2384,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126710GRNR",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Uhrinstinkt",
@@ -2039,7 +2398,9 @@
           "seen": "2026-11-19",
           "price_text": "19.500,00 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Jubilee",
+          "bracelet_match": "match"
         },
         {
           "seller": "Kronos 360",
@@ -2051,7 +2412,9 @@
           "seen": "2026-11-19",
           "price_text": "20.500 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -2067,7 +2430,18 @@
         "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126710grnr-0003/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3285 automático · 40 mm"
+      "spec_diff": "cal. 3285 automático · 40 mm",
+      "bracelet": "Jubilee",
+      "bracelet_label": "Jubilee",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126710grnr-0003/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov",
+      "config_ref": "m126710grnr-0003",
+      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem."
     },
     {
       "brand": "Rolex",
@@ -2115,7 +2489,9 @@
           "seen": "2026-11-18",
           "price_text": "12.250 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -2127,7 +2503,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -2137,7 +2515,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126720VTNR",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -2153,7 +2533,16 @@
         "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126720vtnr-0001/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3285 automático · 40 mm"
+      "spec_diff": "cal. 3285 automático · 40 mm",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126720vtnr-0001/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -2200,7 +2589,9 @@
           "seen": "2026-11-18",
           "price_text": "20.000 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -2212,7 +2603,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -2222,7 +2615,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126711CHNR",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -2238,7 +2633,16 @@
         "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126711chnr-0002/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3285 automático · 40 mm"
+      "spec_diff": "cal. 3285 automático · 40 mm",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126711chnr-0002/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -2286,7 +2690,9 @@
           "seen": "2026-11-18",
           "price_text": "57.300 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -2298,7 +2704,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -2308,7 +2716,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126715CHNR",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -2324,7 +2734,16 @@
         "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126715chnr-0002/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3285 automático · 40 mm"
+      "spec_diff": "cal. 3285 automático · 40 mm",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126715chnr-0002/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -2372,7 +2791,9 @@
           "seen": "2026-11-18",
           "price_text": "20.300 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -2384,7 +2805,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -2394,7 +2817,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126713GRNR",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -2410,7 +2835,16 @@
         "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126713grnr-0001/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3285 automático · 40 mm"
+      "spec_diff": "cal. 3285 automático · 40 mm",
+      "bracelet": "Jubilee",
+      "bracelet_label": "Jubilee",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/gmt-master-ii/m126713grnr-0001/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -2454,7 +2888,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -2464,7 +2900,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=116710LN",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -2480,7 +2918,17 @@
         "url": "https://watchcharts.com/watch_model/53-rolex-gmt-master-ii-116710/overview",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "40 mm · descontinuado"
+      "spec_diff": "40 mm · descontinuado",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_confidence": "documented_discontinued_model",
+      "bracelet_source": {
+        "name": "não verificado",
+        "label": "não verificado (modelo descontinuado)",
+        "url": null,
+        "as_of": "2026-11-22"
+      },
+      "bracelet_note": "116710LN (GMT-Master II série 116710, descontinuado) foi vendido apenas em pulseira Oyster durante a produção — facto bem documentado na literatura geral sobre esta série. Tentámos aceder a rolex.com para confirmar numa página aberta por nós e recebemos 403; não temos um URL que tenhamos efectivamente aberto para citar como fonte."
     },
     {
       "brand": "Rolex",
@@ -2523,7 +2971,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -2533,7 +2983,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=116710BLNR",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -2549,7 +3001,17 @@
         "url": "https://watchcharts.com/watch_model/739-rolex-gmt-master-ii-batman-116710blnr/overview",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "40 mm · descontinuado"
+      "spec_diff": "40 mm · descontinuado",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_confidence": "documented_discontinued_model",
+      "bracelet_source": {
+        "name": "não verificado",
+        "label": "não verificado (modelo descontinuado)",
+        "url": null,
+        "as_of": "2026-11-22"
+      },
+      "bracelet_note": "116710BLNR (GMT-Master II série 116710, descontinuado) foi vendido apenas em pulseira Oyster durante a produção — facto bem documentado na literatura geral sobre esta série. Tentámos aceder a rolex.com para confirmar numa página aberta por nós e recebemos 403; não temos um URL que tenhamos efectivamente aberto para citar como fonte."
     },
     {
       "brand": "Rolex",
@@ -2596,7 +3058,9 @@
           "seen": "2026-11-18",
           "price_text": "8.350 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -2608,7 +3072,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -2618,7 +3084,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=224270",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -2634,7 +3102,16 @@
         "url": "https://rolex.torres.pt/relogio/explorer/m224270-0001/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3230 automático · 40 mm"
+      "spec_diff": "cal. 3230 automático · 40 mm",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/explorer/m224270-0001/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -2682,7 +3159,9 @@
           "seen": "2026-11-18",
           "price_text": "10.600 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -2694,7 +3173,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -2704,7 +3185,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=226570",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -2720,7 +3203,16 @@
         "url": "https://rolex.torres.pt/relogio/explorer-ii/m226570-0001/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3285 automático · 42 mm"
+      "spec_diff": "cal. 3285 automático · 42 mm",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/explorer-ii/m226570-0001/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -2768,7 +3260,9 @@
           "seen": "2026-11-18",
           "price_text": "13.150 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -2780,7 +3274,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -2790,7 +3286,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126622",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -2806,7 +3304,16 @@
         "url": "https://rolex.torres.pt/relogio/yacht-master/m126622-0001/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3235 automático · 40 mm"
+      "spec_diff": "cal. 3235 automático · 40 mm",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/yacht-master/m126622-0001/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -2853,7 +3360,9 @@
           "seen": "2026-11-18",
           "price_text": "8.100 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -2865,7 +3374,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -2875,7 +3386,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126900",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -2891,7 +3404,16 @@
         "url": "https://rolex.torres.pt/relogio/air-king/m126900-0001/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3230 automático · 40 mm"
+      "spec_diff": "cal. 3230 automático · 40 mm",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/air-king/m126900-0001/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -2934,7 +3456,9 @@
           "seen": "2026-11-19",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -2944,7 +3468,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=116400GV-0001",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -2961,7 +3487,17 @@
         "as_of": "2026-11-18"
       },
       "spec_diff": "cristal verde GV · cal. 3131 automático · 40 mm",
-      "production": "discontinued"
+      "production": "discontinued",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_confidence": "documented_discontinued_model",
+      "bracelet_source": {
+        "name": "não verificado",
+        "label": "não verificado (modelo descontinuado)",
+        "url": null,
+        "as_of": "2026-11-22"
+      },
+      "bracelet_note": "116400GV-0001 (Milgauss, descontinuado) foi vendido apenas em pulseira Oyster — facto bem documentado na literatura geral sobre o Milgauss. Tentámos aceder a rolex.com para confirmar numa página aberta por nós e recebemos 403; não temos um URL que tenhamos efectivamente aberto para citar como fonte."
     },
     {
       "brand": "Rolex",
@@ -3004,7 +3540,9 @@
           "seen": "2026-11-19",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -3014,7 +3552,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=116400GV-0002",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -3031,7 +3571,17 @@
         "as_of": "2026-11-18"
       },
       "spec_diff": "cristal verde GV · cal. 3131 automático · 40 mm",
-      "production": "discontinued"
+      "production": "discontinued",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_confidence": "documented_discontinued_model",
+      "bracelet_source": {
+        "name": "não verificado",
+        "label": "não verificado (modelo descontinuado)",
+        "url": null,
+        "as_of": "2026-11-22"
+      },
+      "bracelet_note": "116400GV-0002 (Milgauss, descontinuado) foi vendido apenas em pulseira Oyster — facto bem documentado na literatura geral sobre o Milgauss. Tentámos aceder a rolex.com para confirmar numa página aberta por nós e recebemos 403; não temos um URL que tenhamos efectivamente aberto para citar como fonte."
     },
     {
       "brand": "Rolex",
@@ -3074,7 +3624,9 @@
           "seen": "2026-11-19",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -3084,7 +3636,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=116400-0001",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -3101,7 +3655,17 @@
         "as_of": "2026-11-18"
       },
       "spec_diff": "cal. 3131 automático · 40 mm",
-      "production": "discontinued"
+      "production": "discontinued",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_confidence": "documented_discontinued_model",
+      "bracelet_source": {
+        "name": "não verificado",
+        "label": "não verificado (modelo descontinuado)",
+        "url": null,
+        "as_of": "2026-11-22"
+      },
+      "bracelet_note": "116400-0001 (Milgauss, descontinuado) foi vendido apenas em pulseira Oyster — facto bem documentado na literatura geral sobre o Milgauss. Tentámos aceder a rolex.com para confirmar numa página aberta por nós e recebemos 403; não temos um URL que tenhamos efectivamente aberto para citar como fonte."
     },
     {
       "brand": "Rolex",
@@ -3144,7 +3708,9 @@
           "seen": "2026-11-19",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -3154,7 +3720,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=116400-0002",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -3171,7 +3739,17 @@
         "as_of": "2026-11-18"
       },
       "spec_diff": "cal. 3131 automático · 40 mm",
-      "production": "discontinued"
+      "production": "discontinued",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_confidence": "documented_discontinued_model",
+      "bracelet_source": {
+        "name": "não verificado",
+        "label": "não verificado (modelo descontinuado)",
+        "url": null,
+        "as_of": "2026-11-22"
+      },
+      "bracelet_note": "116400-0002 (Milgauss, descontinuado) foi vendido apenas em pulseira Oyster — facto bem documentado na literatura geral sobre o Milgauss. Tentámos aceder a rolex.com para confirmar numa página aberta por nós e recebemos 403; não temos um URL que tenhamos efectivamente aberto para citar como fonte."
     },
     {
       "brand": "Rolex",
@@ -3200,7 +3778,9 @@
           "seen": "2026-11-18",
           "price_text": "16.750 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Watchfinder",
@@ -3211,7 +3791,9 @@
           "url": "https://www.watchfinder.co.uk/watches/rolex/daytona/126500-ln",
           "seen": "2026-11-18",
           "http": 200,
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Chrono24",
@@ -3223,7 +3805,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -3233,7 +3817,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126500LN-0001",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "market_source": {
@@ -3262,7 +3848,16 @@
         "url": "https://rolex.torres.pt/en/watch/cosmograph-daytona/m126500ln-0001/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 4131 automático · 40 mm"
+      "spec_diff": "cal. 4131 automático · 40 mm",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/en/watch/cosmograph-daytona/m126500ln-0001/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -3310,7 +3905,9 @@
           "seen": "2026-11-18",
           "price_text": "10.100 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Jubilee",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -3322,7 +3919,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -3332,7 +3931,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126234",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -3348,7 +3949,18 @@
         "url": "https://rolex.torres.pt/relogio/datejust/m126234-0015/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3235 automático · 36 mm"
+      "spec_diff": "cal. 3235 automático · 36 mm",
+      "bracelet": "Jubilee",
+      "bracelet_label": "Jubilee",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/datejust/m126234-0015/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov",
+      "config_ref": "m126234-0015",
+      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem."
     },
     {
       "brand": "Rolex",
@@ -3377,7 +3989,9 @@
           "seen": "2026-11-18",
           "price_text": "11.650 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Watchfinder / BQ Watches",
@@ -3389,7 +4003,9 @@
           "seen": "2026-11-18",
           "price_text": "£12,250",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Chrono24",
@@ -3401,7 +4017,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -3411,7 +4029,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=126334",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "market_source": {
@@ -3440,7 +4060,18 @@
         "url": "https://rolex.torres.pt/relogio/datejust/m126334-0033/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3235 automático · 41 mm"
+      "spec_diff": "cal. 3235 automático · 41 mm",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/datejust/m126334-0033/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov",
+      "config_ref": "m126334-0033",
+      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem."
     },
     {
       "brand": "Rolex",
@@ -3469,7 +4100,9 @@
           "seen": "2026-11-18",
           "price_text": "9.550 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Jubilee",
+          "bracelet_match": "match"
         },
         {
           "seller": "Watchfinder / Bonds of Brentwood",
@@ -3481,7 +4114,9 @@
           "seen": "2026-11-18",
           "price_text": "£10,650",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Chrono24",
@@ -3493,7 +4128,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -3503,7 +4140,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=278274",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "market_source": {
@@ -3532,7 +4171,18 @@
         "url": "https://rolex.torres.pt/relogio/datejust/m278274-0018/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 2236 automático · 31 mm"
+      "spec_diff": "cal. 2236 automático · 31 mm",
+      "bracelet": "Jubilee",
+      "bracelet_label": "Jubilee",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/datejust/m278274-0018/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov",
+      "config_ref": "m278274-0018",
+      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem."
     },
     {
       "brand": "Rolex",
@@ -3561,7 +4211,9 @@
           "seen": "2026-11-18",
           "price_text": "9.100 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Watchfinder / BLOOMBAR",
@@ -3573,7 +4225,9 @@
           "seen": "2026-11-18",
           "price_text": "£8,450",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Watchfinder / BLOOMBAR",
@@ -3585,7 +4239,9 @@
           "seen": "2026-11-18",
           "price_text": "£8,000",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Chrono24",
@@ -3597,7 +4253,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -3607,7 +4265,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=279174",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "market_source": {
@@ -3636,7 +4296,18 @@
         "url": "https://rolex.torres.pt/relogio/lady-datejust/m279174-0020/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 2236 automático · 28 mm"
+      "spec_diff": "cal. 2236 automático · 28 mm",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/lady-datejust/m279174-0020/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov",
+      "config_ref": "m279174-0020",
+      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem."
     },
     {
       "brand": "Rolex",
@@ -3674,7 +4345,9 @@
           "seen": "2026-11-19",
           "price_text": "6150 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -3686,7 +4359,9 @@
           "seen": "2026-11-19",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -3696,7 +4371,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=276200-0008",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {},
@@ -3709,7 +4386,16 @@
         "as_of": "2026-11-19"
       },
       "spec_diff": "cal. 2232 automático · 28 mm",
-      "production": "current"
+      "production": "current",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0008/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -3747,7 +4433,9 @@
           "seen": "2026-11-19",
           "price_text": "6150 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -3759,7 +4447,9 @@
           "seen": "2026-11-19",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -3769,7 +4459,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=276200-0009",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {},
@@ -3782,7 +4474,16 @@
         "as_of": "2026-11-19"
       },
       "spec_diff": "cal. 2232 automático · 28 mm",
-      "production": "current"
+      "production": "current",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0009/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -3820,7 +4521,9 @@
           "seen": "2026-11-19",
           "price_text": "6150 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "Oyster",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -3832,7 +4535,9 @@
           "seen": "2026-11-19",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -3842,7 +4547,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=276200-0010",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {},
@@ -3855,7 +4562,16 @@
         "as_of": "2026-11-19"
       },
       "spec_diff": "cal. 2232 automático · 28 mm",
-      "production": "current"
+      "production": "current",
+      "bracelet": "Oyster",
+      "bracelet_label": "Oyster",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0010/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov"
     },
     {
       "brand": "Rolex",
@@ -3903,7 +4619,9 @@
           "seen": "2026-11-18",
           "price_text": "50.200 €",
           "http": 200,
-          "kind": "listing"
+          "kind": "listing",
+          "bracelet": "President",
+          "bracelet_match": "match"
         },
         {
           "seller": "Chrono24",
@@ -3915,7 +4633,9 @@
           "seen": "2026-11-18",
           "http": 403,
           "note": "curl 403 (bloqueio de bots); a pesquisa pública existe num browser",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         },
         {
           "seller": "Montredo",
@@ -3925,7 +4645,9 @@
           "condition": "pesquisa de anúncios desta referência",
           "url": "https://www.montredo.com/en/search?q=228238",
           "seen": "2026-11-19",
-          "kind": "search"
+          "kind": "search",
+          "bracelet": null,
+          "bracelet_match": "unknown"
         }
       ],
       "fx": {
@@ -3941,7 +4663,18 @@
         "url": "https://rolex.torres.pt/relogio/day-date/m228238-0042/",
         "as_of": "2026-11-19"
       },
-      "spec_diff": "cal. 3255 automático · 40 mm"
+      "spec_diff": "cal. 3255 automático · 40 mm",
+      "bracelet": "President",
+      "bracelet_label": "President",
+      "bracelet_source": {
+        "name": "Torres Joalheiros",
+        "label": "Torres · 22 nov",
+        "url": "https://rolex.torres.pt/relogio/day-date/m228238-0042/",
+        "as_of": "2026-11-22"
+      },
+      "bracelet_confidence": "verified_torres_22nov",
+      "config_ref": "m228238-0042",
+      "market_bracelet_note": "O preço de mercado WatchCharts é da página da família/referência, não de uma variação de pulseira específica; pode ser neutro em pulseira ou misturar variantes. Não confirmámos preços WatchCharts ao nível da variação nesta passagem."
     },
     {
       "brand": "Omega",

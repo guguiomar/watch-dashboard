@@ -1,0 +1,1645 @@
+{
+  "updated": "2026-11-22",
+  "timezone": "Europe/Lisbon",
+  "note": "Histórico semeado apenas com datas realmente observadas nos ficheiros do Radar. Sem datas inventadas.",
+  "listings": {
+    "https://boutiquedosrelogios.pt/pt/luminor-due-38mm-panerai": {
+      "ref": "PAM01123",
+      "seller": "Boutique dos Relógios",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 7800,
+          "currency": "EUR",
+          "price_eur": 7800,
+          "price_text": "7.800 €"
+        }
+      ]
+    },
+    "https://boutiquedosrelogios.pt/pt/luminor-marina-44mm-panerai-pam01314": {
+      "ref": "PAM01314",
+      "seller": "Boutique dos Relógios",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 9200,
+          "currency": "EUR",
+          "price_eur": 9200,
+          "price_text": "9.200 €"
+        }
+      ]
+    },
+    "https://boutiquedosrelogios.pt/pt/radiomir-panerai-pam00753": {
+      "ref": "PAM00753",
+      "seller": "Boutique dos Relógios",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 5000,
+          "currency": "EUR",
+          "price_eur": 5000,
+          "price_text": "5.000 €"
+        }
+      ]
+    },
+    "https://boutiquedosrelogios.pt/pt/rel-gio-panth-re-de-cartier-cartier-wspn0013": {
+      "ref": "WSPN0013",
+      "seller": "Boutique dos Relógios",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 5400,
+          "currency": "EUR",
+          "price_eur": 5400,
+          "price_text": "5.400 €"
+        }
+      ]
+    },
+    "https://boutiquedosrelogios.pt/pt/rel-gio-tank-fran-aise-cartier-wsta0129": {
+      "ref": "WSTA0129",
+      "seller": "Boutique dos Relógios",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 4500,
+          "currency": "EUR",
+          "price_eur": 4500,
+          "price_text": "4.500 €"
+        }
+      ]
+    },
+    "https://boutiquedosrelogios.pt/pt/santos-dumont-cartier-wssa0032": {
+      "ref": "WSSA0032",
+      "seller": "Boutique dos Relógios",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 7900,
+          "currency": "EUR",
+          "price_eur": 7900,
+          "price_text": "7.900 €"
+        }
+      ]
+    },
+    "https://boutiquedosrelogios.pt/pt/tank-cartier-wgta0342": {
+      "ref": "WGTA0342",
+      "seller": "Boutique dos Relógios",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 12500,
+          "currency": "EUR",
+          "price_eur": 12500,
+          "price_text": "12.500 €"
+        }
+      ]
+    },
+    "https://boutiquedosrelogios.pt/pt/tank-must-cartier-wsta0042": {
+      "ref": "WSTA0042",
+      "seller": "Boutique dos Relógios",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 3800,
+          "currency": "EUR",
+          "price_eur": 3800,
+          "price_text": "3.800 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/en/watch/cosmograph-daytona/m126500ln-0001": {
+      "ref": "126500LN-0001",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 16750,
+          "currency": "EUR",
+          "price_eur": 16750,
+          "price_text": "16.750 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/air-king/m126900-0001": {
+      "ref": "126900",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 8100,
+          "currency": "EUR",
+          "price_eur": 8100,
+          "price_text": "8.100 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/datejust/m126234-0015": {
+      "ref": "126234",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 10100,
+          "currency": "EUR",
+          "price_eur": 10100,
+          "price_text": "10.100 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/datejust/m126334-0033": {
+      "ref": "126334",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 11650,
+          "currency": "EUR",
+          "price_eur": 11650,
+          "price_text": "11.650 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/datejust/m278274-0018": {
+      "ref": "278274",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 9550,
+          "currency": "EUR",
+          "price_eur": 9550,
+          "price_text": "9.550 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/day-date/m228238-0042": {
+      "ref": "228238",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 50200,
+          "currency": "EUR",
+          "price_eur": 50200,
+          "price_text": "50.200 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/explorer-ii/m226570-0001": {
+      "ref": "226570",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 10600,
+          "currency": "EUR",
+          "price_eur": 10600,
+          "price_text": "10.600 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/explorer/m224270-0001": {
+      "ref": "224270",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 8350,
+          "currency": "EUR",
+          "price_eur": 8350,
+          "price_text": "8.350 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/gmt-master-ii/m126710blnr-0002": {
+      "ref": "126710BLNR",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 11950,
+          "currency": "EUR",
+          "price_eur": 11950,
+          "price_text": "11.950 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/gmt-master-ii/m126710grnr-0003": {
+      "ref": "126710GRNR",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 11950,
+          "currency": "EUR",
+          "price_eur": 11950,
+          "price_text": "11.950 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/gmt-master-ii/m126711chnr-0002": {
+      "ref": "126711CHNR",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 20000,
+          "currency": "EUR",
+          "price_eur": 20000,
+          "price_text": "20.000 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/gmt-master-ii/m126713grnr-0001": {
+      "ref": "126713GRNR",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 20300,
+          "currency": "EUR",
+          "price_eur": 20300,
+          "price_text": "20.300 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/gmt-master-ii/m126715chnr-0002": {
+      "ref": "126715CHNR",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 57300,
+          "currency": "EUR",
+          "price_eur": 57300,
+          "price_text": "57.300 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/gmt-master-ii/m126720vtnr-0001": {
+      "ref": "126720VTNR",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 12250,
+          "currency": "EUR",
+          "price_eur": 12250,
+          "price_text": "12.250 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/lady-datejust/m279174-0020": {
+      "ref": "279174",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 9100,
+          "currency": "EUR",
+          "price_eur": 9100,
+          "price_text": "9.100 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0001": {
+      "ref": "126000-0001",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 6700,
+          "currency": "EUR",
+          "price_eur": 6700,
+          "price_text": "6.700 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0006": {
+      "ref": "126000-0006",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 6700,
+          "currency": "EUR",
+          "price_eur": 6700,
+          "price_text": "6.700 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0008": {
+      "ref": "126000-0008",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 6700,
+          "currency": "EUR",
+          "price_eur": 6700,
+          "price_text": "6.700 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0011": {
+      "ref": "126000-0011",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 6700,
+          "currency": "EUR",
+          "price_eur": 6700,
+          "price_text": "6.700 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0012": {
+      "ref": "126000-0012",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 6700,
+          "currency": "EUR",
+          "price_eur": 6700,
+          "price_text": "6700 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0014": {
+      "ref": "126000-0014",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 6700,
+          "currency": "EUR",
+          "price_eur": 6700,
+          "price_text": "6700 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m126000-0015": {
+      "ref": "126000-0015",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 6700,
+          "currency": "EUR",
+          "price_eur": 6700,
+          "price_text": "6700 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0001": {
+      "ref": "134300-0001",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 7050,
+          "currency": "EUR",
+          "price_eur": 7050,
+          "price_text": "7050 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0004": {
+      "ref": "134300-0004",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 7050,
+          "currency": "EUR",
+          "price_eur": 7050,
+          "price_text": "7050 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0006": {
+      "ref": "134300-0006",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 7050,
+          "currency": "EUR",
+          "price_eur": 7050,
+          "price_text": "7050 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0007": {
+      "ref": "134300-0007",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 7050,
+          "currency": "EUR",
+          "price_eur": 7050,
+          "price_text": "7050 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0008": {
+      "ref": "134300-0008",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 7050,
+          "currency": "EUR",
+          "price_eur": 7050,
+          "price_text": "7050 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m134300-0009": {
+      "ref": "134300-0009",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 7050,
+          "currency": "EUR",
+          "price_eur": 7050,
+          "price_text": "7050 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0008": {
+      "ref": "276200-0008",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 6150,
+          "currency": "EUR",
+          "price_eur": 6150,
+          "price_text": "6150 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0009": {
+      "ref": "276200-0009",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 6150,
+          "currency": "EUR",
+          "price_eur": 6150,
+          "price_text": "6150 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0010": {
+      "ref": "276200-0010",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 6150,
+          "currency": "EUR",
+          "price_eur": 6150,
+          "price_text": "6150 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0006": {
+      "ref": "277200-0006",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 6250,
+          "currency": "EUR",
+          "price_eur": 6250,
+          "price_text": "6.250 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0014": {
+      "ref": "277200-0014",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 6250,
+          "currency": "EUR",
+          "price_eur": 6250,
+          "price_text": "6250 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/oyster-perpetual/m277200-0016": {
+      "ref": "277200-0016",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 6250,
+          "currency": "EUR",
+          "price_eur": 6250,
+          "price_text": "6250 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/sea-dweller/m126600-0002": {
+      "ref": "126600",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 14450,
+          "currency": "EUR",
+          "price_eur": 14450,
+          "price_text": "14.450 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/submariner/m124060-0001": {
+      "ref": "124060",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 10050,
+          "currency": "EUR",
+          "price_eur": 10050,
+          "price_text": "10.050 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/submariner/m126610ln-0001": {
+      "ref": "126610LN",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 11300,
+          "currency": "EUR",
+          "price_eur": 11300,
+          "price_text": "11.300 €"
+        }
+      ]
+    },
+    "https://rolex.torres.pt/relogio/yacht-master/m126622-0001": {
+      "ref": "126622",
+      "seller": "Torres Joalheiros",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 13150,
+          "currency": "EUR",
+          "price_eur": 13150,
+          "price_text": "13.150 €"
+        }
+      ]
+    },
+    "https://www.horando.de/en/products/cartier-santos-de-cartier-wssa0082": {
+      "ref": "WSSA0082",
+      "seller": "HORANDO",
+      "country": "DE",
+      "type": "dealer",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 6700,
+          "currency": "EUR",
+          "price_eur": 6700,
+          "price_text": "6.700,00 €"
+        }
+      ]
+    },
+    "https://www.kronos360.com/en/gmt-master-2/51348-126710blnr-rolex-000-eur-126710blnr000-eur.html": {
+      "ref": "126710BLNR",
+      "seller": "Kronos 360",
+      "country": "FR",
+      "type": "dealer",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 19000,
+          "currency": "EUR",
+          "price_eur": 19000,
+          "price_text": "19.000 €"
+        }
+      ]
+    },
+    "https://www.kronos360.com/en/gmt-master-2/61681-126710grnr-rolex-gmt-master-ii-bruce-wayne.html": {
+      "ref": "126710GRNR",
+      "seller": "Kronos 360",
+      "country": "FR",
+      "type": "dealer",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 20500,
+          "currency": "EUR",
+          "price_eur": 20500,
+          "price_text": "20.500 €"
+        }
+      ]
+    },
+    "https://www.kronos360.com/en/gmt-master-2/61837-126710blro-rolex-gmt-master-ii-126710blro-pepsi.html": {
+      "ref": "126710BLRO",
+      "seller": "Kronos 360",
+      "country": "FR",
+      "type": "dealer",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 19500,
+          "currency": "EUR",
+          "price_eur": 19500,
+          "price_text": "19.500 €"
+        }
+      ]
+    },
+    "https://www.kronos360.com/en/omega-speedmaster/61754-31030425001002-omega-speedmaster-moonwatch-31030425001002.html": {
+      "ref": "310.30.42.50.01.002",
+      "seller": "Kronos 360",
+      "country": "FR",
+      "type": "dealer",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 6700,
+          "currency": "EUR",
+          "price_eur": 6700,
+          "price_text": "6.700 €"
+        }
+      ]
+    },
+    "https://www.kronos360.com/en/submariner/61752-124060-rolex-submariner-124060.html": {
+      "ref": "124060",
+      "seller": "Kronos 360",
+      "country": "FR",
+      "type": "dealer",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 13100,
+          "currency": "EUR",
+          "price_eur": 13100,
+          "price_text": "13.100 €"
+        }
+      ]
+    },
+    "https://www.machadojoalheiro.com/shop/catalogue/cartier-santos-grande-modelo_4230": {
+      "ref": "WSSA0018",
+      "seller": "Machado Joalheiro",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 9300,
+          "currency": "EUR",
+          "price_eur": 9300,
+          "price_text": "9.300 €"
+        }
+      ]
+    },
+    "https://www.machadojoalheiro.com/shop/catalogue/cartier-santos-medio-modelo_4237/?r=105": {
+      "ref": "WSSA0029",
+      "seller": "Machado Joalheiro",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 8500,
+          "currency": "EUR",
+          "price_eur": 8500,
+          "price_text": "8.500 €"
+        }
+      ]
+    },
+    "https://www.machadojoalheiro.com/shop/catalogue/cartier-santos-pequeno-modelo_8443": {
+      "ref": "WSSA0082",
+      "seller": "Machado Joalheiro",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 6900,
+          "currency": "EUR",
+          "price_eur": 6900,
+          "price_text": "6.900 €"
+        }
+      ]
+    },
+    "https://www.marcolino.pt/en/watches/omega/moonwatch-professional-co-axial-master-chronometer-chrono-31030425001001-8015": {
+      "ref": "310.30.42.50.01.001",
+      "seller": "Marcolino 1926",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 7800,
+          "currency": "EUR",
+          "price_eur": 7800,
+          "price_text": "7.800 €"
+        }
+      ]
+    },
+    "https://www.marcolino.pt/en/watches/omega/seamaster-aqua-terra-150m-co-axial-master-41mm-22010412101001-755": {
+      "ref": "220.10.41.21.01.001",
+      "seller": "Marcolino 1926",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 7100,
+          "currency": "EUR",
+          "price_eur": 7100,
+          "price_text": "7.100 €"
+        }
+      ]
+    },
+    "https://www.marcolino.pt/en/watches/omega/seamaster-diver-300m-co-axial-master-21030422001001-767": {
+      "ref": "210.30.42.20.01.001",
+      "seller": "Marcolino 1926",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 6700,
+          "currency": "EUR",
+          "price_eur": 6700,
+          "price_text": "6.700 €"
+        }
+      ]
+    },
+    "https://www.marcolino.pt/pt/relogios/omega/seamaster-aqua-terra-22010342001001-37369": {
+      "ref": "220.10.34.20.01.001",
+      "seller": "Marcolino 1926",
+      "country": "PT",
+      "type": "AD",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 7500,
+          "currency": "EUR",
+          "price_eur": 7500,
+          "price_text": "7.500 €"
+        }
+      ]
+    },
+    "https://www.montredo.com/products/cartier-panth-re-quartz-silver-30mm-59063": {
+      "ref": "WSPN0013",
+      "seller": "Montredo",
+      "country": "DE",
+      "type": "dealer",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 4730,
+          "currency": "EUR",
+          "price_eur": 4730,
+          "price_text": "4.730 €"
+        }
+      ]
+    },
+    "https://www.montredo.com/products/cartier-santos-automatic-silver-42mm-49684": {
+      "ref": "WSSA0029",
+      "seller": "Montredo",
+      "country": "DE",
+      "type": "dealer",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 7900,
+          "currency": "EUR",
+          "price_eur": 7900,
+          "price_text": "7.900 €"
+        }
+      ]
+    },
+    "https://www.montredo.com/products/cartier-tank-francaise-quartz-silver-25-7-x-21-2mm-49933": {
+      "ref": "WSTA0129",
+      "seller": "Montredo",
+      "country": "DE",
+      "type": "dealer",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 4130,
+          "currency": "EUR",
+          "price_eur": 4130,
+          "price_text": "4.130 €"
+        }
+      ]
+    },
+    "https://www.montredo.com/products/panerai-luminor-automatic-white-44mm-38344": {
+      "ref": "PAM01314",
+      "seller": "Montredo",
+      "country": "DE",
+      "type": "dealer",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 7370,
+          "currency": "EUR",
+          "price_eur": 7370,
+          "price_text": "7.370 €"
+        }
+      ]
+    },
+    "https://www.uhrinstinkt.de/en/products/omega-speedmaster-38-co-axial-chronograph-38-mm-324-30-38-50-01-001-plx501787": {
+      "ref": "324.30.38.50.01.001",
+      "seller": "Uhrinstinkt",
+      "country": "DE",
+      "type": "dealer",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 3900,
+          "currency": "EUR",
+          "price_eur": 3900,
+          "price_text": "3.900,00 €"
+        }
+      ]
+    },
+    "https://www.uhrinstinkt.de/en/products/rolex-gmt-master-ii-batgirl-m126710blnr-0002-plx501820": {
+      "ref": "126710BLNR",
+      "seller": "Uhrinstinkt",
+      "country": "DE",
+      "type": "dealer",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 16400,
+          "currency": "EUR",
+          "price_eur": 16400,
+          "price_text": "16.400,00 €"
+        }
+      ]
+    },
+    "https://www.uhrinstinkt.de/en/products/rolex-gmt-master-ii-batman-m126710blnr-0003-plx501808": {
+      "ref": "126710BLNR",
+      "seller": "Uhrinstinkt",
+      "country": "DE",
+      "type": "dealer",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 15450,
+          "currency": "EUR",
+          "price_eur": 15450,
+          "price_text": "15.450,00 €"
+        }
+      ]
+    },
+    "https://www.uhrinstinkt.de/en/products/rolex-gmt-master-ii-bruce-wayne-m126710grnr-0003-plx501918": {
+      "ref": "126710GRNR",
+      "seller": "Uhrinstinkt",
+      "country": "DE",
+      "type": "dealer",
+      "kind": "listing",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-19",
+          "price": 19500,
+          "currency": "EUR",
+          "price_eur": 19500,
+          "price_text": "19.500,00 €"
+        }
+      ]
+    },
+    "https://www.watchfinder.co.uk/watches/cartier/ballon-bleu/wsbb0062/431775": {
+      "ref": "WSBB0062",
+      "seller": "Watchfinder",
+      "country": "GB",
+      "type": "CPO",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 4950,
+          "currency": "GBP",
+          "price_eur": 5942,
+          "price_text": "£4,950"
+        }
+      ]
+    },
+    "https://www.watchfinder.co.uk/watches/cartier/santos-de-cartier/wssa0018/445096": {
+      "ref": "WSSA0018",
+      "seller": "Watchfinder / Kettle Club Watches",
+      "country": "GB",
+      "type": "marketplace",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 7995,
+          "currency": "GBP",
+          "price_eur": 9597,
+          "price_text": "£7,995"
+        }
+      ]
+    },
+    "https://www.watchfinder.co.uk/watches/cartier/santos-de-cartier/wssa0082/437426": {
+      "ref": "WSSA0082",
+      "seller": "Watchfinder / Knights Fine Jewellery",
+      "country": "GB",
+      "type": "marketplace",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 5995,
+          "currency": "GBP",
+          "price_eur": 7196,
+          "price_text": "£5,995"
+        }
+      ]
+    },
+    "https://www.watchfinder.co.uk/watches/panerai/luminor-due/pam01123/456976": {
+      "ref": "PAM01123",
+      "seller": "Watchfinder / BLOOMBAR",
+      "country": "GB",
+      "type": "marketplace",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 4450,
+          "currency": "GBP",
+          "price_eur": 5342,
+          "price_text": "£4,450"
+        }
+      ]
+    },
+    "https://www.watchfinder.co.uk/watches/panerai/submersible/pam00683/407836": {
+      "ref": "PAM00683",
+      "seller": "Watchfinder / Mark Worthington Jewellers",
+      "country": "GB",
+      "type": "marketplace",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 6695,
+          "currency": "GBP",
+          "price_eur": 8037,
+          "price_text": "£6,695"
+        }
+      ]
+    },
+    "https://www.watchfinder.co.uk/watches/rolex/datejust-41/126334/453530": {
+      "ref": "126334",
+      "seller": "Watchfinder / BQ Watches",
+      "country": "GB",
+      "type": "marketplace",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 12250,
+          "currency": "GBP",
+          "price_eur": 14705,
+          "price_text": "£12,250"
+        }
+      ]
+    },
+    "https://www.watchfinder.co.uk/watches/rolex/datejust-lady-28/279174/426275": {
+      "ref": "279174",
+      "seller": "Watchfinder / BLOOMBAR",
+      "country": "GB",
+      "type": "marketplace",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 8000,
+          "currency": "GBP",
+          "price_eur": 9603,
+          "price_text": "£8,000"
+        }
+      ]
+    },
+    "https://www.watchfinder.co.uk/watches/rolex/datejust-lady-28/279174/434799": {
+      "ref": "279174",
+      "seller": "Watchfinder / BLOOMBAR",
+      "country": "GB",
+      "type": "marketplace",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 8450,
+          "currency": "GBP",
+          "price_eur": 10143,
+          "price_text": "£8,450"
+        }
+      ]
+    },
+    "https://www.watchfinder.co.uk/watches/rolex/datejust-lady-31/278274/448820": {
+      "ref": "278274",
+      "seller": "Watchfinder / Bonds of Brentwood",
+      "country": "GB",
+      "type": "marketplace",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 10650,
+          "currency": "GBP",
+          "price_eur": 12784,
+          "price_text": "£10,650"
+        }
+      ]
+    },
+    "https://www.watchfinder.co.uk/watches/rolex/gmt-master-ii/126710-blro/454340": {
+      "ref": "126710BLRO",
+      "seller": "Watchfinder / BQ Watches",
+      "country": "GB",
+      "type": "marketplace",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 22450,
+          "currency": "GBP",
+          "price_eur": 26949,
+          "price_text": "£22,450"
+        }
+      ]
+    },
+    "https://www.watchfinder.co.uk/watches/rolex/submariner/126610-ln/456946": {
+      "ref": "126610LN",
+      "seller": "Watchfinder / Kettle Club Watches",
+      "country": "GB",
+      "type": "marketplace",
+      "kind": "listing",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "status": "active",
+      "gone_date": null,
+      "gone_http": null,
+      "price_observations": [
+        {
+          "date": "2026-11-18",
+          "price": 12495,
+          "currency": "GBP",
+          "price_eur": 14999,
+          "price_text": "£12,495"
+        }
+      ]
+    }
+  }
+}

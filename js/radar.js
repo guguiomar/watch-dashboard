@@ -13,13 +13,13 @@
     maximumFractionDigits: 1,
   });
 
-  const INK = "#1B1814";
-  const GOLD = "#C89612";
-  const NAVY = "#1E2A36";
-  const MUTED = "#6E675D";
-  const PAPER2 = "#E8E1D4";
-  const UP = "#A63C24";
-  const DOWN = "#3E5A46";
+  const INK = "#111111";
+  const GOLD = "#111111";
+  const NAVY = "#111111";
+  const MUTED = "#6B6B6B";
+  const PAPER2 = "#F3F1EC";
+  const UP = "#8C2F1B";
+  const DOWN = "#2F4F3E";
 
   function money(n) {
     return n == null ? "—" : EUR.format(n);
@@ -53,18 +53,68 @@
   function isPricedListing(o) {
     return o && o.price_eur != null && o.url && !offerIsSearch(o);
   }
+  const NON_EU = { GB: 1, UK: 1, US: 1, CH: 1, JP: 1, HK: 1, SG: 1, AE: 1 };
+  function landedEur(price) {
+    if (price == null) return null;
+    return Math.round(1.23 * (price + 150.80) * 100) / 100;
+  }
+  function isImportOffer(o) {
+    return !!(o && (o.import_flag || NON_EU[(o.country || "").toUpperCase()]));
+  }
+  function compareEur(o) {
+    if (!o || o.price_eur == null) return null;
+    return isImportOffer(o) ? landedEur(o.price_eur) : o.price_eur;
+  }
+  function gapPct(compare, base) {
+    if (compare == null || base == null || base === 0) return null;
+    return Math.round((1000 * (compare - base)) / base) / 10;
+  }
+  function braceletOk(o, w) {
+    if (!w || (w.brand || "") !== "Rolex") return true;
+    return o.bracelet_match !== "mismatch";
+  }
+  function offerBadgesHTML(o, w) {
+    const cmp = compareEur(o);
+    if (cmp == null) return "";
+    const bits = [];
+    const gR = gapPct(cmp, w && w.retail_pt_eur);
+    const gM = gapPct(cmp, w && w.market_eur);
+    if (gR != null) {
+      const above = gR > 0;
+      bits.push(`<span class="gap-pill ${above ? "up" : "down"}">${above ? "Acima do retalho" : "Abaixo do retalho"} ${pct(gR)}</span>`);
+    }
+    if (gM != null) {
+      const above = gM > 0;
+      bits.push(`<span class="gap-pill ${above ? "up" : "down"}">${above ? "Acima do mercado" : "Abaixo do mercado"} ${pct(gM)}</span>`);
+    }
+    return bits.length ? `<div class="chip-row gap-row">${bits.join("")}</div>` : "";
+  }
+  function landedLineHTML(o) {
+    if (!isImportOffer(o) || o.price_eur == null) return "";
+    const formula = ((typeof DEALS !== "undefined" && DEALS && DEALS.thresholds) || {}).landed_formula || "1,23 × (preço + 150,80 €)";
+    return `<p class="landed-line">custo final c/ IVA e portes ≈ <strong>${money(compareEur(o))}</strong>
+      <span class="info-icon" tabindex="0" title="${formula.replace(/"/g, "&quot;")}">ⓘ</span></p>`;
+  }
   function bestDirectOffer(w) {
     const priced = (w.offers || []).filter(isPricedListing);
-    const dealers = priced.filter((o) => o.type !== "AD");
+    const dealers = priced.filter((o) => o.type !== "AD" && braceletOk(o, w));
     const pool = dealers.length ? dealers.slice() : [];
-    pool.sort((a, b) => a.price_eur - b.price_eur);
+    pool.sort((a, b) => compareEur(a) - compareEur(b));
     return pool[0] || null;
   }
   function bestOfferHTML(w) {
     const o = bestDirectOffer(w);
     if (!o) return "";
-    const who = shortSeller(o.seller) + (o.seen ? " · " + formatSeenShort(o.seen) : "");
-    return `<p class="price best"><span class="price-label">Melhor oferta</span><a class="best-link" href="${o.url}" target="_blank" rel="noopener noreferrer" data-stop="1">${money(o.price_eur)}</a>${sourceHTML({ label: who, url: o.url })}</p>`;
+    const who = shortSeller(o.seller) + (o.country ? " · " + o.country : "") + (o.seen ? " · " + formatSeenShort(o.seen) : "");
+    const fx = o.price_text && !/^€|^[0-9].*€/.test(o.price_text) ? ` <span class="src">${escapeHtml(o.price_text)}</span>` : "";
+    return `<div class="pdp-offer">
+      <span class="price-label">Melhor oferta</span>
+      <a class="best-link" href="${o.url}" target="_blank" rel="noopener noreferrer" data-stop="1">${money(o.price_eur)}</a>${fx}
+      ${sourceHTML({ label: who, url: o.url })}
+      ${landedLineHTML(o)}
+      ${offerBadgesHTML(o, w)}
+      <a class="pdp-cta" href="${o.url}" target="_blank" rel="noopener noreferrer" data-stop="1">Ver anúncio ↗ ${escapeHtml(shortSeller(o.seller))}</a>
+    </div>`;
   }
 
   function familyName(model) {
@@ -182,7 +232,11 @@
       const ap = a.price_eur != null ? 0 : isSearch(a) ? 2 : 1;
       const bp = b.price_eur != null ? 0 : isSearch(b) ? 2 : 1;
       if (ap !== bp) return ap - bp;
-      if (a.price_eur != null && b.price_eur != null) return a.price_eur - b.price_eur;
+      if (a.price_eur != null && b.price_eur != null) {
+        const ac = compareEur(a), bc = compareEur(b);
+        if (ac != null && bc != null) return ac - bc;
+        return a.price_eur - b.price_eur;
+      }
       return 0;
     });
     return copy;
@@ -462,6 +516,7 @@
   let TRENDS = null;
   let SOCIAL = null;
   let DEALS = null;
+  let LISTINGS_HISTORY = null;
   let INDEX = null;
   let HISTORY = { snapshots: [] };
   let PHOTOS = {};
@@ -568,33 +623,33 @@
       .replace(/"/g, "&quot;");
   }
 
+  function modelDealStatus(w) {
+    const ev = ((DEALS && DEALS.evaluated) || []).filter((e) => e.ref === w.ref && !e.bracelet_mismatch);
+    if (!ev.length) return null;
+    const th = (DEALS && DEALS.thresholds) || {};
+    const lim = th.market_discount_pct != null ? th.market_discount_pct : 5;
+    const dealRefs = new Set(((DEALS && DEALS.deals) || []).filter((d) => !d.bracelet_mismatch).map((d) => d.ref));
+    if (ev.some((e) => e.qualifies === true) || dealRefs.has(w.ref)) return "comprar";
+    ev.sort((a, b) => (a.gap_vs_market_pct != null ? a.gap_vs_market_pct : 999) - (b.gap_vs_market_pct != null ? b.gap_vs_market_pct : 999));
+    if (ev[0].gap_vs_market_pct != null && ev[0].gap_vs_market_pct <= lim) return "perto";
+    return "esperar";
+  }
   function cardHTML(w) {
-    const signalCls = signalClass(w.signal);
-    let premiumChip = "";
-    if (w.signal && w.signal !== "—") {
-      const label = w.premium_pct != null ? pct(w.premium_pct) : w.signal;
-      premiumChip = `<span class="chip premium ${signalCls}">${escapeHtml(label)}</span>`;
-    }
-    const retailChip = w.retail_pt_eur != null
-      ? `<span class="chip retail" title="${escapeHtml((w.retail_source && w.retail_source.label) || "")}">PVP ${money(w.retail_pt_eur)}${w.retail_source && w.retail_source.url ? ` <a class="chip-src" href="${w.retail_source.url}" target="_blank" rel="noopener noreferrer" data-stop="1">↗</a>` : ""}</span>`
+    const status = modelDealStatus(w);
+    const statusLabel = { comprar: "Comprar", perto: "Perto", esperar: "Esperar" }[status];
+    const tag = status ? `<span class="status-tag ${status}">${statusLabel}</span>` : "";
+    const bracelet = w.bracelet_label || w.bracelet
+      ? `<span class="bracelet-chip" title="${escapeHtml((w.bracelet_note || w.market_bracelet_note || (w.bracelet_source && w.bracelet_source.label) || "").toString())}">${escapeHtml(w.bracelet_label || w.bracelet)}</span>`
       : "";
-    const best = bestDirectOffer(w);
-    const offersHTML = best
-      ? `<a class="buy-btn" href="${best.url}" target="_blank" rel="noopener noreferrer" data-stop="1">
-          <span class="seller">${escapeHtml(shortSeller(best.seller))}</span>
-          <span class="oprice">${money(best.price_eur)}${best.seen ? `<span class="osrc">${escapeHtml(formatSeenShort(best.seen))}</span>` : ""}</span>
-        </a>`
-      : `<div class="offers">${offerButtons(w, 1)}</div>`;
     return `<article class="card" tabindex="0" role="button" data-ref="${escapeHtml(w.ref)}" aria-label="${escapeHtml(w.brand + " " + w.model)}">
-      <div class="illu">${portrait(w)}</div>
+      <div class="illu">${portrait(w)}${tag}</div>
       <p class="brand">${escapeHtml(w.brand)}</p>
       <h3 class="model">${escapeHtml(w.model)}</h3>
-      <p class="ref">${escapeHtml(w.ref)}</p>
-      <p class="price">${money(w.market_eur)}${sourceHTML(w.market_source)}</p>
-      <div class="chip-row">${retailChip}${premiumChip}</div>
-      ${sparkline(w.ref)}
-      ${cardFlagsHTML(w)}
-      ${offersHTML}
+      ${bracelet}
+      <div class="price-block">
+        <p class="price"><span>Mercado ${money(w.market_eur)}</span>${sourceHTML(w.market_source)}</p>
+        ${w.retail_pt_eur != null ? `<p class="retail-line"><span>PVP PT ${money(w.retail_pt_eur)}</span>${sourceHTML(w.retail_source)}</p>` : ""}
+      </div>
     </article>`;
   }
 
@@ -605,8 +660,10 @@
     const sort = document.getElementById("f-sort").value;
     const sizeEl = document.getElementById("f-size");
     const priceEl = document.getElementById("f-price");
+    const brEl = document.getElementById("f-bracelet");
     const size = sizeEl ? sizeEl.value : "";
     const price = priceEl ? priceEl.value : "";
+    const bracelet = brEl ? brEl.value : "";
     const qEl = document.getElementById("f-search");
     const q = qEl ? norm(qEl.value) : "";
     let list = DATA.watches.slice();
@@ -620,6 +677,7 @@
       const hi = hiS === "" ? Infinity : Number(hiS);
       list = list.filter((w) => w.market_eur != null && w.market_eur >= lo && w.market_eur < hi);
     }
+    if (bracelet) list = list.filter((w) => (w.bracelet || w.bracelet_label) === bracelet);
     if (q) {
       list = list.filter((w) => {
         const hay = norm([w.brand, w.model, w.ref].join(" "));
@@ -669,6 +727,7 @@
       ["sort", "f-sort"],
       ["size", "f-size"],
       ["price", "f-price"],
+      ["bracelet", "f-bracelet"],
     ];
     map.forEach(([key, id]) => {
       const el = document.getElementById(id);
@@ -682,15 +741,16 @@
     if (q) next.set("q", q);
     Object.keys(keep).forEach((k) => next.set(k, keep[k]));
     const qs = next.toString();
-    const url = qs ? location.pathname + "?" + qs : location.pathname;
-    if (url !== location.pathname + location.search) {
+    const url = (qs ? location.pathname + "?" + qs : location.pathname) + (location.hash || "");
+    const cur = location.pathname + location.search + (location.hash || "");
+    if (url !== cur) {
       history.replaceState(null, "", url);
     }
   }
 
   function applyURL() {
     const params = new URLSearchParams(location.search);
-    ["brand", "gender", "signal", "sort", "size", "price"].forEach((key) => {
+    ["brand", "gender", "signal", "sort", "size", "price", "bracelet"].forEach((key) => {
       const el = document.getElementById("f-" + key);
       if (el && params.has(key)) el.value = params.get(key);
     });
@@ -720,22 +780,79 @@
     return ({ AD: "AD", dealer: "dealer", marketplace: "mercado", CPO: "CPO" }[t] || t || "");
   }
 
+  function historyForRef(ref) {
+    const all = (LISTINGS_HISTORY && LISTINGS_HISTORY.listings) || {};
+    const out = [];
+    Object.keys(all).forEach((url) => {
+      const rec = all[url];
+      if (rec && rec.ref === ref) out.push(Object.assign({ url: url }, rec));
+    });
+    return out;
+  }
+  function daysBetween(a, b) {
+    if (!a || !b) return 0;
+    const da = new Date(a + "T12:00:00");
+    const db = new Date(b + "T12:00:00");
+    return Math.max(0, Math.round((db - da) / 86400000));
+  }
+  function listingHistoryHTML(ref) {
+    const rows = historyForRef(ref);
+    if (!rows.length) return "";
+    rows.sort((a, b) => (a.status === "gone") - (b.status === "gone") || String(b.last_seen || "").localeCompare(String(a.last_seen || "")));
+    const items = rows.map((r) => {
+      const obs = r.price_observations || [];
+      const last = obs[obs.length - 1] || {};
+      const days = daysBetween(r.first_seen, r.last_seen || r.first_seen);
+      const daysTxt = days > 0 ? days + " dias no ar" : "visto " + formatSeenShort(r.first_seen);
+      let path = "";
+      if (obs.length >= 2) path = " · " + obs.map((o) => money(o.price_eur)).join(" → ");
+      const gone = r.status === "gone"
+        ? `<span class="hist-gone">provavelmente vendido${r.gone_date ? " · " + formatSeenShort(r.gone_date) : ""}</span>`
+        : "";
+      return `<li class="${escapeHtml(r.status || "active")}">
+        <span class="hist-seller">${escapeHtml(shortSeller(r.seller))}${r.country ? " · " + escapeHtml(r.country) : ""}</span>
+        <span class="hist-price">${money(last.price_eur)}</span>
+        <span class="hist-meta">${escapeHtml(daysTxt)}${path}</span>
+        ${gone}
+      </li>`;
+    }).join("");
+    return `<section class="hist"><h3>Histórico de anúncios</h3><ul>${items}</ul></section>`;
+  }
+
   function openDrawer(ref) {
+    openProduct(ref, true);
+  }
+  function openProduct(ref, push) {
     const w = DATA.watches.find((x) => x.ref === ref);
     if (!w) return;
-    const d = document.getElementById("drawer");
-    const s = document.getElementById("scrim");
-    const body = document.getElementById("drawer-body");
+    const root = document.getElementById("view-pdp");
+    if (!root) return;
     const sales = w.demand && w.demand.sales_1y != null ? NUM.format(w.demand.sales_1y) : "—";
     const days = w.demand && w.demand.days_on_market != null ? NUM1.format(w.demand.days_on_market) : "—";
+    const marketNote = (w.market_note || w.market_bracelet_note)
+      ? ` <span class="info-icon" tabindex="0" title="${escapeHtml([w.market_note, w.market_bracelet_note].filter(Boolean).join(" "))}">ⓘ</span>`
+      : "";
+    const bracelet = (w.bracelet_label || w.bracelet)
+      ? `<span class="bracelet-chip" title="${escapeHtml((w.bracelet_note || (w.bracelet_source && (w.bracelet_source.label + (w.bracelet_source.url ? " · " + w.bracelet_source.url : ""))) || "").toString())}">${escapeHtml(w.bracelet_label || w.bracelet)}</span>`
+      : "";
+    const marketBadge = (w.signal && w.signal !== "—")
+      ? `<span class="pill ${signalClass(w.signal)}">${escapeHtml(w.signal)}${w.premium_pct != null ? " · " + pct(w.premium_pct) : ""}</span>`
+      : "";
     const offers = rankedOffers(w.offers)
       .map((o) => {
         const search = offerIsSearch(o) || /chrono24/i.test(o.seller);
-        const flag = search ? `<span class="tag-search">pesquisa</span>` : "";
+        const flag = search
+          ? `<span class="tag-search">pesquisa</span>`
+          : (o.bracelet_match === "mismatch"
+            ? `<span class="tag-flag mismatch">pulseira diferente</span>`
+            : (o.bracelet_match === "unknown" && w.bracelet ? `<span class="tag-flag">pulseira por confirmar</span>` : (o.bracelet ? `<span class="tag-flag">${escapeHtml(o.bracelet)}</span>` : "")));
         const cond = o.condition ? escapeHtml(o.condition) : "";
         const seen = o.seen ? formatSeen(o.seen) : "";
         const meta = [typeLabel(o.type), o.country, cond, seen].filter(Boolean).join(" · ");
+        const cmp = !search ? compareEur(o) : null;
         const priceTxt = !search && o.price_eur != null ? money(o.price_eur) : (search ? "pesquisa" : "abrir");
+        const landed = !search && isImportOffer(o) && cmp != null ? `<p class="offer-meta">custo final c/ IVA e portes ≈ ${money(cmp)}</p>` : "";
+        const badges = !search && o.type !== "AD" ? offerBadgesHTML(o, w) : "";
         return `<li>
           <a href="${o.url}" target="_blank" rel="noopener noreferrer">
             <div class="offer-top">
@@ -743,39 +860,117 @@
               <span class="offer-price">${priceTxt}</span>
             </div>
             <p class="offer-meta">${meta}</p>
+            ${landed}
+            ${badges}
           </a>
         </li>`;
       })
       .join("");
-    body.innerHTML = `
-      <p class="brand">${escapeHtml(w.brand)}</p>
-      <h2 class="model" id="drawer-title">${escapeHtml(w.model)}</h2>
-      <div class="illu">${portrait(w)}</div>
-      <p class="ref">${escapeHtml(w.ref)}</p>
-      ${w.spec_diff ? `<p class="spec-diff">${escapeHtml(w.spec_diff)}</p>` : ""}
-      <p class="price"><span class="price-label">Mercado</span>${money(w.market_eur)}${sourceHTML(w.market_source)}${w.market_note ? ` <span class="info-icon" tabindex="0" title="${escapeHtml(w.market_note)}">ⓘ</span>` : ""}</p>
-      <p class="retail">Retalho PT <strong>${money(w.retail_pt_eur)}</strong>${sourceHTML(w.retail_source)}</p>
-      ${bestOfferHTML(w)}
-      <span class="pill ${signalClass(w.signal)}">${escapeHtml(w.signal)}${w.premium_pct != null ? " · " + pct(w.premium_pct) : ""}</span>
-      ${drawerBuzzHTML(w)}
-      ${w.blurb ? `<p class="blurb">${escapeHtml(w.blurb)}</p>` : ""}
-      <dl class="stats">
-        <div class="stat"><dt>Vendas a 1 ano</dt><dd>${sales}</dd></div>
-        <div class="stat"><dt>Dias no mercado</dt><dd>${days}</dd></div>
-      </dl>
-      ${w.demand_source ? `<p class="market-note">${sourceHTML(w.demand_source)}</p>` : ""}
-      <p class="landed">Importação estimada <strong>${money(w.landed_import_eur)}</strong>
-        <span> vs </span> dealer UE <strong>${money(w.dealer_eur)}</strong>
-        <span class="info-icon" tabindex="0" title="${escapeHtml(((DEALS && DEALS.thresholds) || {}).landed_formula || "")}">ⓘ</span></p>
-      ${seriesFor(w.ref).length >= 2 ? `<figure class="drawer-trend"><h3 class="onde-label">Histórico de mercado</h3><div class="chart-wrap" style="height:160px"><canvas id="drawer-trend"></canvas></div></figure>` : ""}
-      <p class="onde-label">Onde comprar</p>
-      <ul class="offer-list">${offers}</ul>
+    root.innerHTML = `
+      <nav class="crumb" aria-label="Navegação">
+        <a href="#/">Início</a>
+        <span aria-hidden="true">/</span>
+        <a href="#/" data-filter="brand" data-value="${escapeHtml(w.brand)}">${escapeHtml(w.brand)}</a>
+        <span aria-hidden="true">/</span>
+        <span>${escapeHtml(w.model)}</span>
+        <span aria-hidden="true">/</span>
+        <span>${escapeHtml(w.ref)}</span>
+      </nav>
+      <article class="pdp">
+        <div class="pdp-photo">${portrait(w, true)}</div>
+        <div class="pdp-info">
+          <p class="brand">${escapeHtml(w.brand)}</p>
+          <h1 class="model" id="drawer-title">${escapeHtml(w.model)}</h1>
+          <p class="ref">${escapeHtml(w.ref)}</p>
+          ${bracelet}
+          ${w.bracelet_note ? `<p class="spec-diff">${escapeHtml(w.bracelet_note)}</p>` : ""}
+          ${w.spec_diff ? `<p class="spec-diff">${escapeHtml(w.spec_diff)}</p>` : ""}
+          <div class="pdp-price">
+            <div class="row">
+              <span class="label">Mercado</span>
+              <span class="val">${money(w.market_eur)}</span>
+              ${sourceHTML(w.market_source)}${marketNote}
+              ${marketBadge}
+            </div>
+            <div class="row">
+              <span class="label">Retalho PT</span>
+              <span class="val">${money(w.retail_pt_eur)}</span>
+              ${sourceHTML(w.retail_source)}
+            </div>
+          </div>
+          ${bestOfferHTML(w)}
+          ${listingHistoryHTML(w.ref)}
+          ${seriesFor(w.ref).length >= 2 ? `<figure class="drawer-trend"><h3>Histórico de mercado</h3><div class="chart-wrap" style="height:160px"><canvas id="drawer-trend"></canvas></div></figure>` : ""}
+          <dl class="stats">
+            <div class="stat"><dt>Vendas a 1 ano</dt><dd>${sales}</dd></div>
+            <div class="stat"><dt>Dias no mercado</dt><dd>${days}</dd></div>
+          </dl>
+          ${w.demand_source ? `<p class="market-note">${sourceHTML(w.demand_source)}</p>` : ""}
+          ${drawerBuzzHTML(w)}
+          <p class="onde-label">Onde comprar</p>
+          <ul class="offer-list">${offers}</ul>
+        </div>
+      </article>
     `;
-    d.hidden = false;
-    s.hidden = false;
-    document.body.style.overflow = "hidden";
+    if (push) {
+      const target = "#/p/" + encodeURIComponent(w.ref);
+      if (location.hash !== target) history.pushState(null, "", location.pathname + location.search + target);
+    }
+    showView("pdp");
     renderDrawerTrend(w.ref);
-    document.getElementById("drawer-close").focus();
+    window.scrollTo(0, 0);
+  }
+
+  function showView(name) {
+    const ids = {
+      listing: "view-listing",
+      pdp: "view-pdp",
+      oportunidades: "view-oportunidades",
+      tendencias: "view-tendencias",
+    };
+    Object.keys(ids).forEach((k) => {
+      const el = document.getElementById(ids[k]);
+      if (el) el.hidden = k !== name;
+    });
+    document.querySelectorAll(".cat-nav a").forEach((a) => {
+      const href = a.getAttribute("href") || "";
+      const dest = name === "oportunidades" && href.indexOf("oportunidades") !== -1
+        || name === "tendencias" && href.indexOf("tendencias") !== -1
+        || (name === "listing" && href === "#/" && a.hasAttribute("data-filter") && (
+          (a.getAttribute("data-filter") === "brand" && document.getElementById("f-brand") && document.getElementById("f-brand").value === a.getAttribute("data-value"))
+          || (a.getAttribute("data-filter") === "gender" && document.getElementById("f-gender") && document.getElementById("f-gender").value === a.getAttribute("data-value"))
+        ));
+      a.classList.toggle("is-active", !!dest);
+    });
+    if (name === "tendencias") {
+      if (typeof renderCharts === "function") {
+        requestAnimationFrame(() => { renderCharts(); renderRankChart(); });
+      }
+    }
+    if (name === "listing") renderGrid();
+  }
+
+  function routeFromLocation() {
+    const params = new URLSearchParams(location.search);
+    if (params.get("shot") === "oportunidades") return { view: "oportunidades" };
+    if (params.get("shot") === "tendencias" || params.get("shot") === "mercado") return { view: "tendencias" };
+    const hash = location.hash || "#/";
+    const m = hash.match(/^#\/p\/([^?]+)/);
+    if (m) return { view: "pdp", ref: decodeURIComponent(m[1]) };
+    if (hash.indexOf("oportunidades") !== -1) return { view: "oportunidades" };
+    if (hash.indexOf("tendencias") !== -1 || hash.indexOf("mercado") !== -1) return { view: "tendencias" };
+    const openRef = params.get("open");
+    if (openRef) return { view: "pdp", ref: openRef };
+    return { view: "listing" };
+  }
+
+  function applyRoute() {
+    const r = routeFromLocation();
+    if (r.view === "pdp" && r.ref) {
+      openProduct(r.ref, false);
+      return;
+    }
+    showView(r.view);
   }
 
   function renderDrawerTrend(ref) {
@@ -820,9 +1015,10 @@
       drawerChart.destroy();
       drawerChart = null;
     }
-    document.getElementById("drawer").hidden = true;
-    document.getElementById("scrim").hidden = true;
-    document.body.style.overflow = "";
+    const target = "#/";
+    if (location.hash !== target) history.pushState(null, "", location.pathname + location.search + target);
+    showView("listing");
+    window.scrollTo(0, 0);
   }
 
   function formatSeen(iso) {
@@ -1098,7 +1294,7 @@
     const seenBit = e.seen ? " · " + formatSeenShort(e.seen) : "";
     const landedTitle = ((DEALS && DEALS.thresholds) || {}).landed_formula || "";
     const importChip = e.import_flag
-      ? `<span class="chip import" title="${escapeHtml(landedTitle)}">≈ ${money(e.compare_eur)} c/ importação</span>`
+      ? `<span class="chip import" title="${escapeHtml(landedTitle)}">custo final c/ IVA e portes ≈ ${money(e.compare_eur)}</span>`
       : "";
     const gapMarket = e.gap_vs_market_pct != null
       ? `<span class="gap-pill ${e.gap_vs_market_pct <= 0 ? "down" : "up"}">${pct(e.gap_vs_market_pct)} vs mercado</span>`
@@ -1171,14 +1367,16 @@
 
     const models = Object.keys(byRef).map((ref) => {
       const items = byRef[ref];
-      const sorted = items.slice().sort((a, b) => {
+      const comparable = items.filter((e) => !e.bracelet_mismatch);
+      const pool = comparable.length ? comparable : items;
+      const sorted = pool.slice().sort((a, b) => {
         if (a.gap_vs_market_pct != null && b.gap_vs_market_pct != null) return a.gap_vs_market_pct - b.gap_vs_market_pct;
         if (a.gap_vs_market_pct != null) return -1;
         if (b.gap_vs_market_pct != null) return 1;
         return (a.compare_eur || 0) - (b.compare_eur || 0);
       });
       const best = sorted[0];
-      const qualifies = items.some((e) => e.qualifies === true) || dealRefs.has(ref);
+      const qualifies = comparable.some((e) => e.qualifies === true) || (comparable.length && dealRefs.has(ref));
       let status = "esperar";
       if (qualifies) status = "comprar";
       else if (best.gap_vs_market_pct != null && best.gap_vs_market_pct <= lim) status = "perto";
@@ -1633,7 +1831,7 @@
   }
 
   async function init() {
-    const [wRes, iRes, cRes, hRes, tRes, sRes, dRes] = await Promise.all([
+    const [wRes, iRes, cRes, hRes, tRes, sRes, dRes, lRes] = await Promise.all([
       fetch("data/watches.json"),
       fetch("data/indices.json"),
       fetch("img/credits.json"),
@@ -1641,6 +1839,7 @@
       fetch("data/trends.json"),
       fetch("data/social.json"),
       fetch("data/deals.json"),
+      fetch("data/listings_history.json"),
     ]);
     if (!wRes.ok || !iRes.ok) throw new Error("Falha a ler os dados.");
     DATA = await wRes.json();
@@ -1649,6 +1848,7 @@
     if (tRes.ok) TRENDS = await tRes.json();
     if (sRes.ok) SOCIAL = await sRes.json();
     if (dRes.ok) DEALS = await dRes.json();
+    if (lRes && lRes.ok) LISTINGS_HISTORY = await lRes.json();
     if (cRes.ok) {
       const cred = await cRes.json();
       CREDITS = cred.images || [];
@@ -1661,22 +1861,61 @@
     renderTrends();
     renderGrid();
     renderOutliers();
-    document.getElementById("filters").addEventListener("change", renderGrid);
+    document.getElementById("filters").addEventListener("change", () => {
+      renderGrid();
+      syncNav();
+    });
+    const sort = document.getElementById("f-sort");
+    if (sort) sort.addEventListener("change", renderGrid);
     const search = document.getElementById("f-search");
     if (search) search.addEventListener("input", renderGrid);
     document.getElementById("grid").addEventListener("click", onGridClick);
     document.getElementById("grid").addEventListener("keydown", onGridKey);
-    document.getElementById("drawer-close").addEventListener("click", closeDrawer);
-    document.getElementById("scrim").addEventListener("click", closeDrawer);
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape") closeDrawer();
+      if (e.key !== "Escape") return;
+      const filtersForm = document.getElementById("filters");
+      if (filtersForm && filtersForm.classList.contains("open")) {
+        closeFilters();
+        return;
+      }
+      const r = routeFromLocation();
+      if (r.view === "pdp") closeDrawer();
     });
     const filtersToggle = document.getElementById("filters-toggle");
     const filtersForm = document.getElementById("filters");
+    const filterScrim = document.getElementById("filter-scrim");
+    function closeFilters() {
+      if (!filtersForm) return;
+      filtersForm.classList.remove("open");
+      if (filtersToggle) filtersToggle.setAttribute("aria-expanded", "false");
+      if (filterScrim) filterScrim.hidden = true;
+    }
+    function openFilters() {
+      if (!filtersForm) return;
+      filtersForm.classList.add("open");
+      if (filtersToggle) filtersToggle.setAttribute("aria-expanded", "true");
+      if (filterScrim) filterScrim.hidden = false;
+    }
     if (filtersToggle && filtersForm) {
       filtersToggle.addEventListener("click", () => {
-        const open = filtersForm.classList.toggle("open");
-        filtersToggle.setAttribute("aria-expanded", open ? "true" : "false");
+        if (filtersForm.classList.contains("open")) closeFilters();
+        else openFilters();
+      });
+    }
+    if (filterScrim) filterScrim.addEventListener("click", closeFilters);
+    const filtersClose = document.getElementById("filters-close");
+    if (filtersClose) filtersClose.addEventListener("click", closeFilters);
+    const clearBtn = document.getElementById("filters-clear");
+    if (clearBtn) {
+      clearBtn.addEventListener("click", () => {
+        ["f-brand", "f-gender", "f-size", "f-price", "f-signal", "f-bracelet", "f-sort", "f-search"].forEach((id) => {
+          const el = document.getElementById(id);
+          if (!el) return;
+          el.value = id === "f-sort" ? "brand" : "";
+        });
+        renderGrid();
+        syncNav();
+        closeFilters();
       });
     }
     const rankToggle = document.getElementById("rank-toggle");
@@ -1686,31 +1925,44 @@
         renderRankChart();
       });
     }
-    const params = new URLSearchParams(location.search);
-    const openRef = params.get("open");
-    if (openRef) openDrawer(openRef);
-    const shot = params.get("shot");
-    if (shot === "mercado") {
-      ["modelos", "oportunidades", "tendencias"].forEach((id) => {
-        const el = document.getElementById(id);
-        if (el) el.hidden = true;
+    function syncNav() {
+      /* showView updates active nav when called; also refresh on filter change */
+      const r = routeFromLocation();
+      if (r.view === "listing") showView("listing");
+    }
+    const nav = document.getElementById("cat-nav");
+    const navToggle = document.getElementById("nav-toggle");
+    if (navToggle && nav) {
+      navToggle.addEventListener("click", () => {
+        const open = nav.classList.toggle("open");
+        navToggle.setAttribute("aria-expanded", open ? "true" : "false");
       });
     }
-    if (shot === "oportunidades") {
-      ["modelos", "tendencias", "mercado"].forEach((id) => {
-        const el = document.getElementById(id);
-        if (el) el.hidden = true;
-      });
+    function onFilterNav(ev) {
+      const a = ev.target.closest("[data-filter]");
+      if (!a) return;
+      ev.preventDefault();
+      const key = a.getAttribute("data-filter");
+      const val = a.getAttribute("data-value") || "";
+      const el = document.getElementById("f-" + key);
+      if (el) el.value = (el.value === val ? "" : val);
+      if (nav) nav.classList.remove("open");
+      history.pushState(null, "", location.pathname + location.search + "#/");
+      showView("listing");
+      renderGrid();
     }
-    if (shot === "tendencias") {
-      ["modelos", "oportunidades", "mercado"].forEach((id) => {
-        const el = document.getElementById(id);
-        if (el) el.hidden = true;
-      });
-    }
+    if (nav) nav.addEventListener("click", onFilterNav);
+    document.body.addEventListener("click", (ev) => {
+      const crumb = ev.target.closest(".crumb [data-filter]");
+      if (crumb) onFilterNav(ev);
+    });
+    window.addEventListener("hashchange", applyRoute);
+    window.addEventListener("popstate", applyRoute);
     chartDefaults();
     renderCharts();
     renderFooter();
+    applyRoute();
+    const params = new URLSearchParams(location.search);
     const imgs = params.get("shot") === "mercado"
       ? []
       : Array.from(document.querySelectorAll(".illu img"));

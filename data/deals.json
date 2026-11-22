@@ -171,7 +171,8 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça. Pulseira diferente da configuração PVP (Jubilee); não comparável.",
+      "bracelet_mismatch": true
     },
     {
       "ref": "126710BLNR",
@@ -205,7 +206,8 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "bracelet_mismatch": null
     },
     {
       "ref": "126710BLNR",
@@ -239,7 +241,8 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça. Pulseira não confirmada no anúncio; pode não corresponder à configuração PVP.",
+      "bracelet_mismatch": null
     },
     {
       "ref": "126710GRNR",
@@ -273,7 +276,8 @@
       "qualifies": false,
       "reason": null,
       "photo": null,
-      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça."
+      "caveat": "Verificar condição e papéis no anúncio: o Radar não confirma o estado da peça.",
+      "bracelet_mismatch": false
     },
     {
       "ref": "126710GRNR",
