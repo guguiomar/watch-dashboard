@@ -144,7 +144,7 @@
     const combo = comboFlag(w);
     if (combo) bits.push(`<span class="chip combo">${escapeHtml(combo.label)}</span>`);
     if (!bits.length) return "";
-    return `<div class="chip-row">${bits.join("")}</div>`;
+    return `<div class="chip-row card-buzz-row">${bits.join("")}</div>`;
   }
   function drawerBuzzHTML(w) {
     const buzz = buzzFor(w);
@@ -156,22 +156,22 @@
         const gap = d.gap_vs_market_pct != null ? pct(d.gap_vs_market_pct) + " vs mercado" : "";
         const why = d.reason === "retail_allocated" ? "perto do PVP PT num modelo a prémio" : "abaixo da estimativa WatchCharts";
         const srcM = d.market_source ? sourceHTML(d.market_source) : "";
-        return `<p class="market-note"><span class="chip deal">Oportunidade</span> ${money(d.compare_eur)} (${escapeHtml(d.seller)}, ${escapeHtml(d.seen || "")}) · ${escapeHtml(gap)} · ${escapeHtml(why)}. ${escapeHtml(d.caveat)} ${srcM}</p>`;
+        return `<p class="drawer-row"><span class="chip deal">Oportunidade</span> ${money(d.compare_eur)} <span class="src">${escapeHtml(shortSeller(d.seller))}${d.seen ? " · " + formatSeenShort(d.seen) : ""}</span> <span class="gap-pill down">${escapeHtml(gap)}</span> <span class="info-icon" tabindex="0" title="${escapeHtml(why + (d.caveat ? ". " + d.caveat : ""))}">ⓘ</span> ${srcM}</p>`;
       }).join(""));
     }
     if (buzz.magazine_30d || buzz.x_7d != null) {
       const bits = [];
-      if (buzz.magazine_30d) bits.push(`${buzz.magazine_30d} menção(ões) em revistas na janela do feed (30d*)`);
-      if (buzz.x_7d != null) bits.push(`${NUM.format(buzz.x_7d)} posts X em 7 dias${buzz.family ? " (consulta de família)" : ""}`);
-      const heads = (buzz.headlines || []).map((h) =>
+      if (buzz.magazine_30d) bits.push(`Revistas ${buzz.magazine_30d} · 30d`);
+      if (buzz.x_7d != null) bits.push(`X ${NUM.format(buzz.x_7d)} · 7d${buzz.family ? " (família)" : ""}`);
+      const heads = (buzz.headlines || []).slice(0, 3).map((h) =>
         `<a href="${h.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(h.title)}</a> <span class="src">${escapeHtml(h.source)}${h.date ? " · " + formatSeenShort(h.date) : ""}</span>`
       ).join("<br>");
-      parts.push(`<p class="market-note"><span class="chip buzz">Buzz</span> ${escapeHtml(bits.join(" · "))}. ${heads}</p>`);
+      parts.push(`<p class="drawer-row"><span class="chip buzz">Buzz</span> ${escapeHtml(bits.join(" · "))}</p>${heads ? `<p class="drawer-row headlines-mini">${heads}</p>` : ""}`);
     }
     const combo = comboFlag(w);
     if (combo && mv) {
       const src = mv.source_last ? `<a class="src" href="${mv.source_last}" target="_blank" rel="noopener noreferrer">histórico</a>` : "";
-      parts.push(`<p class="market-note"><span class="chip combo">${escapeHtml(combo.label)}</span> Mercado ${money(mv.from_eur)} (${formatSeenShort(mv.from_date)}) → ${money(mv.to_eur)} (${formatSeenShort(mv.to_date)}, ${pct(mv.change_pct)}) ${src}. Buzz só com fontes acima.</p>`);
+      parts.push(`<p class="drawer-row"><span class="chip combo">${escapeHtml(combo.label)}</span> ${money(mv.from_eur)} → ${money(mv.to_eur)} <span class="gap-pill ${mv.change_pct <= 0 ? "down" : "up"}">${pct(mv.change_pct)}</span> ${src}</p>`);
     }
     return parts.join("");
   }
@@ -529,9 +529,9 @@
     return "img/" + encodeURIComponent(ref) + ".webp";
   }
 
-  function portrait(w) {
+  function portrait(w, eager) {
     if (PHOTOS[w.ref]) {
-      return `<img src="${photoPath(w.ref)}" alt="${escapeHtml(w.brand + " " + w.model)}" width="800" height="800" loading="lazy" decoding="async">`;
+      return `<img src="${photoPath(w.ref)}" alt="${escapeHtml(w.brand + " " + w.model)}" width="800" height="800" loading="${eager ? "eager" : "lazy"}" decoding="async">`;
     }
     return illustrate(w);
   }
@@ -544,17 +544,18 @@
     const rest = all.length - shown.length;
     const links = shown.map((o) => {
       const search = offerIsSearch(o) || /chrono24/i.test(o.seller);
-      const label = shortSeller(o.seller);
+      const isAD = !search && o.type === "AD" && w.retail_pt_eur != null && o.price_eur === w.retail_pt_eur;
+      const label = isAD ? "AD · " + shortSeller(o.seller) : shortSeller(o.seller);
       const priced = !search && o.price_eur != null;
       const price = priced ? money(o.price_eur) : (search ? "pesquisa" : "");
-      const src = priced && o.seen ? `<span class="osrc">${escapeHtml(formatSeenShort(o.seen))}</span>` : "";
+      const src = priced && o.seen && !isAD ? `<span class="osrc">${escapeHtml(formatSeenShort(o.seen))}</span>` : "";
       return `<a class="${search ? "search" : ""}" href="${o.url}" target="_blank" rel="noopener noreferrer" data-stop="1">
         <span class="seller">${escapeHtml(label)}</span>
         <span class="oprice">${price}${src}</span>
       </a>`;
     }).join("");
     const more = rest > 0
-      ? `<button class="more" type="button" data-open="${escapeHtml(w.ref)}">mais +${rest}</button>`
+      ? `<button class="more" type="button" data-open="${escapeHtml(w.ref)}">+${rest}</button>`
       : (all.length ? "" : `<span class="more">sem ofertas</span>`);
     return links + more;
   }
@@ -568,20 +569,32 @@
   }
 
   function cardHTML(w) {
-    const pill = `<span class="pill ${signalClass(w.signal)}">${escapeHtml(w.signal)}${w.premium_pct != null ? " · " + pct(w.premium_pct) : ""}</span>`;
+    const signalCls = signalClass(w.signal);
+    let premiumChip = "";
+    if (w.signal && w.signal !== "—") {
+      const label = w.premium_pct != null ? pct(w.premium_pct) : w.signal;
+      premiumChip = `<span class="chip premium ${signalCls}">${escapeHtml(label)}</span>`;
+    }
+    const retailChip = w.retail_pt_eur != null
+      ? `<span class="chip retail" title="${escapeHtml((w.retail_source && w.retail_source.label) || "")}">PVP ${money(w.retail_pt_eur)}${w.retail_source && w.retail_source.url ? ` <a class="chip-src" href="${w.retail_source.url}" target="_blank" rel="noopener noreferrer" data-stop="1">↗</a>` : ""}</span>`
+      : "";
+    const best = bestDirectOffer(w);
+    const offersHTML = best
+      ? `<a class="buy-btn" href="${best.url}" target="_blank" rel="noopener noreferrer" data-stop="1">
+          <span class="seller">${escapeHtml(shortSeller(best.seller))}</span>
+          <span class="oprice">${money(best.price_eur)}${best.seen ? `<span class="osrc">${escapeHtml(formatSeenShort(best.seen))}</span>` : ""}</span>
+        </a>`
+      : `<div class="offers">${offerButtons(w, 1)}</div>`;
     return `<article class="card" tabindex="0" role="button" data-ref="${escapeHtml(w.ref)}" aria-label="${escapeHtml(w.brand + " " + w.model)}">
       <div class="illu">${portrait(w)}</div>
       <p class="brand">${escapeHtml(w.brand)}</p>
       <h3 class="model">${escapeHtml(w.model)}</h3>
       <p class="ref">${escapeHtml(w.ref)}</p>
-      <p class="price"><span class="price-label">Mercado</span>${money(w.market_eur)}${sourceHTML(w.market_source)}</p>
-      <p class="retail">Retalho PT <strong>${money(w.retail_pt_eur)}</strong>${sourceHTML(w.retail_source)}</p>
-      ${bestOfferHTML(w)}
+      <p class="price">${money(w.market_eur)}${sourceHTML(w.market_source)}</p>
+      <div class="chip-row">${retailChip}${premiumChip}</div>
       ${sparkline(w.ref)}
-      ${pill}
       ${cardFlagsHTML(w)}
-      <p class="onde-label">Onde comprar</p>
-      <div class="offers">${offerButtons(w, 3)}</div>
+      ${offersHTML}
     </article>`;
   }
 
@@ -740,13 +753,12 @@
       <div class="illu">${portrait(w)}</div>
       <p class="ref">${escapeHtml(w.ref)}</p>
       ${w.spec_diff ? `<p class="spec-diff">${escapeHtml(w.spec_diff)}</p>` : ""}
-      <p class="price"><span class="price-label">Mercado</span>${money(w.market_eur)}${sourceHTML(w.market_source)}</p>
+      <p class="price"><span class="price-label">Mercado</span>${money(w.market_eur)}${sourceHTML(w.market_source)}${w.market_note ? ` <span class="info-icon" tabindex="0" title="${escapeHtml(w.market_note)}">ⓘ</span>` : ""}</p>
       <p class="retail">Retalho PT <strong>${money(w.retail_pt_eur)}</strong>${sourceHTML(w.retail_source)}</p>
       ${bestOfferHTML(w)}
       <span class="pill ${signalClass(w.signal)}">${escapeHtml(w.signal)}${w.premium_pct != null ? " · " + pct(w.premium_pct) : ""}</span>
       ${drawerBuzzHTML(w)}
       ${w.blurb ? `<p class="blurb">${escapeHtml(w.blurb)}</p>` : ""}
-      ${w.market_note ? `<p class="market-note">${escapeHtml(w.market_note)}</p>` : ""}
       <dl class="stats">
         <div class="stat"><dt>Vendas a 1 ano</dt><dd>${sales}</dd></div>
         <div class="stat"><dt>Dias no mercado</dt><dd>${days}</dd></div>
@@ -754,7 +766,7 @@
       ${w.demand_source ? `<p class="market-note">${sourceHTML(w.demand_source)}</p>` : ""}
       <p class="landed">Importação estimada <strong>${money(w.landed_import_eur)}</strong>
         <span> vs </span> dealer UE <strong>${money(w.dealer_eur)}</strong>
-        <span class="src">fórmula no rodapé</span></p>
+        <span class="info-icon" tabindex="0" title="${escapeHtml(((DEALS && DEALS.thresholds) || {}).landed_formula || "")}">ⓘ</span></p>
       ${seriesFor(w.ref).length >= 2 ? `<figure class="drawer-trend"><h3 class="onde-label">Histórico de mercado</h3><div class="chart-wrap" style="height:160px"><canvas id="drawer-trend"></canvas></div></figure>` : ""}
       <p class="onde-label">Onde comprar</p>
       <ul class="offer-list">${offers}</ul>
@@ -900,15 +912,43 @@
     charts.push(ch);
   }
 
+  let rankShowAll = false;
+  let buzzShowAll = false;
+
+  function renderRankChart() {
+    const rank = (DATA.aggregates.ranking_premium || [])
+      .filter((r) => r.premium_pct != null)
+      .slice()
+      .sort((a, b) => b.premium_pct - a.premium_pct);
+    const total = rank.length;
+    const list = (!rankShowAll && total > 20) ? rank.slice(0, 10).concat(rank.slice(-10)) : rank;
+    const labels = list.map((r) => r.ref);
+    const rankWrap = document.querySelector("#chart-rank") && document.querySelector("#chart-rank").closest(".chart-wrap");
+    if (rankWrap) rankWrap.style.height = Math.max(380, list.length * 22) + "px";
+    document.getElementById("cap-rank").innerHTML = `<span class="src">WatchCharts · retalho PT · 17 nov 2026</span>`;
+    const toggle = document.getElementById("rank-toggle");
+    if (toggle) {
+      toggle.hidden = total <= 20;
+      toggle.textContent = rankShowAll ? "Top/bottom 10" : "Ver todos (" + NUM.format(total) + ")";
+    }
+    const canvas = document.getElementById("chart-rank");
+    const existing = canvas && window.Chart && Chart.getChart(canvas);
+    if (existing) {
+      existing.destroy();
+      charts = charts.filter((c) => c !== existing);
+    }
+    makeBar("chart-rank", labels, list.map((r) => r.premium_pct), { horizontal: true, signed: true, pct: true });
+  }
+
   function renderCharts() {
     charts.forEach((c) => c.destroy());
     charts = [];
     const brands = DATA.aggregates.by_brand;
     const bLabels = brands.map((b) => b.brand);
-    const srcBrand = "WatchCharts, 17 nov. 2026; prémio só vs retalho PT verificado. BCE 17 nov. 2026.";
-    document.getElementById("cap-premium").textContent = srcBrand;
-    document.getElementById("cap-median").textContent = srcBrand;
-    document.getElementById("cap-sales").textContent = "WatchCharts, volume de vendas a 1 ano, 17 nov. 2026.";
+    const srcChip = `<span class="src">WatchCharts · 17 nov 2026</span>`;
+    document.getElementById("cap-premium").innerHTML = srcChip;
+    document.getElementById("cap-median").innerHTML = srcChip;
+    document.getElementById("cap-sales").innerHTML = `<span class="src">WatchCharts · vendas 1A · 17 nov 2026</span>`;
 
     makeBar("chart-premium", bLabels, brands.map((b) => b.avg_premium_pct), { signed: true, pct: true });
     makeBar("chart-median", bLabels, brands.map((b) => b.median_market_eur), { color: NAVY, money: true, yMoney: true });
@@ -917,18 +957,11 @@
     const yearly = (INDEX.charts || []).find((c) => c.id === "wc-yearly");
     if (yearly) {
       document.getElementById("cap-yearly").innerHTML =
-        `<a href="${yearly.source_url}" target="_blank" rel="noopener">${escapeHtml(yearly.source)}</a>`;
+        `<a class="src" href="${yearly.source_url}" target="_blank" rel="noopener">${escapeHtml(yearly.source)}</a>`;
       makeBar("chart-yearly", yearly.labels, yearly.values, { signed: true, pct: true });
     }
 
-    const rank = (DATA.aggregates.ranking_premium || []).filter((r) => r.premium_pct != null);
-    const labels = rank.map((r) => r.ref);
-    document.getElementById("cap-rank").textContent =
-      "Prémio de mercado (WatchCharts) face ao retalho PT. Referências sem PVP PT omitidas.";
-    const rankWrap = document.querySelector("#chart-rank") && document.querySelector("#chart-rank").closest(".chart-wrap");
-    if (rankWrap) rankWrap.style.height = Math.max(480, rank.length * 22) + "px";
-    makeBar("chart-rank", labels, rank.map((r) => r.premium_pct), { horizontal: true, signed: true, pct: true });
-
+    renderRankChart();
     renderBrandTrend();
 
     const snaps = document.getElementById("snapshots");
@@ -1013,61 +1046,183 @@
   }
 
 
+  function priceBarHTML(e) {
+    const vals = [e.compare_eur, e.market_eur, e.retail_pt_eur].filter((v) => v != null);
+    if (e.compare_eur == null || vals.length < 2) return "";
+    const lo = Math.min.apply(null, vals) * 0.95;
+    const hi = Math.max.apply(null, vals) * 1.05;
+    const span = hi - lo || 1;
+    const pos = (v) => Math.max(0, Math.min(100, ((v - lo) / span) * 100));
+    const belowMarket = e.market_eur == null || e.compare_eur <= e.market_eur;
+    const segLo = e.market_eur != null ? Math.min(pos(e.compare_eur), pos(e.market_eur)) : pos(e.compare_eur);
+    const segHi = e.market_eur != null ? Math.max(pos(e.compare_eur), pos(e.market_eur)) : pos(e.compare_eur);
+    const markers = [`<span class="pb-marker pb-listing" style="left:${pos(e.compare_eur)}%" title="Anúncio ${money(e.compare_eur)}"></span>`];
+    if (e.market_eur != null) markers.push(`<span class="pb-marker pb-tick" style="left:${pos(e.market_eur)}%" title="Mercado ${money(e.market_eur)}"></span>`);
+    if (e.retail_pt_eur != null) markers.push(`<span class="pb-marker pb-tick pb-retail" style="left:${pos(e.retail_pt_eur)}%" title="PVP PT ${money(e.retail_pt_eur)}"></span>`);
+
+    // the listing price is already shown big above the bar; label only the reference points
+    const pts = [];
+    if (e.market_eur != null) pts.push({ p: pos(e.market_eur), html: `Mercado ${money(e.market_eur)}` });
+    if (e.retail_pt_eur != null) pts.push({ p: pos(e.retail_pt_eur), html: `PVP ${money(e.retail_pt_eur)}` });
+    pts.sort((a, b) => a.p - b.p);
+    const rows = pts.length ? [0] : [];
+    for (let i = 1; i < pts.length; i++) {
+      const close = (pts[i].p - pts[i - 1].p) < 34;
+      rows.push(close ? (rows[i - 1] === 0 ? 1 : 0) : 0);
+    }
+    const labelsHTML = pts.map((pt, i) => {
+      const align = pt.p < 12 ? "left" : pt.p > 88 ? "right" : "center";
+      return `<span class="pb-vlabel align-${align}" style="left:${pt.p}%;top:${rows[i] ? "16px" : "0"}">${pt.html}</span>`;
+    }).join("");
+
+    const srcBits = [];
+    if (e.market_eur != null) srcBits.push(sourceHTML(e.market_source));
+    if (e.retail_pt_eur != null) srcBits.push(sourceHTML(e.retail_source));
+
+    return `<div class="price-bar">
+      <div class="price-bar-track">
+        <span class="pb-seg ${belowMarket ? "down" : "up"}" style="left:${segLo}%;width:${Math.max(0, segHi - segLo)}%"></span>
+        ${markers.join("")}
+      </div>
+      <div class="price-bar-vlabels">${labelsHTML}</div>
+      ${srcBits.length ? `<p class="price-bar-src">${srcBits.join(" ")}</p>` : ""}
+    </div>`;
+  }
+
+  function buyCardHTML(m) {
+    const e = m.best;
+    const w = m.w || { ref: m.ref, brand: e.brand, model: e.model };
+    const statusLabel = { comprar: "Comprar", perto: "Perto", esperar: "Esperar" }[m.status];
+    const dealerName = shortSeller(e.seller);
+    const countryBit = e.country ? " · " + escapeHtml(e.country) : "";
+    const seenBit = e.seen ? " · " + formatSeenShort(e.seen) : "";
+    const landedTitle = ((DEALS && DEALS.thresholds) || {}).landed_formula || "";
+    const importChip = e.import_flag
+      ? `<span class="chip import" title="${escapeHtml(landedTitle)}">≈ ${money(e.compare_eur)} c/ importação</span>`
+      : "";
+    const gapMarket = e.gap_vs_market_pct != null
+      ? `<span class="gap-pill ${e.gap_vs_market_pct <= 0 ? "down" : "up"}">${pct(e.gap_vs_market_pct)} vs mercado</span>`
+      : "";
+    const gapRetail = (e.retail_pt_eur != null && e.gap_vs_retail_pct != null)
+      ? `<span class="gap-pill ${e.gap_vs_retail_pct <= 0 ? "down" : "up"}">${pct(e.gap_vs_retail_pct)} vs PVP</span>`
+      : "";
+    const countTxt = m.count > 1 ? `<p class="buy-count">${NUM.format(m.count)} anúncios verificados</p>` : "";
+    return `<article class="buy-card ${m.status}">
+      <div class="illu">${portrait(w, true)}</div>
+      <div class="buy-card-body">
+        <div class="buy-head">
+          <div>
+            <p class="brand">${escapeHtml(w.brand || e.brand || "")}</p>
+            <h3 class="model">${escapeHtml(w.model || e.model || m.ref)}</h3>
+          </div>
+          <span class="status-badge ${m.status}">${statusLabel}</span>
+        </div>
+        <p class="buy-price"><a href="${e.url}" target="_blank" rel="noopener noreferrer" data-stop="1">${money(e.listing_eur)}</a></p>
+        <div class="chip-row">
+          <span class="chip dealer">${escapeHtml(dealerName)}${countryBit}${seenBit}</span>
+          ${importChip}
+        </div>
+        ${priceBarHTML(e)}
+        <div class="chip-row gap-row">${gapMarket}${gapRetail}</div>
+        <a class="buy-cta" href="${e.url}" target="_blank" rel="noopener noreferrer" data-stop="1">Ver anúncio ↗ ${escapeHtml(dealerName)}</a>
+        ${e.caveat ? `<p class="caveat" tabindex="0" title="${escapeHtml(e.caveat)}">⚠ verificar condição/papéis</p>` : ""}
+        ${countTxt}
+      </div>
+    </article>`;
+  }
+
+  function esperarRowHTML(m) {
+    const e = m.best;
+    const w = m.w || { ref: m.ref, brand: e.brand, model: e.model };
+    const thumb = PHOTOS[w.ref] ? `<img src="${photoPath(w.ref)}" alt="" width="56" height="56">` : "";
+    const gap = e.gap_vs_market_pct != null ? pct(e.gap_vs_market_pct) : "—";
+    return `<li>
+      <a href="${e.url}" target="_blank" rel="noopener noreferrer">
+        <span class="quase-thumb">${thumb}</span>
+        <span class="quase-body">
+          <span class="quase-name">${escapeHtml((w.brand || e.brand || "") + " " + (w.model || e.model || m.ref))}</span>
+          <span class="quase-meta">${escapeHtml(shortSeller(e.seller))}${e.seen ? " · " + formatSeenShort(e.seen) : ""}</span>
+        </span>
+        <span class="quase-gap up">${escapeHtml(gap)}</span>
+      </a>
+    </li>`;
+  }
+
   function renderDeals() {
     const root = document.getElementById("deals");
     if (!root) return;
-    const deals = (DEALS && DEALS.deals) || [];
-    const ev = (DEALS && DEALS.evaluated_count) || 0;
-    const th = (DEALS && DEALS.thresholds) || {};
-    const lim = th.market_discount_pct != null ? th.market_discount_pct : 5;
-    if (!deals.length) {
-      const almost = ((DEALS && DEALS.evaluated) || [])
-        .filter((e) => e.gap_vs_market_pct != null)
-        .sort((a, b) => a.gap_vs_market_pct - b.gap_vs_market_pct)
-        .slice(0, 3);
-      const byRef = {};
-      (DATA.watches || []).forEach((w) => { byRef[w.ref] = w; });
-      const rows = almost.map((e) => {
-        const w = byRef[e.ref] || { ref: e.ref, brand: e.brand, model: e.model };
-        const thumb = PHOTOS[w.ref]
-          ? `<img src="${photoPath(w.ref)}" alt="" width="80" height="80">`
-          : "";
-        const gapCls = e.gap_vs_market_pct < 0 ? "down" : "up";
-        return `<li>
-          <a href="${e.url}" target="_blank" rel="noopener noreferrer">
-            <span class="quase-thumb">${thumb}</span>
-            <span class="quase-body">
-              <span class="quase-name">${escapeHtml((e.brand || "") + " " + (e.model || e.ref))}</span>
-              <span class="quase-meta">${escapeHtml(e.seller || "")}${e.seen ? " · " + formatSeenShort(e.seen) : ""} · ${money(e.listing_eur)}</span>
-            </span>
-            <span class="quase-gap ${gapCls}">${pct(e.gap_vs_market_pct)}</span>
-          </a>
-        </li>`;
-      }).join("");
-      root.innerHTML = `<div class="deal-empty">
-        <p>Nenhuma oportunidade neste corte — limiar de ${lim} % abaixo do mercado WatchCharts, ${NUM.format(ev)} anúncios avaliados.</p>
-        ${almost.length ? `<p class="quase-kicker">Quase <span>não são oportunidades</span></p>
-        <ul class="quase-list">${rows}</ul>` : ""}
-      </div>`;
+    const ev = (DEALS && DEALS.evaluated) || [];
+    if (!ev.length) {
+      root.innerHTML = `<p class="deal-empty"><em>Sem dados de oportunidades.</em></p>`;
       return;
     }
+    const dealsList = (DEALS && DEALS.deals) || [];
+    const th = (DEALS && DEALS.thresholds) || {};
+    const lim = th.market_discount_pct != null ? th.market_discount_pct : 5;
+    const margin = th.allocated_retail_margin_pct != null ? th.allocated_retail_margin_pct : 5;
+    const updated = DEALS && DEALS.updated ? formatSeenShort(DEALS.updated) : "";
+    const dealRefs = new Set(dealsList.map((d) => d.ref));
+
+    const byWatch = {};
+    (DATA.watches || []).forEach((w) => { byWatch[w.ref] = w; });
+
     const byRef = {};
-    (DATA.watches || []).forEach((w) => { byRef[w.ref] = w; });
-    root.innerHTML = `<div class="deals-grid">${deals.map((d) => {
-      const w = byRef[d.ref] || { ref: d.ref, brand: d.brand, model: d.model };
-      const gap = d.gap_vs_market_pct != null ? pct(d.gap_vs_market_pct) : "—";
-      const msrc = d.market_source ? sourceHTML(d.market_source) : "";
-      const who = escapeHtml(d.seller || "") + (d.seen ? " · " + formatSeenShort(d.seen) : "");
-      return `<a class="deal-card" href="${d.url}" target="_blank" rel="noopener noreferrer">
-        <div class="illu">${portrait(w)}</div>
-        <p class="brand">${escapeHtml(d.brand || "")}</p>
-        <h3 class="model">${escapeHtml(d.model || d.ref)}</h3>
-        <p class="ref">${escapeHtml(d.ref)}</p>
-        <p class="price"><span class="price-label">Anúncio</span>${money(d.listing_eur)}<span class="src">${who}</span></p>
-        <p class="gap">${escapeHtml(gap)}</p>
-        <p class="deal-meta">vs mercado ${money(d.market_eur)} ${msrc}. ${escapeHtml(d.caveat || "")}${d.import_flag ? " Preço landed para PT (importação)." : ""}</p>
-      </a>`;
-    }).join("")}</div>`;
+    ev.forEach((e) => { (byRef[e.ref] = byRef[e.ref] || []).push(e); });
+
+    const models = Object.keys(byRef).map((ref) => {
+      const items = byRef[ref];
+      const sorted = items.slice().sort((a, b) => {
+        if (a.gap_vs_market_pct != null && b.gap_vs_market_pct != null) return a.gap_vs_market_pct - b.gap_vs_market_pct;
+        if (a.gap_vs_market_pct != null) return -1;
+        if (b.gap_vs_market_pct != null) return 1;
+        return (a.compare_eur || 0) - (b.compare_eur || 0);
+      });
+      const best = sorted[0];
+      const qualifies = items.some((e) => e.qualifies === true) || dealRefs.has(ref);
+      let status = "esperar";
+      if (qualifies) status = "comprar";
+      else if (best.gap_vs_market_pct != null && best.gap_vs_market_pct <= lim) status = "perto";
+      return { ref, best, count: items.length, status, w: byWatch[ref] };
+    });
+
+    const order = { comprar: 0, perto: 1, esperar: 2 };
+    models.sort((a, b) => {
+      if (order[a.status] !== order[b.status]) return order[a.status] - order[b.status];
+      const av = a.best.gap_vs_market_pct, bv = b.best.gap_vs_market_pct;
+      if (av == null && bv == null) return 0;
+      if (av == null) return 1;
+      if (bv == null) return -1;
+      return av - bv;
+    });
+
+    const nComprar = models.filter((m) => m.status === "comprar").length;
+    const nPerto = models.filter((m) => m.status === "perto").length;
+    const nEsperar = models.filter((m) => m.status === "esperar").length;
+
+    let cards = models.filter((m) => m.status !== "esperar");
+    let rest = models.filter((m) => m.status === "esperar");
+    if (cards.length < 3 && rest.length) {
+      cards = cards.concat(rest.splice(0, 3 - cards.length));
+    }
+
+    const stripHTML = `<div class="deal-strip">
+      <div class="deal-strip-nums">
+        <span class="strip-chip comprar"><b>${nComprar}</b> Comprar</span>
+        <span class="strip-chip perto"><b>${nPerto}</b> Perto</span>
+        <span class="strip-chip esperar"><b>${nEsperar}</b> Esperar</span>
+      </div>
+      <p class="deal-rule">Comprar = ≤ mercado −${NUM1.format(lim)} %, ou ≤ PVP +${NUM1.format(margin)} % nos modelos a prémio
+        <span class="info-icon" tabindex="0" title="${escapeHtml(th.landed_formula || "")}">ⓘ</span>
+        · ${NUM.format(ev.length)} anúncios exactos verificados · ${escapeHtml(updated)}</p>
+    </div>`;
+
+    const headline = nComprar === 0
+      ? `<p class="deal-headline">Nada abaixo do mercado hoje. Os mais próximos:</p>`
+      : "";
+
+    root.innerHTML = `${stripHTML}${headline}
+      <div class="buy-grid">${cards.map(buyCardHTML).join("")}</div>
+      ${rest.length ? `<details class="esperar-details"><summary>Esperar · ${rest.length} modelo${rest.length === 1 ? "" : "s"}</summary><ul class="quase-list">${rest.map(esperarRowHTML).join("")}</ul></details>` : ""}`;
   }
 
   const BUZZ_BARS = [
@@ -1081,14 +1236,14 @@
     { id: "op", label: "Oyster Perpetual", thumb: "134300-0006" },
     { id: "yachtmaster", label: "Rolex Yacht-Master", thumb: "126622" },
     { id: "explorer", label: "Rolex Explorer", thumb: "224270" },
-    { id: "milgauss", label: "Rolex Milgauss", thumb: null },
+    { id: "milgauss", label: "Rolex Milgauss", thumb: "116400GV-0002" },
     { id: "airking", label: "Rolex Air-King", thumb: "126900" },
     { id: "pepsi", label: "GMT Pepsi", thumb: "126710BLRO" },
     { id: "luminor", label: "Panerai Luminor", thumb: "PAM01314" },
     { id: "batman", label: "GMT Batman", thumb: "126710BLNR" },
     { id: "bruce", label: "GMT Bruce Wayne", thumb: "126710GRNR" },
     { id: "rootbeer", label: "GMT Root Beer", thumb: "126711CHNR" },
-    { id: "dsotm", label: "Dark Side of the Moon", thumb: null },
+    { id: "dsotm", label: "Dark Side of the Moon", thumb: "311.92.44.51.01.007" },
     { id: "pistachio", label: "OP Pistachio", thumb: "134300-0006" },
     { id: "ballon", label: "Ballon Bleu", thumb: "WSBB0062" },
   ];
@@ -1228,7 +1383,7 @@
       });
     });
 
-    const heads = featured.length ? featured : items.slice().sort((a, b) => (b.date || "").localeCompare(a.date || "")).slice(0, 9);
+    const heads = (featured.length ? featured : items.slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""))).slice(0, 6);
     const ig = [].concat(insta.hashtags || [], insta.accounts || []);
 
     const failBits = failed.map((f) => f.name + (f.error ? " (" + f.error + ")" : "")).join(", ");
@@ -1262,8 +1417,11 @@
       </div>
 
       <div class="trends-block">
-        <h2>Buzz no X</h2>
-        <ul class="buzz-bars">${barRows.map((r) => {
+        <div class="trends-head">
+          <h2>Buzz no X</h2>
+          ${barRows.length > 10 ? `<button type="button" class="rank-toggle" id="buzz-toggle">${buzzShowAll ? "Top 10" : "Ver todos (" + NUM.format(barRows.length) + ")"}</button>` : ""}
+        </div>
+        <ul class="buzz-bars">${(buzzShowAll ? barRows : barRows.slice(0, 10)).map((r) => {
           const capped = r.outlier && r.total > capAt;
           const width = capped ? 100 : Math.max(2, Math.round((r.total / capAt) * 100));
           const thumb = r.thumb && PHOTOS[r.thumb]
@@ -1304,8 +1462,7 @@
       </div>
 
       ${scatterPts.length ? `<div class="trends-block">
-        <h2>Buzz × preço</h2>
-        <p class="block-src">Só modelos com posts X de 7 dias e variação de mercado no histórico. Eixo X: família ou referência, conforme a consulta. Clique abre a ficha.</p>
+        <h2>Buzz × preço <span class="info-icon" tabindex="0" title="Só modelos com posts X de 7 dias e variação de mercado no histórico. Eixo X: família ou referência, conforme a consulta. Clique abre a ficha.">ⓘ</span></h2>
         <div class="scatter-wrap"><canvas id="trend-scatter"></canvas></div>
       </div>` : ""}
 
@@ -1326,11 +1483,19 @@
       </details>
     `;
     renderTrendScatter(scatterPts);
+    const buzzToggle = document.getElementById("buzz-toggle");
+    if (buzzToggle) {
+      buzzToggle.addEventListener("click", () => {
+        buzzShowAll = !buzzShowAll;
+        renderTrends();
+      });
+    }
   }
 
   function renderFooter() {
-    const src = DATA.sources || {};
     const updated = formatSeen(DATA.updated);
+    const updatedLine = document.getElementById("updated-line");
+    if (updatedLine) updatedLine.textContent = "Atualizado " + updated;
     const creditItems = CREDITS.map((c) => {
       const src = c.source_page
         ? `<a href="${c.source_page}" target="_blank" rel="noopener noreferrer">${escapeHtml(c.source || "fonte")}</a>`
@@ -1343,16 +1508,31 @@
         <ul>${creditItems}</ul>
       </div>`
       : "";
+    const failedBits = ((TRENDS && TRENDS.feeds_failed) || [])
+      .map((f) => f.name + (f.error ? " (" + f.error + ")" : "")).join(", ");
+    const ig = (SOCIAL && SOCIAL.instagram && SOCIAL.instagram.note) || "";
     document.getElementById("foot").innerHTML = `
-      <div>
-        <p><strong>Dados ${updated}</strong>, Europe/Lisbon. Não é aconselhamento financeiro.</p>
-        <p>Cada preço no ecrã tem a respectiva fonte. Mercado e procura: WatchCharts (data ao lado do valor). Retalho e ofertas: AD em Portugal e dealers europeus com ficha exacta. Histórico: Wayback Machine + WatchCharts. Tendências: RSS públicos + contagens X de 7 dias (API). Instagram é só ligação, sem recolha. Oportunidades: anúncios exactos ≤ mercado − 5 %, ou ≤ PVP PT + 5 % em modelos a prémio; lista vazia se nenhum cumprir. Ligações Chrono24 são pesquisas, não anúncios. Importação estimada: 1,23 × (preço + 150,80 €).</p>
+      <div class="foot-main">
+        <p class="foot-note">Dados ${escapeHtml(updated)}, Europe/Lisbon. Não é aconselhamento financeiro.</p>
+        <details class="fontes">
+          <summary>Fontes e método</summary>
+          <ul>
+            <li>Mercado e procura: WatchCharts (data junto a cada valor).</li>
+            <li>Retalho e ofertas: AD em Portugal e dealers europeus com ficha exacta.</li>
+            <li>Histórico: Wayback Machine + WatchCharts.</li>
+            <li>Tendências: RSS públicos + contagens X de 7 dias (API)${failedBits ? ". Falharam: " + escapeHtml(failedBits) : ""}.</li>
+            <li>Instagram: ${escapeHtml(ig || "só ligação, sem recolha")}.</li>
+            <li>Oportunidades: anúncios exactos ≤ mercado − 5 %, ou ≤ PVP PT + 5 % em modelos a prémio; lista vazia se nenhum cumprir.</li>
+            <li>Ligações Chrono24 são pesquisas, não anúncios.</li>
+            <li>Importação estimada: 1,23 × (preço + 150,80 €).</li>
+          </ul>
+          ${creditBlock}
+        </details>
       </div>
-      <div>
+      <div class="foot-meta">
         <p>Edição 01 · G Watch Radar</p>
         <p>Porto</p>
-      </div>
-      ${creditBlock}`;
+      </div>`;
   }
 
   function renderOutliers() {
@@ -1406,8 +1586,7 @@
     root.hidden = false;
     root.innerHTML = `
       <div class="outliers-head">
-        <h2 class="chart-title">Outliers</h2>
-        <p class="outliers-note">Variação entre o primeiro e o último ponto de mercado com fonte. Sem interpolação. Série curta: só dois pontos.</p>
+        <h2 class="chart-title">Outliers <span class="info-icon" tabindex="0" title="Variação entre o primeiro e o último ponto de mercado com fonte. Sem interpolação. Série curta: só dois pontos.">ⓘ</span></h2>
       </div>
       <div class="outliers-grid">
         <div class="outliers-col">
@@ -1492,6 +1671,21 @@
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape") closeDrawer();
     });
+    const filtersToggle = document.getElementById("filters-toggle");
+    const filtersForm = document.getElementById("filters");
+    if (filtersToggle && filtersForm) {
+      filtersToggle.addEventListener("click", () => {
+        const open = filtersForm.classList.toggle("open");
+        filtersToggle.setAttribute("aria-expanded", open ? "true" : "false");
+      });
+    }
+    const rankToggle = document.getElementById("rank-toggle");
+    if (rankToggle) {
+      rankToggle.addEventListener("click", () => {
+        rankShowAll = !rankShowAll;
+        renderRankChart();
+      });
+    }
     const params = new URLSearchParams(location.search);
     const openRef = params.get("open");
     if (openRef) openDrawer(openRef);

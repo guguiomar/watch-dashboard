@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19",
-  "note": "Fotografias oficiais da marca ou do retalhista autorizado em Portugal. Nenhuma fotografia da Wikimedia Commons passou a verificação da referência exacta (o único ficheiro Commons com a ref. 126710BLRO era uma réplica).",
+  "updated": "2026-11-22",
+  "note": "Fotografias oficiais da marca ou do retalhista autorizado em Portugal. Nenhuma fotografia da Wikimedia Commons passou a verificação da referência exacta (o único ficheiro Commons com a ref. 126710BLRO era uma réplica). Referências descontinuadas sem imagem oficial disponível (Milgauss, GMT 116710, OP 124300, Speedmaster Reduced, PAM00683) usam a fotografia do anúncio de um dealer da lista do Radar (Watchfinder ou Bob's Watches), verificada visualmente contra a referência e o mostrador.",
   "images": [
     {
       "ref": "126610LN",
@@ -505,6 +505,176 @@
       "kind": "ad",
       "source": "Torres Joalheiros",
       "source_page": "https://rolex.torres.pt/relogio/oyster-perpetual/m276200-0010/"
+    },
+    {
+      "ref": "310.30.42.50.01.002",
+      "model": "Speedmaster Moonwatch Professional (safira)",
+      "credit": "© Omega",
+      "licence": "Imagem oficial da marca, usada para identificação",
+      "kind": "brand",
+      "source": "Omega",
+      "source_page": "https://www.omegawatches.com/en-gb/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31030425001002",
+      "as_of": "2026-11-22"
+    },
+    {
+      "ref": "310.30.42.50.04.001",
+      "model": "Speedmaster Moonwatch Professional branco",
+      "credit": "© Omega",
+      "licence": "Imagem oficial da marca, usada para identificação",
+      "kind": "brand",
+      "source": "Omega",
+      "source_page": "https://www.omegawatches.com/en-gb/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31030425004001",
+      "as_of": "2026-11-22"
+    },
+    {
+      "ref": "310.60.42.50.02.001",
+      "model": "Speedmaster Moonwatch Professional Canopus Gold",
+      "credit": "© Omega",
+      "licence": "Imagem oficial da marca, usada para identificação",
+      "kind": "brand",
+      "source": "Omega",
+      "source_page": "https://www.omegawatches.com/en-gb/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31060425002001",
+      "as_of": "2026-11-22"
+    },
+    {
+      "ref": "332.10.41.51.03.001",
+      "model": "Speedmaster '57 azul",
+      "credit": "© Omega",
+      "licence": "Imagem oficial da marca, usada para identificação",
+      "kind": "brand",
+      "source": "Omega",
+      "source_page": "https://www.omegawatches.com/en-gb/watch-omega-speedmaster-57-co-axial-master-chronometer-chronograph-40-5-mm-33210415103001",
+      "as_of": "2026-11-22"
+    },
+    {
+      "ref": "311.92.44.51.01.007",
+      "model": "Speedmaster Dark Side of the Moon",
+      "credit": "© Omega",
+      "licence": "Imagem oficial da marca, usada para identificação",
+      "kind": "brand",
+      "source": "Omega",
+      "source_page": "https://www.omegawatches.com/en-gb/watch-omega-speedmaster-dark-side-of-the-moon-co-axial-chronometer-chronograph-44-25-mm-31192445101007",
+      "as_of": "2026-11-22"
+    },
+    {
+      "ref": "324.30.38.50.01.001",
+      "model": "Speedmaster 38",
+      "credit": "© Omega",
+      "licence": "Imagem oficial da marca, usada para identificação",
+      "kind": "brand",
+      "source": "Omega",
+      "source_page": "https://www.omegawatches.com/en-gb/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32430385001001",
+      "as_of": "2026-11-22"
+    },
+    {
+      "ref": "215.30.44.21.01.001",
+      "model": "Seamaster Planet Ocean 600M 43,5 mm",
+      "credit": "© Omega",
+      "licence": "Imagem oficial da marca, usada para identificação",
+      "kind": "brand",
+      "source": "Omega",
+      "source_page": "https://www.omegawatches.com/en-gb/watch-omega-seamaster-planet-ocean-600m-co-axial-master-chronometer-43-5-mm-21530442101001",
+      "as_of": "2026-11-22"
+    },
+    {
+      "ref": "WSTA0108",
+      "model": "Tank Must grande",
+      "credit": "© Cartier",
+      "licence": "Imagem oficial da marca, usada para identificação",
+      "kind": "brand",
+      "source": "Cartier",
+      "source_page": "https://www.cartier.com/en-gb/watches/collections/tank/tank-must-de-cartier-watch-CRWSTA0108",
+      "as_of": "2026-11-22"
+    },
+    {
+      "ref": "PAM00683",
+      "model": "Submersible 42 mm",
+      "credit": "© Watchfinder & Co.",
+      "licence": "Fotografia do anúncio do dealer, usada para identificação da referência",
+      "kind": "dealer",
+      "source": "Watchfinder",
+      "source_page": "https://www.watchfinder.co.uk/watches/panerai/submersible/pam00683/407836",
+      "as_of": "2026-11-22"
+    },
+    {
+      "ref": "116400GV-0001",
+      "model": "Milgauss 116400GV preto",
+      "credit": "© Watchfinder & Co.",
+      "licence": "Fotografia do anúncio do dealer, usada para identificação da referência",
+      "kind": "dealer",
+      "source": "Watchfinder",
+      "source_page": "https://www.watchfinder.co.uk/watches/rolex/milgauss/116400-gv/445882",
+      "as_of": "2026-11-22"
+    },
+    {
+      "ref": "116400GV-0002",
+      "model": "Milgauss 116400GV Z-blue",
+      "credit": "© Watchfinder & Co.",
+      "licence": "Fotografia do anúncio do dealer, usada para identificação da referência",
+      "kind": "dealer",
+      "source": "Watchfinder",
+      "source_page": "https://www.watchfinder.co.uk/watches/rolex/milgauss/116400-gv/456570",
+      "as_of": "2026-11-22"
+    },
+    {
+      "ref": "116710LN",
+      "model": "GMT-Master II 116710LN",
+      "credit": "© Watchfinder & Co.",
+      "licence": "Fotografia do anúncio do dealer, usada para identificação da referência",
+      "kind": "dealer",
+      "source": "Watchfinder",
+      "source_page": "https://www.watchfinder.co.uk/watches/rolex/gmt-master-ii/116710/454493",
+      "as_of": "2026-11-22"
+    },
+    {
+      "ref": "116710BLNR",
+      "model": "GMT-Master II Batman 116710BLNR",
+      "credit": "© Watchfinder & Co.",
+      "licence": "Fotografia do anúncio do dealer, usada para identificação da referência",
+      "kind": "dealer",
+      "source": "Watchfinder",
+      "source_page": "https://www.watchfinder.co.uk/watches/rolex/gmt-master-ii/116710-blnr/454802",
+      "as_of": "2026-11-22"
+    },
+    {
+      "ref": "124300",
+      "model": "Oyster Perpetual 41 (124300, mostrador prateado)",
+      "credit": "© Watchfinder & Co.",
+      "licence": "Fotografia do anúncio do dealer, usada para identificação da referência",
+      "kind": "dealer",
+      "source": "Watchfinder",
+      "source_page": "https://www.watchfinder.co.uk/watches/rolex/oyster-perpetual/124300/451001",
+      "as_of": "2026-11-22"
+    },
+    {
+      "ref": "3510.50",
+      "model": "Speedmaster Reduced",
+      "credit": "© Watchfinder & Co.",
+      "licence": "Fotografia do anúncio do dealer, usada para identificação da referência",
+      "kind": "dealer",
+      "source": "Watchfinder",
+      "source_page": "https://www.watchfinder.co.uk/watches/omega/speedmaster-reduced/3510-50-00/451855",
+      "as_of": "2026-11-22"
+    },
+    {
+      "ref": "116400-0001",
+      "model": "Milgauss 116400 preto (vidro incolor)",
+      "credit": "© Bob's Watches",
+      "licence": "Fotografia do anúncio do dealer, usada para identificação da referência",
+      "kind": "dealer",
+      "source": "Bob's Watches",
+      "source_page": "https://www.bobswatches.com/rolex-milgauss-black-dial-116400.html",
+      "as_of": "2026-11-22"
+    },
+    {
+      "ref": "116400-0002",
+      "model": "Milgauss 116400 branco",
+      "credit": "© Bob's Watches",
+      "licence": "Fotografia do anúncio do dealer, usada para identificação da referência",
+      "kind": "dealer",
+      "source": "Bob's Watches",
+      "source_page": "https://www.bobswatches.com/rolex-milgauss-116400-white-and-orange-dial.html",
+      "as_of": "2026-11-22"
     }
   ]
 }

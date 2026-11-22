@@ -12,8 +12,7 @@
 
   <header class="mast">
     <div class="folio">
-      <span>Porto</span>
-      <span>Edição 01 · Novembro 2026</span>
+      <span id="updated-line">A carregar…</span>
     </div>
     <div class="mast-row">
       <h1><span class="g-mark">G</span> Watch <em>Radar</em></h1>
@@ -29,7 +28,7 @@
   <main>
     <section id="oportunidades" class="sec">
       <div class="sec-head">
-        <p class="kicker">Oportunidades</p>
+        <p class="kicker">Comprar agora?</p>
       </div>
       <div id="deals"></div>
     </section>
@@ -38,6 +37,12 @@
       <div class="sec-head">
         <p class="kicker">Modelos</p>
         <p class="count" id="count"></p>
+      </div>
+      <div class="filters-bar">
+        <label class="search-field">Procurar
+          <input type="search" name="q" id="f-search" placeholder="Marca, modelo, referência" autocomplete="off" spellcheck="false">
+        </label>
+        <button type="button" class="filters-toggle" id="filters-toggle" aria-expanded="false" aria-controls="filters">Filtros</button>
       </div>
       <form class="filters" id="filters" aria-label="Filtros">
         <label>Marca
@@ -80,9 +85,6 @@
             <option value="price">Preço de mercado</option>
             <option value="premium">Prémio</option>
           </select>
-        </label>
-        <label class="search-field">Procurar
-          <input type="search" name="q" id="f-search" placeholder="Marca, modelo, referência" autocomplete="off" spellcheck="false">
         </label>
       </form>
       <div class="grid" id="grid"></div>
@@ -129,7 +131,10 @@
         </figure>
       </div>
       <figure class="chart-fig chart-wide">
-        <h2 class="chart-title">Modelos por prémio vs retalho PT</h2>
+        <div class="chart-title-row">
+          <h2 class="chart-title">Modelos por prémio vs retalho PT <span class="info-icon" tabindex="0" title="Prémio de mercado (WatchCharts) face ao retalho PT. Referências sem PVP PT omitidas.">ⓘ</span></h2>
+          <button type="button" class="rank-toggle" id="rank-toggle" hidden>Ver todos</button>
+        </div>
         <div class="chart-wrap chart-wrap-tall"><canvas id="chart-rank"></canvas></div>
         <p class="chart-source" id="cap-rank"></p>
       </figure>
